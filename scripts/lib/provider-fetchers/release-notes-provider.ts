@@ -159,18 +159,12 @@ export class ReleaseNotesProvider extends BaseProvider {
 
   private parseReleaseNotes(mdSource: string): {
     articles: Article[];
-    entriesBySlug: Map<
-      string,
-      { date: string; items: { text: string }[] }
-    >;
+    entriesBySlug: Map<string, { date: string; items: { text: string }[] }>;
   } {
     const tokens = this.md.parse(mdSource, {});
     const results: Article[] = [];
     let currentDate: string | null = null;
-    const entriesByDate: Map<
-      string,
-      { items: { text: string }[] }
-    > = new Map();
+    const entriesByDate: Map<string, { items: { text: string }[] }> = new Map();
     let skipHeadingInline = false;
 
     for (let i = 0; i < tokens.length; i += 1) {
@@ -282,10 +276,7 @@ export class ReleaseNotesProvider extends BaseProvider {
         await ensureDir(
           buildOutputPath(this.provider, "release-notes", "summaries"),
         );
-        await saveText(
-          rawPath,
-          updatesMarkdown,
-        );
+        await saveText(rawPath, updatesMarkdown);
         await saveText(summaryPath, summary);
       }
       log(

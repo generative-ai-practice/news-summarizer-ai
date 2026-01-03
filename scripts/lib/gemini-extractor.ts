@@ -177,9 +177,12 @@ export class GeminiExtractor {
     return content.trim();
   }
 
-  async translateReleaseNoteUpdates(updatesMarkdown: string, meta: {
-    title: string;
-  }) {
+  async translateReleaseNoteUpdates(
+    updatesMarkdown: string,
+    meta: {
+      title: string;
+    },
+  ) {
     const prompt = [
       "以下のMarkdownの箇条書きを日本語に翻訳してください。",
       "- 箇条書きやリンク構造はそのまま維持してください（リンク先URLも変更しない）。",

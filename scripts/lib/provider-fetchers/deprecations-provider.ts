@@ -145,19 +145,13 @@ export class DeprecationsProvider extends BaseProvider {
 
   private parseMarkdown(mdSource: string): {
     articles: Article[];
-    entriesBySlug: Map<
-      string,
-      { date: string; items: { text: string }[] }
-    >;
+    entriesBySlug: Map<string, { date: string; items: { text: string }[] }>;
   } {
     const tokens = this.md.parse(mdSource, {});
     const results: Article[] = [];
     let currentDate: string | null = null;
     let skipHeadingInline = false;
-    const entriesByDate: Map<
-      string,
-      { items: { text: string }[] }
-    > = new Map();
+    const entriesByDate: Map<string, { items: { text: string }[] }> = new Map();
 
     for (let i = 0; i < tokens.length; i += 1) {
       const token = tokens[i];
