@@ -1,0 +1,1 @@
+- The Realtime API Beta will be deprecated and removed from the API on February 27, 2026.

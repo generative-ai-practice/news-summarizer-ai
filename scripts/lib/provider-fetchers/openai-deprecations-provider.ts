@@ -270,12 +270,8 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
     baseUrl: string,
   ): string {
     type NodeLike = { type?: string; data?: string; tagName?: string };
-    const wrap = (node: NodeLike) => {
-      const ctor = el.constructor as unknown as (
-        input: unknown,
-      ) => cheerio.Cheerio<unknown>;
-      return ctor(node);
-    };
+    const wrap = (node: NodeLike) =>
+      cheerio.load(node as any).root().children().first();
 
     const walk = (node: NodeLike): string => {
       if (!node || typeof node !== "object") return "";
