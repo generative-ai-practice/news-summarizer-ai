@@ -204,10 +204,15 @@ export class OpenAINewsProvider extends BaseProvider {
           throw fetchErr;
         }
       }
-      const refinedDate = html ? this.refinePublishedDateFromHtml(html) : null;
+      // HTML側の日付はRSSと大きくズレることがあるため、RSS日付を優先し、未設定の場合のみHTMLから補完する
+      const refinedDate =
+        !article.publishedDate && html
+          ? this.refinePublishedDateFromHtml(html)
+          : null;
+      const finalDate = refinedDate ?? article.publishedDate;
       const updatedArticle: Article = {
         ...article,
-        publishedDate: refinedDate ?? article.publishedDate,
+        publishedDate: finalDate ?? "",
       };
       const baseSlug = generateSlug(
         updatedArticle.title,
