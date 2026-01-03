@@ -254,20 +254,16 @@ export class OpenAIChangelogProvider extends BaseProvider {
     baseUrl: string,
   ): string {
     type NodeLike = { type?: string; data?: string; tagName?: string };
-    const toCheerio = (node: NodeLike) => {
-      const ctor = el.constructor as unknown as (
-        input: unknown,
-      ) => cheerio.Cheerio<unknown>;
-      return ctor(node);
-    };
-    const walk = (node: unknown): string => {
+    const wrap = (node: NodeLike) =>
+      cheerio.load(node as unknown as string).root().children().first();
+
+    const walk = (node: NodeLike): string => {
       if (!node || typeof node !== "object") return "";
-      const n = node as NodeLike;
-      if (n.type === "text") {
-        return (n.data ?? "").toString().trim();
+      if (node.type === "text") {
+        return (node.data ?? "").toString().trim();
       }
-      if (n.type !== "tag") return "";
-      const $node = toCheerio(n);
+      if (node.type !== "tag") return "";
+      const $node = wrap(node);
       const tag = (
         ($node.get(0) as NodeLike | undefined)?.tagName ?? ""
       ).toLowerCase();
@@ -282,23 +278,24 @@ export class OpenAIChangelogProvider extends BaseProvider {
       }
       const parts = $node
         .contents()
-        .map((_: unknown, child: unknown) => walk(child))
+        .map((_: unknown, child: unknown) => walk(child as NodeLike))
         .toArray();
       return parts.join("").replace(/\s+/g, " ").trim();
     };
 
-    const first = el.get(0) as unknown;
+    const first = el.get(0) as unknown as NodeLike | undefined;
     return first ? walk(first) : "";
   }
 
   private tableToMarkdown(
-    table: cheerio.Cheerio<unknown>,
+    table: cheerio.Cheerio<any>,
     baseUrl: string,
   ): string[] {
     const rows: string[][] = [];
-    table.find("tr").each((rowIdx: number) => {
+    const t = table as cheerio.Cheerio<any>;
+    t.find("tr").each((rowIdx: number) => {
       const cells: string[] = [];
-      const $row = table.find("tr").eq(rowIdx);
+      const $row = t.find("tr").eq(rowIdx);
       const selector = $row.find("th").length > 0 ? "th" : "td";
       $row.find(selector).each((cellIdx: number) => {
         const $cell = $row.find(selector).eq(cellIdx);
