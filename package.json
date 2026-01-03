@@ -7,15 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.ts,.vue src",
-    "lint:fix": "eslint --ext .js,.ts,.vue src --fix",
-    "format": "prettier --write '{src/**/*,*}.{js,ts,vue,json,md}'",
-    "format:check": "prettier --check '{src/**/*,*}.{js,ts,vue,json,md}'",
-    "typecheck": "vue-tsc --noEmit"
+    "lint": "eslint --ext .js,.ts,.vue src scripts",
+    "lint:fix": "eslint --ext .js,.ts,.vue src scripts --fix",
+    "format": "prettier --write '{src/**/*,scripts/**/*,*}.{js,ts,vue,json,md}'",
+    "format:check": "prettier --check '{src/**/*,scripts/**/*,*}.{js,ts,vue,json,md}'",
+    "typecheck": "vue-tsc --noEmit",
+    "fetch:providers": "tsx scripts/fetch-provider-info.ts",
+    "fetch:providers:dry-run": "tsx scripts/fetch-provider-info.ts --dry-run"
   },
   "license": "MIT",
   "description": "Minimal Vue + TypeScript starter with lint/format/typecheck.",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
     "vue": "^3.5.26"
   },
   "devDependencies": {
@@ -27,6 +31,7 @@
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-vue": "^10.6.2",
     "prettier": "^3.7.4",
+    "tsx": "^4.20.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.50.1",
     "vite": "^7.3.0",
