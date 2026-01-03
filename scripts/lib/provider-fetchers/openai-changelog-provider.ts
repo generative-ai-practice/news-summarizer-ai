@@ -333,21 +333,26 @@ export class OpenAIChangelogProvider extends BaseProvider {
 
   private async fetchHtml(url: string): Promise<string> {
     return this.rateLimiter.withRetry(async () => {
-      const response = await fetch(url, {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-          "Accept-Language": "en-US,en;q=0.9",
-          Accept:
-            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        },
-      });
-      if (!response.ok) {
-        throw new Error(
-          `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
-        );
+      const headers = {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        Accept:
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+      };
+      const response = await fetch(url, { headers });
+      if (response.ok) {
+        return response.text();
       }
-      return response.text();
+      // fallback via jina ai proxy to bypass challenge/403
+      if (response.status === 403 || response.status === 503) {
+        const proxyUrl = `https://r.jina.ai/${url}`;
+        const alt = await fetch(proxyUrl, { headers });
+        if (alt.ok) return alt.text();
+      }
+      throw new Error(
+        `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
+      );
     });
   }
 

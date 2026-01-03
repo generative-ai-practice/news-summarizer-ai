@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-03T13:12:51.463Z",
+  "lastChecked": "2026-01-03T13:18:47.073Z",
   "articles": [
     {
       "title": "Announcing OpenAI Grove Cohort 2",
@@ -79,7 +79,7 @@
       "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex-1",
+      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
