@@ -1,39 +1,36 @@
 {
-  "name": "ai-pm",
-  "version": "1.0.0",
+  "name": "vue-ts-template",
+  "version": "0.1.0",
+  "private": true,
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "lint": "eslint src",
-    "format": "prettier --write '{src/**/*,*}.{js,ts,json}'",
-    "start": "tsx src/index.ts",
-    "dev": "tsx src/index.ts",
-    "slack:init": "tsx src/commands/slackInit.ts",
-    "slack:update": "tsx src/commands/slackUpdate.ts",
-    "slack:resume": "tsx src/commands/slackResume.ts",
-    "slack:export-md": "tsx src/commands/slackExportMd.ts",
-    "github:init": "tsx src/commands/githubInit.ts",
-    "github:update": "tsx src/commands/githubUpdate.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.ts,.vue src",
+    "lint:fix": "eslint --ext .js,.ts,.vue src --fix",
+    "format": "prettier --write '{src/**/*,*}.{js,ts,vue,json,md}'",
+    "format:check": "prettier --check '{src/**/*,*}.{js,ts,vue,json,md}'",
+    "typecheck": "vue-tsc --noEmit"
   },
-  "author": "",
   "license": "MIT",
-  "description": "AI-powered project manager that analyzes Slack conversations and proposes GitHub issues",
+  "description": "Minimal Vue + TypeScript starter with lint/format/typecheck.",
+  "dependencies": {
+    "vue": "^3.5.26"
+  },
   "devDependencies": {
-    "@types/node": "^24.10.0",
-    "eslint": "^9.39.0",
+    "@eslint/js": "^9.39.2",
+    "@types/node": "^25.0.3",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-sonarjs": "^3.0.5",
-    "prettier": "^3.7.3",
-    "tsx": "^4.20.6",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2"
-  },
-  "dependencies": {
-    "@octokit/rest": "^22.0.1",
-    "@slack/web-api": "^7.12.0",
-    "dotenv": "^17.2.3",
-    "openai": "^6.7.0"
+    "eslint-plugin-vue": "^10.6.2",
+    "prettier": "^3.7.4",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.50.1",
+    "vite": "^7.3.0",
+    "vue-eslint-parser": "^10.2.0",
+    "vue-tsc": "^3.2.1"
   }
 }

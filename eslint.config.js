@@ -2,16 +2,35 @@ import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import prettierConfig from "eslint-config-prettier";
 import prettierPlugin from "eslint-plugin-prettier";
-import sonarjs from "eslint-plugin-sonarjs";
+import vue from "eslint-plugin-vue";
+import vueParser from "vue-eslint-parser";
 
 export default tseslint.config(
+  {
+    ignores: ["node_modules/**", "dist/**", "build/**"],
+  },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
-  prettierConfig,
+  {
+    files: ["**/*.vue"],
+    languageOptions: {
+      parser: vueParser,
+      parserOptions: {
+        parser: tseslint.parser,
+        ecmaVersion: "latest",
+        sourceType: "module",
+      },
+    },
+    plugins: {
+      vue,
+    },
+    rules: {
+      ...vue.configs["flat/essential"].rules,
+    },
+  },
   {
     plugins: {
       prettier: prettierPlugin,
-      sonarjs: sonarjs,
     },
     rules: {
       "prettier/prettier": "error",
@@ -22,7 +41,5 @@ export default tseslint.config(
       "@typescript-eslint/no-explicit-any": "warn",
     },
   },
-  {
-    ignores: ["node_modules/**", "dist/**", "build/**", "*.config.js"],
-  },
+  prettierConfig,
 );
