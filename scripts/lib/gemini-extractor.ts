@@ -18,7 +18,10 @@ const DEFAULT_MODEL = "gemini-2.5-flash";
 const sanitizeJSON = (raw: string) => {
   const trimmed = raw.trim();
   if (trimmed.startsWith("```")) {
-    return trimmed.replace(/^```[a-zA-Z]*\s*/, "").replace(/```$/, "").trim();
+    return trimmed
+      .replace(/^```[a-zA-Z]*\s*/, "")
+      .replace(/```$/, "")
+      .trim();
   }
   return trimmed;
 };
