@@ -186,13 +186,44 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
       return `${year}-${month}-${day}`;
     };
 
-    content.find("p").each((_, el) => {
-      const text = this.serializeInline($(el), "https://platform.openai.com");
-      if (!text) return;
-      const date = extractDate(text);
-      if (!date) return;
-      const existing = entriesByDate.get(date)?.items ?? [];
-      entriesByDate.set(date, { items: [...existing, `- ${text}`] });
+    const baseUrl = "https://platform.openai.com";
+    let currentDate: string | null = null;
+
+    content.children().each((_, el) => {
+      const $el = $(el);
+      const tag = ($el.get(0)?.tagName || "").toLowerCase();
+      const text = $el.text().trim();
+
+      // 見出しに日付があれば、その日付を現在セクションとして採用
+      const headingDate =
+        extractDate(text) ||
+        text.match(/(\d{4}-\d{2}-\d{2})/)?.[1]?.trim() ||
+        null;
+      if (headingDate) {
+        currentDate = headingDate;
+        if (!entriesByDate.has(headingDate)) {
+          entriesByDate.set(headingDate, { items: [] });
+        }
+        return;
+      }
+
+      if (!currentDate) return; // 日付セクション開始前はスキップ
+
+      if (tag === "p") {
+        const line = this.serializeInline($el, baseUrl);
+        if (line) {
+          const existing = entriesByDate.get(currentDate)?.items ?? [];
+          entriesByDate.set(currentDate, { items: [...existing, `- ${line}`] });
+        }
+      } else if (tag === "table") {
+        const lines = this.tableToMarkdown($el, baseUrl);
+        if (lines.length > 0) {
+          const existing = entriesByDate.get(currentDate)?.items ?? [];
+          entriesByDate.set(currentDate, {
+            items: [...existing, ...lines],
+          });
+        }
+      }
     });
 
     const results: Article[] = [];
@@ -301,6 +332,35 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
 
     const first = el.get(0) as unknown as NodeLike | undefined;
     return first ? walk(first) : "";
+  }
+
+  private tableToMarkdown(
+    table: cheerio.Cheerio<unknown>,
+    baseUrl: string,
+  ): string[] {
+    const rows: string[][] = [];
+    const t = table as unknown as cheerio.Cheerio<any>;
+    t.find("tr").each((rowIdx: number) => {
+      const cells: string[] = [];
+      const $row = t.find("tr").eq(rowIdx);
+      const selector = $row.find("th").length > 0 ? "th" : "td";
+      $row.find(selector as any).each((cellIdx: number) => {
+        const $cell = $row.find(selector).eq(cellIdx);
+        cells.push(this.serializeInline($cell, baseUrl));
+      });
+      if (cells.length > 0) rows.push(cells);
+    });
+    if (rows.length === 0) return [];
+
+    const header = rows[0];
+    const separator = header.map(() => "---");
+    const body = rows.slice(1);
+    const lines = [
+      `| ${header.join(" | ")} |`,
+      `| ${separator.join(" | ")} |`,
+      ...body.map((cells) => `| ${cells.join(" | ")} |`),
+    ];
+    return lines;
   }
 
   private toAbsoluteUrl(href: string, baseUrl: string): string {
