@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as cheerio from "cheerio";
 import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
@@ -269,12 +270,12 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
     baseUrl: string,
   ): string {
     type NodeLike = { type?: string; data?: string; tagName?: string };
-    const wrap = (node: NodeLike) =>
-      cheerio
-        .load(node as unknown as string)
-        .root()
-        .children()
-        .first();
+    const wrap = (node: NodeLike) => {
+      const ctor = el.constructor as unknown as (
+        input: unknown,
+      ) => cheerio.Cheerio<unknown>;
+      return ctor(node);
+    };
 
     const walk = (node: NodeLike): string => {
       if (!node || typeof node !== "object") return "";
@@ -282,20 +283,20 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
         return (node.data ?? "").toString().trim();
       }
       if (node.type !== "tag") return "";
-      const $node = wrap(node);
+      const $node = wrap(node) as any;
       const tag = (
         ($node.get(0) as NodeLike | undefined)?.tagName ?? ""
       ).toLowerCase();
       if (tag === "a") {
-        const hrefRaw = $node.attr("href") ?? "";
+        const hrefRaw = ($node as any).attr("href") ?? "";
         const href = this.toAbsoluteUrl(hrefRaw, baseUrl);
-        const text = ($node.text() || hrefRaw || "").trim();
+        const text = (($node as any).text() || hrefRaw || "").trim();
         return href ? `[${text}](${href})` : text;
       }
       if (tag === "code") {
-        return `\`${$node.text().trim()}\``;
+        return `\`${($node as any).text().trim()}\``;
       }
-      const parts = $node
+      const parts = ($node as any)
         .contents()
         .map((_: unknown, child: unknown) => walk(child as NodeLike))
         .toArray();
@@ -307,16 +308,16 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
   }
 
   private tableToMarkdown(
-    table: cheerio.Cheerio<any>,
+    table: cheerio.Cheerio<unknown>,
     baseUrl: string,
   ): string[] {
     const rows: string[][] = [];
-    const t = table as cheerio.Cheerio<any>;
+    const t = table as unknown as cheerio.Cheerio<any>;
     t.find("tr").each((rowIdx: number) => {
       const cells: string[] = [];
       const $row = t.find("tr").eq(rowIdx);
       const selector = $row.find("th").length > 0 ? "th" : "td";
-      $row.find(selector).each((cellIdx: number) => {
+      $row.find(selector as any).each((cellIdx: number) => {
         const $cell = $row.find(selector).eq(cellIdx);
         cells.push(this.serializeInline($cell, baseUrl));
       });
