@@ -1,0 +1,3 @@
+- The following Gemini Live API models are now shut down:
+- `gemini-2.0-flash-live-001`
+- `gemini-live-2.5-flash-preview`

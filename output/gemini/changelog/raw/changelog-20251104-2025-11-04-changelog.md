@@ -1,0 +1,15 @@
+- For[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation), the input token count for images has been reduced from 1290 to 258, lowering the cost of image editing.
+- Deprecation announcement: The following models will be shut down:
+- November 18th:
+- `gemini-2.5-flash-lite-preview-06-17`
+- `gemini-2.5-flash-preview-05-20`
+- December 2nd:
+- `gemini-2.0-flash-thinking-exp`
+- `gemini-2.0-flash-thinking-exp-01-21`
+- `gemini-2.0-flash-thinking-exp-1219`
+- `gemini-2.5-pro-preview-03-25`
+- `gemini-2.5-pro-preview-05-06`
+- `gemini-2.5-pro-preview-06-05`
+- December 9th:
+- `gemini-2.0-flash-lite-preview`
+- `gemini-2.0-flash-lite-preview-02-05`

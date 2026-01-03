@@ -1,0 +1,1 @@
+- Deprecation announcement: The`gemini-2.5-flash-image-preview`model will be shut down January 15, 2026.

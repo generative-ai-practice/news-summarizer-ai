@@ -1,0 +1,1 @@
+- Launched the File Search API to public preview, enabling developers to ground responses in their own data. Read the new[File Search](https://ai.google.dev/gemini-api/docs/file-search)page for more info.

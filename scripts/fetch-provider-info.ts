@@ -7,9 +7,11 @@ import { DeprecationsProvider } from "./lib/provider-fetchers/deprecations-provi
 import { OpenAINewsProvider } from "./lib/provider-fetchers/openai-news-provider";
 import { OpenAIDeprecationsProvider } from "./lib/provider-fetchers/openai-deprecations-provider";
 import { OpenAIChangelogProvider } from "./lib/provider-fetchers/openai-changelog-provider";
+import { GeminiNewsProvider } from "./lib/provider-fetchers/gemini-news-provider";
+import { GeminiChangelogProvider } from "./lib/provider-fetchers/gemini-changelog-provider";
 
 type CliArgs = {
-  provider: "anthropic" | "openai" | "all";
+  provider: "anthropic" | "openai" | "gemini" | "all";
   dryRun: boolean;
 };
 
@@ -19,7 +21,7 @@ const parseArgs = (): CliArgs => {
   const dryRun = args.includes("--dry-run");
   const providerStr = providerArg ? providerArg.split("=")[1] : "anthropic";
   const provider = (
-    ["anthropic", "openai", "all"].includes(providerStr)
+    ["anthropic", "openai", "gemini", "all"].includes(providerStr)
       ? providerStr
       : "anthropic"
   ) as CliArgs["provider"];
@@ -89,11 +91,28 @@ const main = async () => {
     );
   };
 
+  const addGemini = () => {
+    const newsProvider = new GeminiNewsProvider(extractor, rateLimiter, {
+      dryRun,
+    });
+    const changelogProvider = new GeminiChangelogProvider(
+      extractor,
+      rateLimiter,
+      { dryRun },
+    );
+    runners.push(
+      () => newsProvider.run(),
+      () => changelogProvider.run(),
+    );
+  };
+
   if (provider === "anthropic") addAnthropic();
   else if (provider === "openai") addOpenAI();
+  else if (provider === "gemini") addGemini();
   else {
     addAnthropic();
     addOpenAI();
+    addGemini();
   }
 
   try {

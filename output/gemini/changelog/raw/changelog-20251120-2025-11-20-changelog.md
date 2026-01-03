@@ -1,0 +1,1 @@
+- Released Gemini 3 Pro Image Preview,`gemini-3-pro-image-preview`, the next iteration to the Nano Banana model. Read the[Image generation](https://ai.google.dev/gemini-api/docs/image-generation)page for more details.

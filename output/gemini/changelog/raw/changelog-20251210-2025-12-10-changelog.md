@@ -1,0 +1,1 @@
+- Launched enhancements to our[text-to-speech models](https://ai.google.dev/gemini-api/docs/speech-generation), Gemini 2.5 Flash TTS preview (optimized for low latency) and Gemini 2.5 Pro TTS preview (optimized for quality), including enhanced expressivity, precision pacing, and seamless dialogue.
