@@ -1,0 +1,6 @@
+- Launched the first Gemini 3 series model,`gemini-3-pro-preview`, our state-of-the-art reasoning and multimodal understanding model with powerful agentic and coding capabilities.
+- In addition to improvements in intelligence and performance, Gemini 3 Pro Preview introduces new behavior around:
+- [Media resolution](https://ai.google.dev/gemini-api/docs/media-resolution)
+- [Thought signatures](https://ai.google.dev/gemini-api/docs/thought-signatures)
+- [Thinking levels](https://ai.google.dev/gemini-api/docs/thinking#thinking-levels)
+- Read the[Gemini 3 Developer Guide](https://ai.google.dev/gemini-api/docs/gemini-3)for migration, new features, and specs.

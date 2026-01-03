@@ -295,17 +295,26 @@ export class GeminiChangelogProvider extends BaseProvider {
 
   private async fetchMarkdown(url: string): Promise<string> {
     return this.rateLimiter.withRetry(async () => {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-          Accept: "text/plain, text/markdown;q=0.9, */*;q=0.8",
-        },
-      });
-      if (!res.ok) {
-        throw new Error(`Failed to fetch ${url}: ${res.status}`);
+      const headers = {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        Accept: "text/plain, text/markdown;q=0.9, */*;q=0.8",
+      };
+      try {
+        const res = await fetch(url, { headers });
+        if (res.ok) return res.text();
+      } catch (err) {
+        log(
+          `[gemini-changelog] primary fetch failed, try jina proxy: ${String(err)}`,
+        );
       }
-      return res.text();
+
+      const proxyUrl = `https://r.jina.ai/${url}`;
+      const proxied = await fetch(proxyUrl, { headers });
+      if (!proxied.ok) {
+        throw new Error(`Failed to fetch ${url}: ${proxied.status}`);
+      }
+      return proxied.text();
     });
   }
 }

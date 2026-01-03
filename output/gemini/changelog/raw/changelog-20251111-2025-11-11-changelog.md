@@ -1,0 +1,7 @@
+- Deprecation announcement: The following models will be shut down:
+- November 12:
+- `veo-3.0-fast-generate-preview`
+- `veo-3.0-generate-preview`
+- November 14:
+- `gemini-2.0-flash-exp-image-generation`
+- `gemini-2.0-flash-preview-image-generation`

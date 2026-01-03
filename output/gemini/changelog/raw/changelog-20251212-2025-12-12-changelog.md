@@ -1,0 +1,1 @@
+- Released`gemini-2.5-flash-native-audio-preview-12-2025`, a new native audio model for the Live API. This update improves the model's ability to handle complex workflows. To learn more, see the[Live API guide](https://ai.google.dev/gemini-api/docs/live-guide)and[Gemini 2.5 Flash Native Audio](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-live).

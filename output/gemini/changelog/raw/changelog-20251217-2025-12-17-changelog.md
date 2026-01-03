@@ -1,0 +1,3 @@
+- Launched Gemini 3 Flash Preview,`gemini-3-flash-preview`, delivering fast frontier-class performance that rivals larger models at a fraction of the cost. With upgraded visual and spatial reasoning, and agentic coding capabilities. Read the documentation on some new features, including:
+- [Multimodal function responses](https://ai.google.dev/gemini-api/docs/function-calling#multimodal)
+- [Code execution with images](https://ai.google.dev/gemini-api/docs/code-execution#images)
