@@ -141,45 +141,68 @@ export class OpenAIChangelogProvider extends BaseProvider {
 
   private parseHtml(html: string): ParsedSections {
     const $ = cheerio.load(html);
-    const content = $("main").length ? $("main") : $("body");
     const entriesByDate = new Map<string, { items: string[] }>();
+    const monthShort: Record<string, string> = {
+      jan: "01",
+      feb: "02",
+      mar: "03",
+      apr: "04",
+      may: "05",
+      jun: "06",
+      jul: "07",
+      aug: "08",
+      sep: "09",
+      oct: "10",
+      nov: "11",
+      dec: "12",
+    };
 
-    content.find("h2, h3, h4").each((_, heading) => {
+    $("h3").each((_, heading) => {
       const headingText = $(heading).text().trim();
-      const detectedDate = this.normalizeDate(headingText);
-      if (!detectedDate) return;
+      const m = headingText.match(
+        /(january|february|march|april|may|june|july|august|september|october|november|december),\s*(\d{4})/i,
+      );
+      if (!m) return;
+      const monthForHeading = this.monthIndex[m[1].toLowerCase()];
+      const year = m[2];
 
-      const section = $(heading).nextUntil("h2, h3, h4");
-      const items: string[] = [];
+      const section = $(heading).nextUntil("h3");
+      section.find('div[data-variant="outline"]').each((__, badge) => {
+        const badgeText = $(badge).text().trim();
+        const md =
+          badgeText.match(/([A-Za-z]+)\s+(\d{1,2})/) ??
+          badgeText.match(/([A-Za-z]+)\s*(\d{1,2})/);
+        if (!md) return;
+        const month =
+          this.monthIndex[md[1].toLowerCase()] ??
+          monthShort[md[1].slice(0, 3).toLowerCase()] ??
+          monthForHeading;
+        const day = md[2].padStart(2, "0");
+        if (!month || !year || !day) return;
+        const date = `${year}-${month}-${day}`;
 
-      section.each((__, node) => {
-        const tag = node.tagName?.toLowerCase() ?? "";
-        if (tag === "ul" || tag === "ol") {
-          $(node)
-            .find("li")
-            .each((___, li) => {
-              const text = this.serializeInline(
-                $(li),
-                "https://platform.openai.com",
-              );
-              if (text) items.push(`- ${text}`);
-            });
-        } else if (tag === "p") {
+        const row = $(badge).closest("div.grid");
+        const contentCol = row.children().eq(1);
+        const items: string[] = [];
+        contentCol.find("p").each((___, p) => {
           const text = this.serializeInline(
-            $(node),
+            $(p),
             "https://platform.openai.com",
           );
           if (text) items.push(`- ${text}`);
-        } else if (tag === "table") {
-          this.tableToMarkdown($(node), "https://platform.openai.com").forEach(
-            (line) => items.push(line),
+        });
+        contentCol.find("li").each((___, li) => {
+          const text = this.serializeInline(
+            $(li),
+            "https://platform.openai.com",
           );
+          if (text) items.push(`- ${text}`);
+        });
+        if (items.length > 0) {
+          const existing = entriesByDate.get(date)?.items ?? [];
+          entriesByDate.set(date, { items: [...existing, ...items] });
         }
       });
-
-      if (items.length > 0) {
-        entriesByDate.set(detectedDate, { items });
-      }
     });
 
     const results: Article[] = [];
@@ -292,35 +315,6 @@ export class OpenAIChangelogProvider extends BaseProvider {
     return first ? walk(first) : "";
   }
 
-  private tableToMarkdown(
-    table: cheerio.Cheerio<unknown>,
-    baseUrl: string,
-  ): string[] {
-    const rows: string[][] = [];
-    const t = table as unknown as cheerio.Cheerio<any>;
-    t.find("tr").each((rowIdx: number) => {
-      const cells: string[] = [];
-      const $row = t.find("tr").eq(rowIdx);
-      const selector = $row.find("th").length > 0 ? "th" : "td";
-      $row.find(selector as any).each((cellIdx: number) => {
-        const $cell = $row.find(selector).eq(cellIdx);
-        cells.push(this.serializeInline($cell, baseUrl));
-      });
-      if (cells.length > 0) rows.push(cells);
-    });
-    if (rows.length === 0) return [];
-
-    const header = rows[0];
-    const separator = header.map(() => "---");
-    const body = rows.slice(1);
-    const lines = [
-      `| ${header.join(" | ")} |`,
-      `| ${separator.join(" | ")} |`,
-      ...body.map((cells) => `| ${cells.join(" | ")} |`),
-    ];
-    return lines;
-  }
-
   private toAbsoluteUrl(href: string, baseUrl: string): string {
     if (!href) return "";
     try {
@@ -354,21 +348,6 @@ export class OpenAIChangelogProvider extends BaseProvider {
         `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
       );
     });
-  }
-
-  private normalizeDate(raw: string): string | null {
-    if (!raw) return null;
-    const clean = raw.trim();
-    if (!clean) return null;
-    const iso = clean.match(/(\d{4}-\d{2}-\d{2})/);
-    if (iso) return iso[1];
-    const long = clean.match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/);
-    if (!long) return null;
-    const month = this.monthIndex[long[1].toLowerCase()];
-    if (!month) return null;
-    const day = long[2].padStart(2, "0");
-    const year = long[3];
-    return `${year}-${month}-${day}`;
   }
 
   private applyDateFilter(articles: Article[]): Article[] {
