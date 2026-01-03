@@ -4,9 +4,12 @@ import { RateLimiter } from "./lib/rate-limiter";
 import { NewsProvider } from "./lib/provider-fetchers/news-provider";
 import { ReleaseNotesProvider } from "./lib/provider-fetchers/release-notes-provider";
 import { DeprecationsProvider } from "./lib/provider-fetchers/deprecations-provider";
+import { OpenAINewsProvider } from "./lib/provider-fetchers/openai-news-provider";
+import { OpenAIDeprecationsProvider } from "./lib/provider-fetchers/openai-deprecations-provider";
+import { OpenAIChangelogProvider } from "./lib/provider-fetchers/openai-changelog-provider";
 
 type CliArgs = {
-  provider: string;
+  provider: "anthropic" | "openai" | "all";
   dryRun: boolean;
 };
 
@@ -14,7 +17,10 @@ const parseArgs = (): CliArgs => {
   const args = process.argv.slice(2);
   const providerArg = args.find((arg) => arg.startsWith("--provider="));
   const dryRun = args.includes("--dry-run");
-  const provider = providerArg ? providerArg.split("=")[1] : "anthropic";
+  const providerStr = providerArg ? providerArg.split("=")[1] : "anthropic";
+  const provider = (["anthropic", "openai", "all"].includes(providerStr)
+    ? providerStr
+    : "anthropic") as CliArgs["provider"];
   return { provider, dryRun };
 };
 
@@ -23,12 +29,6 @@ const log = (...args: unknown[]) =>
 
 const main = async () => {
   const { provider, dryRun } = parseArgs();
-  if (provider !== "anthropic") {
-    console.error(
-      `Unsupported provider: ${provider}. Only 'anthropic' is supported in Phase 1.`,
-    );
-    process.exit(1);
-  }
 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
@@ -40,26 +40,64 @@ const main = async () => {
 
   const rateLimiter = new RateLimiter({ delayMs: 2000, maxRetries: 3 });
   const extractor = new GeminiExtractor(apiKey, rateLimiter);
-  const newsProvider = new NewsProvider(extractor, rateLimiter, { dryRun });
-  const releaseNotesProvider = new ReleaseNotesProvider(
-    extractor,
-    rateLimiter,
-    {
+
+  const runners: Array<() => Promise<void>> = [];
+
+  const addAnthropic = () => {
+    const newsProvider = new NewsProvider(extractor, rateLimiter, { dryRun });
+    const releaseNotesProvider = new ReleaseNotesProvider(
+      extractor,
+      rateLimiter,
+      {
+        dryRun,
+      },
+    );
+    const deprecationsProvider = new DeprecationsProvider(
+      extractor,
+      rateLimiter,
+      {
+        dryRun,
+      },
+    );
+    runners.push(
+      () => newsProvider.run(),
+      () => releaseNotesProvider.run(),
+      () => deprecationsProvider.run(),
+    );
+  };
+
+  const addOpenAI = () => {
+    const newsProvider = new OpenAINewsProvider(extractor, rateLimiter, {
       dryRun,
-    },
-  );
-  const deprecationsProvider = new DeprecationsProvider(
-    extractor,
-    rateLimiter,
-    {
-      dryRun,
-    },
-  );
+    });
+    const deprecationsProvider = new OpenAIDeprecationsProvider(
+      extractor,
+      rateLimiter,
+      { dryRun },
+    );
+    const changelogProvider = new OpenAIChangelogProvider(
+      extractor,
+      rateLimiter,
+      { dryRun },
+    );
+    runners.push(
+      () => newsProvider.run(),
+      () => deprecationsProvider.run(),
+      () => changelogProvider.run(),
+    );
+  };
+
+  if (provider === "anthropic") addAnthropic();
+  else if (provider === "openai") addOpenAI();
+  else {
+    addAnthropic();
+    addOpenAI();
+  }
 
   try {
-    await newsProvider.run();
-    await releaseNotesProvider.run();
-    await deprecationsProvider.run();
+    for (const run of runners) {
+      await run();
+    }
     log(`[provider-news] done: provider=${provider}, dryRun=${dryRun}`);
   } catch (error) {
     log("[provider-news] failed:", error);
