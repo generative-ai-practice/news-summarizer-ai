@@ -46,7 +46,29 @@ export class NewsProvider extends BaseProvider {
     const startedAt = Date.now();
     log(`[news] fetching article list => ${this.newsUrl}`);
     const html = await this.fetchHtml(this.newsUrl);
-    const parsed = this.extractNewsFromHtml(html);
+    let parsed: Article[] = [];
+    try {
+      const extracted = await this.geminiExtractor.extractArticleList(
+        html,
+        "news",
+      );
+      parsed = extracted.data.map((article) => ({
+        ...article,
+        url: this.normalizeUrl(article.url),
+        source: "news",
+        language: article.language ?? "en",
+        summaryLanguage: "ja",
+        publishedDate: article.publishedDate ?? "",
+      }));
+      log(
+        `[news] list fetched via Gemini: articles=${parsed.length} ms=${
+          Date.now() - startedAt
+        }`,
+      );
+    } catch (error) {
+      log("[news] Gemini extract failed, falling back to DOM parse", error);
+      parsed = this.extractNewsFromHtml(html);
+    }
     if (parsed.length === 0) {
       throw new Error(
         "[news] no articles parsed from news page. The layout may have changed or the page failed to load.",
@@ -192,6 +214,19 @@ export class NewsProvider extends BaseProvider {
         publishedDate: article.publishedDate,
         source: article.source,
       });
+      const safeTitle = article.title.replace(/"/g, '\\"');
+      const summaryWithFrontmatter = [
+        "---",
+        `title: "${safeTitle}"`,
+        `published: "${article.publishedDate || "N/A"}"`,
+        `url: "${article.url}"`,
+        `source: "news"`,
+        `source_medium: "Anthropic News"`,
+        `language: "ja"`,
+        "---",
+        "",
+        summary,
+      ].join("\n");
 
       const rawPath = buildOutputPath(
         this.provider,
@@ -212,7 +247,7 @@ export class NewsProvider extends BaseProvider {
           buildOutputPath(this.provider, "articles", "summaries"),
         );
         await saveText(rawPath, html);
-        await saveText(summaryPath, summary);
+        await saveText(summaryPath, summaryWithFrontmatter);
       }
 
       log(`[news] done: ${article.title} ms=${Date.now() - startedAt}`);

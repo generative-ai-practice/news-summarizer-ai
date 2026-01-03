@@ -3,6 +3,7 @@ import { GeminiExtractor } from "./lib/gemini-extractor";
 import { RateLimiter } from "./lib/rate-limiter";
 import { NewsProvider } from "./lib/provider-fetchers/news-provider";
 import { ReleaseNotesProvider } from "./lib/provider-fetchers/release-notes-provider";
+import { DeprecationsProvider } from "./lib/provider-fetchers/deprecations-provider";
 
 type CliArgs = {
   provider: string;
@@ -47,10 +48,18 @@ const main = async () => {
       dryRun,
     },
   );
+  const deprecationsProvider = new DeprecationsProvider(
+    extractor,
+    rateLimiter,
+    {
+      dryRun,
+    },
+  );
 
   try {
     await newsProvider.run();
     await releaseNotesProvider.run();
+    await deprecationsProvider.run();
     log(`[provider-news] done: provider=${provider}, dryRun=${dryRun}`);
   } catch (error) {
     log("[provider-news] failed:", error);

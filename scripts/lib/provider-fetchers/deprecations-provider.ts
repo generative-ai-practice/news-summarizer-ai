@@ -16,10 +16,10 @@ import {
 const log = (...args: unknown[]) =>
   console.log(`[${new Date().toISOString()}]`, ...args);
 
-export class ReleaseNotesProvider extends BaseProvider {
+export class DeprecationsProvider extends BaseProvider {
   private readonly provider = "anthropic";
-  private readonly releaseNotesMarkdownUrl =
-    "https://platform.claude.com/docs/en/release-notes/overview.md";
+  private readonly markdownUrl =
+    "https://platform.claude.com/docs/en/about-claude/model-deprecations.md";
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
   private readonly md = new MarkdownIt();
@@ -38,15 +38,9 @@ export class ReleaseNotesProvider extends BaseProvider {
     december: "12",
   };
 
-  private currentReleaseNotes: Article[] = [];
-  private previousReleaseNotes: Article[] = [];
-  private newReleaseNotes: Article[] = [];
-  private processed: {
-    article: Article;
-    summaryPath?: string;
-    rawPath?: string;
-    error?: unknown;
-  }[] = [];
+  private currentEntries: Article[] = [];
+  private previousEntries: Article[] = [];
+  private newEntries: Article[] = [];
   private entriesBySlug: Map<
     string,
     { date: string; items: { text: string }[] }
@@ -63,30 +57,28 @@ export class ReleaseNotesProvider extends BaseProvider {
 
   async fetchRawData(): Promise<void> {
     const startedAt = Date.now();
-    log(
-      `[release-notes] fetch overview (markdown) => ${this.releaseNotesMarkdownUrl}`,
-    );
-    const mdSource = await this.fetchMarkdown(this.releaseNotesMarkdownUrl);
+    log(`[deprecations] fetch markdown => ${this.markdownUrl}`);
+    const mdSource = await this.fetchMarkdown(this.markdownUrl);
 
-    await ensureDir(buildOutputPath(this.provider, "release-notes"));
+    await ensureDir(buildOutputPath(this.provider, "deprecations"));
     await saveText(
-      buildOutputPath(this.provider, "release-notes", "overview.md"),
+      buildOutputPath(this.provider, "deprecations", "overview.md"),
       mdSource,
     );
 
-    const parsed = this.parseReleaseNotes(mdSource);
+    const parsed = this.parseMarkdown(mdSource);
     const filtered = this.applyDateFilter(parsed.articles);
     const slugCount = new Map<string, number>();
-    this.currentReleaseNotes = this.applySlugNormalization(filtered, slugCount);
+    this.currentEntries = this.applySlugNormalization(filtered, slugCount);
     this.entriesBySlug = parsed.entriesBySlug;
 
     await saveJSON(
-      buildOutputPath(this.provider, "release-notes", "overview-links.json"),
-      { fetchedAt: generateTimestamp(), links: this.currentReleaseNotes },
+      buildOutputPath(this.provider, "deprecations", "overview-links.json"),
+      { fetchedAt: generateTimestamp(), links: this.currentEntries },
     );
 
     log(
-      `[release-notes] parsed count=${this.currentReleaseNotes.length} ms=${
+      `[deprecations] parsed count=${this.currentEntries.length} ms=${
         Date.now() - startedAt
       }`,
     );
@@ -94,70 +86,64 @@ export class ReleaseNotesProvider extends BaseProvider {
 
   async processData(): Promise<void> {
     const startedAt = Date.now();
-    const latestRelease =
+    const latest =
       (await loadJSON<ArticleList>(
         buildOutputPath(
           this.provider,
-          "release-notes",
-          "latest-release-notes.json",
+          "deprecations",
+          "latest-deprecations.json",
         ),
       )) ?? undefined;
-    this.previousReleaseNotes = latestRelease?.articles ?? [];
+    this.previousEntries = latest?.articles ?? [];
 
-    const prevUrls = new Set(this.previousReleaseNotes.map((a) => a.url));
-    this.newReleaseNotes = this.currentReleaseNotes.filter(
-      (a) => !prevUrls.has(a.url),
-    );
+    const prevUrls = new Set(this.previousEntries.map((a) => a.url));
+    this.newEntries = this.currentEntries.filter((a) => !prevUrls.has(a.url));
 
-    for (const article of this.newReleaseNotes) {
-      const result = await this.summarizeInline(article);
-      this.processed.push(result);
+    for (const entry of this.newEntries) {
+      await this.writeEntryFiles(entry);
     }
 
-    const latestReleaseData: ArticleList = {
+    const latestData: ArticleList = {
       provider: this.provider,
       lastChecked: generateTimestamp(),
-      articles: this.currentReleaseNotes,
+      articles: this.currentEntries,
     };
 
     if (!this.dryRun) {
-      await ensureDir(buildOutputPath(this.provider, "release-notes"));
+      await ensureDir(buildOutputPath(this.provider, "deprecations"));
       await saveJSON(
         buildOutputPath(
           this.provider,
-          "release-notes",
-          "latest-release-notes.json",
+          "deprecations",
+          "latest-deprecations.json",
         ),
-        latestReleaseData,
+        latestData,
       );
     } else {
-      log("[release-notes] dry-run: latest-release-notes.json not written");
+      log("[deprecations] dry-run: latest-deprecations.json not written");
     }
 
-    log(`[release-notes] processData done in ${Date.now() - startedAt}ms`);
+    log(`[deprecations] processData done in ${Date.now() - startedAt}ms`);
   }
 
   async generateReport(): Promise<void> {
-    if (this.newReleaseNotes.length === 0) {
+    if (this.newEntries.length === 0) {
       log(
-        `[release-notes] no new links. total tracked=${this.currentReleaseNotes.length}`,
+        `[deprecations] no new entries. total tracked=${this.currentEntries.length}`,
       );
       return;
     }
     const lines = [
-      `Provider: ${this.provider} (release-notes)`,
-      `New links: ${this.newReleaseNotes.length}`,
-      ...this.processed.map((p) => {
-        if (p.error) {
-          return `- [FAILED] ${p.article.title} (${p.article.url})`;
-        }
-        return `- [OK] ${p.article.title} → summary: ${p.summaryPath ?? "dry-run"}, raw: ${p.rawPath ?? "dry-run"}`;
-      }),
+      `Provider: ${this.provider} (model deprecations)`,
+      `New entries: ${this.newEntries.length}`,
+      ...this.newEntries.map(
+        (p) => `- [OK] ${p.title} → release-note-${p.slug}.md`,
+      ),
     ];
     console.log(lines.join("\n"));
   }
 
-  private parseReleaseNotes(mdSource: string): {
+  private parseMarkdown(mdSource: string): {
     articles: Article[];
     entriesBySlug: Map<
       string,
@@ -167,11 +153,11 @@ export class ReleaseNotesProvider extends BaseProvider {
     const tokens = this.md.parse(mdSource, {});
     const results: Article[] = [];
     let currentDate: string | null = null;
+    let skipHeadingInline = false;
     const entriesByDate: Map<
       string,
       { items: { text: string }[] }
     > = new Map();
-    let skipHeadingInline = false;
 
     for (let i = 0; i < tokens.length; i += 1) {
       const token = tokens[i];
@@ -216,13 +202,13 @@ export class ReleaseNotesProvider extends BaseProvider {
     >();
 
     for (const [date, { items }] of entriesByDate) {
-      const title = `${date} release notes`;
-      const slug = this.buildReleaseSlug(title, undefined, date);
+      const title = `${date} model deprecations`;
+      const slug = this.buildSlug(title, undefined, date);
       results.push({
         title,
-        url: `${this.releaseNotesMarkdownUrl}#${date}`,
+        url: `${this.markdownUrl}#${date}`,
         publishedDate: date,
-        source: "release-notes",
+        source: "model-deprecations",
         slug,
         language: "en",
         summaryLanguage: "ja",
@@ -233,70 +219,48 @@ export class ReleaseNotesProvider extends BaseProvider {
     return { articles: results, entriesBySlug };
   }
 
-  private async summarizeInline(article: Article) {
-    try {
-      const startedAt = Date.now();
-      const entry = this.entriesBySlug.get(article.slug);
-      const items = entry?.items ?? [];
-      const updatesMarkdown = items.map((item) => item.text).join("\n");
-      const translated = await this.extractor.translateReleaseNoteUpdates(
-        updatesMarkdown,
-        { title: article.title },
-      );
-      const summary = [
-        "---",
-        `title: "${article.title.replace(/"/g, '\\"')}"`,
-        `published: "${article.publishedDate || "N/A"}"`,
-        `url: "${article.url}"`,
-        `source: "release-notes"`,
-        `source_medium: "Claude Developer Platform"`,
-        `language: "ja"`,
-        "---",
-        "",
-        `# ${article.title}`,
-        "",
-        `**Published:** ${article.publishedDate || "N/A"}`,
-        `**URL:** ${article.url}`,
-        `**Source:** release-notes`,
-        `**Language:** ja`,
-        "",
-        "## Updates (translated)",
-        translated,
-      ].join("\n");
+  private async writeEntryFiles(article: Article) {
+    const entry = this.entriesBySlug.get(article.slug);
+    const items = entry?.items ?? [];
+    const updatesMarkdown = items.map((item) => item.text).join("\n");
+    const translated = await this.extractor.translateReleaseNoteUpdates(
+      updatesMarkdown,
+      { title: article.title },
+    );
+    const summary = [
+      "---",
+      `title: "${article.title.replace(/"/g, '\\"')}"`,
+      `published: "${article.publishedDate || "N/A"}"`,
+      `url: "${article.url}"`,
+      `source: "model-deprecations"`,
+      `source_medium: "Claude Developer Platform"`,
+      `language: "ja"`,
+      "---",
+      "",
+      "## Updates (translated)",
+      translated,
+    ].join("\n");
 
-      const rawPath = buildOutputPath(
-        this.provider,
-        "release-notes",
-        "raw",
-        `release-note-${article.slug}.md`,
-      );
-      const summaryPath = buildOutputPath(
-        this.provider,
-        "release-notes",
-        "summaries",
-        `release-note-${article.slug}.md`,
-      );
+    const rawPath = buildOutputPath(
+      this.provider,
+      "deprecations",
+      "raw",
+      `deprecation-${article.slug}.md`,
+    );
+    const summaryPath = buildOutputPath(
+      this.provider,
+      "deprecations",
+      "summaries",
+      `deprecation-${article.slug}.md`,
+    );
 
-      if (!this.dryRun) {
-        await ensureDir(buildOutputPath(this.provider, "release-notes", "raw"));
-        await ensureDir(
-          buildOutputPath(this.provider, "release-notes", "summaries"),
-        );
-        await saveText(
-          rawPath,
-          updatesMarkdown,
-        );
-        await saveText(summaryPath, summary);
-      }
-      log(
-        `[release-notes] done (inline only): ${article.title} ms=${
-          Date.now() - startedAt
-        }`,
+    if (!this.dryRun) {
+      await ensureDir(buildOutputPath(this.provider, "deprecations", "raw"));
+      await ensureDir(
+        buildOutputPath(this.provider, "deprecations", "summaries"),
       );
-      return { article, rawPath, summaryPath };
-    } catch (error) {
-      log(`[release-notes] failed: ${article.title}`, error);
-      return { article, error };
+      await saveText(rawPath, updatesMarkdown);
+      await saveText(summaryPath, summary);
     }
   }
 
@@ -359,11 +323,7 @@ export class ReleaseNotesProvider extends BaseProvider {
     });
   }
 
-  private buildReleaseSlug(
-    title: string,
-    url?: URL,
-    publishedDate?: string,
-  ): string {
+  private buildSlug(title: string, url?: URL, publishedDate?: string): string {
     const pathParts = url?.pathname.split("/").filter(Boolean) ?? [];
     const last = pathParts[pathParts.length - 1] ?? "";
     const base = [title, last].filter(Boolean).join(" ");
@@ -431,11 +391,10 @@ export class ReleaseNotesProvider extends BaseProvider {
         continue;
       }
 
-      // fallback: treat other inline types as plain text
+      // fallback
       pushText(child.content ?? "");
     }
 
-    // flush unclosed link
     if (currentHref !== null && currentText.length > 0) {
       const text = currentText.join("") || currentHref;
       parts.push(`[${text}](${currentHref})`);

@@ -1,4 +1,9 @@
-export type ArticleSourceType = "news" | "release-notes" | "blog" | "other";
+export type ArticleSourceType =
+  | "news"
+  | "release-notes"
+  | "model-deprecations"
+  | "blog"
+  | "other";
 
 export type Article = {
   title: string;
