@@ -1,0 +1,316 @@
+import * as cheerio from "cheerio";
+import { BaseProvider } from "./base-provider";
+import { Article, ArticleList } from "../../types/provider-info";
+import { GeminiExtractor } from "../gemini-extractor";
+import { RateLimiter } from "../rate-limiter";
+import {
+  buildOutputPath,
+  ensureDir,
+  generateSlug,
+  generateTimestamp,
+  loadJSON,
+  saveJSON,
+  saveText,
+} from "../storage";
+
+type ProcessedResult = {
+  article: Article;
+  summaryPath?: string;
+  rawPath?: string;
+  error?: unknown;
+};
+
+const log = (...args: unknown[]) =>
+  console.log(`[${new Date().toISOString()}]`, ...args);
+
+export class NewsProvider extends BaseProvider {
+  private readonly provider = "anthropic";
+  private readonly newsUrl = "https://www.anthropic.com/news";
+  private readonly dryRun: boolean;
+  private readonly cutoffDate = "2025-11-01";
+  private currentNews: Article[] = [];
+  private previousNews: Article[] = [];
+  private newArticles: Article[] = [];
+  private processed: ProcessedResult[] = [];
+
+  constructor(
+    private readonly geminiExtractor: GeminiExtractor,
+    private readonly rateLimiter: RateLimiter,
+    options?: { dryRun?: boolean },
+  ) {
+    super();
+    this.dryRun = options?.dryRun ?? false;
+  }
+
+  async fetchRawData(): Promise<void> {
+    const startedAt = Date.now();
+    log(`[news] fetching article list => ${this.newsUrl}`);
+    const html = await this.fetchHtml(this.newsUrl);
+    const parsed = this.extractNewsFromHtml(html);
+    if (parsed.length === 0) {
+      throw new Error(
+        "[news] no articles parsed from news page. The layout may have changed or the page failed to load.",
+      );
+    }
+    const filtered = this.applyDateFilter(parsed);
+    const slugCount = new Map<string, number>();
+    this.currentNews = this.applySlugNormalization(filtered, slugCount);
+    log(
+      `[news] fetched articles=${this.currentNews.length} ms=${
+        Date.now() - startedAt
+      }`,
+    );
+  }
+
+  async processData(): Promise<void> {
+    const startedAt = Date.now();
+    const latestNews =
+      (await loadJSON<ArticleList>(
+        buildOutputPath(this.provider, "articles", "latest-articles.json"),
+      )) ?? undefined;
+
+    this.previousNews = latestNews?.articles ?? [];
+
+    const previousNewsUrls = new Set(this.previousNews.map((a) => a.url));
+    this.newArticles = this.currentNews.filter(
+      (article) => !previousNewsUrls.has(article.url),
+    );
+    log(`[news] new articles: ${this.newArticles.length}`);
+
+    for (const article of this.newArticles) {
+      const result = await this.fetchAndSummarize(article);
+      this.processed.push(result);
+    }
+
+    const latestNewsData: ArticleList = {
+      provider: this.provider,
+      lastChecked: generateTimestamp(),
+      articles: this.currentNews,
+    };
+
+    if (!this.dryRun) {
+      await ensureDir(buildOutputPath(this.provider, "articles"));
+      await saveJSON(
+        buildOutputPath(this.provider, "articles", "latest-articles.json"),
+        latestNewsData,
+      );
+    } else {
+      log("[news] dry-run: latest-articles.json not written");
+    }
+    log(`[news] processData done in ${Date.now() - startedAt}ms`);
+  }
+
+  async generateReport(): Promise<void> {
+    const startedAt = Date.now();
+    if (this.newArticles.length === 0) {
+      log(`[news] no new articles. total tracked=${this.currentNews.length}`);
+      log(`[news] generateReport done in ${Date.now() - startedAt}ms`);
+      return;
+    }
+    const lines = [
+      `Provider: ${this.provider} (news)`,
+      `New articles: ${this.newArticles.length}`,
+      ...this.processed.map((p) => {
+        if (p.error) {
+          return `- [FAILED] ${p.article.title} (${p.article.url})`;
+        }
+        return `- [OK] ${p.article.title} → summary: ${p.summaryPath ?? "dry-run"}, raw: ${p.rawPath ?? "dry-run"}`;
+      }),
+    ];
+    console.log(lines.join("\n"));
+    log(`[news] generateReport done in ${Date.now() - startedAt}ms`);
+  }
+
+  private extractNewsFromHtml(html: string): Article[] {
+    const $ = cheerio.load(html);
+    const seen = new Set<string>();
+    const results: Article[] = [];
+
+    $("a[href*='/news/']").each((_, el) => {
+      const href = $(el).attr("href") ?? "";
+      const url = this.normalizeUrl(href);
+      if (!url || seen.has(url)) return;
+
+      const title = $(el).text().trim().replace(/\s+/g, " ");
+      if (!title) return;
+
+      const articleContainer = $(el).closest("article, section, div");
+      const timeElement =
+        articleContainer.find("time").first() || $(el).find("time").first();
+      const dateText =
+        timeElement.attr("datetime")?.trim() ?? timeElement.text().trim() ?? "";
+      const publishedDate = this.normalizeDate(dateText) ?? "";
+
+      results.push({
+        title,
+        url,
+        publishedDate,
+        source: "news",
+        slug: "",
+        language: "en",
+        summaryLanguage: "ja",
+      });
+      seen.add(url);
+    });
+
+    // Fallback: regex scan for /news/ URLs if DOM lookup finds nothing.
+    if (results.length === 0) {
+      const urlRegex = /https?:\/\/www\.anthropic\.com\/news\/[^\s"']+/g;
+      const relativeRegex = /["']\/news\/([a-z0-9-]+)["']/gi;
+      const urls = new Set<string>();
+      let match: RegExpExecArray | null;
+      while ((match = urlRegex.exec(html)) !== null) {
+        urls.add(match[0]);
+      }
+      while ((match = relativeRegex.exec(html)) !== null) {
+        urls.add(`https://www.anthropic.com/news/${match[1]}`);
+      }
+      for (const url of urls) {
+        results.push({
+          title: url.split("/").pop() ?? url,
+          url,
+          publishedDate: "",
+          source: "news",
+          slug: "",
+          language: "en",
+          summaryLanguage: "ja",
+        });
+      }
+    }
+
+    return results;
+  }
+
+  private async fetchAndSummarize(article: Article): Promise<ProcessedResult> {
+    try {
+      const startedAt = Date.now();
+      log(`[news] process: ${article.title} (${article.url})`);
+      const html = await this.fetchHtml(article.url);
+      const summary = await this.geminiExtractor.generateArticleSummary(html, {
+        title: article.title,
+        url: article.url,
+        publishedDate: article.publishedDate,
+        source: article.source,
+      });
+
+      const rawPath = buildOutputPath(
+        this.provider,
+        "articles",
+        "raw",
+        `article-${article.slug}.html`,
+      );
+      const summaryPath = buildOutputPath(
+        this.provider,
+        "articles",
+        "summaries",
+        `article-${article.slug}.md`,
+      );
+
+      if (!this.dryRun) {
+        await ensureDir(buildOutputPath(this.provider, "articles", "raw"));
+        await ensureDir(
+          buildOutputPath(this.provider, "articles", "summaries"),
+        );
+        await saveText(rawPath, html);
+        await saveText(summaryPath, summary);
+      }
+
+      log(`[news] done: ${article.title} ms=${Date.now() - startedAt}`);
+      return { article, rawPath, summaryPath };
+    } catch (error) {
+      log(`[news] Failed to process article: ${article.title}`, error);
+      return { article, error };
+    }
+  }
+
+  private async fetchHtml(url: string): Promise<string> {
+    return this.rateLimiter.withRetry(async () => {
+      const response = await fetch(url, {
+        headers: { "User-Agent": "provider-news-monitor/1.0" },
+      });
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
+        );
+      }
+      return response.text();
+    });
+  }
+
+  private normalizeUrl(url: string): string {
+    if (!url) return "";
+    try {
+      if (url.startsWith("http://") || url.startsWith("https://")) {
+        return url;
+      }
+      if (url.startsWith("//")) {
+        return `https:${url}`;
+      }
+      if (url.startsWith("/")) {
+        return `https://www.anthropic.com${url}`;
+      }
+      return `https://www.anthropic.com${url.startsWith(".") ? "" : "/"}${url}`;
+    } catch {
+      return url;
+    }
+  }
+
+  private normalizeDate(raw: string): string | null {
+    if (!raw) return null;
+    const clean = raw.trim();
+    if (!clean) return null;
+    const iso = clean.match(/(\d{4}-\d{2}-\d{2})/);
+    if (iso) return iso[1];
+    const long = clean.match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/);
+    if (!long) return null;
+    const monthIndex: Record<string, string> = {
+      january: "01",
+      february: "02",
+      march: "03",
+      april: "04",
+      may: "05",
+      june: "06",
+      july: "07",
+      august: "08",
+      september: "09",
+      october: "10",
+      november: "11",
+      december: "12",
+    };
+    const month = monthIndex[long[1].toLowerCase()];
+    if (!month) return null;
+    const day = long[2].padStart(2, "0");
+    const year = long[3];
+    return `${year}-${month}-${day}`;
+  }
+
+  private applyDateFilter(articles: Article[]): Article[] {
+    return articles.filter((article) => {
+      if (!article.publishedDate) return false;
+      const dateStr = article.publishedDate.trim().split("T")[0] ?? "";
+      if (dateStr.length !== 10) return false;
+      return dateStr >= this.cutoffDate;
+    });
+  }
+
+  private applySlugNormalization(
+    articles: Article[],
+    slugCount = new Map<string, number>(),
+  ): Article[] {
+    return articles.map((article) => {
+      const baseSlug =
+        article.slug && article.slug.length > 0
+          ? article.slug
+          : generateSlug(article.title, article.publishedDate);
+      const count = slugCount.get(baseSlug) ?? 0;
+      slugCount.set(baseSlug, count + 1);
+      const slug = count === 0 ? baseSlug : `${baseSlug}-${count + 1}`;
+      return {
+        ...article,
+        slug,
+        summaryLanguage: article.summaryLanguage ?? "ja",
+        language: article.language ?? "en",
+      };
+    });
+  }
+}

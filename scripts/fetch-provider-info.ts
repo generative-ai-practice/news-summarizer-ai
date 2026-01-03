@@ -1,7 +1,8 @@
 import "dotenv/config";
-import { AnthropicProvider } from "./lib/provider-fetchers/anthropic-provider";
 import { GeminiExtractor } from "./lib/gemini-extractor";
 import { RateLimiter } from "./lib/rate-limiter";
+import { NewsProvider } from "./lib/provider-fetchers/news-provider";
+import { ReleaseNotesProvider } from "./lib/provider-fetchers/release-notes-provider";
 
 type CliArgs = {
   provider: string;
@@ -38,12 +39,18 @@ const main = async () => {
 
   const rateLimiter = new RateLimiter({ delayMs: 2000, maxRetries: 3 });
   const extractor = new GeminiExtractor(apiKey, rateLimiter);
-  const providerFetcher = new AnthropicProvider(extractor, rateLimiter, {
-    dryRun,
-  });
+  const newsProvider = new NewsProvider(extractor, rateLimiter, { dryRun });
+  const releaseNotesProvider = new ReleaseNotesProvider(
+    extractor,
+    rateLimiter,
+    {
+      dryRun,
+    },
+  );
 
   try {
-    await providerFetcher.run();
+    await newsProvider.run();
+    await releaseNotesProvider.run();
     log(`[provider-news] done: provider=${provider}, dryRun=${dryRun}`);
   } catch (error) {
     log("[provider-news] failed:", error);

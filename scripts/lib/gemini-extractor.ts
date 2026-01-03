@@ -130,6 +130,81 @@ export class GeminiExtractor {
     };
   }
 
+  async generateReleaseNoteSummary(
+    updatesMarkdown: string,
+    meta: {
+      title: string;
+      url: string;
+      publishedDate: string;
+    },
+  ) {
+    const prompt = [
+      "以下はリリースノートの更新項目です。与えられた文章とリンク以外の情報を推測せず、リンク先の本文も展開しないでください。",
+      "リンクはそのままMarkdownリンクとして残してください。",
+      "",
+      "出力フォーマット:",
+      `# ${meta.title}`,
+      "",
+      `**Published:** ${meta.publishedDate || "N/A"}`,
+      `**URL:** ${meta.url}`,
+      `**Source:** release-notes`,
+      `**Language:** ja`,
+      "",
+      "## Summary",
+      "上記の更新項目だけを使って、日本語で2-3文に要約してください（外部情報を付け足さない）。",
+      "",
+      "## Key Points",
+      "- 箇条書きで3-5項目、日本語で簡潔にまとめてください（外部情報を付け足さない）。",
+      "",
+      "---",
+      "",
+      "更新項目（入力）:",
+      updatesMarkdown,
+    ].join("\n");
+
+    const startedAt = Date.now();
+    const content = await this.rateLimiter.withRetry(async () => {
+      const model = this.genAI.getGenerativeModel({ model: this.modelName });
+      const response = await model.generateContent([{ text: prompt }]);
+      return response.response.text();
+    });
+
+    log("[gemini] release note summary generated", {
+      title: meta.title,
+      ms: Date.now() - startedAt,
+    });
+
+    return content.trim();
+  }
+
+  async translateReleaseNoteUpdates(updatesMarkdown: string, meta: {
+    title: string;
+  }) {
+    const prompt = [
+      "以下のMarkdownの箇条書きを日本語に翻訳してください。",
+      "- 箇条書きやリンク構造はそのまま維持してください（リンク先URLも変更しない）。",
+      "- 新しい情報を付け足したり要約したりしないでください。純粋に翻訳のみ行ってください。",
+      "",
+      `# ${meta.title}`,
+      "",
+      updatesMarkdown,
+    ].join("\n");
+
+    const startedAt = Date.now();
+    const content = await this.rateLimiter.withRetry(async () => {
+      const model = this.genAI.getGenerativeModel({ model: this.modelName });
+      const response = await model.generateContent([{ text: prompt }]);
+      return response.response.text();
+    });
+
+    log("[gemini] release note updates translated", {
+      title: meta.title,
+      ms: Date.now() - startedAt,
+    });
+
+    return content.trim();
+  }
+
   async generateArticleSummary(
     html: string,
     meta: {

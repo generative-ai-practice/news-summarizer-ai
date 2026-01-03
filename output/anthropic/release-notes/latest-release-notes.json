@@ -1,0 +1,69 @@
+{
+  "provider": "anthropic",
+  "lastChecked": "2026-01-03T15:45:02.667+09:00",
+  "articles": [
+    {
+      "title": "2025-12-19 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-19",
+      "publishedDate": "2025-12-19",
+      "source": "release-notes",
+      "slug": "20251219-2025-12-19-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-12-04 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-04",
+      "publishedDate": "2025-12-04",
+      "source": "release-notes",
+      "slug": "20251204-2025-12-04-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-24 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-24",
+      "publishedDate": "2025-11-24",
+      "source": "release-notes",
+      "slug": "20251124-2025-11-24-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-21 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-21",
+      "publishedDate": "2025-11-21",
+      "source": "release-notes",
+      "slug": "20251121-2025-11-21-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-19 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-19",
+      "publishedDate": "2025-11-19",
+      "source": "release-notes",
+      "slug": "20251119-2025-11-19-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-18 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-18",
+      "publishedDate": "2025-11-18",
+      "source": "release-notes",
+      "slug": "20251118-2025-11-18-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-14 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-14",
+      "publishedDate": "2025-11-14",
+      "source": "release-notes",
+      "slug": "20251114-2025-11-14-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    }
+  ]
+}

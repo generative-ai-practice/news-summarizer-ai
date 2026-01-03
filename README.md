@@ -27,5 +27,10 @@ Edit `src/App.vue` to start prototyping.
 ### Provider News Monitor
 
 - Requires `GEMINI_API_KEY` in your environment (see `scripts/fetch-provider-info.ts`).
-- Outputs to `output/{provider}/latest.json`, `raw/*.html`, `summaries/*.md`.
+- Outputs:
+  - `output/{provider}/articles/{raw,summaries}/...`
+  - `output/{provider}/release-notes/overview.md` (markdown source)
+  - `output/{provider}/release-notes/overview-links.json` (link list with dates)
+  - `output/{provider}/articles/latest-articles.json`
+  - `output/{provider}/release-notes/latest-release-notes.json`
 - Design doc: `docs/ai-instructions/20260102_provider-news-monitor.md`.
