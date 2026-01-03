@@ -1,0 +1,1 @@
+- We announced the deprecation of the Claude Haiku 3.5 model. Read more in [our documentation](https://platform.claude.com/docs/en/about-claude/model-deprecations).

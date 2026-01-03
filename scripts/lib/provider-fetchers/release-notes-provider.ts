@@ -247,13 +247,6 @@ export class ReleaseNotesProvider extends BaseProvider {
         `language: "ja"`,
         "---",
         "",
-        `# ${article.title}`,
-        "",
-        `**Published:** ${article.publishedDate || "N/A"}`,
-        `**URL:** ${article.url}`,
-        `**Source:** release-notes`,
-        `**Language:** ja`,
-        "",
         "## Updates (translated)",
         translated,
       ].join("\n");

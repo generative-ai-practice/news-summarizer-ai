@@ -1,0 +1,15 @@
+{
+  "provider": "anthropic",
+  "lastChecked": "2026-01-03T08:05:33.689Z",
+  "articles": [
+    {
+      "title": "2025-12-19 model deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md#2025-12-19",
+      "publishedDate": "2025-12-19",
+      "source": "model-deprecations",
+      "slug": "20251219-2025-12-19-model-deprecations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    }
+  ]
+}

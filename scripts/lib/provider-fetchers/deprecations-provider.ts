@@ -1,4 +1,3 @@
-import MarkdownIt from "markdown-it";
 import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
@@ -22,7 +21,6 @@ export class DeprecationsProvider extends BaseProvider {
     "https://platform.claude.com/docs/en/about-claude/model-deprecations.md";
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
-  private readonly md = new MarkdownIt();
   private readonly monthIndex: Record<string, string> = {
     january: "01",
     february: "02",
@@ -147,55 +145,44 @@ export class DeprecationsProvider extends BaseProvider {
     articles: Article[];
     entriesBySlug: Map<string, { date: string; items: { text: string }[] }>;
   } {
-    const tokens = this.md.parse(mdSource, {});
-    const results: Article[] = [];
+    const lines = mdSource.split("\n");
+    const entriesByDate = new Map<string, string[]>();
     let currentDate: string | null = null;
-    let skipHeadingInline = false;
-    const entriesByDate: Map<string, { items: { text: string }[] }> = new Map();
+    let buffer: string[] = [];
 
-    for (let i = 0; i < tokens.length; i += 1) {
-      const token = tokens[i];
+    const flush = () => {
+      if (!currentDate || buffer.length === 0) return;
+      const normalized = this.normalizeDate(currentDate);
+      if (!normalized) {
+        buffer = [];
+        return;
+      }
+      const existing = entriesByDate.get(normalized) ?? [];
+      existing.push(buffer.join("\n").trim());
+      entriesByDate.set(normalized, existing);
+      buffer = [];
+    };
 
-      if (token.type === "heading_open") {
-        const content = tokens[i + 1]?.content ?? "";
-        const detected = this.normalizeDate(content);
-        if (detected) {
-          currentDate = detected;
-          skipHeadingInline = true;
-        }
+    for (const line of lines) {
+      const headingMatch = line.match(/^###\s*(.+)$/);
+      if (headingMatch) {
+        flush();
+        currentDate = headingMatch[1];
         continue;
       }
-
-      if (token.type === "heading_close") {
-        continue;
+      if (currentDate) {
+        buffer.push(line);
       }
-
-      if (token.type !== "inline" || !token.children || !currentDate) {
-        continue;
-      }
-
-      if (skipHeadingInline) {
-        skipHeadingInline = false;
-        continue;
-      }
-
-      const lineMarkdown = this.renderInlineWithAbsoluteLinks(
-        token.children,
-        "https://platform.claude.com",
-      );
-      if (!lineMarkdown) continue;
-      const dateKey = currentDate ?? "unknown-date";
-      const bucket = entriesByDate.get(dateKey) ?? { items: [] };
-      bucket.items.push({ text: `- ${lineMarkdown}` });
-      entriesByDate.set(dateKey, bucket);
     }
+    flush();
 
+    const results: Article[] = [];
     const entriesBySlug = new Map<
       string,
       { date: string; items: { text: string }[] }
     >();
 
-    for (const [date, { items }] of entriesByDate) {
+    for (const [date, blocks] of entriesByDate) {
       const title = `${date} model deprecations`;
       const slug = this.buildSlug(title, undefined, date);
       results.push({
@@ -207,6 +194,7 @@ export class DeprecationsProvider extends BaseProvider {
         language: "en",
         summaryLanguage: "ja",
       });
+      const items = blocks.map((text) => ({ text }));
       entriesBySlug.set(slug, { date, items });
     }
 
@@ -322,78 +310,5 @@ export class DeprecationsProvider extends BaseProvider {
     const last = pathParts[pathParts.length - 1] ?? "";
     const base = [title, last].filter(Boolean).join(" ");
     return generateSlug(base || title || last, publishedDate);
-  }
-
-  private renderInlineWithAbsoluteLinks(
-    children: Array<{
-      type: string;
-      content?: string;
-      attrs?: [string, string][] | null;
-    }>,
-    baseUrl: string,
-  ): string {
-    const parts: string[] = [];
-    let currentHref: string | null = null;
-    let currentText: string[] = [];
-
-    const pushText = (text: string) => {
-      if (!text) return;
-      if (currentHref !== null) {
-        currentText.push(text);
-      } else {
-        parts.push(text);
-      }
-    };
-
-    for (let i = 0; i < children.length; i += 1) {
-      const child = children[i];
-      if (child.type === "link_open") {
-        const href =
-          child.attrs?.find((tuple) => tuple[0] === "href")?.[1] ?? "";
-        try {
-          currentHref = new URL(href, baseUrl).toString();
-        } catch {
-          currentHref = href;
-        }
-        currentText = [];
-        continue;
-      }
-
-      if (child.type === "link_close") {
-        const text = currentText.join("") || currentHref || "";
-        if (text) {
-          const href = currentHref ?? "";
-          parts.push(href ? `[${text}](${href})` : text);
-        }
-        currentHref = null;
-        currentText = [];
-        continue;
-      }
-
-      if (child.type === "code_inline") {
-        pushText(`\`${child.content ?? ""}\``);
-        continue;
-      }
-
-      if (child.type === "softbreak" || child.type === "hardbreak") {
-        pushText(" ");
-        continue;
-      }
-
-      if (child.type === "text") {
-        pushText(child.content ?? "");
-        continue;
-      }
-
-      // fallback
-      pushText(child.content ?? "");
-    }
-
-    if (currentHref !== null && currentText.length > 0) {
-      const text = currentText.join("") || currentHref;
-      parts.push(`[${text}](${currentHref})`);
-    }
-
-    return parts.join("").trim();
   }
 }

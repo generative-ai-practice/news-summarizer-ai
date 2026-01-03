@@ -1,0 +1,1 @@
+- Search result content blocks are now generally available on Amazon Bedrock. Learn more in our [search results documentation](https://platform.claude.com/docs/en/build-with-claude/search-results).

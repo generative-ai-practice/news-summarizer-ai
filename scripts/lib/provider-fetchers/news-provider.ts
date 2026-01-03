@@ -208,37 +208,62 @@ export class NewsProvider extends BaseProvider {
       const startedAt = Date.now();
       log(`[news] process: ${article.title} (${article.url})`);
       const html = await this.fetchHtml(article.url);
+      const refinedDate = this.refinePublishedDateFromHtml(html);
+      const updatedArticle: Article = {
+        ...article,
+        publishedDate: refinedDate ?? article.publishedDate,
+      };
+      // regenerate slug if date changed to keep filename aligned with published date
+      const baseSlug = generateSlug(
+        updatedArticle.title,
+        updatedArticle.publishedDate,
+      );
+      let slug = baseSlug;
+      let counter = 1;
+      while (
+        this.currentNews.some(
+          (a) => a.slug === slug && a.url !== updatedArticle.url,
+        )
+      ) {
+        slug = `${baseSlug}-${counter}`;
+        counter += 1;
+      }
+      updatedArticle.slug = slug;
+      const idx = this.currentNews.findIndex((a) => a.url === article.url);
+      if (idx >= 0) this.currentNews[idx] = updatedArticle;
+
       const summary = await this.geminiExtractor.generateArticleSummary(html, {
-        title: article.title,
-        url: article.url,
-        publishedDate: article.publishedDate,
-        source: article.source,
+        title: updatedArticle.title,
+        url: updatedArticle.url,
+        publishedDate: updatedArticle.publishedDate,
+        source: updatedArticle.source,
       });
+      const cleanedSummary = this.stripMetaLines(summary);
       const safeTitle = article.title.replace(/"/g, '\\"');
       const summaryWithFrontmatter = [
         "---",
         `title: "${safeTitle}"`,
-        `published: "${article.publishedDate || "N/A"}"`,
-        `url: "${article.url}"`,
+        `published: "${updatedArticle.publishedDate || "N/A"}"`,
+        `url: "${updatedArticle.url}"`,
         `source: "news"`,
         `source_medium: "Anthropic News"`,
         `language: "ja"`,
         "---",
         "",
-        summary,
+        cleanedSummary,
       ].join("\n");
 
       const rawPath = buildOutputPath(
         this.provider,
         "articles",
         "raw",
-        `article-${article.slug}.html`,
+        `article-${updatedArticle.slug}.html`,
       );
       const summaryPath = buildOutputPath(
         this.provider,
         "articles",
         "summaries",
-        `article-${article.slug}.md`,
+        `article-${updatedArticle.slug}.md`,
       );
 
       if (!this.dryRun) {
@@ -251,7 +276,7 @@ export class NewsProvider extends BaseProvider {
       }
 
       log(`[news] done: ${article.title} ms=${Date.now() - startedAt}`);
-      return { article, rawPath, summaryPath };
+      return { article: updatedArticle, rawPath, summaryPath };
     } catch (error) {
       log(`[news] Failed to process article: ${article.title}`, error);
       return { article, error };
@@ -347,5 +372,123 @@ export class NewsProvider extends BaseProvider {
         language: article.language ?? "en",
       };
     });
+  }
+
+  private stripMetaLines(content: string): string {
+    const metaPatterns = [
+      /^\*\*Published:\*\*/i,
+      /^\*\*URL:\*\*/i,
+      /^\*\*Source:\*\*/i,
+      /^\*\*Language:\*\*/i,
+      /^\*\*Source-Medium:\*\*/i,
+    ];
+    const lines = content.split("\n");
+    const filtered = lines.filter((line) => {
+      return !metaPatterns.some((re) => re.test(line.trim()));
+    });
+    // trim leading/trailing empty lines
+    while (filtered.length && filtered[0].trim() === "") filtered.shift();
+    while (filtered.length && filtered[filtered.length - 1].trim() === "")
+      filtered.pop();
+    return filtered.join("\n");
+  }
+
+  private refinePublishedDateFromHtml(html: string): string | null {
+    const $ = cheerio.load(html);
+    const candidates: string[] = [];
+    const add = (v?: string | null) => {
+      if (v && v.trim()) candidates.push(v.trim());
+    };
+
+    // time tags
+    add($("time[datetime]").first().attr("datetime"));
+    add($("time").first().text());
+
+    // common meta tags
+    [
+      'meta[property="article:published_time"]',
+      'meta[name="article:published_time"]',
+      'meta[name="pubdate"]',
+      'meta[name="publish-date"]',
+      'meta[name="published"]',
+      'meta[property="og:published_time"]',
+    ].forEach((sel) => add($(sel).attr("content")));
+
+    // JSON-LD blocks
+    $('script[type="application/ld+json"]').each((_, el) => {
+      const text = $(el).text();
+      if (!text) return;
+      try {
+        const data = JSON.parse(text);
+        const scan = (node: unknown) => {
+          if (!node) return;
+          if (Array.isArray(node)) {
+            node.forEach(scan);
+            return;
+          }
+          if (typeof node === "object") {
+            const obj = node as Record<string, unknown>;
+            const val =
+              obj.datePublished ?? obj.dateCreated ?? obj.dateModified;
+            if (typeof val === "string") add(val);
+            Object.values(obj).forEach(scan);
+          }
+        };
+        scan(data);
+      } catch {
+        // ignore JSON parse errors
+      }
+    });
+
+    // regex fallback
+    const regexIso = /datePublished["']?\s*[:=]\s*["']([^"']+)["']/i;
+    const matchIso = html.match(regexIso);
+    if (matchIso) add(matchIso[1]);
+
+    const plainIso = html.match(
+      /(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[^"'\\s<]*)/,
+    );
+    if (plainIso) add(plainIso[1]);
+
+    // Visible localized dates (e.g. 2025年12月20日) — prefer what the page shows to users.
+    const jpDates = [...html.matchAll(/(\d{4})年(\d{1,2})月(\d{1,2})日/g)].map(
+      (m) => `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`,
+    );
+    jpDates.forEach((d) => add(d));
+
+    let best: { date: string; ms: number } | null = null;
+    const asJstDate = (raw: string): string | null => {
+      // If raw contains a time, convert to JST date (helps when the site adjusts by timezone).
+      if (!raw.includes("T")) return null;
+      const parsed = new Date(raw);
+      if (Number.isNaN(parsed.getTime())) return null;
+      const fmt = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+      return fmt.format(parsed); // YYYY-MM-DD
+    };
+    const toMillis = (date: string): number =>
+      Date.parse(`${date}T00:00:00Z`) ?? Number.NaN;
+
+    for (const raw of candidates) {
+      const normalized = this.normalizeDate(raw);
+      if (normalized) {
+        const ms = toMillis(normalized);
+        if (!Number.isNaN(ms) && (!best || ms > best.ms)) {
+          best = { date: normalized, ms };
+        }
+      }
+      const jst = asJstDate(raw);
+      if (jst) {
+        const ms = toMillis(jst);
+        if (!Number.isNaN(ms) && (!best || ms > best.ms)) {
+          best = { date: jst, ms };
+        }
+      }
+    }
+    return best?.date ?? null;
   }
 }
