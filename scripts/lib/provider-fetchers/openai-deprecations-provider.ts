@@ -25,7 +25,7 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
   private readonly provider = "openai";
   private readonly markdownUrl =
     "https://platform.openai.com/docs/deprecations";
-  private readonly cutoffDate = "2025-11-01";
+  private readonly cutoffDate = "2025-12-01";
   private readonly dryRun: boolean;
   private readonly monthIndex: Record<string, string> = {
     january: "01",

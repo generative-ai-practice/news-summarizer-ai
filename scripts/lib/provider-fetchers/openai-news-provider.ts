@@ -26,8 +26,9 @@ const log = (...args: unknown[]) =>
 export class OpenAINewsProvider extends BaseProvider {
   private readonly provider = "openai";
   private readonly rssUrl = "https://openai.com/news/rss.xml";
-  private readonly cutoffDate = "2025-11-01";
+  private readonly cutoffDate = "2025-12-01";
   private readonly dryRun: boolean;
+  private readonly rssHtmlByUrl = new Map<string, string>();
   private currentNews: Article[] = [];
   private previousNews: Article[] = [];
   private newArticles: Article[] = [];
@@ -124,8 +125,12 @@ export class OpenAINewsProvider extends BaseProvider {
       const title = $(el).find("title").first().text().trim();
       const link = $(el).find("link").first().text().trim();
       const pub = $(el).find("pubDate").first().text().trim();
+      const content = $(el).find("content\\:encoded").first().text().trim();
       if (!title || !link) return;
       const publishedDate = this.normalizeDate(pub) ?? "";
+      if (content) {
+        this.rssHtmlByUrl.set(link, content);
+      }
       results.push({
         title,
         url: link,
@@ -185,8 +190,21 @@ export class OpenAINewsProvider extends BaseProvider {
     try {
       const startedAt = Date.now();
       log(`[openai-news] process: ${article.title} (${article.url})`);
-      const html = await this.fetchHtml(article.url);
-      const refinedDate = this.refinePublishedDateFromHtml(html);
+      let html: string | null = null;
+      try {
+        html = await this.fetchHtml(article.url);
+      } catch (fetchErr) {
+        const fallback = this.rssHtmlByUrl.get(article.url);
+        if (fallback) {
+          log(
+            `[openai-news] fetch failed (${article.url}), using RSS content as fallback`,
+          );
+          html = fallback;
+        } else {
+          throw fetchErr;
+        }
+      }
+      const refinedDate = html ? this.refinePublishedDateFromHtml(html) : null;
       const updatedArticle: Article = {
         ...article,
         publishedDate: refinedDate ?? article.publishedDate,
@@ -248,7 +266,7 @@ export class OpenAINewsProvider extends BaseProvider {
         await ensureDir(
           buildOutputPath(this.provider, "articles", "summaries"),
         );
-        await saveText(rawPath, html);
+        await saveText(rawPath, html ?? "");
         await saveText(summaryPath, summaryWithFrontmatter);
       }
 
@@ -295,7 +313,13 @@ export class OpenAINewsProvider extends BaseProvider {
   private async fetchHtml(url: string): Promise<string> {
     return this.rateLimiter.withRetry(async () => {
       const response = await fetch(url, {
-        headers: { "User-Agent": "provider-news-monitor/1.0" },
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "Accept-Language": "en-US,en;q=0.9",
+          Accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        },
       });
       if (!response.ok) {
         throw new Error(
