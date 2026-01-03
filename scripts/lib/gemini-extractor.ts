@@ -70,7 +70,7 @@ export class GeminiExtractor {
   private readonly modelName: string;
 
   constructor(
-    private readonly apiKey: string,
+    apiKey: string,
     private readonly rateLimiter: RateLimiter,
     config: GeminiModelConfig = {},
   ) {

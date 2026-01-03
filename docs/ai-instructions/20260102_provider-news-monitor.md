@@ -142,7 +142,7 @@ const providers = [
 ## ディレクトリ構造
 
 ```
-output/provider-news/{provider}/
+output/{provider}/
 ├── latest.json              # 前回チェック時の記事リスト（差分検出用）
 ├── raw/
 │   └── article-{slug}.html  # 記事HTML（参照用）
@@ -435,9 +435,9 @@ yarn fetch:providers:dry-run --provider=anthropic
 yarn fetch:providers --provider=anthropic
 
 # 3. 出力確認
-ls -la output/provider-news/anthropic/
-cat output/provider-news/anthropic/latest.json
-cat output/provider-news/anthropic/summaries/*.md
+ls -la output/anthropic/
+cat output/anthropic/latest.json
+cat output/anthropic/summaries/*.md
 
 # 4. 2回目実行（新着記事のみ処理される）
 yarn fetch:providers --provider=anthropic

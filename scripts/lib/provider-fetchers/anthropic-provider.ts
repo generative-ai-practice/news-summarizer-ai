@@ -30,8 +30,6 @@ export class AnthropicProvider extends BaseProvider {
   private readonly provider = "anthropic";
   private readonly baseUrl = "https://www.anthropic.com";
   private readonly newsUrl = "https://www.anthropic.com/news";
-  private readonly releaseNotesUrl =
-    "https://platform.claude.com/docs/en/release-notes/overview";
   private readonly releaseNotesMarkdownUrl =
     "https://platform.claude.com/docs/en/release-notes/overview.md";
   private readonly dryRun: boolean;
@@ -187,15 +185,17 @@ export class AnthropicProvider extends BaseProvider {
   }
 
   private async fetchHtml(url: string): Promise<string> {
-    const response = await fetch(url, {
-      headers: { "User-Agent": "provider-news-monitor/1.0" },
+    return this.rateLimiter.withRetry(async () => {
+      const response = await fetch(url, {
+        headers: { "User-Agent": "provider-news-monitor/1.0" },
+      });
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
+        );
+      }
+      return response.text();
     });
-    if (!response.ok) {
-      throw new Error(
-        `Failed to fetch ${url}: ${response.status} ${response.statusText}`,
-      );
-    }
-    return response.text();
   }
 
   private async fetchReleaseNotesFromMarkdown(url: string): Promise<Article[]> {
