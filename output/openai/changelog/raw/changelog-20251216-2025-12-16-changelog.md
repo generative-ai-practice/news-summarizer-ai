@@ -1,0 +1,1 @@
+- Released[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)and[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest), our latest and most advanced models for image generation. Read more[here](https://platform.openai.com/docs/guides/image-generation).

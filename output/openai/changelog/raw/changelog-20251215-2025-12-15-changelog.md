@@ -1,0 +1,6 @@
+- Released four new dated audio snapshots. These updates deliver reliability, quality, and voice fidelity improvements for real-time, voice-driven applications:
+- Read more[here](https://platform.openai.com/docs/guides/audio).
+- gpt-realtime-mini-2025-12-15
+- gpt-audio-mini-2025-12-15
+- gpt-4o-mini-transcribe-2025-12-15
+- gpt-4o-mini-tts-2025-12-15

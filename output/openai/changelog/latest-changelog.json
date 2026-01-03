@@ -1,0 +1,33 @@
+{
+  "provider": "openai",
+  "lastChecked": "2026-01-03T13:37:53.736Z",
+  "articles": [
+    {
+      "title": "2025-12-16 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2025-12-16",
+      "publishedDate": "2025-12-16",
+      "source": "changelog",
+      "slug": "20251216-2025-12-16-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-12-15 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2025-12-15",
+      "publishedDate": "2025-12-15",
+      "source": "changelog",
+      "slug": "20251215-2025-12-15-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-12-11 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2025-12-11",
+      "publishedDate": "2025-12-11",
+      "source": "changelog",
+      "slug": "20251211-2025-12-11-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    }
+  ]
+}

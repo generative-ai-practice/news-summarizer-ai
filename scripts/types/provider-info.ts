@@ -2,6 +2,8 @@ export type ArticleSourceType =
   | "news"
   | "release-notes"
   | "model-deprecations"
+  | "platform-deprecations"
+  | "changelog"
   | "blog"
   | "other";
 

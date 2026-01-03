@@ -1,0 +1,9 @@
+- Released[GPT-5.2](https://platform.openai.com/docs/models/gpt-5.2), the newest flagship model in the GPT-5 model family. GPT-5.2 shows improvements over the previous GPT-5.1 in:
+- What's new in 5.2 is a new xhigh reasoning effort level, concise reasoning summaries, and new context management using compaction.
+- General intelligence
+- Instruction following
+- Accuracy and token efficiency
+- Multimodality—especially vision
+- Code generation—especially front-end UI creation
+- Tool calling and context management in the API
+- Spreadsheet understanding and creation.
