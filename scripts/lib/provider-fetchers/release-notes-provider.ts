@@ -171,6 +171,7 @@ export class ReleaseNotesProvider extends BaseProvider {
       string,
       { items: { text: string }[] }
     > = new Map();
+    let skipHeadingInline = false;
 
     for (let i = 0; i < tokens.length; i += 1) {
       const token = tokens[i];
@@ -180,11 +181,21 @@ export class ReleaseNotesProvider extends BaseProvider {
         const detected = this.normalizeDate(content);
         if (detected) {
           currentDate = detected;
+          skipHeadingInline = true;
         }
         continue;
       }
 
+      if (token.type === "heading_close") {
+        continue;
+      }
+
       if (token.type !== "inline" || !token.children || !currentDate) {
+        continue;
+      }
+
+      if (skipHeadingInline) {
+        skipHeadingInline = false;
         continue;
       }
 
@@ -359,30 +370,68 @@ export class ReleaseNotesProvider extends BaseProvider {
     baseUrl: string,
   ): string {
     const parts: string[] = [];
-    let skipNextText = false;
+    let currentHref: string | null = null;
+    let currentText: string[] = [];
+
+    const pushText = (text: string) => {
+      if (!text) return;
+      if (currentHref !== null) {
+        currentText.push(text);
+      } else {
+        parts.push(text);
+      }
+    };
+
     for (let i = 0; i < children.length; i += 1) {
       const child = children[i];
       if (child.type === "link_open") {
         const href =
           child.attrs?.find((tuple) => tuple[0] === "href")?.[1] ?? "";
-        const text = children[i + 1]?.content ?? "";
-        skipNextText = true;
         try {
-          const abs = new URL(href, baseUrl).toString();
-          parts.push(`[${text}](${abs})`);
+          currentHref = new URL(href, baseUrl).toString();
         } catch {
-          parts.push(text || href);
+          currentHref = href;
         }
+        currentText = [];
         continue;
       }
-      if (skipNextText && child.type === "text") {
-        skipNextText = false;
+
+      if (child.type === "link_close") {
+        const text = currentText.join("") || currentHref || "";
+        if (text) {
+          const href = currentHref ?? "";
+          parts.push(href ? `[${text}](${href})` : text);
+        }
+        currentHref = null;
+        currentText = [];
         continue;
       }
+
+      if (child.type === "code_inline") {
+        pushText(`\`${child.content ?? ""}\``);
+        continue;
+      }
+
+      if (child.type === "softbreak" || child.type === "hardbreak") {
+        pushText(" ");
+        continue;
+      }
+
       if (child.type === "text") {
-        parts.push(child.content ?? "");
+        pushText(child.content ?? "");
+        continue;
       }
+
+      // fallback: treat other inline types as plain text
+      pushText(child.content ?? "");
     }
+
+    // flush unclosed link
+    if (currentHref !== null && currentText.length > 0) {
+      const text = currentText.join("") || currentHref;
+      parts.push(`[${text}](${currentHref})`);
+    }
+
     return parts.join("").trim();
   }
 }

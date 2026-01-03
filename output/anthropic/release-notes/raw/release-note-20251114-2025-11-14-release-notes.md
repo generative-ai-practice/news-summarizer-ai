@@ -1,2 +1,0 @@
-- November 14, 2025
-- We've launched [structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) in public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta header .

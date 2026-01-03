@@ -1,2 +1,0 @@
-- December 4, 2025
-- [Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) now supports Claude Haiku 4.5.

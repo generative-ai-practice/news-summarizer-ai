@@ -1,2 +1,0 @@
-- November 19, 2025
-- We've launched a new documentation platform at [platform.claude.com/docs](https://platform.claude.com/docs). Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.
