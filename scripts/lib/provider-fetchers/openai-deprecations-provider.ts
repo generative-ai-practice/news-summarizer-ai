@@ -154,75 +154,52 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
 
   private parseHtml(html: string): ParsedSections {
     const $ = cheerio.load(html);
-    const content = $("main").length ? $("main") : $("body");
     const entriesByDate = new Map<string, { items: string[] }>();
-    const monthShort: Record<string, string> = {
-      jan: "01",
-      feb: "02",
-      mar: "03",
-      apr: "04",
-      may: "05",
-      jun: "06",
-      jul: "07",
-      aug: "08",
-      sep: "09",
-      oct: "10",
-      nov: "11",
-      dec: "12",
-    };
-
-    const extractDate = (text: string): string | null => {
-      const m =
-        text.match(
-          /on\s+([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?,\s*(\d{4})/i,
-        ) || text.match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/i);
-      if (!m) return null;
-      const month =
-        this.monthIndex[m[1].toLowerCase()] ??
-        monthShort[m[1].slice(0, 3).toLowerCase()];
-      if (!month) return null;
-      const day = m[2].padStart(2, "0");
-      const year = m[3];
-      return `${year}-${month}-${day}`;
-    };
-
     const baseUrl = "https://platform.openai.com";
-    let currentDate: string | null = null;
 
-    content.children().each((_, el) => {
-      const $el = $(el);
-      const tag = ($el.get(0)?.tagName || "").toLowerCase();
-      const text = $el.text().trim();
+    $("h3[id]").each((_, heading) => {
+      const $heading = $(heading);
+      const text = $heading.text().trim();
+      const m =
+        text.match(/(\d{4})-(\d{2})-(\d{2})/) ||
+        text.match(/([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/);
+      if (!m) return;
 
-      // 見出しに日付があれば、その日付を現在セクションとして採用
-      const headingDate =
-        extractDate(text) ||
-        text.match(/(\d{4}-\d{2}-\d{2})/)?.[1]?.trim() ||
-        null;
-      if (headingDate) {
-        currentDate = headingDate;
-        if (!entriesByDate.has(headingDate)) {
-          entriesByDate.set(headingDate, { items: [] });
+      let date: string | null = null;
+      if (m.length === 4 && /^\d{4}$/.test(m[1])) {
+        date = `${m[1]}-${m[2]}-${m[3]}`;
+      } else if (m.length === 4) {
+        const month =
+          this.monthIndex[m[1].toLowerCase()] ||
+          m[1].slice(0, 3).toLowerCase();
+        if (month.length === 2) {
+          date = `${m[3]}-${month}-${m[2].padStart(2, "0")}`;
         }
-        return;
       }
+      if (!date) return;
 
-      if (!currentDate) return; // 日付セクション開始前はスキップ
+      const existing = entriesByDate.get(date)?.items ?? [];
+      const items: string[] = [...existing];
 
-      if (tag === "p") {
-        const line = this.serializeInline($el, baseUrl);
-        if (line) {
-          const existing = entriesByDate.get(currentDate)?.items ?? [];
-          entriesByDate.set(currentDate, { items: [...existing, `- ${line}`] });
+      const wrapper = $heading.closest(".anchor-heading-wrapper");
+      const section = wrapper.length
+        ? wrapper.nextUntil(".anchor-heading-wrapper", "p,table")
+        : $heading.nextUntil("h3", "p,table");
+
+      section.each((__, el) => {
+        const $el = $(el);
+        const tag = ($el.get(0)?.tagName || "").toLowerCase();
+        if (tag === "p") {
+          const line = this.serializeInline($el, baseUrl);
+          if (line) items.push(`- ${line}`);
+        } else if (tag === "table") {
+          const lines = this.tableToMarkdown($el, baseUrl);
+          items.push(...lines);
         }
-      } else if (tag === "table") {
-        const lines = this.tableToMarkdown($el, baseUrl);
-        if (lines.length > 0) {
-          const existing = entriesByDate.get(currentDate)?.items ?? [];
-          entriesByDate.set(currentDate, {
-            items: [...existing, ...lines],
-          });
-        }
+      });
+
+      if (items.length > 0) {
+        entriesByDate.set(date, { items });
       }
     });
 
