@@ -170,8 +170,7 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
         date = `${m[1]}-${m[2]}-${m[3]}`;
       } else if (m.length === 4) {
         const month =
-          this.monthIndex[m[1].toLowerCase()] ||
-          m[1].slice(0, 3).toLowerCase();
+          this.monthIndex[m[1].toLowerCase()] || m[1].slice(0, 3).toLowerCase();
         if (month.length === 2) {
           date = `${m[3]}-${month}-${m[2].padStart(2, "0")}`;
         }
@@ -279,7 +278,11 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
   ): string {
     type NodeLike = { type?: string; data?: string; tagName?: string };
     const wrap = (node: NodeLike) =>
-      cheerio.load(node as any).root().children().first();
+      cheerio
+        .load(node as any)
+        .root()
+        .children()
+        .first();
 
     const walk = (node: NodeLike): string => {
       if (!node || typeof node !== "object") return "";

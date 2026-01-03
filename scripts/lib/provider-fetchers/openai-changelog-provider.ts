@@ -279,7 +279,11 @@ export class OpenAIChangelogProvider extends BaseProvider {
   ): string {
     type NodeLike = { type?: string; data?: string; tagName?: string };
     const wrap = (node: NodeLike) =>
-      cheerio.load(node as any).root().children().first();
+      cheerio
+        .load(node as any)
+        .root()
+        .children()
+        .first();
 
     const walk = (node: NodeLike): string => {
       if (!node || typeof node !== "object") return "";
