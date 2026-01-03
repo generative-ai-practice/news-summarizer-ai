@@ -249,14 +249,28 @@ export class OpenAIChangelogProvider extends BaseProvider {
     }
   }
 
-  private serializeInline(el: any, baseUrl: string): string {
-    const walk = (node: any): string => {
-      if (node.type === "text") {
-        return (node.data ?? "").trim();
+  private serializeInline(
+    el: cheerio.Cheerio<unknown>,
+    baseUrl: string,
+  ): string {
+    type NodeLike = { type?: string; data?: string; tagName?: string };
+    const toCheerio = (node: NodeLike) => {
+      const ctor = el.constructor as unknown as (
+        input: unknown,
+      ) => cheerio.Cheerio<unknown>;
+      return ctor(node);
+    };
+    const walk = (node: unknown): string => {
+      if (!node || typeof node !== "object") return "";
+      const n = node as NodeLike;
+      if (n.type === "text") {
+        return (n.data ?? "").toString().trim();
       }
-      if (node.type !== "tag") return "";
-      const $node = el.constructor(node) as any;
-      const tag = ($node.get(0)?.tagName ?? "").toLowerCase();
+      if (n.type !== "tag") return "";
+      const $node = toCheerio(n);
+      const tag = (
+        ($node.get(0) as NodeLike | undefined)?.tagName ?? ""
+      ).toLowerCase();
       if (tag === "a") {
         const hrefRaw = $node.attr("href") ?? "";
         const href = this.toAbsoluteUrl(hrefRaw, baseUrl);
@@ -268,16 +282,19 @@ export class OpenAIChangelogProvider extends BaseProvider {
       }
       const parts = $node
         .contents()
-        .map((_: unknown, child: any) => walk(child as any))
+        .map((_: unknown, child: unknown) => walk(child))
         .toArray();
       return parts.join("").replace(/\s+/g, " ").trim();
     };
 
-    const first = el.get(0) as any;
+    const first = el.get(0) as unknown;
     return first ? walk(first) : "";
   }
 
-  private tableToMarkdown(table: any, baseUrl: string): string[] {
+  private tableToMarkdown(
+    table: cheerio.Cheerio<unknown>,
+    baseUrl: string,
+  ): string[] {
     const rows: string[][] = [];
     table.find("tr").each((rowIdx: number) => {
       const cells: string[] = [];
