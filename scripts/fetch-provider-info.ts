@@ -18,9 +18,11 @@ const parseArgs = (): CliArgs => {
   const providerArg = args.find((arg) => arg.startsWith("--provider="));
   const dryRun = args.includes("--dry-run");
   const providerStr = providerArg ? providerArg.split("=")[1] : "anthropic";
-  const provider = (["anthropic", "openai", "all"].includes(providerStr)
-    ? providerStr
-    : "anthropic") as CliArgs["provider"];
+  const provider = (
+    ["anthropic", "openai", "all"].includes(providerStr)
+      ? providerStr
+      : "anthropic"
+  ) as CliArgs["provider"];
   return { provider, dryRun };
 };
 

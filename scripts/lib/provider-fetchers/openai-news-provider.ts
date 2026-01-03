@@ -362,7 +362,8 @@ export class OpenAINewsProvider extends BaseProvider {
           }
           if (typeof node === "object") {
             const obj = node as Record<string, unknown>;
-            const val = obj.datePublished ?? obj.dateCreated ?? obj.dateModified;
+            const val =
+              obj.datePublished ?? obj.dateCreated ?? obj.dateModified;
             if (typeof val === "string") add(val);
             Object.values(obj).forEach(scan);
           }
@@ -382,9 +383,9 @@ export class OpenAINewsProvider extends BaseProvider {
     );
     if (plainIso) add(plainIso[1]);
 
-    const jpDates = [
-      ...html.matchAll(/(\d{4})年(\d{1,2})月(\d{1,2})日/g),
-    ].map((m) => `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`);
+    const jpDates = [...html.matchAll(/(\d{4})年(\d{1,2})月(\d{1,2})日/g)].map(
+      (m) => `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`,
+    );
     jpDates.forEach((d) => add(d));
 
     let best: { date: string; ms: number } | null = null;

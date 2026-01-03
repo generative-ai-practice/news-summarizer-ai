@@ -124,10 +124,14 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
         latestData,
       );
     } else {
-      log("[openai-deprecations] dry-run: latest-deprecations.json not written");
+      log(
+        "[openai-deprecations] dry-run: latest-deprecations.json not written",
+      );
     }
 
-    log(`[openai-deprecations] processData done in ${Date.now() - startedAt}ms`);
+    log(
+      `[openai-deprecations] processData done in ${Date.now() - startedAt}ms`,
+    );
   }
 
   async generateReport(): Promise<void> {
@@ -166,11 +170,17 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
           $(node)
             .find("li")
             .each((___, li) => {
-              const text = this.serializeInline($(li), "https://platform.openai.com");
+              const text = this.serializeInline(
+                $(li),
+                "https://platform.openai.com",
+              );
               if (text) items.push(`- ${text}`);
             });
         } else if (tag === "p") {
-          const text = this.serializeInline($(node), "https://platform.openai.com");
+          const text = this.serializeInline(
+            $(node),
+            "https://platform.openai.com",
+          );
           if (text) items.push(`- ${text}`);
         } else if (tag === "table") {
           this.tableToMarkdown($(node), "https://platform.openai.com").forEach(
