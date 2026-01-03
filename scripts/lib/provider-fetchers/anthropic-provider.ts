@@ -1,3 +1,4 @@
+import MarkdownIt from "markdown-it";
 import { BaseProvider } from "./base-provider";
 import {
   Article,
@@ -33,11 +34,12 @@ export class AnthropicProvider extends BaseProvider {
   private readonly releaseNotesMarkdownUrl =
     "https://platform.claude.com/docs/en/release-notes/overview.md";
   private readonly dryRun: boolean;
-  private readonly cutoffDate = "2025-12-01";
+  private readonly cutoffDate = "2025-11-01";
   private currentArticles: Article[] = [];
   private previousArticles: Article[] = [];
   private newArticles: Article[] = [];
   private processed: ProcessedResult[] = [];
+  private readonly md = new MarkdownIt();
 
   constructor(
     private readonly geminiExtractor: GeminiExtractor,
@@ -201,32 +203,87 @@ export class AnthropicProvider extends BaseProvider {
   private async fetchReleaseNotesFromMarkdown(url: string): Promise<Article[]> {
     const startedAt = Date.now();
     log(`[anthropic] fetch release-notes (markdown) => ${url}`);
-    const md = await this.fetchHtml(url);
+    const mdSource = await this.fetchHtml(url);
+    const tokens = this.md.parse(mdSource, {});
 
-    const lines = md.split("\n");
+    const isoDateRegex = /(\d{4}-\d{2}-\d{2})/;
+    const longDateRegex = /([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/;
+    const monthIndex: Record<string, string> = {
+      january: "01",
+      february: "02",
+      march: "03",
+      april: "04",
+      may: "05",
+      june: "06",
+      july: "07",
+      august: "08",
+      september: "09",
+      october: "10",
+      november: "11",
+      december: "12",
+    };
+
+    const normalizeDate = (raw: string): string | null => {
+      const iso = raw.match(isoDateRegex);
+      if (iso) return iso[1];
+      const long = raw.match(longDateRegex);
+      if (!long) return null;
+      const month = monthIndex[long[1].toLowerCase()];
+      if (!month) return null;
+      const day = long[2].padStart(2, "0");
+      const year = long[3];
+      return `${year}-${month}-${day}`;
+    };
+
     const results: Article[] = [];
-    const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
-    const dateRegex = /(\d{4}-\d{2}-\d{2})/;
+    let currentDate: string | null = null;
 
-    for (const line of lines) {
-      const dateMatch = line.match(dateRegex);
-      if (!dateMatch) continue;
-      const publishedDate = dateMatch[1];
-      let linkMatch: RegExpExecArray | null;
-      linkRegex.lastIndex = 0;
-      while ((linkMatch = linkRegex.exec(line)) !== null) {
-        const title = linkMatch[1].trim();
-        const urlFound = linkMatch[2].trim();
-        if (!title || !urlFound) continue;
-        results.push({
-          title,
-          url: urlFound,
-          publishedDate,
-          source: "release-notes",
-          slug: "",
-          language: "en",
-          summaryLanguage: "ja",
-        });
+    for (let i = 0; i < tokens.length; i += 1) {
+      const token = tokens[i];
+
+      if (token.type === "heading_open") {
+        const content = tokens[i + 1]?.content ?? "";
+        const detected = normalizeDate(content);
+        if (detected) {
+          currentDate = detected;
+        }
+        continue;
+      }
+
+      if (token.type !== "inline" || !token.children || !currentDate) {
+        continue;
+      }
+
+      for (let j = 0; j < token.children.length; j += 1) {
+        const child = token.children[j];
+        if (child.type !== "link_open") continue;
+        const href =
+          child.attrs?.find(
+            (tuple: [string, string]) => tuple[0] === "href",
+          )?.[1] ?? "";
+        const titleToken = token.children[j + 1];
+        const title = titleToken?.content?.trim() ?? "";
+        if (!href || !title) continue;
+
+        try {
+          const parsed = new URL(href, "https://platform.claude.com");
+          const isReleaseNotesHost = parsed.hostname === "platform.claude.com";
+          const isReleaseNotesPath =
+            parsed.pathname.includes("/release-notes/");
+          if (!(isReleaseNotesHost && isReleaseNotesPath)) continue;
+
+          results.push({
+            title,
+            url: parsed.toString(),
+            publishedDate: currentDate,
+            source: "release-notes",
+            slug: "",
+            language: "en",
+            summaryLanguage: "ja",
+          });
+        } catch {
+          continue;
+        }
       }
     }
 

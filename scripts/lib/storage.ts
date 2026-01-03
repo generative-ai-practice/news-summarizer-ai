@@ -32,7 +32,11 @@ export const loadJSON = async <T>(filePath: string): Promise<T | null> => {
   }
 };
 
-export const generateTimestamp = () => new Date().toISOString();
+export const generateTimestamp = () => {
+  const now = new Date();
+  const jst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  return jst.toISOString().replace("Z", "+09:00");
+};
 
 const formatDatePrefix = (publishedDate?: string) => {
   if (!publishedDate) return "";

@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-01T17:36:09.591Z",
+  "lastChecked": "2026-01-03T14:26:06.471+09:00",
   "articles": [
     {
       "title": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
@@ -73,6 +73,24 @@
       "language": "en",
       "summaryLanguage": "ja",
       "slug": "20251202-claude-for-nonprofits"
+    },
+    {
+      "title": "console.anthropic.com",
+      "url": "https://console.anthropic.com",
+      "publishedDate": "2025-12-16",
+      "source": "release-notes",
+      "slug": "20251216-console-anthropic-com",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "platform.claude.com",
+      "url": "https://platform.claude.com",
+      "publishedDate": "2025-12-16",
+      "source": "release-notes",
+      "slug": "20251216-platform-claude-com",
+      "language": "en",
+      "summaryLanguage": "ja"
     }
   ]
 }
