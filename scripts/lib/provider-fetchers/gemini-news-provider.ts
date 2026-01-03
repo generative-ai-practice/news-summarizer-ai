@@ -243,10 +243,7 @@ export class GeminiNewsProvider extends BaseProvider {
           buildOutputPath(this.provider, "articles", "summaries"),
         );
         await saveText(rawPath, html ?? "");
-        await saveText(
-          summaryPath,
-          [header, "", cleanedSummary].join("\n"),
-        );
+        await saveText(summaryPath, [header, "", cleanedSummary].join("\n"));
       }
 
       log(
