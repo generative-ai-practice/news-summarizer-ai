@@ -7,25 +7,22 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Build with Gemini Deep Research
 
-**Published:** 2025-12-11
-**URL:** https://blog.google/technology/developers/deep-research-agent-gemini-api/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Googleは、より強力なGemini Deep ResearchエージェントをInteractions APIを通じてリリースし、開発者が高度な調査をアプリケーションに組み込めるようにしました。開発者はGoogle AI StudioのGemini APIキーを使用してこのエージェントにアクセスできます。
+Googleは、大幅に強化されたGemini Deep ResearchエージェントをInteractions APIを通じて開発者向けにリリースしました。これにより、開発者はGoogleの最も高度な自律的リサーチ機能を自身のアプリケーションに直接組み込むことが可能になります。このエージェントは、長期間にわたる情報収集と合成タスクに最適化されており、Google AI StudioのGemini APIキーを使用してアクセスできます。
 
-また、Googleはウェブ調査タスクにおけるエージェントの網羅性をテストするためのオープンソースベンチマークであるDeepSearchQAも公開しています。これにより、エージェントの複雑なウェブ調査における包括性を評価できます。このエージェントはすでに金融サービスやバイオテクノロジーといった分野で、初期調査タスクを自動化し、リサーチサイクルを大幅に短縮するなど、具体的な成果を上げています。
+さらに、Googleは、複雑な多段階ウェブ調査の包括性を評価するために設計された新しいベンチマーク「DeepSearchQA」をオープンソース化しました。このGemini Deep Researchエージェントは、Humanity’s Last Exam (HLE) とDeepSearchQAで最先端の結果を達成し、BrowseCompでも高い性能を示しています。エージェントの推論コアには、幻覚を減らしレポート品質を最大化するよう特別に訓練されたGemini 3 Proが採用されています。
+
+すでに金融サービスやバイオテクノロジーなどの分野で、デューデリジェンスや創薬研究における初期リサーチ作業を大幅に自動化し、リサーチサイクルを短縮する効果が確認されています。開発者向けには、統一された情報合成、レポートの制御性、詳細な引用、構造化された出力といった機能が提供され、将来的にはGoogle検索、NotebookLM、Google Finance、Geminiアプリなどにも統合され、Vertex AIでの提供も計画されています。
 
 ## Key Points
-- より強力なGemini Deep ResearchエージェントがInteractions APIを通じて開発者向けに公開されました。
-- このエージェントはGemini 3 Proを推論コアに採用し、ハルシネーションを削減し、レポートの品質を最大化するように訓練されています。
-- 複雑な多段階のウェブ調査タスクにおけるエージェントの網羅性を評価するための新たなオープンソースベンチマーク「DeepSearchQA」がリリースされました。
-- Gemini Deep Researchは、金融サービスやバイオテクノロジーなどの分野で、デューデリジェンスの自動化や医薬品発見プロセスの加速に貢献しています。
-- エージェントは、文書と公開ウェブデータの統一された情報統合、レポートの操縦性、詳細な引用、構造化されたJSONスキーマ出力を特徴としています。
+-   強化されたGemini Deep Researchエージェントが、Interactions APIを通じて開発者向けに公開されました。
+-   新しいウェブ調査エージェントベンチマーク「DeepSearchQA」がオープンソース化され、複雑な多段階情報探索タスクの評価に貢献します。
+-   エージェントの推論コアは、幻覚を削減し、レポート品質を最大化するために訓練されたGoogleのGemini 3 Proを使用しています。
+-   金融サービスやバイオテクノロジーなどの分野で、デューデリジェンスや創薬の初期リサーチ作業を大幅に加速しています。
+-   開発者向けには、ドキュメントとウェブデータの統一された情報合成、レポートの制御、詳細な引用、構造化されたJSON出力機能が提供されます。
 
 ---
 

@@ -211,12 +211,13 @@ export class GeminiNewsProvider extends BaseProvider {
         publishedDate: updatedArticle.publishedDate,
         source: updatedArticle.source,
       });
+      const cleanedSummary = this.stripMetaLines(summary);
 
       const rawPath = buildOutputPath(
         this.provider,
         "articles",
         "raw",
-        `article-${updatedArticle.slug}.md`,
+        `article-${updatedArticle.slug}.html`,
       );
       const summaryPath = buildOutputPath(
         this.provider,
@@ -242,10 +243,7 @@ export class GeminiNewsProvider extends BaseProvider {
           buildOutputPath(this.provider, "articles", "summaries"),
         );
         await saveText(rawPath, html ?? "");
-        await saveText(
-          summaryPath,
-          [header, "", "## Summary", summary].join("\n"),
-        );
+        await saveText(summaryPath, [header, "", cleanedSummary].join("\n"));
       }
 
       log(
@@ -258,6 +256,24 @@ export class GeminiNewsProvider extends BaseProvider {
       log("[gemini-news] failed to process article:", error);
       return { article, error };
     }
+  }
+
+  private stripMetaLines(content: string): string {
+    const metaPatterns = [
+      /^\*\*Published:\*\*/i,
+      /^\*\*URL:\*\*/i,
+      /^\*\*Source:\*\*/i,
+      /^\*\*Language:\*\*/i,
+      /^\*\*Source-Medium:\*\*/i,
+    ];
+    const lines = content.split("\n");
+    const filtered = lines.filter((line) => {
+      return !metaPatterns.some((re) => re.test(line.trim()));
+    });
+    while (filtered.length && filtered[0].trim() === "") filtered.shift();
+    while (filtered.length && filtered[filtered.length - 1].trim() === "")
+      filtered.pop();
+    return filtered.join("\n");
   }
 
   private async fetchRss(url: string): Promise<string> {

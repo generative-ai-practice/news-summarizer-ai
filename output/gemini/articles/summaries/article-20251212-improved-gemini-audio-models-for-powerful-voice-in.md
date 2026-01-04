@@ -7,24 +7,20 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Improved Gemini audio models for powerful voice interactions
 
-**Published:** 2025-12-12
-**URL:** https://blog.google/products/gemini/gemini-audio-model-updates/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Googleは、ライブ音声エージェントを向上させるため、Gemini 2.5 Flash Native Audioを強化しました。これにより、より正確な関数呼び出し、堅牢な指示理解、そしてよりスムーズな会話が期待できます。
-また、Google翻訳アプリのベータ版でライブ音声翻訳機能が利用可能になり、現在米国、メキシコ、インドのAndroidデバイスで展開中です。
+Googleは、ライブ音声エージェント向けにGemini 2.5 Flash Native Audioモデルを強化しました。このアップデートにより、機能呼び出しの精度が向上し、より堅牢な指示追従が可能になり、会話がよりスムーズになります。
+
+この強化されたモデルは、Google AI Studio、Vertex AI、Gemini Live、Search Liveを含む様々なGoogle製品で利用可能になり、より効果的なライブでのブレインストーミングやリアルタイムでの支援、次世代のカスタマーサービスエージェント構築を可能にします。また、話者のイントネーション、ペース、ピッチを維持するライブ音声翻訳機能がGoogle翻訳アプリのベータ版で提供開始され、米国、メキシコ、インドのAndroidデバイスに順次展開されています。
 
 ## Key Points
-- 「強力な音声インタラクションのためのGeminiオーディオモデルの改善」は、ライブエージェントと翻訳機能を強化します。
-- Gemini 2.5 Flash Native Audioは、より正確な関数呼び出しと、より堅牢な指示理解を可能にしました。
-- このアップデートにより、以前のターンからの文脈をより効果的に取得することで、よりスムーズな会話が実現します。
-- Google翻訳のライブ音声翻訳は、話者の抑揚を保持し、70以上の言語に対応します。
-- Gemini 2.5 Flash Native AudioはVertex AIで一般提供されており、今日から音声エージェントの構築を開始できます。
+- 「パワフルな音声インタラクションのためのGeminiオーディオモデルの改善」は、ライブエージェントと翻訳機能を強化する。
+- Gemini 2.5 Flash Native Audioは、よりシャープな関数呼び出しとより優れた指示追従能力を持つ。
+- この更新により、以前のターンから文脈を取得することで、よりスムーズな会話が可能になる。
+- Google翻訳のライブ音声翻訳は、イントネーションを保持し、70以上の言語に対応する。
+- Gemini 2.5 Flash Native AudioはVertex AIで一般提供され、Gemini APIでプレビュー可能であり、音声エージェント構築を今すぐ開始できる。
 
 ---
 

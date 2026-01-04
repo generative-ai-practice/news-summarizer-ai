@@ -7,25 +7,22 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Watch a podcast discussion about Gemini 3 and the future of Search.
 
-**Published:** 2025-12-18
-**URL:** https://blog.google/technology/ai/release-notes-podcast-search/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Google AI: Release Notes ポッドキャストの最新エピソードでは、Googleが最も高性能なフロンティアモデルを検索に直接統合する方法が取り上げられています。ホストのLogan Kilpatrickは、Robby SteinとRhiannon Bellと共に、Gemini 3が高度な推論とコーディング能力をどのように活用し、物理シミュレーションからライブグラフまであらゆるものを生成して、複雑なユーザーの質問を解決しているかについて議論しています。
+Google AI: Release Notesポッドキャストの最新エピソードでは、Googleが最も高性能なフロンティアモデルをGoogle検索に直接統合する方法について詳しく説明されています。ホストのLogan Kilpatrickが、Robby SteinとRhiannon Bellをゲストに迎え、その詳細を掘り下げています。
 
-このエピソードでは、これらの革新的な機能を何百万人ものユーザーに提供するための技術的な取り組みについても深く掘り下げています。このポッドキャストは、Google検索の未来と、AIモデルがどのようにその進化を推進しているかを理解するための洞察を提供します。
+このエピソードでは、Gemini 3が高度な推論とコーディング能力をどのように活用し、物理シミュレーションやライブグラフの作成など、ユーザーの複雑な質問を解決しているかについて議論されています。また、これらの革新的な機能を何百万人ものユーザーに提供するための技術的な取り組みについても語られています。
+
+ポッドキャストのエピソードは、Apple PodcastsやSpotifyでも視聴可能です。
 
 ## Key Points
-- Google AI: Release Notes ポッドキャストの最新エピソード。
-- 最先端のフロンティアAIモデルをGoogle検索に直接統合する方法を議論。
-- Gemini 3が高度な推論とコーディング能力で複雑なユーザーの質問を解決。
-- 物理シミュレーションやライブグラフなどのインタラクティブな機能を作成。
-- 新機能を何百万人ものユーザーに提供する技術的取り組みに焦点を当てる。
+- Google AI: Release Notesポッドキャストの最新エピソードが、高性能AIモデルのGoogle検索への統合を特集。
+- Gemini 3が高度な推論とコーディング能力により複雑なユーザーの質問を解決。
+- 物理シミュレーションやライブグラフといったインタラクティブなグラフィックの生成が可能。
+- これらの機能を何百万人ものユーザーに提供するための技術的側面が議論された。
+- ポッドキャストはApple PodcastsとSpotifyで利用可能。
 
 ---
 

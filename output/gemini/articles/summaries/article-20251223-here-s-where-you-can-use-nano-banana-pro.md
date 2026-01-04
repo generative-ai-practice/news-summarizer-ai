@@ -7,27 +7,20 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Here’s where you can use Nano Banana Pro
 
-**Published:** 2025-12-23
-**URL:** https://blog.google/products/gemini/where-to-use-nano-banana-pro/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Nano Banana Proは、Googleの最新の画像生成および編集モデルであり、Gemini 3 Proを活用して、より高い精度、奥行き、ニュアンス、そして驚くほどの詳細さで画像を生成します。このモデルは、Geminiアプリ、検索のAIモード、NotebookLMなど、様々なGoogle製品で利用可能です。
+Nano Banana Proは、Googleの最新の画像生成および編集モデルであり、Gemini 3 Proを活用して、より高い精度、深み、ニュアンス、そして驚くべき詳細さで画像を生成します。このモデルは、Geminiアプリ、検索のAIモード、NotebookLM、そしてGoogle WorkspaceのSlidesやVidsといったツールを含む様々なGoogle製品で利用できます。
 
-WorkspaceのユーザーはGoogleスライドやGoogle VidsでNano Banana Proを利用でき、インフォグラフィックや画像、チャートの作成、さらにはスライドのデザイン強化に役立ちます。また、AI映画制作ツールのFlowや、アイデアを視覚的に表現し、美しいプレゼンテーションを作成できるMixboardといったGoogle Labsの実験的なツールでも提供されています。
-
-さらに、開発者向けにはVertex AI、AI Studio、Stitch、Firebaseを通じてNano Banana Proにアクセスでき、企業やブランドはGoogle広告でも活用可能です。これにより、幅広いユーザーと開発者が、Nano Banana Proの高度な画像生成・編集機能を多岐にわたる用途で利用できるようになります。
+さらに、Nano Banana ProはAI映画制作ツールFlowや、アイデアの探求・洗練を支援するMixboardでも利用可能です。開発者向けには、Vertex AI、AI Studio、Stitch、Firebase、Antigravityといったプラットフォームを通じてアクセスでき、企業やブランドはGoogle広告でも活用できます。
 
 ## Key Points
-- Nano Banana Proは、Gemini 3 Proを搭載したGoogleの最新画像生成・編集モデルです。
-- Geminiアプリ、検索のAIモード、NotebookLMで利用可能で、より詳細でニュアンスのある画像を生成できます。
-- Google Workspaceユーザーは、GoogleスライドやGoogle VidsでNano Banana Proを使用し、視覚コンテンツを強化できます。
-- AI映画制作ツールのFlowと、プレゼンテーション作成支援ツールのMixboardでも利用が可能です。
-- 開発者向けにはVertex AI、AI Studio、Stitch、Firebase、Antigravityを通じてアクセスでき、Google広告でも利用が推奨されています。
+- Googleの新しい画像生成・編集モデル「Nano Banana Pro」が発表されました。
+- Nano Banana Proは、Geminiアプリ、検索のAIモード、NotebookLMで利用可能です。
+- Workspaceユーザーは、Google SlidesやGoogle Vidsで視覚効果向上のためにNano Banana Proを使用できます。
+- AI映画制作ツールFlowやプレゼンテーション作成ツールMixboardでもNano Banana Proが利用可能です。
+- 開発者はVertex AI、AI Studioなどのプラットフォームを通じてNano Banana Proにアクセスでき、Google広告でも利用可能です。
 
 ---
 

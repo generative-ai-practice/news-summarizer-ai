@@ -7,25 +7,22 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Gemini 3 Flash: frontier intelligence built for speed
 
-**Published:** 2025-12-17
-**URL:** https://blog.google/products/gemini/gemini-3-flash/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Googleは、速度とコスト効率に特化したフロンティアAIモデル「Gemini 3 Flash」を発表しました。この最新モデルは、Gemini 3シリーズの高度な推論能力を維持しつつ、Flashレベルの低遅延、高効率、低コストを実現しています。これにより、複雑な推論、マルチモーダルな理解、エージェント的なタスクにおいて、より迅速な処理が可能となります。
+Googleは、速度とコスト効率に優れたフロンティアAIモデル「Gemini 3 Flash」をリリースしました。このモデルは、Gemini 3モデルファミリーを拡張し、次世代の知能をGoogle製品全体でより多くのユーザーが利用できるようにします。
 
-Gemini 3 Flashは、すでにGeminiアプリと検索のAIモードで世界中のユーザーに展開されており、日常的なタスクを大幅に向上させます。開発者向けには、Gemini API（Google AI Studio、Google Antigravity、Gemini CLI、Android Studioを含む）およびVertex AI、Gemini Enterpriseを通じて利用可能となり、高速で応答性の高いアプリケーション開発やエージェントワークフローへの活用が期待されています。
+Gemini 3 Flashは、複雑な推論、マルチモーダルおよび視覚理解、エージェントタスクにおいてGemini 3 Proグレードの性能を維持しつつ、Flashレベルの低レイテンシー、高効率、低コストを実現しています。これにより、開発者はGemini API、Google AI Studio、Google Antigravityなどのプラットフォームを通じて利用でき、一般ユーザーはGeminiアプリやGoogle検索のAIモードで利用可能です。また、企業向けにはVertex AIやGemini Enterpriseでも提供されます。
+
+この新しいモデルは、日常のタスクを改善するだけでなく、エージェントワークフローにおいても非常に優れた性能を発揮します。コーディング、複雑な分析、インタラクティブなアプリでの迅速な回答など、幅広い用途で活用され、特に高速な応答と深い推論が求められるアプリケーションに理想的です。
 
 ## Key Points
-- Googleは、高速かつコスト効率に優れたフロンティアAIモデル「Gemini 3 Flash」をリリースした。
-- Gemini 3 Flashは、Gemini 3 Proの高度な推論能力を、Flashレベルの速度、効率、低コストで提供する。
-- コーディング、複雑な分析、対話型アプリでの迅速な回答、エージェントワークフローなどに最適化されている。
-- Geminiアプリと検索のAIモードにおいて、Gemini 3 Flashがデフォルトモデルとして世界中で展開される。
-- 開発者は、Gemini API、Google Antigravity、Gemini CLI、Android Studio、Vertex AI、Gemini Enterpriseを通じてアクセス可能。
+- 「Gemini 3 Flash: frontier intelligence built for speed」は、高速で効率的なAIモデルとして導入されました。
+- Gemini 3 Flashは、Proグレードの推論能力をFlashレベルの速度と低コストで提供します。
+- コーディング、複雑な分析、インタラクティブなアプリでの迅速な回答に優れています。
+- GeminiアプリおよびGoogle検索のAIモードで、デフォルトモデルとして展開されます。
+- 開発者と一般ユーザーは、さまざまなGoogleプラットフォームを通じてGemini 3 Flashにアクセスできます。
 
 ---
 

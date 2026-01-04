@@ -7,25 +7,22 @@ source_medium: "Google Gemini Blog"
 language: "ja"
 ---
 
-## Summary
 # Build interactive mini apps with Opal in the Gemini app.
 
-**Published:** 2025-12-17
-**URL:** https://blog.google/technology/google-labs/mini-apps-opal-gemini-app-experiment/
-**Source:** news
-**Language:** ja
 
 ## Summary
-Googleは、AI搭載ミニアプリ構築ツールであるOpalをGeminiウェブアプリで直接利用できるようにしました。これにより、ユーザーはGeminiウェブアプリ内で実験的な「Gem」を作成できるようになり、よりパーソナライズされたGemini体験を実現できます。
+Googleは、AI搭載ミニアプリ構築ツール「Opal」をGeminiウェブアプリ内で直接利用できるようにしました。これにより、ユーザーは実験的な「Gems」を作成し、Geminiの体験をさらにパーソナライズできるようになります。OpalはGeminiのGemsマネージャーからアクセスでき、再利用可能なミニアプリを簡単に作成することが可能です。
 
-Opalのビジュアルエディターには新しいビューが追加され、プロンプトがステップのリストに変換されるため、ミニアプリの動作の理解や編集が容易になりました。さらに高度なカスタマイズが必要な場合は、opal.googleのAdvanced Editorに切り替えることで、よりきめ細かな制御が可能となります。この機能はGeminiウェブアプリで本日より利用可能です。
+Opalのビジュアルエディターには、プロンプトをステップのリストに変換する新しいビューが導入されました。これにより、ミニアプリの仕組みをより直感的に理解し、編集することが容易になります。
+
+さらに高度なカスタマイズが必要な場合は、opal.googleで利用可能なAdvanced Editorに切り替えることで、アプリをより詳細に制御するオプションが提供されています。この新しい機能は、Geminiウェブアプリで本日より実験として利用開始されます。
 
 ## Key Points
-- AI搭載ミニアプリ構築ツール「Opal」がGeminiウェブアプリで直接利用可能になった。
-- ユーザーはGeminiアプリ内で実験的な「Gem」（再利用可能なミニアプリ）を作成できる。
-- Opalのビジュアルエディターに、プロンプトをステップのリストに変換する新機能が追加された。
-- 高度なカスタマイズには、opal.googleのAdvanced Editorへの切り替えが可能。
-- この新機能はGeminiウェブアプリで本日より試用できる。
+- AI搭載ミニアプリ構築ツール「Opal」がGeminiウェブアプリに直接統合された。
+- ユーザーはOpalを利用して、よりパーソナライズされたGemini体験のための実験的な「Gems」（再利用可能なミニアプリ）を作成できる。
+- Opalのビジュアルエディターに、プロンプトをステップリストに変換する新ビューが追加され、ミニアプリの理解と編集が容易になった。
+- 高度なカスタマイズオプションのために、opal.googleでAdvanced Editorを利用できる。
+- この新機能は、本日よりGeminiウェブアプリで実験として提供されている。
 
 ---
 
