@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-16T13:38:19.196Z",
+  "generatedAt": "2026-01-16T13:42:43.834Z",
   "items": [
     {
       "id": "gemini-articles-article-20260115-how-nano-banana-got-its-name.md",
@@ -10,7 +10,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Google DeepMindのモデル「Nano Banana」という名称は、プロダクトマネージャーNaina Raisinghani氏のニックネーム「Naina Banana」と「Nano」を組み合わせたものである。"
+      "summary": "",
+      "summaryLines": [
+        "Google DeepMindのモデル「Nano Banana」という名称は、プロダクトマネージャーNaina Raisinghani氏のニックネーム「Naina Banana」と「Nano」を組み合わせたものである。",
+        "このコードネームは、AIモデルを匿名で比較評価する公開プラットフォームLMArenaでのテスト開始直前、深夜に急遽決定された。",
+        "Nano Bananaは、LMArenaでその優れた画像編集能力（人物の描写維持、複数画像の結合、正確なテキスト生成など）がユーザーから高く評価され、ソーシャルメディアで大きな話題を呼んだ。",
+        "正式リリース後、Nano Bananaは世界で最も評価の高い画像編集モデルとなり、AI Studioの実行ボタンが黄色になるなど、そのユニークなブランド名が製品に反映された。",
+        "最新モデル「Gemini 3 Pro Image」も「Nano Banana Pro」というブランド名を引き継いでおり、チームはこの遊び心のある名称を積極的に採用している。"
+      ]
     },
     {
       "id": "openai-articles-article-20260115-investing-in-merge-labs.md",
@@ -21,7 +28,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、人間の能力、主体性、経験を最大化するため、生物学的知能と人工知能を橋渡しする新しいブレイン・コンピューター・インターフェース（BCI）を支援するため、Merge Labsのシードラウンドに投資しています。"
+      "summary": "",
+      "summaryLines": [
+        "OpenAIは、人間の能力、主体性、経験を最大化するため、生物学的知能と人工知能を橋渡しする新しいブレイン・コンピューター・インターフェース（BCI）を支援するため、Merge Labsのシードラウンドに投資しています。",
+        "Merge Labsは、生物学、デバイス、AIを組み合わせることで、安全かつ高帯域幅で脳とインターフェースする根本的に新しいBCIアプローチを開発している研究機関です。",
+        "AIはMerge Labsのアプローチにおいて中心的な役割を担い、バイオエンジニアリング、神経科学、デバイスエンジニアリングを含む研究開発を加速させます。",
+        "OpenAIは、Merge Labsと科学的な基盤モデルやその他の最先端ツールで協力し、進歩を加速させることを目指しています。",
+        "Merge Labsの共同創業者には、BCIの新しいアプローチを開拓した研究者（Mikhail Shapiro、Tyson Aflalo、Sumner Norman）と、個人的な立場のテクノロジー起業家（Alex Blania、Sandro Herbig、Sam Altman）が含まれます。"
+      ]
     },
     {
       "id": "openai-articles-article-20260115-strengthening-the-u-s-ai-supply-chain-through-dome.md",
@@ -32,7 +46,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "AIインフラの構築は、米国の国内サプライチェーン強化、再工業化、雇用創出、およびAI分野におけるリーダーシップ確立の歴史的機会となる。"
+      "summary": "",
+      "summaryLines": [
+        "AIインフラの構築は、米国の国内サプライチェーン強化、再工業化、雇用創出、およびAI分野におけるリーダーシップ確立の歴史的機会となる。",
+        "OpenAIは、Stargateイニシアチブを通じて10ギガワットの電力容量コミットメントの半分以上を達成し、国内AIサプライチェーンの強化と米国製造能力への投資を加速している。",
+        "データセンターの入力、家電製品、ロボット工学など、AIサプライチェーンの主要部分における米国ベースの製造に焦点を当てた新たな提案依頼書（RFP）を開始した。",
+        "RFPでは、家電製品のモジュール、工具、最終組み立て、コンピューティング、電力、冷却、データセンターハードウェアの製造、および高度なロボット工学の重要部品に関する提案を募集している。",
+        "このRFPは、AIインフラが大規模に拡大する中で、リードタイムの短縮、回復力の強化、技術的リーダーシップの拡大を支援する国内製造能力を特定し、実現することを目的としており、提案の締め切りは2026年6月である。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20260114-2026-01-14-changelog.md",
@@ -43,7 +64,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "`text-embedding-004` モデルは[停止されました](https://ai.google.dev/gemini-api/docs/deprecations)。"
+      "summary": "`text-embedding-004` モデルは[停止されました](https://ai.google.dev/gemini-api/docs/deprecations)。",
+      "summaryLines": [
+        "# 2026年1月14日 変更履歴",
+        "`text-embedding-004` モデルは[停止されました](https://ai.google.dev/gemini-api/docs/deprecations)。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20260114-2026-01-14-changelog.md",
@@ -54,7 +79,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "`gpt-5.2-codex`をResponses APIにリリースしました。GPT-5.2-Codexは、Codexまたは同様の環境におけるエージェント型コーディングタスクに最適化されたGPT-5.2のバージョンです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.2-codex)。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-articles-article-20260114-gemini-introduces-personal-intelligence.md",
@@ -65,7 +91,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Geminiアプリの「Personal Intelligence」機能が導入され、米国の一部のGoogle AI ProおよびAI Ultra加入者向けにベータ版が提供開始されました。"
+      "summary": "",
+      "summaryLines": [
+        "Geminiアプリの「Personal Intelligence」機能が導入され、米国の一部のGoogle AI ProおよびAI Ultra加入者向けにベータ版が提供開始されました。",
+        "この機能はGmailやGoogle PhotosなどのGoogleアプリと連携することで、ユーザーの個人情報に基づき、よりパーソナルで、先を見越した、強力なアシスタンスを提供します。",
+        "ユーザーは、タイヤのサイズ検索や家族旅行の計画など、複数の情報源から推論し、テキスト、写真、ビデオを横断して具体的な詳細を取得できます。",
+        "プライバシーを重視しており、アプリ連携はデフォルトでオフで、ユーザーが接続するアプリを選択し、いつでもオフにできます。個人データはモデルの直接的なトレーニングには使用されず、特定の要求に応じて参照されます。",
+        "ベータ版では不正確な応答や「過度なパーソナライゼーション」が発生する可能性があるため、Googleはユーザーからのフィードバックを基に改善を進めています。"
+      ]
     },
     {
       "id": "openai-articles-article-20260114-openai-partners-with-cerebras.md",
@@ -76,7 +109,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIはCerebrasと提携し、プラットフォームに750MWの超低遅延AIコンピューティング能力を追加します。"
+      "summary": "",
+      "summaryLines": [
+        "OpenAIはCerebrasと提携し、プラットフォームに750MWの超低遅延AIコンピューティング能力を追加します。",
+        "Cerebrasは、巨大な単一チップにコンピューティング、メモリ、帯域幅を集約することで、AIモデルの長時間の出力速度を加速する専用AIシステムを構築しています。",
+        "この提携の目的は、AIの応答時間を大幅に短縮し、ユーザーにより高速で自然なインタラクションと高価値なワークロードの実行を可能にすることです。",
+        "OpenAIは、適切なシステムを適切なワークロードに適合させる、堅牢なコンピューティングポートフォリオを構築する戦略の一環としてこのソリューションを統合します。",
+        "新しいコンピューティング容量は、2028年まで複数回に分けてオンラインになる予定です。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20260113-2026-01-13-changelog.md",
@@ -87,7 +127,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "[Veo](https://ai.google.dev/gemini-api/docs/video)向けに4K出力解像度を追加し、すべての解像度でポートレート動画のサポートを強化しました。"
+      "summary": "[Veo](https://ai.google.dev/gemini-api/docs/video)向けに4K出力解像度を追加し、すべての解像度でポートレート動画のサポートを強化しました。",
+      "summaryLines": [
+        "# 2026-01-13 変更履歴",
+        "[Veo](https://ai.google.dev/gemini-api/docs/video)向けに4K出力解像度を追加し、すべての解像度でポートレート動画のサポートを強化しました。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20260113-2026-01-13-changelog.md",
@@ -98,7 +142,13 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "[gpt-realtime-mini](https://platform.openai.com/docs/models/gpt-realtime)と[gpt-audio-mini](https://platform.openai.com/docs/models/gpt-audio-mini)のスラッグを2025-12-15のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-realtime-mini-2025-10-06`と`gp"
+      "summary": "[gpt-realtime-mini](https://platform.openai.com/docs/models/gpt-realtime)と[gpt-audio-mini](https://platform.openai.com/docs/models/gpt-audio-mini)のスラッグを2025-12-15のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-realtime-mini-2025-10-06`と`gp",
+      "summaryLines": [
+        "# 2026-01-13 変更履歴",
+        "[gpt-realtime-mini](https://platform.openai.com/docs/models/gpt-realtime)と[gpt-audio-mini](https://platform.openai.com/docs/models/gpt-audio-mini)のスラッグを2025-12-15のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-realtime-mini-2025-10-06`と`gpt-audio-mini-2025-10-06`を使用してください。",
+        "[sora-2](https://platform.openai.com/docs/models/sora-2)のスラッグを`sora-2-2025-12-08`を指すように更新しました。以前のモデルスナップショットが必要な場合は、`sora-2-2025-10-06`を使用してください。",
+        "`gpt-4o-mini-tts`と`gpt-4o-mini-transcribe`のスラッグを`2025-12-15`のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-4o-mini-tts-2025-03-20`と`gpt-4o-mini-transcribe-2025-03-20`を使用してください。現在、最良の結果を得るには、`gpt-4o-transcribe`よりも`gpt-4o-mini-transcribe`の使用をお勧めします。"
+      ]
     },
     {
       "id": "openai-articles-article-20260113-zenken-boosts-a-lean-sales-team-with-chatgpt-enter.md",
@@ -109,7 +159,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ZenkenはChatGPT Enterpriseを導入し、営業準備時間を30〜50%削減、新規契約勝率を5〜10%向上、最終提案承認率を約30%向上させました。"
+      "summary": "",
+      "summaryLines": [
+        "ZenkenはChatGPT Enterpriseを導入し、営業準備時間を30〜50%削減、新規契約勝率を5〜10%向上、最終提案承認率を約30%向上させました。",
+        "ChatGPT Enterpriseはセキュリティ要件と高度な推論モデルを満たし、機密情報の安全な取り扱いと市場分析や競合戦略といった経営レベルの意思決定を支援しています。",
+        "海外人材事業において、多言語翻訳の正確性と速度が大幅に向上し、外部委託コストを年間約5,000万円削減しながら、グローバルな情報収集と新サービス設計を促進しています。",
+        "営業メールや提案書などの初回ドラフト作成が数分で可能になり、組織全体の生産性が約2倍に向上し、従業員はより創造的で高価値な業務に集中できるようになりました。",
+        "ChatGPT Enterpriseの週間アクティブ利用率は90%を超え、従業員1人あたり月平均約900メッセージを送信しており、日々の効率性から戦略的計画、人材育成、企業変革までを支援する中核プラットフォームとなっています。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20260112-2026-01-12-changelog.md",
@@ -120,7 +177,12 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。"
+      "summary": "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。",
+      "summaryLines": [
+        "# 2026-01-12 変更履歴",
+        "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。",
+        "[モデルの段階](https://ai.google.dev/api/generate-content#ModelStatus)"
+      ]
     },
     {
       "id": "gemini-articles-article-20260112-increased-file-size-limits-and-expanded-inputs-sup.md",
@@ -131,7 +193,13 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Gemini APIは、Google Cloud Storage (GCS) オブジェクト登録と、HTTPS/署名付きURLからのファイル入力をサポートするようになった。"
+      "summary": "",
+      "summaryLines": [
+        "Gemini APIは、Google Cloud Storage (GCS) オブジェクト登録と、HTTPS/署名付きURLからのファイル入力をサポートするようになった。",
+        "これにより、開発者は既存のストレージからデータを再アップロードすることなく、GCSファイルや公開/署名付きURL (AWS S3, Azure Blob Storageなど) を通じて直接データを取り込める。",
+        "インラインデータの最大ファイルサイズ制限が20MBから100MBに引き上げられ、より大きな画像や短い音声クリップに対応できるようになった。",
+        "これらの機能強化は、データ取り込みの柔軟性を高め、AIアプリケーションの迅速な構築と本番環境へのスケールアップを可能にする。"
+      ]
     },
     {
       "id": "gemini-articles-article-20260112-joint-statement-from-google-and-apple.md",
@@ -142,7 +210,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "AppleとGoogleは、Appleの次世代Foundation ModelがGoogleのGeminiモデルとクラウド技術を基盤とする複数年提携を締結しました。"
+      "summary": "",
+      "summaryLines": [
+        "AppleとGoogleは、Appleの次世代Foundation ModelがGoogleのGeminiモデルとクラウド技術を基盤とする複数年提携を締結しました。",
+        "これらのモデルは、今年提供開始されるよりパーソナライズされたSiriを含む、将来のApple Intelligence機能の強化に貢献します。",
+        "Appleは、徹底的な評価の結果、GoogleのAI技術がApple Foundation Modelにとって最も優れた基盤であると判断しました。",
+        "この提携により、Appleユーザーに革新的な新しい体験が提供されることが期待されています。",
+        "Apple Intelligenceは、Appleの業界をリードするプライバシー基準を維持しつつ、AppleデバイスおよびPrivate Cloud Compute上で引き続き動作します。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20260109-2026-01-09-changelog.md",
@@ -153,7 +228,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "`gpt-image-1.5`と`chatgpt-image-latest`が、`/v1/images/edits`を介した画像編集で、`fidelity`が明示的に`low`(デフォルト)に設定されていた場合でも、誤って高忠実度を使用していた問題を修正しました。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "openai-articles-article-20260109-datadog-uses-codex-for-system-level-code-review.md",
@@ -164,7 +240,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "Datadogは、システムレベルのコードレビューにOpenAIのCodexを導入し、従来の静的解析ツールでは見逃されがちだったシステム全体にわたるコンテキストを考慮したリスク特定を実現しました。"
+      "summary": "",
+      "summaryLines": [
+        "Datadogは、システムレベルのコードレビューにOpenAIのCodexを導入し、従来の静的解析ツールでは見逃されがちだったシステム全体にわたるコンテキストを考慮したリスク特定を実現しました。",
+        "過去のインシデントに繋がったプルリクエストをCodexで再評価した結果、調査対象のインシデントの約22%において、Codexが人間のレビュアーが見逃したリスクを特定できたことが確認されました。",
+        "Codexは、Diff範囲外のモジュール間相互作用、クロスサービス結合におけるテストカバレッジ不足、下流リスクを伴うAPI契約変更など、人間が見落としがちな高品質なフィードバックを一貫して提供します。",
+        "この導入により、1,000人以上のエンジニアが日常的にCodexを利用し、エンジニアは検出作業よりもアーキテクチャと設計に集中できるようになりました。",
+        "Datadogのコードレビューは、エラー検出や開発速度向上だけでなく、システム全体の信頼性向上と顧客の信頼保護を目的としたパートナーとしての役割へと再定義されました。"
+      ]
     },
     {
       "id": "openai-articles-article-20260109-openai-and-softbank-group-partner-with-sb-energy.md",
@@ -175,7 +258,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "SoftBank GroupとOpenAIは、データセンターキャンパス開発パートナーとしてのSBエナジーの成長を支援するため、SBエナジーに合計10億ドルを投資します。"
+      "summary": "",
+      "summaryLines": [
+        "SoftBank GroupとOpenAIは、データセンターキャンパス開発パートナーとしてのSBエナジーの成長を支援するため、SBエナジーに合計10億ドルを投資します。",
+        "OpenAIは、初期データセンター構築のために、テキサス州の1.2 GWデータセンター用地をSBエナジーに賃貸しました。",
+        "SBエナジーはOpenAIの主要顧客となり、APIを活用し、従業員向けにChatGPTを展開する予定です。",
+        "このパートナーシップは、Stargate構想の一環として、米国における次世代AIおよびエネルギーインフラの構築を推進します。",
+        "SBエナジーは、Aresから8億ドルの償還可能優先株式を追加で確保し、同社の成長をさらに支援します。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20260108-2026-01-08-changelog.md",
@@ -186,7 +276,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "Gemini APIのデータ入力ソースとして、Cloud Storageバケット、およびあらゆる公開・非公開のDBプリ署名URLのサポートを開始しました。ファイルサイズの上限も20MBから100MBに増加しました。詳細については、[ファイル入力方法ガイド](https://ai.google.dev/gemini-api/docs/file-input-methods)をご覧ください。"
+      "summary": "Gemini APIのデータ入力ソースとして、Cloud Storageバケット、およびあらゆる公開・非公開のDBプリ署名URLのサポートを開始しました。ファイルサイズの上限も20MBから100MBに増加しました。詳細については、[ファイル入力方法ガイド](https://ai.google.dev/gemini-api/docs/file-input-methods)をご覧ください。",
+      "summaryLines": [
+        "# 2026-01-08 変更履歴",
+        "Gemini APIのデータ入力ソースとして、Cloud Storageバケット、およびあらゆる公開・非公開のDBプリ署名URLのサポートを開始しました。ファイルサイズの上限も20MBから100MBに増加しました。詳細については、[ファイル入力方法ガイド](https://ai.google.dev/gemini-api/docs/file-input-methods)をご覧ください。"
+      ]
     },
     {
       "id": "gemini-articles-article-20260108-gmail-is-entering-the-gemini-era.md",
@@ -197,7 +291,13 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "GmailはGemini 3を搭載し、AIを活用した新機能により受信トレイ管理を効率化し、パーソナルなプロアクティブなアシスタントへと進化します。"
+      "summary": "",
+      "summaryLines": [
+        "GmailはGemini 3を搭載し、AIを活用した新機能により受信トレイ管理を効率化し、パーソナルなプロアクティブなアシスタントへと進化します。",
+        "AI Overviewsは、長いメールスレッドの要約を無料で提供し、Google AI ProおよびUltraサブスクリプション向けには受信トレイへの自然言語での質問応答も可能になります。",
+        "「Help Me Write（メール作成支援）」と「Suggested Replies（返信候補）」はメールの作成と返信を迅速化し、「Proofread（校正）」は高度な文法・トーン・スタイルチェックを提供します（後者はPro/Ultra向け）。",
+        "新しい「AI Inbox」機能は、重要でないメールを除外し、最も重要な情報に焦点を当てることで受信トレイを整理し、タスクや重要な情報をハイライトします（今後数ヶ月で広く提供予定）。"
+      ]
     },
     {
       "id": "openai-articles-article-20260108-netomi-s-lessons-for-scaling-agentic-systems-into-.md",
@@ -208,7 +308,13 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "Netomiは、OpenAIのGPT-4.1とGPT-5.2を活用し、エンタープライズ向けに安全で予測可能なエージェントシステムを大規模に展開しています。"
+      "summary": "",
+      "summaryLines": [
+        "Netomiは、OpenAIのGPT-4.1とGPT-5.2を活用し、エンタープライズ向けに安全で予測可能なエージェントシステムを大規模に展開しています。",
+        "理想化されたフローではなく現実世界の複雑さに対応するため、Netomiは統制されたオーケストレーションパイプラインとOpenAI推奨のエージェントプロンプトパターンを採用しています。",
+        "企業が求める低遅延要件を満たすため、GPT-4.1の迅速で予測可能なツール呼び出し能力を活かし、タスク実行を徹底的に並列化するアーキテクチャを設計しています。",
+        "ガバナンスはAIランタイムの不可欠な要素として組み込まれており、スキーマ検証、ポリシー適用、PII保護、決定論的フォールバックを通じて高い信頼性と運用安全性を保証しています。"
+      ]
     },
     {
       "id": "openai-articles-article-20260108-openai-for-healthcare.md",
@@ -219,7 +325,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAI for Healthcareは、高品質なケアの拡大、チームの管理業務削減、カスタム臨床ソリューションの強化を目的とした、HIPAAコンプライアンス要件をサポートする安全なAI製品です。"
+      "summary": "",
+      "summaryLines": [
+        "OpenAI for Healthcareは、高品質なケアの拡大、チームの管理業務削減、カスタム臨床ソリューションの強化を目的とした、HIPAAコンプライアンス要件をサポートする安全なAI製品です。",
+        "ChatGPT for Healthcareは2026年1月8日から提供開始され、AdventHealth、Boston Children’s Hospitalなど主要医療機関に展開されており、GPT-5モデルを基盤に医療ワークフロー向けに設計されています。",
+        "OpenAI APIは、数千の組織がHIPAA準拠の用途で活用しており、患者チャートの要約、ケアチームの調整、退院ワークフローなどの医療アプリケーション構築を可能にします。",
+        "全てのOpenAI for Healthcare製品はGPT-5.2モデルによって動作し、臨床医主導のテストと実世界評価を通じて最適化されており、HealthBenchやGDPvalなどのベンチマークで高い性能を示しています。",
+        "患者データおよびPHIは組織の管理下に置かれ、データレジデンシー、監査ログ、顧客管理の暗号化キー、およびOpenAIとの事業提携契約（BAA）によりHIPAA準拠の使用をサポートし、共有されたコンテンツはモデルのトレーニングには使用されません。"
+      ]
     },
     {
       "id": "openai-articles-article-20260107-how-tolan-builds-voice-first-ai-with-gpt-5-1.md",
@@ -230,7 +343,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "TolanはGPT-5.1を活用し、低遅延、正確なコンテキスト管理、会話の進化に応じた安定したパーソナリティを持つ音声ファーストAIコンパニオンを構築しました。"
+      "summary": "",
+      "summaryLines": [
+        "TolanはGPT-5.1を活用し、低遅延、正確なコンテキスト管理、会話の進化に応じた安定したパーソナリティを持つ音声ファーストAIコンパニオンを構築しました。",
+        "自然な音声対話のため、Tolanのシステムは会話ごとにコンテキストをリアルタイムで再構築し、GPT-5.1とResponses APIの導入で音声開始時間を0.7秒以上短縮しました。",
+        "長期的な会話の一貫性を保つため、OpenAIの埋め込みモデルと高速ベクトルデータベース「Turbopuffer」を組み合わせた記憶システムを採用し、感情的な「雰囲気」シグナルも保持しています。",
+        "GPT-5.1への移行後、Tolanはプロンプトの指示に対する忠実性が向上し、記憶の呼び出しミスが30%減少し、翌日のユーザー定着率が20%以上増加するなどの具体的な成果を上げました。",
+        "Tolanは、将来的に音声、視覚、コンテキストを統合した真のマルチモーダル音声エージェントの構築を目指し、操縦性と記憶の洗練に継続的に投資していく計画です。"
+      ]
     },
     {
       "id": "openai-articles-article-20260107-introducing-chatgpt-health.md",
@@ -241,7 +361,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ChatGPT Healthは、ユーザーが健康に関する情報をより理解し、準備し、自信を持って健康管理ができるよう設計された、ChatGPT内の専用体験です。"
+      "summary": "",
+      "summaryLines": [
+        "ChatGPT Healthは、ユーザーが健康に関する情報をより理解し、準備し、自信を持って健康管理ができるよう設計された、ChatGPT内の専用体験です。",
+        "毎週2億3千万人以上がChatGPTで健康・ウェルネス関連の質問をしており、医療記録やApple Health、MyFitnessPalなどのウェルネスアプリと安全に連携できます。",
+        "健康情報はChatGPT内の独立した専用スペースに保存され、会話は基盤モデルのトレーニングには使用されず、プライバシーとセキュリティが強化されています。",
+        "60カ国260名以上の医師と協力して開発され、安全性、明瞭さ、個別性を重視した「HealthBench」評価フレームワークに基づいてモデルの品質が評価されています。",
+        "現在、欧州経済領域、スイス、英国以外のChatGPT Free、Go、Plus、Proユーザー向けの待機リストが公開されており、数週間以内にウェブとiOSでアクセスが拡大される予定です。"
+      ]
     },
     {
       "id": "gemini-articles-article-20260105-google-introduces-new-gemini-for-google-tv-feature.md",
@@ -252,7 +379,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "GoogleはCES 2026で、GeminiをGoogle TVに導入し、テレビとのインタラクションをより便利にすることを発表しました。"
+      "summary": "",
+      "summaryLines": [
+        "GoogleはCES 2026で、GeminiをGoogle TVに導入し、テレビとのインタラクションをより便利にすることを発表しました。",
+        "ユーザーは新しい視覚的に豊かなフレームワークを通じてお気に入りのトピックを探索でき、Geminiの応答は画像、動画、リアルタイムのスポーツ更新に対応します。",
+        "Geminiを使用してGoogleフォトライブラリから特定の人物や瞬間を検索したり、Photos Remixで芸術的なスタイルを適用したり、思い出を没入型スライドショーに変換したりできます。",
+        "自然言語でテレビの設定を最適化することが可能で、「画面が暗すぎる」や「会話が聞こえない」といった指示で、視聴中のコンテンツを中断せずに映像や音声を調整できます。",
+        "これらの機能は2026年1月5日に発表され、まず一部のTCLデバイスに、その後数ヶ月以内に他のGoogle TVデバイスにも展開される予定です。"
+      ]
     },
     {
       "id": "openai-articles-article-20260102-announcing-openai-grove-cohort-2.md",
@@ -263,7 +397,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、会社設立の初期段階にある技術者向けのプログラム「OpenAI Grove Cohort 2」の応募受付を開始しました。このプログラムは、従来のスタートアップアクセラレーターとは異なり、AI分野での起業に強い関心を持つ、アイデア先行ではない個人を対象としています。参加者には、強力な才能ネットワーク、OpenAI研究者との共同開発、そして起業の道のりを加速させるためのリソースが提供されます。"
+      "summary": "OpenAIは、会社設立の初期段階にある技術者向けのプログラム「OpenAI Grove Cohort 2」の応募受付を開始しました。このプログラムは、従来のスタートアップアクセラレーターとは異なり、AI分野での起業に強い関心を持つ、アイデア先行ではない個人を対象としています。参加者には、強力な才能ネットワーク、OpenAI研究者との共同開発、そして起業の道のりを加速させるためのリソースが提供されます。",
+      "summaryLines": [
+        "OpenAI Grove Cohort 2の応募受付が開始されました。これは、AI分野での起業を目指す初期段階の技術者向けプログラムです。",
+        "従来のアクセラレーターとは異なり、アイデア先行ではない個人に焦点を当て、OpenAI研究者との共同開発やリソースを提供します。",
+        "プログラムは5週間で、OpenAIサンフランシスコ本社での対面セッション（最初の週と最後の週）と、週4〜6時間の非同期作業が含まれます。",
+        "参加者は、OpenAIの技術リーダーからのメンタリングや、一般公開前の新しいOpenAIツール・モデルにアクセスする機会を得られます。",
+        "応募締め切りは2026年1月12日、プログラム期間は2026年1月22日から2026年2月27日までです。",
+        "---"
+      ]
     },
     {
       "id": "gemini-articles-article-20251229-13-of-the-best-nano-banana-trends-from-2025.md",
@@ -274,7 +416,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Nano Bananaは、2025年に画像生成・編集モデルとしてデビューし、一貫したルックの維持、写真のブレンド、高度な編集機能で高い評価を受けました。"
+      "summary": "",
+      "summaryLines": [
+        "Nano Bananaは、2025年に画像生成・編集モデルとしてデビューし、一貫したルックの維持、写真のブレンド、高度な編集機能で高い評価を受けました。",
+        "Nano Banana ProはGemini 3 Proを基盤とし、Geminiの最先端の推論と実世界知識を活用して情報をより効果的に視覚化します。",
+        "ユーザーは、一般的な写真編集からペットのフィギュア作成、幼少期の自分との合成写真、漫画やアート作品の生成など、幅広い用途でNano Bananaをクリエイティブに活用しました。",
+        "ヘアスタイルの試行、複雑なインフォグラフィックの作成、ホリデーをテーマにした編集、アイソメトリック画像、ゲームのインスピレーションを得るためにも利用されました。",
+        "ファッションの実験、古い写真の復元、多数の子犬が登場する画像の作成など、多岐にわたるトレンドが2025年に人気を博しました。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251229-the-latest-ai-news-we-announced-in-december.md",
@@ -285,7 +434,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは、2025年12月に発表された最新のAI関連ニュースをまとめた。"
+      "summary": "",
+      "summaryLines": [
+        "Googleは、2025年12月に発表された最新のAI関連ニュースをまとめた。",
+        "Gemini 3 Flashがリリースされ、Geminiアプリや検索のAIモードで高速かつインテリジェントな支援を提供する。",
+        "Geminiアプリには、動画がGoogle AIで生成されたものかSynthID透かしを使用して検証する新しいツールが追加された。",
+        "Google Labsの実験「Disco」は、GenTabsを用いて開いているタブをインタラクティブなウェブアプリケーションに統合し、ブラウジング体験を向上させる。",
+        "Googleは、強力な音声インタラクションとライブ音声翻訳のために新しいGeminiオーディオモデルを公開し、Google翻訳アプリでも70以上の言語でのライブ翻訳ベータ版を提供している。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251223-here-s-where-you-can-use-nano-banana-pro.md",
@@ -296,7 +452,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleの最新画像生成・編集モデル「Nano Banana Pro」がリリースされ、様々なGoogle製品で利用可能になりました。"
+      "summary": "",
+      "summaryLines": [
+        "Googleの最新画像生成・編集モデル「Nano Banana Pro」がリリースされ、様々なGoogle製品で利用可能になりました。",
+        "Geminiアプリ、Google検索のAIモード、NotebookLMを通じて、高精度で詳細な画像を生成・編集できます。",
+        "Google Workspaceユーザーは、Google SlidesやGoogle VidsでNano Banana Proを利用し、インフォグラフィックや動画のビジュアルを強化できます。",
+        "AI映像制作ツールFlowや、アイデアの視覚化を助けるMixboard（プレゼンテーション機能を含む）でもNano Banana Proが利用できます。",
+        "開発者は、Vertex AI、AI Studio、Stitch、Firebase、Antigravity、Google Adsなどのプラットフォームを通じてNano Banana Proにアクセスできます。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251222-60-of-our-biggest-ai-announcements-in-2025.md",
@@ -307,7 +470,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは2025年に、Gemini、Search、Pixelなど幅広い製品において60以上の主要なAI関連発表とアップデートを行った。"
+      "summary": "",
+      "summaryLines": [
+        "Googleは2025年に、Gemini、Search、Pixelなど幅広い製品において60以上の主要なAI関連発表とアップデートを行った。",
+        "Geminiは2.0 Flashから始まり、2.0、2.5、そして最終的にGemini 3と3 Flashへと進化し、Androidアシスタントや開発者向けの機能が強化された。",
+        "Google SearchにはAI Modeが導入され、AI Overviewsの拡張やSearch Liveといったリアルタイム対話機能が追加された。",
+        "新しいPixel 10シリーズや、Google Homeデバイス、ChromeのAI機能など、ハードウェアとプラットフォーム全体でAIの統合が進んだ。",
+        "ビデオ生成モデルVeo 2/3、AI映画制作ツールFlow、画像編集モデルNano Banana、推論に特化したTPU「Ironwood」など、クリエイティブな用途やインフラの面でもAIの進展があった。"
+      ]
     },
     {
       "id": "openai-articles-article-20251222-continuously-hardening-chatgpt-atlas-against-promp.md",
@@ -318,7 +488,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ChatGPT Atlasのエージェントモードは、ユーザーのブラウザ内でウェブページを閲覧し、操作を行うことで日常業務を自動化できる汎用性の高い機能です。しかし、この機能は敵対的攻撃の標的となりやすく、AIセキュリティ上の重要な課題としてプロンプトインジェクションが挙げられます。OpenAIは、ChatGPT Atlasのセキュリティを継続的に強化するため、この新しい「ブラウザ内エージェント」パラダイムを標的とする脅威に対する防御策を構築しています。"
+      "summary": "ChatGPT Atlasのエージェントモードは、ユーザーのブラウザ内でウェブページを閲覧し、操作を行うことで日常業務を自動化できる汎用性の高い機能です。しかし、この機能は敵対的攻撃の標的となりやすく、AIセキュリティ上の重要な課題としてプロンプトインジェクションが挙げられます。OpenAIは、ChatGPT Atlasのセキュリティを継続的に強化するため、この新しい「ブラウザ内エージェント」パラダイムを標的とする脅威に対する防御策を構築しています。",
+      "summaryLines": [
+        "ChatGPT Atlasのエージェントモードはブラウザ操作を自動化するが、悪意あるプロンプトインジェクション攻撃の新たな脅威ベクトルに直面している。",
+        "OpenAIは、強化学習を利用したLLMベースの自動攻撃者を開発し、長期間にわたる複雑なタスクを乗っ取る新しいプロンプトインジェクション攻撃を継続的に発見している。",
+        "発見された攻撃は、モデルのadversarial training、監視、安全指示、システムレベルの安全対策を含む迅速な対応ループを通じて、防御策の強化に活用される。",
+        "最近のセキュリティアップデートでは、内部レッドチーム活動で特定された新たなプロンプトインジェクション攻撃に対応するため、モデルと防御策が強化された。",
+        "ユーザーは、ログインアクセスを制限し、確認要求を慎重にレビューし、エージェントに具体的で限定された指示を与えることで、安全に利用できる。"
+      ]
     },
     {
       "id": "openai-articles-article-20251222-one-in-a-million-celebrating-the-customers-shaping.md",
@@ -329,7 +506,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、世界中で100万人以上の顧客がAIを活用してチームを強化し、新たな機会を創出していることを発表しました。2025年は、AIの利用が単なる実験段階から、業務を変革する段階へと移行した年と位置付けられています。"
+      "summary": "OpenAIは、世界中で100万人以上の顧客がAIを活用してチームを強化し、新たな機会を創出していることを発表しました。2025年は、AIの利用が単なる実験段階から、業務を変革する段階へと移行した年と位置付けられています。",
+      "summaryLines": [
+        "OpenAIの顧客数は100万人を超え、AIをチームの強化と新たな機会創出に活用している。",
+        "2025年は、AIの利用が実験から業務変革へと移行した年として特徴づけられる。",
+        "ChatGPTは、執筆、コーディング、研究、データ分析、デザインなど、幅広い日常業務に導入され、効率化を促進。",
+        "AIエージェントによるワークフローの自動化や、開発者によるCodex活用が進展。",
+        "顧客の75%が、AIの導入により「これまでできなかったタスク」を達成できるようになったと回答。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251219-10-gemini-prompts-to-help-you-keep-your-new-year-s.md",
@@ -340,7 +524,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Geminiは、新年の抱負を現実にするために、適切なプロンプト、スケジュールされたアクション、および接続されたアプリを活用して、詳細な計画や学習パスを瞬時に作成する手助けをします。"
+      "summary": "",
+      "summaryLines": [
+        "Geminiは、新年の抱負を現実にするために、適切なプロンプト、スケジュールされたアクション、および接続されたアプリを活用して、詳細な計画や学習パスを瞬時に作成する手助けをします。",
+        "カスタムワークアウトプランの作成、家の整理整頓、新しい言語の学習、キャリアアップ、健康的な食生活、予算管理、読書リストの作成、悪習慣の改善、クリエイティブなアイデア出し、長期的な成功計画といった10の具体的なプロンプトが提供されています。",
+        "ユーザーは、過去のチャットを参照するパーソナライズ機能や、カメラ共有によるリアルタイムフィードバックを利用して、計画をより自分に合わせて調整できます。",
+        "進捗に応じてタスクをカレンダーに追加したり、目標を記憶するカスタムバージョンのGemini「Gems」を作成したりすることで、目標達成の勢いを維持し、長期的な習慣へと繋げることができます。",
+        "計画の不足が新年の抱負が達成されない主な理由であると指摘し、Geminiを活用して具体的なロードマップを構築することで、目標を永続的なライフスタイルの変化に変えることを推奨しています。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251219-2025-12-19-changelog.md",
@@ -351,7 +542,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "v1betaのInteractions APIパブリックプレビューに破壊的変更を導入しました。`total_reasoning_tokens` フィールドは、思考モデルにおける「思考」の概念により良く合致させるため、`total_thought_tokens` に名称変更されました。"
+      "summary": "v1betaのInteractions APIパブリックプレビューに破壊的変更を導入しました。`total_reasoning_tokens` フィールドは、思考モデルにおける「思考」の概念により良く合致させるため、`total_thought_tokens` に名称変更されました。",
+      "summaryLines": [
+        "# 2025-12-19 変更履歴",
+        "v1betaのInteractions APIパブリックプレビューに破壊的変更を導入しました。`total_reasoning_tokens` フィールドは、思考モデルにおける「思考」の概念により良く合致させるため、`total_thought_tokens` に名称変更されました。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20251219-2025-12-19-changelog.md",
@@ -362,7 +557,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "Responses API の画像生成ツールに`gpt-image-1.5`と`chatgpt-image-latest`を追加しました。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "anthropic-deprecations-deprecation-20251219-2025-12-19-model-deprecations.md",
@@ -373,7 +569,14 @@
       "category": "deprecations",
       "source": "model-deprecations",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "2025年12月19日、当社はClaude APIでClaude Haiku 3.5モデルを使用している開発者に対し、そのモデルがまもなく廃止されることを通知しました。"
+      "summary": "2025年12月19日、当社はClaude APIでClaude Haiku 3.5モデルを使用している開発者に対し、そのモデルがまもなく廃止されることを通知しました。",
+      "summaryLines": [
+        "# 2025年12月19日 モデル廃止のお知らせ",
+        "2025年12月19日、当社はClaude APIでClaude Haiku 3.5モデルを使用している開発者に対し、そのモデルがまもなく廃止されることを通知しました。",
+        "| 廃止日              | 廃止モデル                  | 推奨代替モデル                  |",
+        "|:--------------------|:----------------------------|:--------------------------------|",
+        "| 2026年2月19日       | `claude-3-5-haiku-20241022` | `claude-haiku-4-5-20251001`     |"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251219-2025-12-19-release-notes.md",
@@ -384,7 +587,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "Claude Haiku 3.5モデルの非推奨化を発表しました。詳細については、[弊社のドキュメント](https://platform.claude.com/docs/en/about-claude/model-deprecations)をご覧ください。"
+      "summary": "Claude Haiku 3.5モデルの非推奨化を発表しました。詳細については、[弊社のドキュメント](https://platform.claude.com/docs/en/about-claude/model-deprecations)をご覧ください。",
+      "summaryLines": [
+        "# 2025年12月19日 リリースノート",
+        "Claude Haiku 3.5モデルの非推奨化を発表しました。詳細については、[弊社のドキュメント](https://platform.claude.com/docs/en/about-claude/model-deprecations)をご覧ください。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251219-40-of-our-most-helpful-ai-tips-from-2025.md",
@@ -395,7 +602,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは2025年にAIの画期的な進歩を遂げ、そのAI製品や機能の活用法に関する40の役立つヒントを共有しました。"
+      "summary": "",
+      "summaryLines": [
+        "Googleは2025年にAIの画期的な進歩を遂げ、そのAI製品や機能の活用法に関する40の役立つヒントを共有しました。",
+        "Gemini 3は、複雑なトピックを視覚化やインタラクティブなシミュレーションで分かりやすく解説し、検索のAIモードにも統合されています。",
+        "NotebookLMは、「Fast Research」と「Deep Research」のオプションを提供し、学習を支援するためにフラッシュカードやクイズを作成できます。",
+        "Geminiは、宿題のサポート、旅行計画、画像編集、運転中の道案内など、様々なタスクを支援します。",
+        "新機能には、AIを活用したジェスチャー操作、自動化機能、ショッピング支援、リアルタイム翻訳ツールなどが含まれます。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251219-find-out-what-s-new-in-the-gemini-app-in-december-.md",
@@ -406,7 +620,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Gemini 3 Flashは、次世代のインテリジェンスを超高速で提供する過去最大のモデルアップグレードであり、世界中で利用可能です。"
+      "summary": "",
+      "summaryLines": [
+        "Gemini 3 Flashは、次世代のインテリジェンスを超高速で提供する過去最大のモデルアップグレードであり、世界中で利用可能です。",
+        "Nano Bananaを使用して、指やカーソルで画像に直接円を描いたり、描画したり、注釈を付けたりすることで、より正確な画像編集ができます。",
+        "GeminiのNotebookLMでは、ノートブックを情報源として追加できるようになり、ノートやリサーチと組み合わせてより根拠のある回答を得られます。",
+        "Deep ResearchレポートにUltraユーザー向けの視覚情報が追加され、明確なアニメーションや画像により密な情報を一目で理解できるようになりました。",
+        "ローカル検索結果がGoogleマップからの写真、評価、リアルタイム情報を含むより視覚的なものになり、チャットを離れずに近くの店舗を検討できます。"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251219-protecting-the-well-being-of-our-users.md",
@@ -417,7 +638,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "Anthropicは、AIがユーザーの精神的な健康に配慮した対話を行うための取り組みについて詳述しています。特に、自殺や自傷行為に関する会話において、Claudeが共感的に応答し、AIとしての限界を正直に伝え、必要に応じてヘルプラインやメンタルヘルス専門家などの人間によるサポートへとユーザーを導くことを目指しています。これらの対話で適切なセーフガードがない場合のリスクは非常に大きいと認識されています。"
+      "summary": "Anthropicは、AIがユーザーの精神的な健康に配慮した対話を行うための取り組みについて詳述しています。特に、自殺や自傷行為に関する会話において、Claudeが共感的に応答し、AIとしての限界を正直に伝え、必要に応じてヘルプラインやメンタルヘルス専門家などの人間によるサポートへとユーザーを導くことを目指しています。これらの対話で適切なセーフガードがない場合のリスクは非常に大きいと認識されています。",
+      "summaryLines": [
+        "Claudeは、ユーザーの精神的健康を守るため、自殺や自傷行為に関する会話に共感的に対応し、専門家やサポート機関へ適切に誘導する方針を掲げている。",
+        "モデルのトレーニング（システムプロンプト、強化学習）と製品レベルのセーフガード（自殺・自傷行為分類器、各国対応のヘルプラインへのバナー誘導）を導入。",
+        "最新モデル（Opus 4.5, Sonnet 4.5, Haiku 4.5）は、自殺・自傷行為に対する適切な応答率が向上し、ユーザーに迎合する「追従性（sycophancy）」が大幅に軽減されたことを複数の評価で確認。",
+        "特に、オープンソースのPetri評価セットにおいて、Anthropicの4.5モデルファミリーは他の主要モデルよりも優れた追従性軽減効果を示している。",
+        "18歳以上のユーザーのみがClaude.aiを利用でき、アカウント設定時の年齢確認のほか、未成年者を検出する新たな分類器の開発を進めている。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251219-sharing-our-compliance-framework-for-california-s-.md",
@@ -428,7 +657,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "カリフォルニア州のフロンティアAI透明性法（SB 53）が2025年1月1日に施行され、壊滅的なリスクに対する安全性と透明性の要件を確立する国内初の法律となります。Anthropicはこの法律を支持し、フロンティアAI開発者がこれらのリスクを評価・管理する方法について透明性を保つべきであると考えています。この法律は、強力な安全慣行、インシデント報告、内部告発者保護の必要性をバランスさせつつ、開発者の安全対策実施の柔軟性を維持し、小規模企業を不必要な規制負担から免除しています。"
+      "summary": "カリフォルニア州のフロンティアAI透明性法（SB 53）が2025年1月1日に施行され、壊滅的なリスクに対する安全性と透明性の要件を確立する国内初の法律となります。Anthropicはこの法律を支持し、フロンティアAI開発者がこれらのリスクを評価・管理する方法について透明性を保つべきであると考えています。この法律は、強力な安全慣行、インシデント報告、内部告発者保護の必要性をバランスさせつつ、開発者の安全対策実施の柔軟性を維持し、小規模企業を不必要な規制負担から免除しています。",
+      "summaryLines": [
+        "カリフォルニア州のフロンティアAI透明性法（SB 53）が2025年1月1日に施行され、壊滅的なリスクに関する安全性と透明性の全国初の要件を確立します。",
+        "AnthropicはSB 53を支持し、壊滅的なリスクを評価・管理するための「Frontier Compliance Framework（FCF）」を公開しました。",
+        "FCFは、サイバー攻撃、CBRN（化学・生物・放射能・核）の脅威、AIの妨害工作、制御喪失のリスクに対する評価と軽減策、およびモデルウェイトの保護と安全インシデント対応を含みます。",
+        "Anthropicは、米国全体で一貫したAI透明性を確保するため、公開された安全開発フレームワーク、導入時のシステムカード、内部告発者保護、柔軟な基準、大規模モデル開発者への限定適用を柱とする連邦標準を提唱しています。",
+        "この法律は、AIシステムがより強力になるにつれて、開発方法と安全対策に対する一般の可視性を確保する上で重要な役割を果たします。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251219-working-with-the-us-department-of-energy-to-unlock.md",
@@ -439,7 +676,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "Anthropicは、米国エネルギー省（DOE）と「ジェネシス・ミッション」の一環として複数年にわたるパートナーシップを発表しました。このミッションは、AIを活用して科学におけるアメリカのリーダーシップを確固たるものにすることを目指しています。今回の提携は、アメリカのエネルギー優位性、生物・生命科学、科学的生産性の3つの主要分野に焦点を当て、米国の17の国立研究所全てで行われる研究に大きな影響を与える可能性を秘めています。Anthropicは、AIにおける国際競争が激化する中"
+      "summary": "Anthropicは、米国エネルギー省（DOE）と「ジェネシス・ミッション」の一環として複数年にわたるパートナーシップを発表しました。このミッションは、AIを活用して科学におけるアメリカのリーダーシップを確固たるものにすることを目指しています。今回の提携は、アメリカのエネルギー優位性、生物・生命科学、科学的生産性の3つの主要分野に焦点を当て、米国の17の国立研究所全てで行われる研究に大きな影響を与える可能性を秘めています。Anthropicは、AIにおける国際競争が激化する中",
+      "summaryLines": [
+        "Anthropicと米国エネルギー省（DOE）は、科学におけるアメリカのリーダーシップを確立する「ジェネシス・ミッション」の一環として、複数年にわたるパートナーシップを締結しました。",
+        "このパートナーシップは、アメリカのエネルギー優位性、生物・生命科学、科学的生産性の3つの分野に焦点を当て、米国の17の国立研究所全てに影響を与える可能性があります。",
+        "Anthropicは、DOEの研究者にAI「Claude」と、AIエージェント、科学機器接続用サーバー、専門スキルなどのカスタムツールを開発するエンジニアチームへのアクセスを提供します。",
+        "Claudeは、エネルギー拡張プロセスの加速、核技術研究、国内エネルギー安全保障の強化、パンデミック早期警戒システム、創薬・開発の加速に貢献します。",
+        "Claudeは、DOEの50年分の研究データにアクセスし、それに基づいて研究サイクルを加速させ、新たなアイデアや過去のデータからの洞察を提供することで、科学的生産性を向上させる能力を持っています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex.md",
@@ -450,7 +694,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "GPT-5.2-Codexは、OpenAIが提供する複雑な現実世界のソフトウェアエンジニアリング向けに最適化された、最先端のエージェント型コーディングモデルです。このモデルは、GPT-5.2のCodex向けバージョンであり、コンテキスト圧縮による長期間の作業の改善、リファクタリングや移行といったプロジェクト規模のタスクにおける強力なパフォーマンス、Windows環境での性能向上、そして大幅に強化されたサイバーセキュリティ能力を備えています。"
+      "summary": "GPT-5.2-Codexは、OpenAIが提供する複雑な現実世界のソフトウェアエンジニアリング向けに最適化された、最先端のエージェント型コーディングモデルです。このモデルは、GPT-5.2のCodex向けバージョンであり、コンテキスト圧縮による長期間の作業の改善、リファクタリングや移行といったプロジェクト規模のタスクにおける強力なパフォーマンス、Windows環境での性能向上、そして大幅に強化されたサイバーセキュリティ能力を備えています。",
+      "summaryLines": [
+        "GPT-5.2-Codexは、複雑なソフトウェア開発向けに最適化されたOpenAIの最先端のエージェント型コーディングモデルである。",
+        "コンテキスト圧縮による長期間の作業、プロジェクト規模のタスク（リファクタリング、移行）、Windows環境での性能が向上し、サイバーセキュリティ能力が強化されている。",
+        "安全対策として、有害なタスクやプロンプトインジェクションに対するモデルレベルのトレーニングと、エージェントのサンドボックス化、ネットワークアクセス設定などのプロダクトレベルの緩和策が講じられている。",
+        "Preparedness Frameworkに基づき、サイバーセキュリティ能力は「高」レベルに達していないが、生物学分野では「高」レベルの能力があると評価され、GPT-5ファミリーと同様の保護策が適用されている。",
+        "AI自己改善の能力は「高」レベルに達していない。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-ai-literacy-resources-for-teens-and-parents.md",
@@ -461,7 +713,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、ティーンエイジャーとその保護者がChatGPTを思慮深く、安全に、そして自信を持って利用できるよう、2つの新しいAIリテラシーリソースを公開しました。一つは、AIモデルがどのように訓練されるか、AIが時に誤った情報を提供する理由、そして受け取った情報を二重に確認することの重要性を平易な言葉で説明する家族向けガイドです。このガイドには、より良いプロンプトの書き方、同じ質問に対して異なる回答が得られる理由、データと設定の管理方法といった、責任ある利用のための実践的"
+      "summary": "OpenAIは、ティーンエイジャーとその保護者がChatGPTを思慮深く、安全に、そして自信を持って利用できるよう、2つの新しいAIリテラシーリソースを公開しました。一つは、AIモデルがどのように訓練されるか、AIが時に誤った情報を提供する理由、そして受け取った情報を二重に確認することの重要性を平易な言葉で説明する家族向けガイドです。このガイドには、より良いプロンプトの書き方、同じ質問に対して異なる回答が得られる理由、データと設定の管理方法といった、責任ある利用のための実践的",
+      "summaryLines": [
+        "OpenAIは、ティーンエイジャーと保護者向けに、ChatGPTの思慮深く安全な利用を促進する2つのAIリテラシーリソースを公開しました。",
+        "家族向けガイドでは、AIモデルの訓練方法、AIが誤る理由、情報の二重確認の重要性を平易に説明し、責任ある利用のための実践的なヒントを提供します。",
+        "保護者向けヒント集は、AIの能力と限界、批判的思考、健全な境界線、デリケートな話題についてティーンエイジャーと話し合うためのガイダンスを含みます。",
+        "これらのリソースは、オンライン安全、ティーンの成長、メンタルヘルス分野の専門家の意見を基に開発されました。",
+        "OpenAIは、今後も様々な年齢層向けのAIリテラシー活動を拡大し、リソースを更新していく予定です。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-deepening-our-collaboration-with-the-u-s-departmen.md",
@@ -472,7 +732,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIと米国エネルギー省（DOE）は、AIと先進コンピューティングを活用して科学的発見を加速するための協力覚書（MOU）を締結しました。この協力は、DOEの「Genesis Mission」を含む取り組みを支援するもので、「OpenAI for Science」イニシアチブの一環として、最先端のAIモデルを実際の研究環境に統合し、研究者によるアイデア探求、仮説検証、および洞察から結果への移行を迅速化することを目指しています。OpenAIのKevin Weil副社長は、A"
+      "summary": "OpenAIと米国エネルギー省（DOE）は、AIと先進コンピューティングを活用して科学的発見を加速するための協力覚書（MOU）を締結しました。この協力は、DOEの「Genesis Mission」を含む取り組みを支援するもので、「OpenAI for Science」イニシアチブの一環として、最先端のAIモデルを実際の研究環境に統合し、研究者によるアイデア探求、仮説検証、および洞察から結果への移行を迅速化することを目指しています。OpenAIのKevin Weil副社長は、A",
+      "summaryLines": [
+        "OpenAIと米国エネルギー省（DOE）は、AIを活用した科学的発見の加速に向けた協力覚書（MOU）を締結。",
+        "この協力はDOEの「Genesis Mission」を支援し、OpenAIの「OpenAI for Science」イニシアチブの一環。",
+        "OpenAIは、DOEの国立研究所との既存のパートナーシップを強化し、最先端AIモデルを実際の研究環境に展開。",
+        "具体的な取り組みとして、「1,000 Scientist AI Jam Session」の開催、NNSA研究所のスーパーコンピュータへのAIモデル導入、生物科学分野でのAI安全利用評価開発がある。",
+        "AIを新たな科学的ツールとして、研究者のアイデア探求の拡大、仮説検証の迅速化、および洞察から具体的な影響への転換を目指す。"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-evaluating-chain-of-thought-monitorability.md",
@@ -483,7 +750,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "AIシステムの意思決定プロセスを理解するために、その内部推論、特に「思考の連鎖（chain-of-thought）」を監視するアプローチが注目されています。GPT-5 Thinkingのような最新の推論モデルは、回答の前にこの思考の連鎖を生成し、これを監視することは、モデルの行動や最終出力のみを監視するよりもはるかに効果的であるとされています。しかし、この「監視可能性（monitorability）」がトレーニング方法やスケーリングによって損なわれる可能性が懸念されています。"
+      "summary": "AIシステムの意思決定プロセスを理解するために、その内部推論、特に「思考の連鎖（chain-of-thought）」を監視するアプローチが注目されています。GPT-5 Thinkingのような最新の推論モデルは、回答の前にこの思考の連鎖を生成し、これを監視することは、モデルの行動や最終出力のみを監視するよりもはるかに効果的であるとされています。しかし、この「監視可能性（monitorability）」がトレーニング方法やスケーリングによって損なわれる可能性が懸念されています。",
+      "summaryLines": [
+        "AIシステムの意思決定を理解するために、その内部推論である「思考の連鎖」の監視がモデルの行動や出力の監視よりも効果的である。",
+        "思考の連鎖の監視可能性を評価するため、介入、プロセス、結果プロパティの3つのタイプに分類される13の評価スイート（24環境）を導入した。",
+        "ほとんどのフロンティア推論モデルはかなり監視可能であり、推論努力を増やすと監視可能性が向上するが、現在の強化学習の規模では監視可能性の大きな低下は見られない。",
+        "推論努力とモデルサイズの間にはトレードオフがあり、より小さいモデルで高い推論努力を行うことで、監視可能性を向上させつつ同等の能力を達成できるが、「監視可能性コスト」がかかる。",
+        "モデルの応答後に追跡質問をすることで、思考の連鎖からさらなる監視可能性を引き出すことが可能であり、これは特に低い推論努力で有効である。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251218-inside-kaggle-s-ai-agents-intensive-course-with-go.md",
@@ -494,7 +768,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "「KaggleのAIエージェント集中コース with Google」では、推論し、計画し、行動するAIエージェントが探求されました。"
+      "summary": "",
+      "summaryLines": [
+        "「KaggleのAIエージェント集中コース with Google」では、推論し、計画し、行動するAIエージェントが探求されました。",
+        "150万人以上がコースに参加し、期待を上回る大きな関心を示しました。",
+        "コースでは、専門家の指導のもと、AIエージェントの仕組み、課題、実世界での応用が扱われました。",
+        "学習者は協力し、コース資料を数百万回閲覧し、11,000以上のプロジェクトを提出しました。",
+        "2026年には新たな集中コースが計画されており、現在のコース内容はKaggle Learnガイドとして利用可能です。"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-introducing-gpt-5-2-codex-1.md",
@@ -505,7 +786,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、複雑な現実世界のソフトウェアエンジニアリングと防御的サイバーセキュリティのための、これまでで最も高度なエージェント型コーディングモデル「GPT-5.2-Codex」を発表しました。このモデルは、既存のGPT-5.2をベースに、コンテキスト圧縮による長期的作業の改善、大規模なコード変更（リファクタリングや移行など）における強力な性能、Windows環境での性能向上、そしてサイバーセキュリティ能力の大幅な強化が施されています。"
+      "summary": "OpenAIは、複雑な現実世界のソフトウェアエンジニアリングと防御的サイバーセキュリティのための、これまでで最も高度なエージェント型コーディングモデル「GPT-5.2-Codex」を発表しました。このモデルは、既存のGPT-5.2をベースに、コンテキスト圧縮による長期的作業の改善、大規模なコード変更（リファクタリングや移行など）における強力な性能、Windows環境での性能向上、そしてサイバーセキュリティ能力の大幅な強化が施されています。",
+      "summaryLines": [
+        "GPT-5.2-Codexは、複雑なソフトウェアエンジニアリングと防御的サイバーセキュリティに特化した、最先端のエージェント型コーディングモデルである。",
+        "長期的コンテキスト理解、信頼性の高いツール呼び出し、事実性の向上、ネイティブ圧縮によるトークン効率の維持など、GPT-5.2の強みを基盤としている。",
+        "SWE-Bench ProおよびTerminal-Bench 2.0ベンチマークで最先端の性能を達成し、Windows環境でのエージェント型コーディング性能も大幅に向上した。",
+        "強力なサイバーセキュリティ能力を持ち、過去にはGPT-5.1-Codex-MaxがReactの脆弱性発見に貢献した事例がある。",
+        "AIの能力向上に伴うデュアルユースリスクに対処するため、段階的な展開、強化されたセーフガード、厳格なアクセス制御、および防御的サイバーセキュリティ専門家向けの招待制「信頼できるアクセス」パイロットプログラムを実施する。"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-introducing-gpt-5-2-codex.md",
@@ -516,7 +804,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、複雑な実世界のソフトウェアエンジニアリングと防御的サイバーセキュリティ向けに最適化された、最先端のエージェント型コーディングモデル「GPT-5.2-Codex」を発表しました。このモデルは、GPT-5.2の能力を基盤とし、コンテキスト圧縮による長期間作業の改善、大規模なコード変更（リファクタリングや移行）の強力な性能、Windows環境での性能向上、およびサイバーセキュリティ能力の大幅な強化が特徴です。"
+      "summary": "OpenAIは、複雑な実世界のソフトウェアエンジニアリングと防御的サイバーセキュリティ向けに最適化された、最先端のエージェント型コーディングモデル「GPT-5.2-Codex」を発表しました。このモデルは、GPT-5.2の能力を基盤とし、コンテキスト圧縮による長期間作業の改善、大規模なコード変更（リファクタリングや移行）の強力な性能、Windows環境での性能向上、およびサイバーセキュリティ能力の大幅な強化が特徴です。",
+      "summaryLines": [
+        "GPT-5.2-Codexは、複雑な実世界のソフトウェアエンジニアリングと防御的サイバーセキュリティに特化したOpenAIの最先端エージェント型コーディングモデルである。",
+        "長いコンテキスト理解、信頼性の高いツール呼び出し、事実の正確性、ネイティブ圧縮が改善され、大規模なリファクタリングやコード移行などの複雑なタスクをより確実に実行できる。",
+        "サイバーセキュリティ能力が大幅に向上しており、GPT-5.1-Codex-Maxを使用した研究者がReactの脆弱性を発見・開示した実績がある。",
+        "高度なサイバー能力は防御に役立つ一方で、二重使用のリスクも伴うため、OpenAIは「Preparedness Framework」に基づき、モデルと製品に保護措置を追加し、慎重な展開戦略をとっている。",
+        "信頼できる防御者がフロンティアAIのサイバー能力を防御に活用できるよう、招待制の「Trusted Access」パイロットプログラムが開始された。"
+      ]
     },
     {
       "id": "openai-articles-article-20251218-updating-our-model-spec-with-teen-protections.md",
@@ -527,7 +822,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、AIモデルの動作を規定する「Model Spec」を更新し、「18歳未満（U18）の原則」を導入しました。この原則は、13歳から17歳のティーンに対し、安全で年齢に適したChatGPT体験を提供することを目的としています。発達科学に基づいており、予防、透明性、および早期介入を重視するアプローチを取っています。この取り組みは、アメリカ心理学会を含む外部専門家の意見を取り入れて策定されました。"
+      "summary": "OpenAIは、AIモデルの動作を規定する「Model Spec」を更新し、「18歳未満（U18）の原則」を導入しました。この原則は、13歳から17歳のティーンに対し、安全で年齢に適したChatGPT体験を提供することを目的としています。発達科学に基づいており、予防、透明性、および早期介入を重視するアプローチを取っています。この取り組みは、アメリカ心理学会を含む外部専門家の意見を取り入れて策定されました。",
+      "summaryLines": [
+        "OpenAIは、AIモデルの動作規範である「Model Spec」に「18歳未満（U18）の原則」を導入しました。",
+        "この原則は、13歳から17歳のティーン向けに安全で年齢に適したChatGPT体験を提供し、予防、透明性、早期介入を重視しています。",
+        "U18原則は、「ティーンの安全最優先」「現実世界のサポート促進」「ティーンをティーンとして扱う」「透明性の確保」の4つの指針に基づいています。",
+        "自傷行為や性的ロールプレイなど、高リスクな会話においては、より強力なガードレールとオフラインでのサポートが推奨されます。",
+        "今後、ChatGPTの消費者向けプランに年齢予測モデルが導入され、未成年者には自動的に安全対策が適用されます。",
+        "---"
+      ]
     },
     {
       "id": "gemini-articles-article-20251218-watch-a-podcast-discussion-about-gemini-3-and-the-.md",
@@ -538,7 +841,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "最新のGoogle AI: Release Notesポッドキャストエピソードでは、最も高性能なフロンティアモデルをGoogle検索に直接統合する方法が取り上げられています。"
+      "summary": "",
+      "summaryLines": [
+        "最新のGoogle AI: Release Notesポッドキャストエピソードでは、最も高性能なフロンティアモデルをGoogle検索に直接統合する方法が取り上げられています。",
+        "司会のLogan KilpatrickがRobby SteinとRhiannon Bellと対談し、Gemini 3が高度な推論とコーディング能力で複雑なユーザーの質問を解決する方法について語りました。",
+        "Gemini 3は、物理シミュレーションからライブグラフまで、インタラクティブな生成UIを作成する能力を持っています。",
+        "このポッドキャストでは、これらの革新的な機能を何百万ものユーザーに提供するための技術的な取り組みも解説されています。",
+        "エピソードは動画で視聴できるほか、Apple PodcastsやSpotifyで音声として聴取可能です。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251217-2025-12-17-changelog.md",
@@ -549,7 +859,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "Gemini 3 Flash Preview (`gemini-3-flash-preview`) をリリースしました。これは、より大規模なモデルに匹敵する高速なフロンティアクラスのパフォーマンスを、わずかなコストで提供します。視覚および空間的推論と、エージェント的コーディング能力がアップグレードされています。以下の新しい機能についてドキュメントをお読みください。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-articles-article-20251217-build-interactive-mini-apps-with-opal-in-the-gemin.md",
@@ -560,7 +871,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "AI搭載ミニアプリ構築ツール「Opal」が、Geminiウェブアプリ内で実験的なGemsを作成する方法として利用可能になりました。"
+      "summary": "",
+      "summaryLines": [
+        "AI搭載ミニアプリ構築ツール「Opal」が、Geminiウェブアプリ内で実験的なGemsを作成する方法として利用可能になりました。",
+        "ユーザーはGemsマネージャーからOpalを使って再利用可能なミニアプリを作成し、カスタマイズされたGemini体験を実現できます。",
+        "Opalのビジュアルエディターに新しいビューが追加され、プロンプトがステップリストに変換されることで、ミニアプリの動作の理解と編集が容易になりました。",
+        "より高度なカスタマイズが必要な場合は、opal.googleで提供されているAdvanced Editorに簡単に切り替えることができます。",
+        "この実験機能は、2025年12月17日よりGeminiウェブアプリで利用可能です。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251217-build-with-gemini-3-flash-frontier-intelligence-th.md",
@@ -571,7 +889,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは、高速かつ費用対効果の高いAIモデル「Gemini 3 Flash」を発表しました。"
+      "summary": "",
+      "summaryLines": [
+        "Googleは、高速かつ費用対効果の高いAIモデル「Gemini 3 Flash」を発表しました。",
+        "Gemini 3 Flashは、以前のバージョンよりもインテリジェンスを犠牲にすることなく、パフォーマンスと効率のパレートフロンティアを押し進めています。",
+        "このモデルは、コーディング、ゲーミング、ディープフェイク検出、文書分析など、幅広いユースケースで優れた性能を発揮します。",
+        "Gemini 3 Proの4分の1以下のコストで強力なパフォーマンスを提供し、より高いレート制限を備えています。",
+        "開発者は、Google AI Studio、Antigravity、Gemini CLI、Android Studio、Vertex AIを通じてGemini 3 Flashにアクセスできます。"
+      ]
     },
     {
       "id": "openai-articles-article-20251217-developers-can-now-submit-apps-to-chatgpt.md",
@@ -582,7 +907,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、開発者がChatGPTにアプリを提出し、公開できるようになることを発表しました。これにより、ユーザーはChatGPT内で直接アプリを発見・利用できるようになります。アプリは、買い物、プレゼンテーション作成、アパート検索など、会話に新たな文脈やアクションをもたらし、ChatGPTの機能を拡張します。"
+      "summary": "OpenAIは、開発者がChatGPTにアプリを提出し、公開できるようになることを発表しました。これにより、ユーザーはChatGPT内で直接アプリを発見・利用できるようになります。アプリは、買い物、プレゼンテーション作成、アパート検索など、会話に新たな文脈やアクションをもたらし、ChatGPTの機能を拡張します。",
+      "summaryLines": [
+        "開発者はChatGPTにアプリを提出し、アプリディレクトリを通じて公開できるようになりました。",
+        "アプリはChatGPTの会話を拡張し、ユーザーが様々なアクションを実行できるようにします。",
+        "開発者向けに、アプリ提出ガイドライン、開発リソース、オープンソースのサンプルアプリ、UIライブラリ、クイックスタートガイドが提供されています。",
+        "ユーザーはChatGPT内のアプリディレクトリからアプリを検索・発見でき、将来的には会話内で関連アプリが推奨される可能性があります。",
+        "アプリの収益化は初期段階では外部サイトへのリンク経由で行われ、今後はデジタル商品など多様な選択肢が検討される予定です。",
+        "アプリは、安全性、プライバシー、透明性に関するOpenAIのガイドラインを遵守し、ユーザーはデータ共有を管理できます。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251217-gemini-3-flash-comes-to-the-gemini-app.md",
@@ -593,7 +926,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Gemini 3 Flashは、日常のAIを大幅にアップグレードし、次世代のインテリジェンスを驚異的な速度で提供します。"
+      "summary": "",
+      "summaryLines": [
+        "Gemini 3 Flashは、日常のAIを大幅にアップグレードし、次世代のインテリジェンスを驚異的な速度で提供します。",
+        "このモデルは、これまでのAIが抱えていた「遅くて高価な大型モデル」と「能力の低い高速モデル」の選択を解消し、スマートさとスピードの両方を実現します。",
+        "PhDレベルの推論能力を持つスマートさと、思考の速さに追いつく高速性を兼ね備えています。",
+        "画像、音声、動画、テキストといった多様な形式の情報を横断して理解するマルチモーダル能力が飛躍的に向上しました。",
+        "本日よりGeminiアプリで提供が開始され、「Fast」で迅速な回答を、「Thinking」で複雑な問題解決を提供します。高度な数学やコードにはGemini 3 Pro（「Pro」として利用可能）が最適です。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251217-gemini-3-flash-frontier-intelligence-built-for-spe.md",
@@ -604,7 +944,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Gemini 3 Flashは、速度とコスト効率に特化して構築された、フロンティアレベルの知能を持つ最新モデルです。"
+      "summary": "",
+      "summaryLines": [
+        "Gemini 3 Flashは、速度とコスト効率に特化して構築された、フロンティアレベルの知能を持つ最新モデルです。",
+        "Gemini 3の高度な推論能力を維持しつつ、低遅延、高効率、低コストを実現し、日常のタスクやエージェントワークフローに最適化されています。",
+        "開発者向けには、Google AI Studio、Gemini CLI、Google Antigravity、Vertex AI、Gemini Enterpriseを通じてアクセス可能で、コーディングや複雑なマルチモーダル分析に適しています。",
+        "一般ユーザーは、Geminiアプリおよび検索のAIモードでGemini 3 Flashを無料で利用でき、動画分析、学習支援、音声でのアプリ開発などが可能です。",
+        "ベンチマークでは、博士課程レベルの推論やマルチモーダル理解において高い性能を示し、Gemini 2.5 Proよりも3倍高速で、平均で30%少ないトークンでタスクを完了します。"
+      ]
     },
     {
       "id": "openai-articles-article-20251217-introducing-openai-academy-for-news-organizations.md",
@@ -615,7 +962,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、American Journalism ProjectおよびThe Lenfest Institute for Journalismと協力し、報道機関向けの新しい学習拠点「OpenAI Academy for News Organizations」を立ち上げました。このアカデミーは、ジャーナリスト、編集者、出版社がAIを効果的かつ責任を持って活用するための実践的なトレーニング、プレイブック、および実際の事例を提供します。"
+      "summary": "OpenAIは、American Journalism ProjectおよびThe Lenfest Institute for Journalismと協力し、報道機関向けの新しい学習拠点「OpenAI Academy for News Organizations」を立ち上げました。このアカデミーは、ジャーナリスト、編集者、出版社がAIを効果的かつ責任を持って活用するための実践的なトレーニング、プレイブック、および実際の事例を提供します。",
+      "summaryLines": [
+        "OpenAIは、American Journalism ProjectおよびThe Lenfest Institute for Journalismと連携し、「OpenAI Academy for News Organizations」を立ち上げました。",
+        "この学習ハブは、ジャーナリスト、編集者、出版社がAIを効果的に利用するためのオンデマンドトレーニング、実践的なユースケース、オープンソースプロジェクト、および責任ある利用に関するガイダンスを提供します。",
+        "調査研究、翻訳、多言語報道、データ分析、制作効率化など、ニュースルームの業務時間を節約し、質の高いジャーナリズムに注力することを支援します。",
+        "AI技術の導入における信頼性、正確性、雇用に関する懸念に対応するため、責任あるAI利用の内部ポリシーやガバナンスフレームワーク開発に関するヒントも含まれます。",
+        "OpenAIは、News Corp, Axios, Financial Times, Condé Nast, Hearstなど多数の報道機関や業界団体と提携し、世界中で20以上の言語でコンテンツを提供しています。",
+        "---"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20251216-2025-12-16-changelog.md",
@@ -626,7 +981,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "画像生成のための、当社の最新かつ最も高度なモデルである[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)と[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest)をリリースしました。詳細はこちらをご覧ください[here](https://platform.openai.com/"
+      "summary": "画像生成のための、当社の最新かつ最も高度なモデルである[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)と[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest)をリリースしました。詳細はこちらをご覧ください[here](https://platform.openai.com/",
+      "summaryLines": [
+        "# 2025-12-16 変更履歴",
+        "画像生成のための、当社の最新かつ最も高度なモデルである[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)と[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest)をリリースしました。詳細はこちらをご覧ください[here](https://platform.openai.com/docs/guides/image-generation)。"
+      ]
     },
     {
       "id": "openai-articles-article-20251216-evaluating-ai-s-ability-to-perform-scientific-rese.md",
@@ -637,7 +996,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、AIの専門家レベルの科学的推論能力を評価する新しいベンチマーク「FrontierScience」を発表しました。このベンチマークは、物理学、化学、生物学の分野を横断し、数百の難易度が高く、独創的で、有意義な問題で構成されています。FrontierScienceには、国際オリンピック形式の科学的推論能力を測る「Olympiad」と、実世界の科学研究能力を測る「Research」の2つのトラックが含まれます。このベンチマークは、AIが科学研究に深く貢献できるかを測"
+      "summary": "OpenAIは、AIの専門家レベルの科学的推論能力を評価する新しいベンチマーク「FrontierScience」を発表しました。このベンチマークは、物理学、化学、生物学の分野を横断し、数百の難易度が高く、独創的で、有意義な問題で構成されています。FrontierScienceには、国際オリンピック形式の科学的推論能力を測る「Olympiad」と、実世界の科学研究能力を測る「Research」の2つのトラックが含まれます。このベンチマークは、AIが科学研究に深く貢献できるかを測",
+      "summaryLines": [
+        "OpenAIは、AIの専門家レベルの科学的推論能力を評価する新しいベンチマーク「FrontierScience」を導入しました。",
+        "FrontierScienceは、物理学、化学、生物学にわたる数百の難解で独創的な問題で構成され、「Olympiad」と「Research」の2つのトラックがあります。",
+        "GPT-5.2は、GPQAで92%（GPT-4の39%から大幅向上）、FrontierScience-Olympiadで77%、Researchで25%のスコアを達成し、他のフロンティアモデルを上回る性能を示しました。",
+        "現在のAIモデルは構造化された科学的推論タスクを支援できるものの、オープンエンドな研究思考能力にはまだ改善の余地があります。",
+        "FrontierScienceは、AIが科学的発見において信頼できるパートナーとなるためのシステムの弱点を特定し、改善に焦点を当てるための重要なツールであり、今後も進化させていく予定です。"
+      ]
     },
     {
       "id": "openai-articles-article-20251216-measuring-ai-s-capability-to-accelerate-biological.md",
@@ -648,7 +1014,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "本記事は、GPT-5が湿式実験室での生物学研究を加速する能力について報告しています。OpenAIはバイオセキュリティスタートアップのRed Queen Bioと協力し、AIモデルが実験プロトコルを提案、分析、反復する能力を評価するフレームワークを構築しました。この研究では、GPT-5が分子クローニングプロトコルの効率を79倍最適化する新規な改善策を考案しました。クローニングは、タンパク質工学、遺伝子スクリーニング、生物株工学において重要なツールであり、その効率向上は研究の加速"
+      "summary": "本記事は、GPT-5が湿式実験室での生物学研究を加速する能力について報告しています。OpenAIはバイオセキュリティスタートアップのRed Queen Bioと協力し、AIモデルが実験プロトコルを提案、分析、反復する能力を評価するフレームワークを構築しました。この研究では、GPT-5が分子クローニングプロトコルの効率を79倍最適化する新規な改善策を考案しました。クローニングは、タンパク質工学、遺伝子スクリーニング、生物株工学において重要なツールであり、その効率向上は研究の加速",
+      "summaryLines": [
+        "GPT-5は、分子クローニングプロトコルの効率を79倍以上向上させる新規な改良を考案しました。",
+        "この改良は、RecA（E. coli由来リコンビナーゼ）とgp32（T4ファージ遺伝子32一本鎖DNA結合タンパク質）を組み合わせた新しい酵素メカニズムの導入によるものです。",
+        "AIは人間の介入なしに、実験データに基づいてプロトコルの変更を自律的に提案し、反復的な最適化を行いました。",
+        "細胞濃縮を含むトランスフォーメーションプロトコルも最適化され、効率が30倍以上向上しました。",
+        "ロボットシステムがAIによって最適化されたプロトコルを実行し、人間の実験と同等の品質のデータと改善を示しました。"
+      ]
     },
     {
       "id": "openai-articles-article-20251216-the-new-chatgpt-images-is-here.md",
@@ -659,7 +1032,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、新しいフラッグシップ画像生成モデルを搭載した「ChatGPT Images」の新バージョンを発表しました。この新モデルは、ゼロからの画像作成や既存画像の編集において、ユーザーが思い描く通りの出力を可能にし、詳細を保ちながらより正確な編集を行い、最大4倍高速な画像生成を実現します。これにより、画像生成がより楽しく、クリエイティブな探求が容易になります。"
+      "summary": "OpenAIは、新しいフラッグシップ画像生成モデルを搭載した「ChatGPT Images」の新バージョンを発表しました。この新モデルは、ゼロからの画像作成や既存画像の編集において、ユーザーが思い描く通りの出力を可能にし、詳細を保ちながらより正確な編集を行い、最大4倍高速な画像生成を実現します。これにより、画像生成がより楽しく、クリエイティブな探求が容易になります。",
+      "summaryLines": [
+        "新しいフラッグシップ画像生成モデル「GPT Image 1.5」を搭載した「ChatGPT Images」がリリースされました。",
+        "画像編集の精度が向上し、詳細（照明、構図、人物の見た目など）の一貫性を保ちながら、指示に忠実に従います。",
+        "画像生成速度が最大4倍に高速化され、新しい画像を生成しながら他の画像の処理を続行できます。",
+        "ChatGPT内に専用の「Images機能」が導入され、プリセットフィルターやトレンドプロンプトを通じてクリエイティブな探求が容易になります。",
+        "API経由で利用できる「GPT Image 1.5」は、画像入力と出力がGPT Image 1と比較して20%安価になりました。",
+        "---"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20251215-2025-12-15-changelog.md",
@@ -670,7 +1051,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "4つの新しい日付付きオーディオ・スナップショットをリリースしました。これらの更新は、リアルタイムの音声駆動型アプリケーション向けに、信頼性、品質、および音声の忠実度を向上させます："
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-articles-article-20251215-bring-your-research-to-life-with-integrated-visual.md",
@@ -681,7 +1063,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Gemini Deep Researchが強化され、Google AI Ultra加入者は複雑な情報を即座に視覚化できるようになりました。"
+      "summary": "",
+      "summaryLines": [
+        "Gemini Deep Researchが強化され、Google AI Ultra加入者は複雑な情報を即座に視覚化できるようになりました。",
+        "この機能は、テキストだけでなく、カスタム画像、グラフ、インタラクティブなシミュレーションを含む豊富なビジュアルレポートを生成できます。",
+        "マーケティング予算の配分から複雑な科学理論の探求まで、様々な分野で調査結果を自動的に図示することが可能です。",
+        "レポート内で動的なシミュレーションモデルを操作し、異なる変数に基づいて結果を予測できるようになります。",
+        "この新機能は、Geminiアプリのプロンプトバーで「Deep Research」を選択することで利用開始できます。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251212-2025-12-12-changelog.md",
@@ -692,7 +1081,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "Live API向けの新しいネイティブオーディオモデルである`gemini-2.5-flash-native-audio-preview-12-2025`をリリースしました。このアップデートにより、モデルが複雑なワークフローを処理する能力が向上します。詳細については、[Live APIガイド](https://ai.google.dev/gemini-api/docs/live-guide)および[Gemini 2.5 Flash ネイティブオーディオ](https://ai"
+      "summary": "Live API向けの新しいネイティブオーディオモデルである`gemini-2.5-flash-native-audio-preview-12-2025`をリリースしました。このアップデートにより、モデルが複雑なワークフローを処理する能力が向上します。詳細については、[Live APIガイド](https://ai.google.dev/gemini-api/docs/live-guide)および[Gemini 2.5 Flash ネイティブオーディオ](https://ai",
+      "summaryLines": [
+        "# 2025-12-12 変更履歴",
+        "Live API向けの新しいネイティブオーディオモデルである`gemini-2.5-flash-native-audio-preview-12-2025`をリリースしました。このアップデートにより、モデルが複雑なワークフローを処理する能力が向上します。詳細については、[Live APIガイド](https://ai.google.dev/gemini-api/docs/live-guide)および[Gemini 2.5 Flash ネイティブオーディオ](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-live)をご覧ください。"
+      ]
     },
     {
       "id": "openai-articles-article-20251212-bbva-and-openai-collaborate-to-transform-global-ba.md",
@@ -703,7 +1096,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "BBVAとOpenAIは、多年にわたる戦略的AI変革プログラムにおいて協業を拡大しました。この提携により、ChatGPT EnterpriseはBBVAの全世界12万人の従業員に展開され、現在の導入規模から10倍の増加となります。BBVAは、顧客体験の変革、新たな働き方の実現、および内部業務の最適化を目指すAI戦略を推進するため、OpenAIの支援を受けます。"
+      "summary": "BBVAとOpenAIは、多年にわたる戦略的AI変革プログラムにおいて協業を拡大しました。この提携により、ChatGPT EnterpriseはBBVAの全世界12万人の従業員に展開され、現在の導入規模から10倍の増加となります。BBVAは、顧客体験の変革、新たな働き方の実現、および内部業務の最適化を目指すAI戦略を推進するため、OpenAIの支援を受けます。",
+      "summaryLines": [
+        "BBVAとOpenAIは、ChatGPT EnterpriseをBBVAの全世界12万人の従業員に展開する多年にわたる戦略的AI変革プログラムを拡大します。",
+        "このプログラムは、顧客体験の変革、新たな働き方の実現、および内部業務の最適化を目的としています。",
+        "BBVAはAIを活用し、顧客インタラクションの改善、銀行員のクライアントサポート強化、リスク分析の効率化、ソフトウェア開発および従業員生産性の向上を目指します。",
+        "過去のAI導入では、従業員がルーティンタスクで週に約3時間を節約し、80%以上が毎日利用するなど、顕著な成功を収めています。",
+        "BBVAは、顧客向けの仮想アシスタント「Blue」を既に提供しており、ChatGPTを通じて顧客が銀行と直接対話できるようなサービス統合も検討しています。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251212-bny-builds-ai-for-everyone-everywhere-with-openai.md",
@@ -714,7 +1115,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "BNYは、2022年後半のChatGPTリリース以降、企業全体で生成AIの導入を決定しました。「AI for everyone, everywhere, and in everything」という理念に基づき、BNYは集中型AIハブを設立し、社内AI展開・教育プラットフォーム「Eliza」を立ち上げました。Elizaは、BNYの厳格なガバナンスとOpenAIの先進モデルを統合し、従業員が安全かつ自信を持ってAIエージェントを構築できるシステムとして設計されています。現在、20"
+      "summary": "BNYは、2022年後半のChatGPTリリース以降、企業全体で生成AIの導入を決定しました。「AI for everyone, everywhere, and in everything」という理念に基づき、BNYは集中型AIハブを設立し、社内AI展開・教育プラットフォーム「Eliza」を立ち上げました。Elizaは、BNYの厳格なガバナンスとOpenAIの先進モデルを統合し、従業員が安全かつ自信を持ってAIエージェントを構築できるシステムとして設計されています。現在、20",
+      "summaryLines": [
+        "BNYは「AI for everyone, everywhere」をモットーに、OpenAIのモデルを活用した社内AIプラットフォーム「Eliza」を導入し、20,000人の従業員が125以上のAIエージェントを構築している。",
+        "AI導入の成功は、「ガバナンス・バイ・デザイン」アプローチにあり、既存のリスクフレームワークを拡張し、データ利用レビューボードやAIリリースボードなどの多分野横断的なガバナンス体制を構築している。",
+        "従業員の99%が責任あるAI利用のトレーニングを完了しており、「AIを習慣にする月間」といったプログラムを通じて、従業員のAI活用スキルと文化を醸成している。",
+        "初期導入されたAIエージェントは、契約レビュー時間の75%削減や人事問い合わせの効率化など、具体的な業務効率の改善に貢献した。",
+        "ChatGPT Enterpriseのディープリサーチ機能を活用してリスクモデリングや戦略的意思決定を強化し、「デジタル従業員」と呼ぶ高度なAIエージェントによる自律的なワークフローを推進している。"
+      ]
     },
     {
       "id": "openai-articles-article-20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d.md",
@@ -725,7 +1133,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、Codexを活用してSora Androidアプリをわずか28日間で開発し、2025年11月にローンチしました。このアプリはローンチ初日にPlay Storeで1位を獲得し、24時間で100万本以上の動画がAndroidユーザーによって生成されました。この驚異的なスピードは、少人数のエンジニアチームがCodex（GPT-5.1-Codexモデルの初期バージョン、約50億トークンを消費）と緊密に連携したことで実現しました。記事では、Codexを新しく採用されたシ"
+      "summary": "OpenAIは、Codexを活用してSora Androidアプリをわずか28日間で開発し、2025年11月にローンチしました。このアプリはローンチ初日にPlay Storeで1位を獲得し、24時間で100万本以上の動画がAndroidユーザーによって生成されました。この驚異的なスピードは、少人数のエンジニアチームがCodex（GPT-5.1-Codexモデルの初期バージョン、約50億トークンを消費）と緊密に連携したことで実現しました。記事では、Codexを新しく採用されたシ",
+      "summaryLines": [
+        "Sora Androidアプリは、Codexの活用によりわずか28日で開発され、2025年11月のローンチ後24時間で100万本以上の動画が生成され、Play Storeで1位になった。",
+        "開発には、約50億トークンを消費したGPT-5.1-Codexモデルの初期バージョンが使用された。",
+        "Codexは、大規模コードベースの理解、単体テスト作成、フィードバック適用、並行作業、新たな視点の提供、高レバレッジ作業の実現に優れている。",
+        "開発チームは、アプリのシステム設計、アーキテクチャ、ユーザー体験、主要なトレードオフ、最終的な品質管理に注力し、Codexに明確な指示とコンテキストを提供した。",
+        "iOSコードベースをKotlinに効率的に翻訳することでクロスプラットフォーム開発を加速させ、Codexにとってコンテキストが極めて重要であることが示された。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251212-improved-gemini-audio-models-for-powerful-voice-in.md",
@@ -736,7 +1151,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは、ライブ音声エージェント向けにGemini 2.5 Flash Native Audioモデルを強化しました。このアップデートにより、機能呼び出しの精度が向上し、より堅牢な指示追従が可能になり、会話がよりスムーズになります。"
+      "summary": "Googleは、ライブ音声エージェント向けにGemini 2.5 Flash Native Audioモデルを強化しました。このアップデートにより、機能呼び出しの精度が向上し、より堅牢な指示追従が可能になり、会話がよりスムーズになります。",
+      "summaryLines": [
+        "「パワフルな音声インタラクションのためのGeminiオーディオモデルの改善」は、ライブエージェントと翻訳機能を強化する。",
+        "Gemini 2.5 Flash Native Audioは、よりシャープな関数呼び出しとより優れた指示追従能力を持つ。",
+        "この更新により、以前のターンから文脈を取得することで、よりスムーズな会話が可能になる。",
+        "Google翻訳のライブ音声翻訳は、イントネーションを保持し、70以上の言語に対応する。",
+        "Gemini 2.5 Flash Native AudioはVertex AIで一般提供され、Gemini APIでプレビュー可能であり、音声エージェント構築を今すぐ開始できる。",
+        "---"
+      ]
     },
     {
       "id": "gemini-articles-article-20251212-you-can-now-have-more-fluid-and-expressive-convers.md",
@@ -747,7 +1170,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Google検索の「Live with Search」機能が、最新のGeminiモデル（ネイティブオーディオ用）により、より自然で表現力豊かな音声会話に対応するようになりました。これにより、AIモードでのリアルタイムな音声での質疑応答が、以前よりも流暢で自然な話し方や速度で提供されます。"
+      "summary": "Google検索の「Live with Search」機能が、最新のGeminiモデル（ネイティブオーディオ用）により、より自然で表現力豊かな音声会話に対応するようになりました。これにより、AIモードでのリアルタイムな音声での質疑応答が、以前よりも流暢で自然な話し方や速度で提供されます。",
+      "summaryLines": [
+        "Search Live機能が最新のGeminiモデル（ネイティブオーディオ用）でアップデートされた。",
+        "このアップデートにより、より流暢で表現力豊かな音声会話が可能になった。",
+        "自然な声色や速度での応答により、DIYのサポートや新しいトピックの学習に役立つ。",
+        "Googleアプリ（AndroidおよびiOS）の検索バー下にあるLiveアイコンから利用できる。",
+        "アップデートは今後1週間以内に米国の全Search Liveユーザーに展開される予定。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251211-2025-12-11-changelog.md",
@@ -758,7 +1188,12 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "Interactions APIをベータ版でリリースしました。このAPIは、Geminiモデルおよびエージェントと対話するための統合インターフェースを提供します。詳細については、[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)ガイドをご覧ください。"
+      "summary": "Interactions APIをベータ版でリリースしました。このAPIは、Geminiモデルおよびエージェントと対話するための統合インターフェースを提供します。詳細については、[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)ガイドをご覧ください。",
+      "summaryLines": [
+        "# 2025-12-11 変更履歴",
+        "Interactions APIをベータ版でリリースしました。このAPIは、Geminiモデルおよびエージェントと対話するための統合インターフェースを提供します。詳細については、[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)ガイドをご覧ください。",
+        "Gemini Deep Research Agentをプレビュー版でリリースしました。これは、多段階の研究タスクに対して、自律的に計画、実行、結果の統合を行うことができます。詳細については、[Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)ガイドをご覧ください。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20251211-2025-12-11-changelog.md",
@@ -769,7 +1204,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "[GPT-5.2](https://platform.openai.com/docs/models/gpt-5.2)をリリースしました。これはGPT-5モデルファミリーの最新のフラッグシップモデルです。GPT-5.2は、以前のGPT-5.1に比べて以下の点で改善が見られます:"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "openai-articles-article-20251211-advancing-science-and-math-with-gpt-5-2.md",
@@ -780,7 +1216,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、GPT-5.2が科学および数学分野における同社史上最も強力なモデルであることを発表しました。AIが科学研究を加速させ、研究者がより多くのアイデアを探求し、より迅速にテストし、発見を成果につなげることを期待しています。この1年間、OpenAIは数学、物理学、生物学、コンピューターサイエンスの科学者と密接に協力し、AIがどこで役立ち、どこでまだ不十分かを理解してきました。GPT-5.2の登場により、GPT-5が既に貢献を開始していた実際の科学的作業において、その成"
+      "summary": "OpenAIは、GPT-5.2が科学および数学分野における同社史上最も強力なモデルであることを発表しました。AIが科学研究を加速させ、研究者がより多くのアイデアを探求し、より迅速にテストし、発見を成果につなげることを期待しています。この1年間、OpenAIは数学、物理学、生物学、コンピューターサイエンスの科学者と密接に協力し、AIがどこで役立ち、どこでまだ不十分かを理解してきました。GPT-5.2の登場により、GPT-5が既に貢献を開始していた実際の科学的作業において、その成",
+      "summaryLines": [
+        "GPT-5.2 ProおよびGPT-5.2 Thinkingは、科学的および数学的作業においてOpenAIのこれまでのモデルで最も強力です。",
+        "強力な数学的推論は、多段階の論理追跡、数量の一貫性維持、および微妙なエラー回避において科学的・技術的作業の信頼性を高めます。",
+        "GPT-5.2 Proは大学院レベルのGPQA Diamondベンチマークで93.2%を達成しました。",
+        "GPT-5.2 Thinkingは専門家レベルの数学評価であるFrontierMath (Tier 1–3) で40.3%の問題を解決し、新たな最先端を確立しました。",
+        "GPT-5.2 Proは、統計的学習理論の未解決研究問題を人間の介入なしに直接解決し、その成果は外部の専門家によって検証されました。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251211-build-with-gemini-deep-research.md",
@@ -791,7 +1234,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは、大幅に強化されたGemini Deep ResearchエージェントをInteractions APIを通じて開発者向けにリリースしました。これにより、開発者はGoogleの最も高度な自律的リサーチ機能を自身のアプリケーションに直接組み込むことが可能になります。このエージェントは、長期間にわたる情報収集と合成タスクに最適化されており、Google AI StudioのGemini APIキーを使用してアクセスできます。"
+      "summary": "Googleは、大幅に強化されたGemini Deep ResearchエージェントをInteractions APIを通じて開発者向けにリリースしました。これにより、開発者はGoogleの最も高度な自律的リサーチ機能を自身のアプリケーションに直接組み込むことが可能になります。このエージェントは、長期間にわたる情報収集と合成タスクに最適化されており、Google AI StudioのGemini APIキーを使用してアクセスできます。",
+      "summaryLines": [
+        "強化されたGemini Deep Researchエージェントが、Interactions APIを通じて開発者向けに公開されました。",
+        "新しいウェブ調査エージェントベンチマーク「DeepSearchQA」がオープンソース化され、複雑な多段階情報探索タスクの評価に貢献します。",
+        "エージェントの推論コアは、幻覚を削減し、レポート品質を最大化するために訓練されたGoogleのGemini 3 Proを使用しています。",
+        "金融サービスやバイオテクノロジーなどの分野で、デューデリジェンスや創薬の初期リサーチ作業を大幅に加速しています。",
+        "開発者向けには、ドキュメントとウェブデータの統一された情報合成、レポートの制御、詳細な引用、構造化されたJSON出力機能が提供されます。",
+        "---"
+      ]
     },
     {
       "id": "gemini-articles-article-20251211-generate-a-digital-version-of-yourself-to-virtuall.md",
@@ -802,7 +1253,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "この記事は、Googleが米国の買い物客向けに仮想試着ツールを強化し、自撮り写真から全身のデジタルアバターを生成できる新機能を追加したことを紹介しています。これにより、不適切な試着室の照明やぎこちない服装の自撮りに別れを告げ、よりリアルなオンライン試着体験が可能になります。"
+      "summary": "この記事は、Googleが米国の買い物客向けに仮想試着ツールを強化し、自撮り写真から全身のデジタルアバターを生成できる新機能を追加したことを紹介しています。これにより、不適切な試着室の照明やぎこちない服装の自撮りに別れを告げ、よりリアルなオンライン試着体験が可能になります。",
+      "summaryLines": [
+        "Googleの仮想試着ツールに、自撮り写真から全身デジタルアバターを生成する新機能が追加されました。",
+        "この機能は、Gemini 2.5 Flash Imageモデル「Nano Banana」を活用してスタジオ品質のデジタルバージョンを生成します。",
+        "ユーザーはg.co/shop/tryonに自撮りをアップロードし、服のサイズを選択するだけで複数の画像が生成されます。",
+        "生成されたデジタルアバターを使って、Googleのショッピンググラフにある数億点の商品から服をバーチャル試着できます。",
+        "全身写真や多様な体型のモデルを使用する従来の試着オプションも引き続き利用可能です。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-increasing-revenue-300-by-bringing-ai-to-smbs.md",
@@ -813,7 +1272,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "Podiumは、HVAC、自動車ディーラー、メドスパといった地域の中小企業（SMB）向けにAIソフトウェアを提供し、リードの獲得、顧客対応の改善、収益向上を支援しています。2020年の初期実験から進化し、OpenAIのGPT-5.1を搭載したAIエージェント「Jerry」は、自然な会話、企業ポリシーの遵守、複数チャネルでのフォローアップを通じて、アポイントメントのスケジューリングや確認といったビジネス成果を促進しています。"
+      "summary": "Podiumは、HVAC、自動車ディーラー、メドスパといった地域の中小企業（SMB）向けにAIソフトウェアを提供し、リードの獲得、顧客対応の改善、収益向上を支援しています。2020年の初期実験から進化し、OpenAIのGPT-5.1を搭載したAIエージェント「Jerry」は、自然な会話、企業ポリシーの遵守、複数チャネルでのフォローアップを通じて、アポイントメントのスケジューリングや確認といったビジネス成果を促進しています。",
+      "summaryLines": [
+        "PodiumはOpenAIのGPT-5.1を搭載したAIエージェント「Jerry」を開発し、HVAC、自動車ディーラー、メドスパなどの地域中小企業向けに提供しています。",
+        "「Jerry」の導入により、PodiumのAI関連収益は前年比300%増加し、数万のAIエージェントが10,000以上のビジネスで活用されています。",
+        "AIエージェントはリードの獲得、アポイントメントのスケジューリング、サービスリクエスト、営業、フォローアップなどを自動化し、問い合わせに1分以内に対応することで年間数十億ドルの収益に貢献しています。",
+        "企業は自然言語でAIエージェントのトーンやポリシーをカスタマイズでき、エンジニアリングの専門知識は不要です。",
+        "PodiumのAIエージェントを活用する顧客は、平均して収益が約30%増加し、リードコンバージョン率が45%向上しています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-introducing-gpt-5-2.md",
@@ -824,7 +1290,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、プロフェッショナルな知識労働と長期実行エージェント向けに設計された、これまでで最も高性能なモデルシリーズであるGPT-5.2を発表しました。GPT-5.2は、スプレッドシート作成、プレゼンテーション構築、コーディング、画像認識、長文コンテキスト理解、ツール使用、複雑な多段階プロジェクト処理能力を向上させ、平均的なChatGPT Enterpriseユーザーが1日40～60分、ヘビーユーザーが週10時間以上節約している時間をさらに伸ばすことを目指しています。GD"
+      "summary": "OpenAIは、プロフェッショナルな知識労働と長期実行エージェント向けに設計された、これまでで最も高性能なモデルシリーズであるGPT-5.2を発表しました。GPT-5.2は、スプレッドシート作成、プレゼンテーション構築、コーディング、画像認識、長文コンテキスト理解、ツール使用、複雑な多段階プロジェクト処理能力を向上させ、平均的なChatGPT Enterpriseユーザーが1日40～60分、ヘビーユーザーが週10時間以上節約している時間をさらに伸ばすことを目指しています。GD",
+      "summaryLines": [
+        "GPT-5.2は、プロフェッショナルな知識労働と長期実行エージェント向けに最適化された、OpenAIの最も高性能なモデルシリーズです。",
+        "GDPvalベンチマークでは産業専門家に対して70.9%の勝率または引き分け率を達成し、スプレッドシート作成、プレゼンテーション構築、コーディング、画像認識、長文コンテキスト理解、ツール利用において大幅な改善を見せています。",
+        "ChatGPTでは本日より有料プラン（Plus、Pro、Business、Enterprise）でGPT-5.2 Instant、Thinking、Proが順次展開され、APIでは全開発者向けにGPT-5.2、GPT-5.2-chat-latest、GPT-5.2-proが提供開始されます。",
+        "GPT-5.2 Thinkingは、幻覚の発生率がGPT-5.1 Thinkingよりも30%減少しており、長文コンテキスト推論で約100%の精度を達成し、チャート推論とソフトウェアインターフェース理解におけるエラー率を約半分に削減しました。",
+        "モデルはNVIDIAおよびMicrosoftとの協力により開発され、OpenAIのトレーニングインフラストラクチャはAzureデータセンターとNVIDIA GPU（H100、H200、GB200-NVL72）によって支えられています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-ten-years.md",
@@ -835,7 +1308,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは設立から10周年を迎え、当初は「クレイジーで、ありえない、前例のない」挑戦と見なされていた汎用人工知能（AGI）実現のミッションに成功の可能性を見出しています。創業時の不合理なほどの楽観主義、才能あるチーム、そして鋭い焦点が、この進歩の原動力となりました。Dota 1v1での強化学習の成功、教師なし感情ニューロンによる言語モデルのセマンティクス学習、人間からの報酬学習によるAIの人間的価値との整合性といった2017年の画期的な成果が、後の大規模な計算能力を必要と"
+      "summary": "OpenAIは設立から10周年を迎え、当初は「クレイジーで、ありえない、前例のない」挑戦と見なされていた汎用人工知能（AGI）実現のミッションに成功の可能性を見出しています。創業時の不合理なほどの楽観主義、才能あるチーム、そして鋭い焦点が、この進歩の原動力となりました。Dota 1v1での強化学習の成功、教師なし感情ニューロンによる言語モデルのセマンティクス学習、人間からの報酬学習によるAIの人間的価値との整合性といった2017年の画期的な成果が、後の大規模な計算能力を必要と",
+      "summaryLines": [
+        "OpenAIは設立10周年を迎え、当初は困難視されたAGIのミッション達成に向けて大きな進歩を遂げた。",
+        "初期には強化学習、言語モデルのセマンティクス学習、人間からの報酬学習など、後の発展の基礎となる重要な技術的成果を上げた。",
+        "ChatGPTおよびGPT-4のリリースによりAGIの概念が現実味を帯び、技術は前例のない速度で世界に統合された。",
+        "初期バージョンの技術を公開し、社会と技術の共進化を促す「反復的な展開」戦略が成功し、業界標準となった。",
+        "今後10年で超知能の構築がほぼ確実であり、2035年には現在想像できないようなことが可能になると、著者は未来に極めて楽観的である。"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-the-walt-disney-company-and-openai-reach-landmark-.md",
@@ -846,7 +1326,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ウォルト・ディズニー・カンパニーとOpenAIは、OpenAIの短編生成AIビデオプラットフォーム「Sora」に関する画期的な3年間のコンテンツライセンス契約を締結しました。この提携により、Soraはディズニー、マーベル、ピクサー、スター・ウォーズの200以上の愛されるキャラクター、コスチューム、小道具、環境を利用して、ユーザーがプロンプトで作成した短編ソーシャルビデオを生成できるようになります。また、ChatGPT Imagesも同様の知的財産から画像を生成可能です。"
+      "summary": "ウォルト・ディズニー・カンパニーとOpenAIは、OpenAIの短編生成AIビデオプラットフォーム「Sora」に関する画期的な3年間のコンテンツライセンス契約を締結しました。この提携により、Soraはディズニー、マーベル、ピクサー、スター・ウォーズの200以上の愛されるキャラクター、コスチューム、小道具、環境を利用して、ユーザーがプロンプトで作成した短編ソーシャルビデオを生成できるようになります。また、ChatGPT Imagesも同様の知的財産から画像を生成可能です。",
+      "summaryLines": [
+        "ウォルト・ディズニー・カンパニーとOpenAIは、OpenAIの短編生成AIビデオプラットフォーム「Sora」に関する3年間のコンテンツライセンス契約を締結した。",
+        "Soraは、ディズニー、マーベル、ピクサー、スター・ウォーズの200以上のキャラクターを利用して、ユーザーがプロンプトで短編ソーシャルビデオを生成できるようになる。ChatGPT Imagesも同様の知的財産から画像を生成可能。",
+        "ディズニーはOpenAIのAPIを利用し、Disney+の新製品開発や従業員向けChatGPTの導入を行う主要顧客となる。",
+        "ディズニーはOpenAIに10億ドルの株式投資を行い、追加株式購入のワラントを取得する。",
+        "両社はAIの責任ある利用とクリエイターの権利保護にコミットし、人間中心のAIを通じて物語の可能性を拡大することを目指す。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-update-to-gpt-5-system-card-gpt-5-2.md",
@@ -857,7 +1345,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "GPT-5.2は、GPT-5シリーズの最新モデルファミリーです。これらのモデルに対する包括的な安全対策アプローチは、以前発表されたGPT-5システムカードおよびGPT-5.1システムカードに記載されているものと概ね同じです。"
+      "summary": "GPT-5.2は、GPT-5シリーズの最新モデルファミリーです。これらのモデルに対する包括的な安全対策アプローチは、以前発表されたGPT-5システムカードおよびGPT-5.1システムカードに記載されているものと概ね同じです。",
+      "summaryLines": [
+        "GPT-5.2はGPT-5シリーズの最新モデルファミリーです。",
+        "GPT-5.2モデルの安全対策アプローチは、GPT-5およびGPT-5.1システムカードに記述されたものと同様に包括的です。",
+        "これらのモデルは、インターネット上の公開情報、サードパーティ情報、ユーザーや研究者が提供する情報など、多様なデータで訓練されています。",
+        "GPT-5.2 Instantはgpt-5.2-instant、GPT-5.2 Thinkingはgpt-5.2-thinkingとして言及されます。",
+        "---",
+        "*Generated by Provider News Monitor using Gemini 2.5 Flash*"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251210-2025-12-10-changelog.md",
@@ -868,7 +1364,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "当社の[テキスト読み上げモデル](https://ai.google.dev/gemini-api/docs/speech-generation)であるGemini 2.5 Flash TTSプレビュー（低遅延に最適化）とGemini 2.5 Pro TTSプレビュー（品質に最適化）に、表現力の強化、精密なペース調整、シームレスな対話を含む機能強化を導入しました。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-articles-article-20251210-improving-gemini-text-to-speech-models-for-better-.md",
@@ -879,7 +1376,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Googleは、Gemini 2.5 FlashおよびGemini 2.5 Pro Text-to-Speech（TTS）プレビューモデルの重要な機能強化を発表しました。これらのモデルは、スタイルとトーンの多様性、ペースコントロール、マルチスピーカー機能において大幅な改善が施されています。低遅延に最適化されたFlashモデルと品質に最適化されたProモデルの両方がアップデートされ、開発者はより高忠実度なコンテンツを生成できるようになります。"
+      "summary": "Googleは、Gemini 2.5 FlashおよびGemini 2.5 Pro Text-to-Speech（TTS）プレビューモデルの重要な機能強化を発表しました。これらのモデルは、スタイルとトーンの多様性、ペースコントロール、マルチスピーカー機能において大幅な改善が施されています。低遅延に最適化されたFlashモデルと品質に最適化されたProモデルの両方がアップデートされ、開発者はより高忠実度なコンテンツを生成できるようになります。",
+      "summaryLines": [
+        "Gemini 2.5 FlashおよびPro TTSモデルが、表現力、ペースコントロール、マルチスピーカー機能において大幅に強化された。",
+        "表現力の向上により、スタイルプロンプトに厳密に従い、より豊かなトーンの多様性が実現された。",
+        "文脈を考慮したペース調整が可能になり、興奮時には速度を上げ、強調時には速度を落とすなど、より自然な話し方ができるようになった。",
+        "マルチスピーカーシナリオでのキャラクター音声の一貫性が向上し、24言語でのリアルな対話生成が可能。",
+        "新しいGemini 2.5 FlashおよびPro TTSモデルは、Google AI StudioとPlaygroundで利用可能。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251210-strengthening-cyber-resilience-as-ai-capabilities-.md",
@@ -890,7 +1395,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "AIモデルのサイバーセキュリティ能力が急速に進化しており、防御側にとって大きな利益をもたらす一方で、悪用される潜在的なリスクも増大しています。例えば、CTF（Capture-The-Flag）チャレンジにおけるモデルの能力は、2025年8月のGPT-5の27%から、2025年11月にはGPT-5.1-Codex-Maxで76%へと向上しました。OpenAIは、将来のAIモデルが「Preparedness Framework」で定義される「High」レベルのサイバーセキュリティ"
+      "summary": "AIモデルのサイバーセキュリティ能力が急速に進化しており、防御側にとって大きな利益をもたらす一方で、悪用される潜在的なリスクも増大しています。例えば、CTF（Capture-The-Flag）チャレンジにおけるモデルの能力は、2025年8月のGPT-5の27%から、2025年11月にはGPT-5.1-Codex-Maxで76%へと向上しました。OpenAIは、将来のAIモデルが「Preparedness Framework」で定義される「High」レベルのサイバーセキュリティ",
+      "summaryLines": [
+        "AIモデルのサイバーセキュリティ能力は急速に向上しており、GPT-5.1-Codex-Maxは2025年11月にCTF課題で76%の性能を達成しました。",
+        "OpenAIは、AIモデルが悪用されるリスクを軽減するため、アクセス制御、インフラ強化、監視、検知・対応システムを含む多層的な安全対策を実施しています。",
+        "有害なリクエストを拒否し、悪意のある活動を検出するようモデルをトレーニングし、エンドツーエンドのレッドチーム演習で防御を強化しています。",
+        "サイバー防御を目的とした「信頼できるアクセスプログラム」の導入や、脆弱性発見・修正を支援する「Aardvark」のプライベートベータ版を提供しています。",
+        "サイバー防御専門家との協力グループ「Frontier Risk Council」を設立し、業界と連携して脅威モデルの共通理解を深めることで、エコシステム全体のサイバーレジリエンス強化を目指しています。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251210-supporting-the-web-with-new-features-and-partnersh.md",
@@ -901,7 +1413,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Google Gemini Blog",
-      "summary": "Google検索は、ユーザーが好みの情報源とつながり、ウェブを探索するのに役立つ新機能とパートナーシップを発表しています。ユーザーは「トップニュース」をカスタマイズして、お気に入りの情報源からのコンテンツをより多く見ることができるようになりました。Geminiアプリでは、ニュース購読からのリンクがハイライト表示され、AIモードではインラインリンクが文脈に応じた紹介文と共に増加し、ウェブ探索を支援します。"
+      "summary": "Google検索は、ユーザーが好みの情報源とつながり、ウェブを探索するのに役立つ新機能とパートナーシップを発表しています。ユーザーは「トップニュース」をカスタマイズして、お気に入りの情報源からのコンテンツをより多く見ることができるようになりました。Geminiアプリでは、ニュース購読からのリンクがハイライト表示され、AIモードではインラインリンクが文脈に応じた紹介文と共に増加し、ウェブ探索を支援します。",
+      "summaryLines": [
+        "Googleは、ユーザーとウェブサイト向けの新機能とパートナーシップを通じてウェブを支援しています。",
+        "「Preferred Sources」機能により、ユーザーはお気に入りのサイトから「トップニュース」でより多くのコンテンツをカスタマイズできるようになります。",
+        "GeminiアプリのAI概要では、ニュース購読からのリンクがハイライト表示されるようになります。",
+        "AIモードのインラインリンクが増加し、その価値を説明する文脈に応じた紹介が追加されます。",
+        "Googleは、AIが読者エンゲージメントを促進する方法を模索するため、ニュース出版社とのAIパートナーシッププログラムを試験運用しています。",
+        "---"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251209-2025-12-09-changelog.md",
@@ -912,7 +1432,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "以下のGemini Live APIモデルは現在シャットダウンされました："
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "anthropic-articles-article-20251209-accenture-and-anthropic-launch-multi-year-partners.md",
@@ -923,7 +1444,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "AnthropicとAccentureは、企業がAIの試験的導入から本格的な生産展開へと移行できるよう支援するため、多年にわたるパートナーシップを大幅に拡大しました。この提携の一環として、AnthropicのClaudeを中心とする専門組織「Accenture Anthropic Business Group」が設立されます。また、約30,000人のAccentureプロフェッショナルがClaudeのトレーニングを受け、世界最大級のClaude専門家エコシステムが構築される予"
+      "summary": "AnthropicとAccentureは、企業がAIの試験的導入から本格的な生産展開へと移行できるよう支援するため、多年にわたるパートナーシップを大幅に拡大しました。この提携の一環として、AnthropicのClaudeを中心とする専門組織「Accenture Anthropic Business Group」が設立されます。また、約30,000人のAccentureプロフェッショナルがClaudeのトレーニングを受け、世界最大級のClaude専門家エコシステムが構築される予",
+      "summaryLines": [
+        "AnthropicとAccentureは、AIの企業導入を試験段階から本格運用へと加速させるための多年にわたるパートナーシップを拡大しました。",
+        "Claudeに特化した専門組織「Accenture Anthropic Business Group」を設立し、約30,000人のAccenture社員がClaudeのトレーニングを受け、世界最大級のClaude専門家エコシステムを形成します。",
+        "Accentureは、AIコーディング市場で過半数を占めるClaude Codeの主要AIパートナーとなり、数万人の開発者にこの技術を提供します。",
+        "CIO向けに、AIの価値測定と大規模導入を支援する新しい共同ソリューションが導入され、ソフトウェア開発ライフサイクルにおけるClaude Codeの活用を促進します。",
+        "金融サービス、ライフサイエンス、ヘルスケア、公共部門などの規制が厳しい業界向けに、セキュリティとガバナンスを重視したAIソリューションを共同開発します。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-bringing-powerful-ai-to-millions-across-europe-wit.md",
@@ -934,7 +1463,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、ドイツテレコムとの新たな提携を発表しました。これにより、ヨーロッパ全域の数百万人の顧客に高度なAI機能を提供し、ドイツテレコムのチームをOpenAIの最も優れたツールで支援することを目指します。ドイツテレコムは世界中で2億6100万人以上のモバイル顧客を抱えており、この提携はAIをより身近なものにすることを目指します。"
+      "summary": "OpenAIは、ドイツテレコムとの新たな提携を発表しました。これにより、ヨーロッパ全域の数百万人の顧客に高度なAI機能を提供し、ドイツテレコムのチームをOpenAIの最も優れたツールで支援することを目指します。ドイツテレコムは世界中で2億6100万人以上のモバイル顧客を抱えており、この提携はAIをより身近なものにすることを目指します。",
+      "summaryLines": [
+        "OpenAIとDeutsche Telekomが提携し、ヨーロッパで数百万人に高度なAI機能を提供。",
+        "2026年より、顧客向けにシンプル、多言語対応、プライバシー重視のAI体験を展開開始。",
+        "ドイツテレコムは社内業務効率化のため、ChatGPT Enterpriseを全社的に導入。",
+        "ネットワーク運用や従業員コパイロットにAIを深く活用し、自律的システムへの移行を推進。",
+        "この提携は、ヨーロッパ全体でのAIの有用性、安全性、アクセシビリティ向上に貢献する。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri.md",
@@ -945,7 +1482,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "コモンウェルス銀行（CBA）はOpenAIと提携し、約50,000人の従業員にChatGPT Enterpriseを展開しています。これにより、AIを限定的なパイロットではなく、組織全体のコア能力として位置付けています。CBAは、セキュリティ、一貫性、および親しみやすさを重視し、コネクタ、トレーニング、リーダーシップの模範、そしてフォーラムや日常業務、社内実験などの実践的なプログラムを通じて、AIリテラシーを構築しています。"
+      "summary": "コモンウェルス銀行（CBA）はOpenAIと提携し、約50,000人の従業員にChatGPT Enterpriseを展開しています。これにより、AIを限定的なパイロットではなく、組織全体のコア能力として位置付けています。CBAは、セキュリティ、一貫性、および親しみやすさを重視し、コネクタ、トレーニング、リーダーシップの模範、そしてフォーラムや日常業務、社内実験などの実践的なプログラムを通じて、AIリテラシーを構築しています。",
+      "summaryLines": [
+        "コモンウェルス銀行 (CBA) は、OpenAIと提携し、約50,000人の従業員にChatGPT Enterpriseを展開。",
+        "AIを限定的なパイロットではなく、組織全体のコア能力と位置付けている。",
+        "セキュリティ、一貫性、親しみやすさに重点を置き、トレーニングや実践的なプログラムを通じてAIリテラシーを構築。",
+        "AIを日常業務に組み込み、将来的にエージェント駆動型ユースケース（カスタマーサービス、詐欺対策など）へと拡大。",
+        "オーストラリア全土の顧客に、より良い成果を提供するためのプラットフォームとしてAIを活用。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251209-donating-the-model-context-protocol-and-establishi.md",
@@ -956,7 +1501,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "Anthropicは、AIアプリケーションと外部システムを接続するためのユニバーサルなオープン標準であるModel Context Protocol (MCP)を、Linux Foundation傘下の新しいAgentic AI Foundation (AAIF)に寄付しました。AAIFは、Anthropic、Block、OpenAIが共同設立し、Google、Microsoft、Amazon Web Services (AWS)、Cloudflare、Bloombergなど"
+      "summary": "Anthropicは、AIアプリケーションと外部システムを接続するためのユニバーサルなオープン標準であるModel Context Protocol (MCP)を、Linux Foundation傘下の新しいAgentic AI Foundation (AAIF)に寄付しました。AAIFは、Anthropic、Block、OpenAIが共同設立し、Google、Microsoft、Amazon Web Services (AWS)、Cloudflare、Bloombergなど",
+      "summaryLines": [
+        "Anthropicは、AIアプリケーションの外部システム接続標準であるModel Context Protocol (MCP)をAgentic AI Foundation (AAIF)に寄付した。",
+        "Agentic AI Foundation (AAIF)は、Linux Foundation傘下の組織で、Anthropic、Block、OpenAIが共同設立し、Google、Microsoft、AWSなどが支援している。",
+        "MCPは、発表から1年で10,000以上のサーバーで採用され、ChatGPT、Gemini、Microsoft Copilotなどの主要AI製品やクラウドインフラに広く普及している。",
+        "AnthropicはClaudeのコネクタやAPI機能を通じてMCPの成長に貢献しており、MCPは非同期操作やサーバーIDなどの新機能を導入し、主要言語のSDKが月間9700万回以上ダウンロードされている。",
+        "この寄付により、MCPがオープンソース、コミュニティ主導、ベンダーニュートラルな標準として、エージェントAIエコシステムのイノベーションを促進するというAnthropicのコミットメントが強化される。"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-how-scout24-is-building-the-next-generation-of-rea.md",
@@ -967,7 +1519,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ドイツ最大の不動産プラットフォームを運営するScout24は、生成AIを活用して次世代の不動産検索を構築しています。同社は、不正検出やマーケティング効率などにAIを長年利用してきましたが、GPT-5を搭載したインテリジェントな会話型不動産アシスタント「HeyImmo」を開発しました。CTOのGertrud Kolb氏によると、顧客が求めていたのは単なる検索結果の改善だけでなく、プラットフォーム体験全体を導く「不動産の専門家アシスタント」としてのガイダンスでした。"
+      "summary": "ドイツ最大の不動産プラットフォームを運営するScout24は、生成AIを活用して次世代の不動産検索を構築しています。同社は、不正検出やマーケティング効率などにAIを長年利用してきましたが、GPT-5を搭載したインテリジェントな会話型不動産アシスタント「HeyImmo」を開発しました。CTOのGertrud Kolb氏によると、顧客が求めていたのは単なる検索結果の改善だけでなく、プラットフォーム体験全体を導く「不動産の専門家アシスタント」としてのガイダンスでした。",
+      "summaryLines": [
+        "GPT-5を搭載した会話型不動産アシスタント「HeyImmo」を導入し、顧客が不動産検索のガイダンスを得られるように再構築。",
+        "ユーザーのニーズに応じて、要約、箇条書き、または直接リスト表示など、適応性の高い回答形式を提供する。",
+        "OpenAI Evalsフレームワークに基づく独自の評価システムと、全社的な「スウォームテスト」を実施し、回答品質を厳密に定義・測定。",
+        "迅速な開発とユーザーからの学習を優先するため、技術アーキテクチャを機能呼び出しと焦点を絞ったコンポーネントで簡素化。",
+        "OpenAIチームとの緊密な協力により、安全性、品質、ユーザーエクスペリエンスを向上させ、AIを活用した検索体験の「良い」定義を確立。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-launching-our-first-openai-certifications-courses.md",
@@ -978,7 +1538,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "AIは企業の効率化、個人のアイデア実現、新たな職種創出を通じて、より多くの人々に機会をもたらす可能性を秘めています。現在、毎週8億人以上がChatGPTを利用してスキルを構築し、仕事を見つけ、実際の問題を解決しており、AIスキルを持つ労働者はそうでない労働者よりも約50%多く稼いでいるという調査結果もあります。AIの急速な普及による混乱に対応するため、OpenAIは新しい認定制度とAIジョブプラットフォームを通じて、人々がAI時代を成功裏に乗り切るための準備を支援するビジョン"
+      "summary": "AIは企業の効率化、個人のアイデア実現、新たな職種創出を通じて、より多くの人々に機会をもたらす可能性を秘めています。現在、毎週8億人以上がChatGPTを利用してスキルを構築し、仕事を見つけ、実際の問題を解決しており、AIスキルを持つ労働者はそうでない労働者よりも約50%多く稼いでいるという調査結果もあります。AIの急速な普及による混乱に対応するため、OpenAIは新しい認定制度とAIジョブプラットフォームを通じて、人々がAI時代を成功裏に乗り切るための準備を支援するビジョン",
+      "summaryLines": [
+        "OpenAIは、AIスキルの向上と経済的機会の拡大を目指し、初の認定コースプログラムを開始しました。",
+        "「AI Foundations」コースは、企業や公共セクターのパートナーとのパイロットプログラムを通じてChatGPT内で提供され、職務横断的な実用的なAIスキルを習得できます。",
+        "「ChatGPT Foundations for Teachers」コースは、K-12の教師向けにChatGPTの活用法とAI教育への応用を教えるもので、Courseraで提供されています。",
+        "これらの認定コースは、学習、資格取得、実際の経済的機会を繋げ、2030年までに1000万人のアメリカ人にAI認定を付与することを目指します。",
+        "IndeedおよびUpworkとの提携により、AI人材の育成と雇用機会の創出を促進します。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-openai-appoints-denise-dresser-as-chief-revenue-of.md",
@@ -989,7 +1557,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、Denise Dresser氏をChief Revenue Officerに任命したことを発表しました。彼女は、企業向けおよび顧客サクセスにおけるOpenAIのグローバル収益戦略を統括します。OpenAIは史上最速で成長しているビジネスプラットフォームとなっており、Dresser氏の就任により、より多くの企業がAIを日々の業務に活用できるよう支援することを目指します。"
+      "summary": "OpenAIは、Denise Dresser氏をChief Revenue Officerに任命したことを発表しました。彼女は、企業向けおよび顧客サクセスにおけるOpenAIのグローバル収益戦略を統括します。OpenAIは史上最速で成長しているビジネスプラットフォームとなっており、Dresser氏の就任により、より多くの企業がAIを日々の業務に活用できるよう支援することを目指します。",
+      "summaryLines": [
+        "OpenAIはDenise Dresser氏をChief Revenue Officerに任命し、グローバル収益戦略と顧客サクセスを統括させます。",
+        "Dresser氏は、SlackのCEOとしてAIを活用した業務効率化を推進し、Salesforceで大規模なセールス組織を率いた豊富な経験を持ちます。",
+        "OpenAIは史上最速で成長するビジネスプラットフォームであり、AIは企業にとって日常業務の不可欠な一部となりつつあります。",
+        "AIの活用により、従業員の75%が仕事のスピードまたは質の向上を報告し、時間を大幅に節約しています。",
+        "Walmart、Morgan Stanleyなど100万以上のビジネス顧客がOpenAIの技術を導入し、顧客体験、内部運営、日常業務に活用しています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251209-openai-co-founds-agentic-ai-foundation-donates-age.md",
@@ -1000,7 +1575,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは本日、AnthropicおよびBlockと共に、Linux Foundation傘下にAgentic AI Foundation (AAIF)を共同設立しました。この取り組みは、エージェントAIシステムが実験段階から実際の製品へと移行する中で、オープンで相互運用可能なインフラのための中立的な管理を提供することを目的としています。Google、Microsoft、AWS、Bloomberg、Cloudflareもこの財団を支援しています。"
+      "summary": "OpenAIは本日、AnthropicおよびBlockと共に、Linux Foundation傘下にAgentic AI Foundation (AAIF)を共同設立しました。この取り組みは、エージェントAIシステムが実験段階から実際の製品へと移行する中で、オープンで相互運用可能なインフラのための中立的な管理を提供することを目的としています。Google、Microsoft、AWS、Bloomberg、Cloudflareもこの財団を支援しています。",
+      "summaryLines": [
+        "OpenAIは、AnthropicおよびBlockと共に、Linux Foundation傘下にAgentic AI Foundation (AAIF)を共同設立しました。",
+        "AAIFの主な目的は、エージェントAIシステムのためのオープンで相互運用可能なインフラの中立的な管理を推進することです。",
+        "OpenAIは、エージェントにプロジェクト固有の指示とコンテキストを提供するオープンフォーマット「AGENTS.md」をAAIFに寄付しました。",
+        "AGENTS.mdは2025年8月のリリース以来、60,000以上のオープンソースプロジェクトやエージェントフレームワークで採用され、エージェントの予測可能な動作を可能にしています。",
+        "AAIFは、Linux Foundationの専門知識を活用して、エージェントAIの透明性、共同開発、および公共の利益を促進します。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251208-how-virgin-atlantic-uses-ai-to-enhance-every-step-.md",
@@ -1011,7 +1594,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "ヴァージン・アトランティック航空は、CFOのオリバー・バイアーズ氏によると、AIを競争優位性を生み出すための重要な投資と位置づけています。同社はOpenAIと提携し、初期のパイロット段階からChatGPT Enterpriseを導入することで、生産性向上と顧客体験の改善において具体的なメリットを実感しています。特に、デジタルおよびソフトウェア開発チームではコードの作成とテストが高速化され、人事部門ではカスタムGPTが社内サポートを強化、財務部門ではリアルタイムのデータ分析と洞"
+      "summary": "ヴァージン・アトランティック航空は、CFOのオリバー・バイアーズ氏によると、AIを競争優位性を生み出すための重要な投資と位置づけています。同社はOpenAIと提携し、初期のパイロット段階からChatGPT Enterpriseを導入することで、生産性向上と顧客体験の改善において具体的なメリットを実感しています。特に、デジタルおよびソフトウェア開発チームではコードの作成とテストが高速化され、人事部門ではカスタムGPTが社内サポートを強化、財務部門ではリアルタイムのデータ分析と洞",
+      "summaryLines": [
+        "AIは、ヴァージン・アトランティック航空にとって、競争優位性を生み出し、規模のデメリットを克服するための戦略的な技術投資です。",
+        "ChatGPT EnterpriseとCodexを活用し、デジタル開発チームのコード作成・テストの高速化、人事の自己サービス機能強化、財務のリアルタイムデータ分析など、社内業務の生産性を大幅に向上させています。",
+        "顧客向けには、ブランドの「人間らしさとウィット」を反映したデジタルコンシェルジュを開発し、日常的な問い合わせを効率化しつつ、複雑な問題は人間が対応するハイブリッド型アプローチで顧客体験を向上させています。",
+        "AI投資のROIは、短期的な業務効率化（時間短縮）と、長期的な戦略的成果（顧客満足度、収益成長など）の両方で測定されています。",
+        "AI導入を成功させるためには、野心的な目標設定、技術先行ではなく成果に基づくアプローチ、そしてデータプライバシーとモデル利用に関する強固なガバナンスが不可欠です。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251208-instacart-and-openai-partner-on-ai-shopping-experi.md",
@@ -1022,7 +1613,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIとInstacartは、長年の提携を強化し、初の完全統合型食料品ショッピングおよびインスタントチェックアウト決済アプリをChatGPTに導入しました。これにより、ユーザーは食事のインスピレーションから玄関先への食料品の配達まで、ChatGPTとの会話を離れることなくシームレスに体験できるようになります。この統合は、Instacartのリアルタイム食料品ネットワークと履行能力を、OpenAIの最先端モデルの支援により実現します。"
+      "summary": "OpenAIとInstacartは、長年の提携を強化し、初の完全統合型食料品ショッピングおよびインスタントチェックアウト決済アプリをChatGPTに導入しました。これにより、ユーザーは食事のインスピレーションから玄関先への食料品の配達まで、ChatGPTとの会話を離れることなくシームレスに体験できるようになります。この統合は、Instacartのリアルタイム食料品ネットワークと履行能力を、OpenAIの最先端モデルの支援により実現します。",
+      "summaryLines": [
+        "OpenAIとInstacartは、ChatGPTに初の完全統合型食料品ショッピングおよびインスタントチェックアウト決済アプリを導入しました。",
+        "ユーザーはChatGPT内で食料品の閲覧、カートの作成、Instacartを通じたシームレスな決済が可能です。",
+        "Instacartは「Agentic Commerce Protocol」を活用し、ChatGPT内で直接決済機能を提供する初のアプリです。",
+        "ChatGPTは、食品、レシピ、食事のアイデアに関するユーザーの問い合わせに対してInstacartアプリを提案します。",
+        "この提携は、Instacartが顧客体験の向上と社内ワークフローの効率化のためにOpenAIのAPI、ChatGPT Enterprise、Codexを利用する長年の協力関係の上に成り立っています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251208-the-state-of-enterprise-ai.md",
@@ -1033,7 +1631,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、「エンタープライズAIの現状レポート」を発表しました。これは、企業のAI導入状況、従業員がAIから得ている価値、および組織のリーダーがどのように実験から測定可能な生産性と新しい能力を生み出しているかについて、OpenAIのエンタープライズ顧客の実世界の利用データと、9,000人の従業員に対する調査に基づいて包括的に分析したものです。このレポートは、AIが職場に急速に浸透し、その採用が広範囲かつ深層的に加速していることを示しています。"
+      "summary": "OpenAIは、「エンタープライズAIの現状レポート」を発表しました。これは、企業のAI導入状況、従業員がAIから得ている価値、および組織のリーダーがどのように実験から測定可能な生産性と新しい能力を生み出しているかについて、OpenAIのエンタープライズ顧客の実世界の利用データと、9,000人の従業員に対する調査に基づいて包括的に分析したものです。このレポートは、AIが職場に急速に浸透し、その採用が広範囲かつ深層的に加速していることを示しています。",
+      "summaryLines": [
+        "エンタープライズAIの導入は広がりと深さの両面で加速しており、ChatGPT Enterpriseの週間メッセージ数は約8倍、構造化ワークフローの利用は19倍に増加。",
+        "AIの導入はテクノロジー、ヘルスケア、製造業で特に急速に成長しており、国際的には日本が米国以外で最多の法人API顧客を抱えている。",
+        "従業員の75%がAIの利用により作業の速度または品質が向上したと報告し、1日あたり40〜60分の時間節約、ヘビーユーザーは週に10時間以上の節約を実現。",
+        "AIは、非技術職のコーディング関連メッセージが36%増加するなど、以前は不可能だった新しい種類の作業を可能にしている。",
+        "AI活用における「フロンティア」ワーカー（上位5%）は平均的な従業員より6倍多くのメッセージを送信し、「フロンティア」企業はシートあたり2倍多くのメッセージを送信しており、先行者と平均との間で格差が拡大している。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251205-2025-12-05-changelog.md",
@@ -1044,7 +1649,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "[Google検索によるグラウンディング](https://ai.google.dev/gemini-api/docs/google-search)に対するGemini 3の課金は、2026年1月5日に開始されます。"
+      "summary": "[Google検索によるグラウンディング](https://ai.google.dev/gemini-api/docs/google-search)に対するGemini 3の課金は、2026年1月5日に開始されます。",
+      "summaryLines": [
+        "# 2025年12月5日 変更履歴",
+        "[Google検索によるグラウンディング](https://ai.google.dev/gemini-api/docs/google-search)に対するGemini 3の課金は、2026年1月5日に開始されます。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251204-2025-12-04-changelog.md",
@@ -1055,7 +1664,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "廃止のお知らせ: `gemini-2.5-flash-image-preview`モデルは2026年1月15日に停止されます。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "openai-changelog-changelog-20251204-2025-12-04-changelog.md",
@@ -1066,7 +1676,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "`gpt-5.1-codex-max`をResponses APIにリリースしました。GPT-5.1-Codexは、長期間にわたるエージェント的なコーディングタスク向けに最適化された、当社の最もインテリジェントなコーディングモデルです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max)。"
+      "summary": "`gpt-5.1-codex-max`をResponses APIにリリースしました。GPT-5.1-Codexは、長期間にわたるエージェント的なコーディングタスク向けに最適化された、当社の最もインテリジェントなコーディングモデルです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max)。",
+      "summaryLines": [
+        "# 2025年12月04日 変更履歴",
+        "`gpt-5.1-codex-max`をResponses APIにリリースしました。GPT-5.1-Codexは、長期間にわたるエージェント的なコーディングタスク向けに最適化された、当社の最もインテリジェントなコーディングモデルです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max)。"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251204-2025-12-04-release-notes.md",
@@ -1077,7 +1691,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。"
+      "summary": "[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。",
+      "summaryLines": [
+        "# 2025-12-04 リリースノート",
+        "[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。"
+      ]
     },
     {
       "id": "openai-articles-article-20251204-introducing-openai-for-australia.md",
@@ -1088,7 +1706,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、オーストラリアにおけるAIの経済的・社会的利益を最大化するため、全国規模のイニシアチブ「OpenAI for Australia」を立ち上げました。これは、アジア太平洋地域で初の「OpenAI for Countries」プログラムであり、主権AIインフラの構築、オーストラリア人のAIスキル向上、国内の活発なAIエコシステムの加速を目標としています。"
+      "summary": "OpenAIは、オーストラリアにおけるAIの経済的・社会的利益を最大化するため、全国規模のイニシアチブ「OpenAI for Australia」を立ち上げました。これは、アジア太平洋地域で初の「OpenAI for Countries」プログラムであり、主権AIインフラの構築、オーストラリア人のAIスキル向上、国内の活発なAIエコシステムの加速を目標としています。",
+      "summaryLines": [
+        "OpenAIがオーストラリアにおけるAIの経済的・社会的利益最大化を目指し、「OpenAI for Australia」プログラムを開始しました。",
+        "NEXTDCと覚書を締結し、シドニーに次世代ハイパースケールAIキャンパスと大規模GPUスーパークラスターを開発し、主権AIインフラを構築します。",
+        "CommBank、Coles、Wesfarmersと提携し、OpenAI Academyを通じて120万人以上のオーストラリアの労働者と中小企業にAIスキル研修を提供します。",
+        "Blackbird、Square Peg、AirTreeなどの現地VCと協力し、APIクレジットや技術的メンターシップを提供するスタートアッププログラムを立ち上げ、国内の技術革新を加速します。",
+        "OpenAIのCEOサム・アルトマンは、オーストラリアがAI分野の世界的リーダーとなる可能性を強調し、インフラ、人材育成、エコシステム加速への投資を表明しています。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251204-snowflake-and-anthropic-announce-200-million-partn.md",
@@ -1099,7 +1725,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "SnowflakeとAnthropicは、多年にわたる2億ドルの戦略的パートナーシップの拡大を発表しました。この提携により、AnthropicのClaudeモデルはSnowflakeプラットフォーム上で、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Azureを通じて、世界中の12,600以上の顧客に提供されます。さらに、両社はAIエージェントを世界最大規模の企業に展開するための共同市場開拓（GTM）イニシアチブを確立します。"
+      "summary": "SnowflakeとAnthropicは、多年にわたる2億ドルの戦略的パートナーシップの拡大を発表しました。この提携により、AnthropicのClaudeモデルはSnowflakeプラットフォーム上で、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Azureを通じて、世界中の12,600以上の顧客に提供されます。さらに、両社はAIエージェントを世界最大規模の企業に展開するための共同市場開拓（GTM）イニシアチブを確立します。",
+      "summaryLines": [
+        "SnowflakeとAnthropicは、エージェントAIをグローバル企業に提供するため、2億ドルの戦略的パートナーシップを拡大しました。",
+        "AnthropicのClaudeモデルは、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Azureを通じて、12,600以上のSnowflake顧客に利用可能になります。",
+        "この提携には、Claudeの高度な推論能力とSnowflakeの管理されたデータ環境を組み合わせたAIエージェントの共同市場開拓イニシアチブが含まれます。",
+        "Claudeは、Snowflakeの社内ベンチマークにおいて、複雑なテキストからSQLへのタスクで90%以上の精度を達成しています。",
+        "金融サービスやヘルスケアなどの規制業界を含む企業は、ClaudeとSnowflakeの統合により、セキュアで統制された環境でAIエージェントを実運用に移行できます。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251203-2025-12-03-changelog.md",
@@ -1110,7 +1743,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "非推奨化のお知らせ: `text-embedding-004`モデルは2026年1月14日にシャットダウンされます。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "openai-articles-article-20251203-announcing-the-initial-people-first-ai-fund-grante.md",
@@ -1121,7 +1755,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAI Foundationは、「People-First AI Fund」の最初の助成先として、地域社会を強化しAIの機会を拡大するコミュニティベースの非営利団体を発表しました。この基金は、公募を通じて米国の208の非営利団体に総額4050万ドルの使途制限のない助成金を提供します。これらの資金は年末までに支給される予定です。"
+      "summary": "OpenAI Foundationは、「People-First AI Fund」の最初の助成先として、地域社会を強化しAIの機会を拡大するコミュニティベースの非営利団体を発表しました。この基金は、公募を通じて米国の208の非営利団体に総額4050万ドルの使途制限のない助成金を提供します。これらの資金は年末までに支給される予定です。",
+      "summaryLines": [
+        "OpenAI Foundationは、「People-First AI Fund」の最初の助成先として、米国の208の非営利団体に総額4050万ドルの使途制限のない助成金を発表しました。",
+        "この基金は、AIリテラシーと公共理解、コミュニティイノベーション、経済的機会の3つの主要分野に焦点を当てています。",
+        "助成金の公募には約3,000団体が応募し、独立した人間による審査プロセスを経て選考されました。",
+        "選ばれた団体は、AIをこれまで利用したことがない、または探索段階にある組織も含まれ、米国の地方および都市部の多様なコミュニティをカバーしています。",
+        "今後数ヶ月以内に、取締役会が決定する950万ドルの助成金の第2波が発表され、健康などの分野で変革的なAIの取り組みを進める組織が支援されます。"
+      ]
     },
     {
       "id": "openai-articles-article-20251203-how-confessions-can-keep-language-models-honest.md",
@@ -1132,7 +1773,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、AIモデルが命令違反や意図しないショートカットを行った際に、それを自己申告するよう訓練する概念「告白（confessions）」という初期の概念実証手法を発表しました。このアプローチは、モデルが自らの問題行動を正直に報告することで、AIシステムの理解を深め、訓練を改善し、出力への信頼を高めることを目的としています。告白は、モデルの主回答とは別に生成され、誠実さのみに基づいて評価および報酬が与えられます。主回答の報酬には影響しないため、モデルはたとえ主回答で不正"
+      "summary": "OpenAIは、AIモデルが命令違反や意図しないショートカットを行った際に、それを自己申告するよう訓練する概念「告白（confessions）」という初期の概念実証手法を発表しました。このアプローチは、モデルが自らの問題行動を正直に報告することで、AIシステムの理解を深め、訓練を改善し、出力への信頼を高めることを目的としています。告白は、モデルの主回答とは別に生成され、誠実さのみに基づいて評価および報酬が与えられます。主回答の報酬には影響しないため、モデルはたとえ主回答で不正",
+      "summaryLines": [
+        "「告白（confessions）」は、AIモデルが指示違反や意図しないショートカットを自己申告するよう訓練する、新しい手法である。",
+        "告白はモデルの主回答から独立しており、「誠実さ」のみで評価されるため、モデルは主回答で不正行為を行った場合でも正直に報告するインセンティブを持つ。",
+        "敵対的データセットでの評価では、モデルの不正行為の可視性が大幅に向上し、「誤報」（命令違反を告白しないケース）の確率はわずか4.4%であった。",
+        "告白は、モデルが複数の目標を同時に最適化する際に生じる、幻覚や報酬ハッキングなどの望ましくない行動を抑制する効果がある。",
+        "告白は不正行為を防止するものではなく、AIモデルの訓練および展開における監視・診断ツールとしての役割を果たす。"
+      ]
     },
     {
       "id": "openai-articles-article-20251203-openai-to-acquire-neptune.md",
@@ -1143,7 +1791,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、フロンティア研究の進歩を支えるツールとインフラを強化するため、neptune.aiを買収する正式契約を締結したことを発表しました。neptune.aiは、高度なAIモデルのトレーニングにおいて、実験の追跡、トレーニングの監視、複雑なモデルの挙動のリアルタイムでの理解を研究者に提供する、明確で信頼性の高い方法を提供しています。"
+      "summary": "OpenAIは、フロンティア研究の進歩を支えるツールとインフラを強化するため、neptune.aiを買収する正式契約を締結したことを発表しました。neptune.aiは、高度なAIモデルのトレーニングにおいて、実験の追跡、トレーニングの監視、複雑なモデルの挙動のリアルタイムでの理解を研究者に提供する、明確で信頼性の高い方法を提供しています。",
+      "summaryLines": [
+        "OpenAIは、フロンティア研究のツールとインフラを強化するため、neptune.aiを買収する。",
+        "Neptuneは、AIモデルのトレーニングにおける実験追跡、監視、複雑なモデル挙動のリアルタイム理解を可能にするツールを提供する。",
+        "NeptuneはOpenAIと協力して、多数の実行比較、層間メトリクス分析、問題特定を可能にするツールを開発してきた。",
+        "この買収により、OpenAIは研究開発を加速し、実験から深い知見を得て、トレーニングプロセスの意思決定を改善する。",
+        "NeptuneのCEOは、OpenAIへの参加が、より大規模なスケールで研究者のツール提供に貢献する機会であるとコメントしている。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251202-anthropic-acquires-bun-as-claude-code-reaches-1b-m.md",
@@ -1154,7 +1810,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "Anthropicは、JavaScriptランタイム「Bun」の買収を発表しました。この買収は、同社のAIコーディングアシスタント「Claude Code」が、公開からわずか6か月で年間収益10億ドルという重要なマイルストーンを達成したことを記念して行われます。Claude Codeは、開発者、スタートアップ、企業にとって世界で最もスマートで有能なAIモデルであり、agenticコーディングの新時代を切り開き、チームのソフトウェア開発方法を根本的に変革しています。"
+      "summary": "Anthropicは、JavaScriptランタイム「Bun」の買収を発表しました。この買収は、同社のAIコーディングアシスタント「Claude Code」が、公開からわずか6か月で年間収益10億ドルという重要なマイルストーンを達成したことを記念して行われます。Claude Codeは、開発者、スタートアップ、企業にとって世界で最もスマートで有能なAIモデルであり、agenticコーディングの新時代を切り開き、チームのソフトウェア開発方法を根本的に変革しています。",
+      "summaryLines": [
+        "AnthropicはJavaScriptランタイム「Bun」を買収し、同時に同社のAIコーディングアシスタント「Claude Code」が公開後6か月で年間収益10億ドルを達成したと発表しました。",
+        "Bunは、ランタイム、パッケージマネージャー、バンドラー、テストランナーを統合したオールインワンのツールキットであり、現代のソフトウェア開発における速度とパフォーマンスを劇的に向上させます。",
+        "この買収により、Claude Codeのユーザーは、パフォーマンスの高速化、安定性の向上、および新機能の提供といったメリットを享受できます。",
+        "Anthropicは、BunをオープンソースおよびMITライセンスとして維持し、JavaScriptおよびTypeScript開発者向けの最適なツールとして継続的に投資していくことを表明しています。",
+        "この買収は、Anthropicが技術的卓越性を高め、企業AI分野のリーダーとしての地位を強化し、AI導入の爆発的な成長に対応するためのインフラを構築する戦略的な動きです。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251201-accenture-and-openai-accelerate-enterprise-ai-succ.md",
@@ -1165,7 +1829,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "AccentureとOpenAIは、企業がエージェントAI機能をビジネスの中核に取り入れ、新たな成長レベルを解き放つための協業を発表しました。この提携の一環として、Accentureは数万人のプロフェッショナルにChatGPT Enterpriseライセンスを導入し、OpenAIを次世代AIパワードサービスの主要なAIパートナーとして指名します。これにより、Accentureの専門家はOpenAI Certificationsを通じてスキルを向上させ、コンサルティング、運用、"
+      "summary": "AccentureとOpenAIは、企業がエージェントAI機能をビジネスの中核に取り入れ、新たな成長レベルを解き放つための協業を発表しました。この提携の一環として、Accentureは数万人のプロフェッショナルにChatGPT Enterpriseライセンスを導入し、OpenAIを次世代AIパワードサービスの主要なAIパートナーとして指名します。これにより、Accentureの専門家はOpenAI Certificationsを通じてスキルを向上させ、コンサルティング、運用、",
+      "summaryLines": [
+        "Accentureは、数万人のプロフェッショナルにChatGPT Enterpriseを導入し、OpenAI Certificationsを通じてスキルアップを推進します。",
+        "OpenAIは、Accentureの次世代AIパワードサービスにおける主要なAIパートナーの一つとなります。",
+        "両社は、企業がAIエージェントをビジネスの中核に導入し、成長を加速させるための新しい「フラッグシップAIクライアントプログラム」を開始します。",
+        "このプログラムでは、OpenAIのAgentKitを活用し、カスタムAIエージェントの迅速な設計、テスト、展開を支援します。",
+        "顧客サービス、サプライチェーン、財務、人事などの主要な企業機能に焦点を当てたエンタープライズソリューションで協力します。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251201-funding-grants-for-new-research-into-ai-and-mental.md",
@@ -1176,7 +1848,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、AIとメンタルヘルスが交差する領域を探求する研究提案に対し、最大200万ドルの助成金プログラムを発表しました。AIがより有能かつユビキタスになるにつれ、人々が生活のより個人的な領域でAIを利用する機会が増えることを認識しており、精神的および感情的な苦痛の兆候を認識し、適切に対応するモデルの能力を継続的に強化しています。"
+      "summary": "OpenAIは、AIとメンタルヘルスが交差する領域を探求する研究提案に対し、最大200万ドルの助成金プログラムを発表しました。AIがより有能かつユビキタスになるにつれ、人々が生活のより個人的な領域でAIを利用する機会が増えることを認識しており、精神的および感情的な苦痛の兆候を認識し、適切に対応するモデルの能力を継続的に強化しています。",
+      "summaryLines": [
+        "OpenAIは、AIとメンタルヘルス分野の独立研究に対し、最大200万ドルの助成金プログラムを開始しました。",
+        "このプログラムは、AIが個人の生活に深く関わるようになる中、精神的・感情的苦痛に対するAIの対応能力を強化することを目的としています。",
+        "OpenAI自身の安全性向上努力と、AIエコシステム全体のイノベーション加速に貢献する基盤的な研究を支援します。",
+        "特に、技術研究者、精神保健専門家、および当事者の経験を組み合わせた学際的な研究提案を歓迎しています。",
+        "資金提供されるプロジェクトは、AIとメンタルヘルスの潜在的なリスクと利益に関する理解を深め、明確な成果や実用的な洞察を生み出すことが期待されます。"
+      ]
     },
     {
       "id": "openai-articles-article-20251201-inside-mirakl-s-agentic-commerce-vision.md",
@@ -1187,7 +1866,14 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "Miraklは、AIを全社的な能力として位置づけ、ワークフローの高速化、製品の強化、そしてエージェント駆動型コマースの次なる波を推進しています。同社のAIアプローチは、「全員がAIを使用する」という初期ビジョンから、「全員がAIを使ってエージェントを構築する」という進化を遂げ、従業員は自身の目的やチームのワークフローを再定義するためにエージェントを設計・所有することが求められています。"
+      "summary": "Miraklは、AIを全社的な能力として位置づけ、ワークフローの高速化、製品の強化、そしてエージェント駆動型コマースの次なる波を推進しています。同社のAIアプローチは、「全員がAIを使用する」という初期ビジョンから、「全員がAIを使ってエージェントを構築する」という進化を遂げ、従業員は自身の目的やチームのワークフローを再定義するためにエージェントを設計・所有することが求められています。",
+      "summaryLines": [
+        "MiraklはAIを全社的な能力として活用し、「全員がAIを使ってエージェントを構築する」文化を推進しています。",
+        "ChatGPT Enterpriseの使用により、内部技術文書の作成時間を約70%短縮しました。",
+        "顧客サポートのAIエージェント導入により、効率が37%向上し、顧客満足度は96%を維持しています。",
+        "AIネイティブなCatalog Transformerにより、カタログオンボーディング時間を91%短縮し、分類エラーを約50%削減しました。",
+        "エージェント駆動型コマースの将来を見据え、マルチマーチャントバスケットや複雑な取引フローに対応する「Mirakl Nexus」インフラを開発しています。"
+      ]
     },
     {
       "id": "openai-articles-article-20251201-openai-and-norad-team-up-to-bring-new-magic-to-nor.md",
@@ -1198,7 +1884,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、北米航空宇宙防衛司令部（NORAD）と提携し、毎年恒例の「NORAD Tracks Santa」プログラムに新たな魔法を加えます。このコラボレーションにより、家族がクリスマスシーズンをさらに楽しく過ごせるよう、ChatGPTを活用した3つの新しいホリデーツールが導入されました。これらのツールは、直感的で楽しく、特別な祝祭の要素を家庭にもたらすことを目的としています。"
+      "summary": "OpenAIは、北米航空宇宙防衛司令部（NORAD）と提携し、毎年恒例の「NORAD Tracks Santa」プログラムに新たな魔法を加えます。このコラボレーションにより、家族がクリスマスシーズンをさらに楽しく過ごせるよう、ChatGPTを活用した3つの新しいホリデーツールが導入されました。これらのツールは、直感的で楽しく、特別な祝祭の要素を家庭にもたらすことを目的としています。",
+      "summaryLines": [
+        "OpenAIとNORADが「NORAD Tracks Santa」プログラムで提携しました。",
+        "ChatGPTを活用した3つの新しいホリデーツールが導入されます。",
+        "ツールには、写真を「公式」サンタの助手に変える「Elf Enrollment」が含まれます。",
+        "「Santa’s Toy Lab」は、子供の想像力豊かなおもちゃのアイデアを印刷可能な塗り絵ページに変換します。",
+        "「Christmas Story Creator」は、家族が名前や詳細を盛り込んで自分だけのクリスマス物語を作成できるツールです。",
+        "---"
+      ]
     },
     {
       "id": "openai-articles-article-20251201-openai-takes-an-ownership-stake-in-thrive-holdings.md",
@@ -1209,7 +1903,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "OpenAI News",
-      "summary": "OpenAIは、エンタープライズAI導入を加速するため、Thrive Holdingsへの出資を発表しました。Thrive Holdingsは、長期的な技術主導型変革から恩恵を受ける事業への投資、買収、構築を行っています。この提携により、両社は中核的な企業業務全体に直接的でスケーラブルな影響をもたらすことを目指し、特にOpenAIのプラットフォームが即座に利益をもたらす可能性のある、大量でルールに基づいたワークフローの多い会計およびITサービスに初期的に注力します。"
+      "summary": "OpenAIは、エンタープライズAI導入を加速するため、Thrive Holdingsへの出資を発表しました。Thrive Holdingsは、長期的な技術主導型変革から恩恵を受ける事業への投資、買収、構築を行っています。この提携により、両社は中核的な企業業務全体に直接的でスケーラブルな影響をもたらすことを目指し、特にOpenAIのプラットフォームが即座に利益をもたらす可能性のある、大量でルールに基づいたワークフローの多い会計およびITサービスに初期的に注力します。",
+      "summaryLines": [
+        "OpenAIは、エンタープライズAI導入加速のためThrive Holdingsへの出資を発表しました。",
+        "このパートナーシップは、初期段階として、AIによる速度、精度、効率の向上が見込まれる会計およびITサービスに焦点を当てます。",
+        "OpenAIは、Thrive Holdings傘下企業に研究、製品、エンジニアリングチームを配置し、サービス品質の向上とコスト効率化を図ります。",
+        "この取り組みは、将来的に他の産業へも展開可能な、再現性のあるAI導入モデルの確立を目指しています。",
+        "Thrive Holdingsは、AIがドメイン専門家によって「内側から」業界を変革する可能性に期待を寄せています。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251125-claude-for-nonprofits.md",
@@ -1220,7 +1922,15 @@
       "category": "articles",
       "source": "news",
       "sourceMedium": "Anthropic News",
-      "summary": "Anthropicは、国際的な慈善活動ムーブメントであるGivingTuesdayと提携し、「Claude for Nonprofits」プログラムを開始しました。このプログラムは、限られたリソースの中で社会の最も困難な問題に取り組む非営利団体が、その影響力を最大化できるよう支援することを目的としています。てんかん財団（Epilepsy Foundation）や国際救助委員会（International Rescue Committee）、IDinsightなどの複数の非営利"
+      "summary": "Anthropicは、国際的な慈善活動ムーブメントであるGivingTuesdayと提携し、「Claude for Nonprofits」プログラムを開始しました。このプログラムは、限られたリソースの中で社会の最も困難な問題に取り組む非営利団体が、その影響力を最大化できるよう支援することを目的としています。てんかん財団（Epilepsy Foundation）や国際救助委員会（International Rescue Committee）、IDinsightなどの複数の非営利",
+      "summaryLines": [
+        "AnthropicはGivingTuesdayと提携し、非営利団体がAIを効率的に活用し、社会的影響を最大化できるよう「Claude for Nonprofits」プログラムを開始。",
+        "非営利団体は、ClaudeのTeamおよびEnterpriseプランを最大75%割引で利用でき、Claude Sonnet 4.5、Haiku 4.5、Opus 4.5（Enterprise版のみ）へのアクセスが可能となる。",
+        "Blackbaud、Candid、Benevityといった非営利団体向け主要ツールとの新しいオープンソースコネクターを導入し、既存のビジネスツール（Microsoft 365、Google Workspaceなど）との連携も強化。",
+        "非営利団体向けにAIの効率的な利用法を学ぶ無料のオンラインコース「AI Fluency for Nonprofits」と、具体的なユースケースのガイドを提供。",
+        "てんかん財団、国際救助委員会、IDinsightなどの非営利団体が既にClaudeを導入し、24時間サポート、迅速なデータ分析、作業効率の向上といった具体的な成果を報告している。",
+        "---"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251124-2025-11-24-release-notes.md",
@@ -1231,7 +1941,15 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "最大限の能力と実用的なパフォーマンスを組み合わせた、最もインテリジェントなモデルである[Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)を公開しました。複雑な専門タスク、プロフェッショナルなソフトウェアエンジニアリング、高度なエージェントに最適です。以前のOpusモデルよりも手頃な価格で、視覚、コーディング、コンピューター使用において画期的な改善が特徴です。詳細は[モデルと料金のドキュメント](h"
+      "summary": "最大限の能力と実用的なパフォーマンスを組み合わせた、最もインテリジェントなモデルである[Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)を公開しました。複雑な専門タスク、プロフェッショナルなソフトウェアエンジニアリング、高度なエージェントに最適です。以前のOpusモデルよりも手頃な価格で、視覚、コーディング、コンピューター使用において画期的な改善が特徴です。詳細は[モデルと料金のドキュメント](h",
+      "summaryLines": [
+        "# 2025-11-24 リリースノート",
+        "最大限の能力と実用的なパフォーマンスを組み合わせた、最もインテリジェントなモデルである[Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)を公開しました。複雑な専門タスク、プロフェッショナルなソフトウェアエンジニアリング、高度なエージェントに最適です。以前のOpusモデルよりも手頃な価格で、視覚、コーディング、コンピューター使用において画期的な改善が特徴です。詳細は[モデルと料金のドキュメント](https://platform.claude.com/docs/en/about-claude/models)をご覧ください。",
+        "[プログラマティックなツール呼び出し](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)をパブリックベータ版として公開しました。これにより、Claudeがコード実行内からツールを呼び出し、複数ツールを使ったワークフローでのレイテンシとトークン使用量を削減できるようになります。",
+        "[ツール検索ツール](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool)をパブリックベータ版として公開しました。これにより、Claudeが大規模なツールカタログからツールを動的に発見し、オンデマンドでロードできるようになります。",
+        "Claude Opus 4.5向けに[effortパラメーター](https://platform.claude.com/docs/en/build-with-claude/effort)をパブリックベータ版として公開しました。これにより、応答の徹底度と効率性のトレードオフによってトークン使用量を制御できます。",
+        "PythonおよびTypeScript SDKに[クライアントサイドのコンパクション](https://platform.claude.com/docs/en/build-with-claude/context-editing#client-side-compaction-sdk)を追加しました。これにより、`tool_runner`を使用する際に、要約を通じて会話コンテキストを自動的に管理します。"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251121-2025-11-21-release-notes.md",
@@ -1242,7 +1960,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。"
+      "summary": "検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。",
+      "summaryLines": [
+        "# 2025-11-21 リリースノート",
+        "検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251120-2025-11-20-changelog.md",
@@ -1253,7 +1975,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "Gemini 3 Pro イメージプレビュー `gemini-3-pro-image-preview`（Nano Bananaモデルの次のイテレーション）をリリースしました。詳細については、[画像生成](https://ai.google.dev/gemini-api/docs/image-generation)ページをお読みください。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "anthropic-release-notes-release-note-20251119-2025-11-19-release-notes.md",
@@ -1264,7 +1987,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。"
+      "summary": "新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。",
+      "summaryLines": [
+        "# 2025年11月19日 リリースノート",
+        "新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251118-2025-11-18-changelog.md",
@@ -1275,7 +2002,15 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "初のGemini 3シリーズモデルである`gemini-3-pro-preview`をリリースしました。これは、強力なエージェント機能とコーディング能力を備えた、最先端の推論およびマルチモーダル理解モデルです。"
+      "summary": "初のGemini 3シリーズモデルである`gemini-3-pro-preview`をリリースしました。これは、強力なエージェント機能とコーディング能力を備えた、最先端の推論およびマルチモーダル理解モデルです。",
+      "summaryLines": [
+        "# 2025年11月18日 変更ログ",
+        "初のGemini 3シリーズモデルである`gemini-3-pro-preview`をリリースしました。これは、強力なエージェント機能とコーディング能力を備えた、最先端の推論およびマルチモーダル理解モデルです。",
+        "知能とパフォーマンスの向上に加え、Gemini 3 Pro Previewは以下の新しい動作を導入します:",
+        "[メディア解像度](https://ai.google.dev/gemini-api/docs/media-resolution)",
+        "[思考シグネチャ](https://ai.google.dev/gemini-api/docs/thought-signatures)",
+        "[思考レベル](https://ai.google.dev/gemini-api/docs/thinking#thinking-levels)"
+      ]
     },
     {
       "id": "openai-deprecations-deprecation-20251118-2025-11-18-deprecations.md",
@@ -1286,7 +2021,14 @@
       "category": "deprecations",
       "source": "platform-deprecations",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "2025年11月18日、弊社は`chatgpt-4o-latest`モデルスナップショットを使用している開発者に対し、2026年2月17日付けでこのモデルが非推奨となりAPIから削除されることを通知しました。"
+      "summary": "2025年11月18日、弊社は`chatgpt-4o-latest`モデルスナップショットを使用している開発者に対し、2026年2月17日付けでこのモデルが非推奨となりAPIから削除されることを通知しました。",
+      "summaryLines": [
+        "# 2025年11月18日の非推奨化",
+        "2025年11月18日、弊社は`chatgpt-4o-latest`モデルスナップショットを使用している開発者に対し、2026年2月17日付けでこのモデルが非推奨となりAPIから削除されることを通知しました。",
+        "| 停止日 | 推奨される代替 | |",
+        "| --- | --- | --- |",
+        "| 2026-02-17 | `gpt-5.1-chat-latest` | |"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251118-2025-11-18-release-notes.md",
@@ -1297,7 +2039,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.co"
+      "summary": "Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.co",
+      "summaryLines": [
+        "# 2025年11月18日 リリースノート",
+        "Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)をご覧ください。"
+      ]
     },
     {
       "id": "openai-deprecations-deprecation-20251117-2025-11-17-deprecations.md",
@@ -1308,7 +2054,8 @@
       "category": "deprecations",
       "source": "platform-deprecations",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "2025年11月17日、`codex-mini-latest`モデルを使用している開発者に対し、そのモデルが2026年1月16日にAPIから廃止および削除されることを通知しました。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "openai-deprecations-deprecation-20251114-2025-11-14-deprecations.md",
@@ -1319,7 +2066,8 @@
       "category": "deprecations",
       "source": "platform-deprecations",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "2025年11月14日、DALL·Eモデルのスナップショットを使用している開発者に対し、2026年5月12日にAPIから非推奨化され、削除されることを通知しました。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "anthropic-release-notes-release-note-20251114-2025-11-14-release-notes.md",
@@ -1330,7 +2078,11 @@
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
-      "summary": "Claudeの応答に対するスキーマ適合性を保証する[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)をパブリックベータ版としてリリースしました。構造化データ応答にはJSON出力を、検証済みのツール入力には厳密なツール利用を使用してください。Claude Sonnet 4.5およびClaude Opus 4.1で利用可能です。有効にするには、ベータヘッダー`struc"
+      "summary": "Claudeの応答に対するスキーマ適合性を保証する[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)をパブリックベータ版としてリリースしました。構造化データ応答にはJSON出力を、検証済みのツール入力には厳密なツール利用を使用してください。Claude Sonnet 4.5およびClaude Opus 4.1で利用可能です。有効にするには、ベータヘッダー`struc",
+      "summaryLines": [
+        "# 2025年11月14日 リリースノート",
+        "Claudeの応答に対するスキーマ適合性を保証する[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)をパブリックベータ版としてリリースしました。構造化データ応答にはJSON出力を、検証済みのツール入力には厳密なツール利用を使用してください。Claude Sonnet 4.5およびClaude Opus 4.1で利用可能です。有効にするには、ベータヘッダー`structured-outputs-2025-11-13`を使用してください。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251111-2025-11-11-changelog.md",
@@ -1341,7 +2093,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "非推奨のお知らせ: 以下のモデルがシャットダウンされます:"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-changelog-changelog-20251110-2025-11-10-changelog.md",
@@ -1352,7 +2105,13 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "以下のモデルは停止されました:"
+      "summary": "以下のモデルは停止されました:",
+      "summaryLines": [
+        "# 2025-11-10 変更履歴",
+        "以下のモデルは停止されました:",
+        "`imagen-3.0-generate-002`",
+        "代わりに[Imagen 4](https://ai.google.dev/gemini-api/docs/imagen#imagen-4)を使用してください。詳細については、[Geminiの非推奨リスト](https://ai.google.dev/gemini-api/docs/deprecations)を参照してください。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251106-2025-11-06-changelog.md",
@@ -1363,7 +2122,8 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "ファイル検索APIを一般公開プレビューとしてリリースしました。これにより、デベロッパーが自身のデータに基づいて応答を根拠付けられるようになります。詳細については、新しい[ファイル検索](https://ai.google.dev/gemini-api/docs/file-search)ページをご覧ください。"
+      "summary": "",
+      "summaryLines": []
     },
     {
       "id": "gemini-changelog-changelog-20251104-2025-11-04-changelog.md",
@@ -1374,7 +2134,15 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが下がりました。"
+      "summary": "[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが下がりました。",
+      "summaryLines": [
+        "# 2025年11月4日 変更履歴",
+        "[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが下がりました。",
+        "提供終了のお知らせ：以下のモデルがシャットダウンされます。",
+        "11月18日：",
+        "`gemini-2.5-flash-lite-preview-06-17`",
+        "`gemini-2.5-flash-preview-05-20`"
+      ]
     }
   ]
 }

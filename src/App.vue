@@ -113,7 +113,7 @@
                   <span
                     class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-ink/40"
                   ></span>
-                  <span>{{ line }}</span>
+                  <span v-html="formatLine(line)"></span>
                 </li>
               </ul>
               <p v-else class="text-sm text-ink/70">{{ item.summary }}</p>
@@ -190,6 +190,33 @@ const loadTimeline = async () => {
   } finally {
     loading.value = false;
   }
+};
+
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+const formatLine = (line: string) => {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let out = "";
+
+  while ((match = regex.exec(line)) !== null) {
+    const [full, text, url] = match;
+    out += escapeHtml(line.slice(lastIndex, match.index));
+    const safeText = escapeHtml(text);
+    const safeUrl = escapeHtml(url);
+    out += `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="underline decoration-ember/70 hover:text-ember">${safeText}</a>`;
+    lastIndex = match.index + full.length;
+  }
+
+  out += escapeHtml(line.slice(lastIndex));
+  return out;
 };
 
 onMounted(loadTimeline);
