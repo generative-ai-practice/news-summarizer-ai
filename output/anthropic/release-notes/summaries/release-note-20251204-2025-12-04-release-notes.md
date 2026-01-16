@@ -8,6 +8,6 @@ language: "ja"
 ---
 
 ## Updates (translated)
-# 2025-12-04 リリースノート
+# 2025年12月4日 リリースノート
 
-- [構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。
+- [構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) がClaude Haiku 4.5に対応しました。

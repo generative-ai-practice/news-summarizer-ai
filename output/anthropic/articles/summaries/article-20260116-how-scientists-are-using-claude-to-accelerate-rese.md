@@ -1,7 +1,7 @@
 ---
 title: "How scientists are using Claude to accelerate research and discovery"
 published: "2026-01-16"
-url: "https://www.anthropic.com/news/accelerating-scientific-research"
+url: "https://anthropic.com/news/accelerating-scientific-research"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # How scientists are using Claude to accelerate research and discovery
 
 ## Key Points
-- 2025年10月にClaude for Life Sciencesがローンチされ、Anthropicは科学研究向けのClaudeの能力に多大な投資を行っており、Opus 4.5は図の解釈、計算生物学、タンパク質理解のベンチマークで著しい改善を示しています。
-- 「AI for Science」プログラムを通じて、研究者はClaudeを文献レビューやコーディング支援だけでなく、実験計画の立案、大規模データのパターン発見、研究のボトルネック解消といった研究プロセスの全段階で利用しています。
-- スタンフォード大学のBiomniは、数百のツールやデータベースにアクセスできるClaude搭載の汎用生物医学エージェントであり、数ヶ月かかっていた遺伝子ワイド関連解析（GWAS）を20分に短縮するなど、研究を大幅に加速させます。
-- MITのCheeseman Labは、CRISPR遺伝子ノックアウト実験で得られる膨大なデータの解釈を自動化するClaude搭載システム「MozzareLLM」を開発し、人間が見落としがちな生物学的発見を可能にしています。
-- スタンフォード大学のLundberg Labは、Claudeを用いて細胞内の分子マップからターゲット遺伝子を特定するAI主導の仮説生成システムを実験中で、従来の直感や文献に基づくアプローチから分子特性に基づく選定へと研究手法を変革することを目指しています。
+- Anthropicは「Claude for Life Sciences」を立ち上げ、「AI for Science」プログラムを通じて、Opus 4.5モデルの機能向上により科学研究と発見を加速させている。Claudeは、図の解釈、計算生物学、タンパク質理解などのベンチマークで著しい改善を示している。
+- スタンフォード大学のBiomniは、数百のツールとデータベースにアクセスできる汎用生物医学エージェントであり、自然言語でのリクエストに基づき仮説形成、実験プロトコル設計、データ解析を自動化し、数ヶ月かかるゲノムワイド関連解析（GWAS）を20分で完了するなど、生物学研究のボトルネックを解消する。
+- MITのCheeseman Labは、ClaudeベースのMozzareLLMシステムを開発し、CRISPR遺伝子ノックアウト実験から得られる膨大なデータの解釈を自動化し、人間が見過ごす可能性のある新たな生物学的知見を特定するのに役立っている。
+- スタンフォード大学のLundberg Labは、Claudeを用いて、細胞内の分子マップに基づき研究すべき遺伝子の仮説生成を試験しており、高額なスクリーニング実験でどの遺伝子をターゲットにするかについて、より情報に基づいた意思決定を可能にすることを目指している。
+- Claudeは、文献レビューやコーディング支援といった基本的なタスクを超え、実験計画、大規模データセットのパターン発見、研究のボトルネック解消、さらには全く新しい研究アプローチを可能にする、科学研究プロセス全体にわたる協力者となっている。
