@@ -114,24 +114,37 @@ export class ReleaseNotesProvider extends BaseProvider {
       this.processed.push(result);
     }
 
-    const latestReleaseData: ArticleList = {
-      provider: this.provider,
-      lastChecked: generateTimestamp(),
-      articles: this.currentReleaseNotes,
-    };
-
-    if (!this.dryRun) {
-      await ensureDir(buildOutputPath(this.provider, "release-notes"));
-      await saveJSON(
-        buildOutputPath(
-          this.provider,
-          "release-notes",
-          "latest-release-notes.json",
-        ),
-        latestReleaseData,
+    const failed = this.processed.filter((item) => item.error);
+    const hasFailures = failed.length > 0;
+    if (hasFailures) {
+      log(
+        "[release-notes] one or more entries failed; latest-release-notes.json not updated",
       );
+      failed.forEach((item) => {
+        log(
+          `[release-notes] failed entry: ${item.article.title} (${item.article.url})`,
+        );
+      });
     } else {
-      log("[release-notes] dry-run: latest-release-notes.json not written");
+      const latestReleaseData: ArticleList = {
+        provider: this.provider,
+        lastChecked: generateTimestamp(),
+        articles: this.currentReleaseNotes,
+      };
+
+      if (!this.dryRun) {
+        await ensureDir(buildOutputPath(this.provider, "release-notes"));
+        await saveJSON(
+          buildOutputPath(
+            this.provider,
+            "release-notes",
+            "latest-release-notes.json",
+          ),
+          latestReleaseData,
+        );
+      } else {
+        log("[release-notes] dry-run: latest-release-notes.json not written");
+      }
     }
 
     log(`[release-notes] processData done in ${Date.now() - startedAt}ms`);

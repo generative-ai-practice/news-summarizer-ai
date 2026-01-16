@@ -112,7 +112,7 @@ jobs:
           fi
 
       - name: Build email content
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.create-pr.outputs.pr_number
         id: email-content
         run: |
           PROVIDER="${{ inputs.provider }}"
@@ -164,7 +164,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Send email notification
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.create-pr.outputs.pr_number
         run: |
           PROVIDER="${{ inputs.provider }}"
           PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
@@ -182,7 +182,7 @@ jobs:
           sed -i "s/PROVIDER_PLACEHOLDER/${PROVIDER_UPPER}/" /tmp/email.json
 
           # htmlフィールドを追加
-          jq --arg html '${{ steps.email-content.outputs.html }}' '. + {html: $html}' /tmp/email.json > /tmp/email_final.json
+          jq --arg html "$(printf '%s' "${{ steps.email-content.outputs.html }}")" '. + {html: $html}' /tmp/email.json > /tmp/email_final.json
 
           curl -X POST 'https://api.resend.com/emails' \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \

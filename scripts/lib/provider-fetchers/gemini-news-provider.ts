@@ -74,20 +74,33 @@ export class GeminiNewsProvider extends BaseProvider {
       this.processed.push(result);
     }
 
-    const latestData: ArticleList = {
-      provider: this.provider,
-      lastChecked: generateTimestamp(),
-      articles: this.currentNews,
-    };
-
-    if (!this.dryRun) {
-      await ensureDir(buildOutputPath(this.provider, "articles"));
-      await saveJSON(
-        buildOutputPath(this.provider, "articles", "latest-articles.json"),
-        latestData,
+    const failed = this.processed.filter((item) => item.error);
+    const hasFailures = failed.length > 0;
+    if (hasFailures) {
+      log(
+        "[gemini-news] one or more articles failed; latest-articles.json not updated",
       );
+      failed.forEach((item) => {
+        log(
+          `[gemini-news] failed article: ${item.article.title} (${item.article.url})`,
+        );
+      });
     } else {
-      log("[gemini-news] dry-run: latest-articles.json not written");
+      const latestData: ArticleList = {
+        provider: this.provider,
+        lastChecked: generateTimestamp(),
+        articles: this.currentNews,
+      };
+
+      if (!this.dryRun) {
+        await ensureDir(buildOutputPath(this.provider, "articles"));
+        await saveJSON(
+          buildOutputPath(this.provider, "articles", "latest-articles.json"),
+          latestData,
+        );
+      } else {
+        log("[gemini-news] dry-run: latest-articles.json not written");
+      }
     }
     log(`[gemini-news] processData done in ${Date.now() - startedAt}ms`);
   }
