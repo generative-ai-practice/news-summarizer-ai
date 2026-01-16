@@ -39,7 +39,9 @@ const walk = async (dir: string): Promise<string[]> => {
   return files;
 };
 
-const parseFrontmatter = (content: string): { fm: Frontmatter; body: string } => {
+const parseFrontmatter = (
+  content: string,
+): { fm: Frontmatter; body: string } => {
   if (!content.startsWith("---\n")) {
     return { fm: {}, body: content };
   }
@@ -161,7 +163,8 @@ const main = async () => {
   try {
     const files = (await walk(OUTPUT_ROOT)).filter(
       (file) =>
-        file.includes(`${path.sep}summaries${path.sep}`) && file.endsWith(".md"),
+        file.includes(`${path.sep}summaries${path.sep}`) &&
+        file.endsWith(".md"),
     );
     const items: TimelineItem[] = [];
 
@@ -171,7 +174,10 @@ const main = async () => {
       if (item) items.push(item);
     }
 
-    const payload = { generatedAt: new Date().toISOString(), items: sortItems(items) };
+    const payload = {
+      generatedAt: new Date().toISOString(),
+      items: sortItems(items),
+    };
     await fs.mkdir(PUBLIC_ROOT, { recursive: true });
     await fs.writeFile(DATA_PATH, JSON.stringify(payload, null, 2));
     console.log(`[timeline] wrote ${items.length} items to ${DATA_PATH}`);

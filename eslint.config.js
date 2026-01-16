@@ -20,6 +20,10 @@ export default tseslint.config(
         ecmaVersion: "latest",
         sourceType: "module",
       },
+      globals: {
+        fetch: "readonly",
+        console: "readonly",
+      },
     },
     plugins: {
       vue,
