@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'yarn'
 
       - name: Install dependencies
@@ -34,7 +34,8 @@ jobs:
       - name: Check for changes
         id: check-changes
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
+          git add -A
+          if git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -47,7 +48,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: update news articles'
-          branch: auto-update/news-${{ github.run_number }}
+          branch: auto-update/openai-news-${{ github.run_number }}
           delete-branch: true
           title: '[Auto] Update news articles'
           body: |
