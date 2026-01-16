@@ -1,28 +1,146 @@
 <template>
-  <main class="app">
-    <h1>Vue + TypeScript</h1>
-    <p>Edit <code>src/App.vue</code> and save to see changes.</p>
-  </main>
+  <div class="min-h-screen">
+    <header class="mx-auto flex w-full max-w-6xl flex-col gap-6 px-6 pb-8 pt-16">
+      <div class="flex flex-col gap-3">
+        <p class="text-xs font-semibold uppercase tracking-[0.35em] text-ink/60">
+          News Summarizer AI
+        </p>
+        <h1 class="font-display text-4xl leading-tight text-ink sm:text-5xl">
+          Provider timeline for summaries, deprecations, and changelog updates.
+        </h1>
+        <p class="max-w-2xl text-base text-ink/70">
+          Auto-collected reports across providers, organized as a single stream.
+          Use this page to scan what changed, then open the source link for details.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.2em]">
+        <span class="rounded-full border border-ink/10 bg-white/70 px-3 py-1 text-ink/70">
+          Entries: {{ filteredItems.length }}
+        </span>
+        <span class="rounded-full border border-ink/10 bg-white/70 px-3 py-1 text-ink/70">
+          Providers: {{ providerCount }}
+        </span>
+        <span class="rounded-full border border-ink/10 bg-white/70 px-3 py-1 text-ink/70">
+          Last updated: {{ lastUpdatedLabel }}
+        </span>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-6xl px-6 pb-20">
+      <section
+        class="rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-glow backdrop-blur"
+      >
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <h2 class="font-display text-2xl text-ink">Timeline</h2>
+            <p class="text-sm text-ink/60">
+              Sorted by published date with source and provider tags.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.2em]">
+            <button
+              v-for="option in providerOptions"
+              :key="option"
+              type="button"
+              class="rounded-full border border-ink/10 px-3 py-2 transition hover:border-ink/30"
+              :class="option === activeProvider ? 'bg-ink text-white' : 'bg-white/70 text-ink/70'"
+              @click="activeProvider = option"
+            >
+              {{ option }}
+            </button>
+          </div>
+        </div>
+
+        <div v-if="loading" class="py-12 text-center text-sm text-ink/60">
+          Loading timeline data...
+        </div>
+        <div v-else-if="filteredItems.length === 0" class="py-12 text-center text-sm text-ink/60">
+          No entries yet. Run the data builder to populate the feed.
+        </div>
+
+        <ol v-else class="mt-8 space-y-6">
+          <li
+            v-for="item in filteredItems"
+            :key="item.id"
+            class="group rounded-2xl border border-ink/10 bg-white/90 p-5 transition hover:-translate-y-1 hover:border-ink/30 hover:shadow-lg"
+          >
+            <div class="flex flex-wrap items-center gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-ink/60">
+              <span class="rounded-full bg-ink/5 px-3 py-1">{{ item.provider }}</span>
+              <span class="rounded-full bg-ink/5 px-3 py-1">{{ item.category }}</span>
+              <span class="rounded-full bg-ink/5 px-3 py-1">{{ item.published }}</span>
+            </div>
+            <div class="mt-4 flex flex-col gap-3">
+              <h3 class="font-display text-xl text-ink">{{ item.title }}</h3>
+              <p class="text-sm text-ink/70">{{ item.summary }}</p>
+              <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
+                <span class="text-ink/50">{{ item.sourceMedium }}</span>
+                <a
+                  class="inline-flex items-center gap-2 rounded-full border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-ink hover:bg-ink hover:text-white"
+                  :href="item.url"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Source
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { computed, onMounted, ref } from "vue";
 
-<style scoped>
-.app {
-  margin: 0 auto;
-  max-width: 640px;
-  padding: 64px 24px;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: #0f172a;
-}
+type TimelineItem = {
+  id: string;
+  title: string;
+  published: string;
+  url: string;
+  provider: string;
+  category: string;
+  source: string;
+  sourceMedium: string;
+  summary: string;
+};
 
-h1 {
-  font-size: 2.5rem;
-  margin: 0 0 1rem;
-}
+const loading = ref(true);
+const items = ref<TimelineItem[]>([]);
+const activeProvider = ref("All");
 
-p {
-  line-height: 1.6;
-  margin: 0;
-}
-</style>
+const providerOptions = computed(() => {
+  const providers = new Set(items.value.map((item) => item.provider));
+  return ["All", ...Array.from(providers).sort()];
+});
+
+const providerCount = computed(() => new Set(items.value.map((item) => item.provider)).size);
+
+const lastUpdatedLabel = computed(() => {
+  if (!items.value.length) return "n/a";
+  return items.value[0].published;
+});
+
+const filteredItems = computed(() => {
+  if (activeProvider.value === "All") return items.value;
+  return items.value.filter((item) => item.provider === activeProvider.value);
+});
+
+const loadTimeline = async () => {
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data.json`, {
+      cache: "no-store",
+    });
+    if (!response.ok) throw new Error("Failed to load data.json");
+    const payload = (await response.json()) as { items: TimelineItem[] };
+    items.value = payload.items ?? [];
+  } catch (error) {
+    console.error(error);
+  } finally {
+    loading.value = false;
+  }
+};
+
+onMounted(loadTimeline);
+</script>
