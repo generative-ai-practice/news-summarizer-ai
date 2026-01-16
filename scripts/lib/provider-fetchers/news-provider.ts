@@ -111,7 +111,9 @@ export class NewsProvider extends BaseProvider {
         "[news] one or more articles failed; latest-articles.json not updated",
       );
       failed.forEach((item) => {
-        log(`[news] failed article: ${item.article.title} (${item.article.url})`);
+        log(
+          `[news] failed article: ${item.article.title} (${item.article.url})`,
+        );
       });
     } else {
       const latestNewsData: ArticleList = {
