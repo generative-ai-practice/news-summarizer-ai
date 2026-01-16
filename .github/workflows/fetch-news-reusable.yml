@@ -122,7 +122,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build email content
-        if: steps.create-pr.outputs.pr_number
+        if: steps.check-changes.outputs.has_changes == 'true' && steps.create-pr.outputs.pr_number
         id: email-content
         run: |
           PROVIDER="${{ inputs.provider }}"
@@ -175,7 +175,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Send email notification
-        if: steps.create-pr.outputs.pr_number
+        if: steps.check-changes.outputs.has_changes == 'true' && steps.create-pr.outputs.pr_number
         run: |
           PROVIDER="${{ inputs.provider }}"
           PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
@@ -193,13 +193,15 @@ jobs:
           sed -i "s/PROVIDER_PLACEHOLDER/${PROVIDER_UPPER}/" /tmp/email.json
 
           # htmlフィールドを追加
-          printf '%s' "${{ steps.email-content.outputs.html }}" > /tmp/email_body.html
+          printf '%s' "$EMAIL_HTML" > /tmp/email_body.html
           jq -Rs --slurpfile base /tmp/email.json '{from: $base[0].from, to: $base[0].to, subject: $base[0].subject, html: .}' /tmp/email_body.html > /tmp/email_final.json
 
           curl -X POST 'https://api.resend.com/emails' \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H 'Content-Type: application/json' \
             -d @/tmp/email_final.json
+        env:
+          EMAIL_HTML: ${{ steps.email-content.outputs.html }}
 
       - name: Summary
         if: always()
