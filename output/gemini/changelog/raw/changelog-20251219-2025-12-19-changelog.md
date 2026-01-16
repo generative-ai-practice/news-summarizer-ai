@@ -1,0 +1,1 @@
+- Introduced a breaking change to the Interactions API public preview in v1beta. The `total_reasoning_tokens` field has been renamed to `total_thought_tokens` to better align with the concept of "thoughts" in thinking models.
