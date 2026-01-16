@@ -148,6 +148,7 @@
 </template>
 
 <script setup lang="ts">
+import DOMPurify from "dompurify";
 import { computed, onMounted, ref } from "vue";
 
 type TimelineItem = {
@@ -209,6 +210,12 @@ const escapeHtml = (value: string) =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 
+const sanitizeHtml = (value: string) =>
+  DOMPurify.sanitize(value, {
+    ALLOWED_TAGS: ["a", "div", "table", "thead", "tbody", "tr", "th", "td"],
+    ALLOWED_ATTR: ["href", "target", "rel", "class"],
+  });
+
 const formatLine = (line: string) => {
   const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
   let lastIndex = 0;
@@ -225,12 +232,12 @@ const formatLine = (line: string) => {
   }
 
   out += escapeHtml(line.slice(lastIndex));
-  return out;
+  return sanitizeHtml(out);
 };
 
 const isTableLine = (line: string) => line.startsWith("__TABLE__");
 
-const tableHtml = (line: string) => line.replace("__TABLE__", "");
+const tableHtml = (line: string) => sanitizeHtml(line.replace("__TABLE__", ""));
 
 onMounted(loadTimeline);
 </script>
