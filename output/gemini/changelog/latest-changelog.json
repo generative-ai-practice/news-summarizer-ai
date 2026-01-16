@@ -1,7 +1,52 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-01-03T15:14:29.056Z",
+  "lastChecked": "2026-01-16T07:17:05.867Z",
   "articles": [
+    {
+      "title": "2026-01-14 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-01-14",
+      "publishedDate": "2026-01-14",
+      "source": "changelog",
+      "slug": "20260114-2026-01-14-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-01-13 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-01-13",
+      "publishedDate": "2026-01-13",
+      "source": "changelog",
+      "slug": "20260113-2026-01-13-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-01-12 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-01-12",
+      "publishedDate": "2026-01-12",
+      "source": "changelog",
+      "slug": "20260112-2026-01-12-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-01-08 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-01-08",
+      "publishedDate": "2026-01-08",
+      "source": "changelog",
+      "slug": "20260108-2026-01-08-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-12-19 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2025-12-19",
+      "publishedDate": "2025-12-19",
+      "source": "changelog",
+      "slug": "20251219-2025-12-19-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2025-12-17 changelog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2025-12-17",

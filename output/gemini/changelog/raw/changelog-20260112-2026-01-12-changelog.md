@@ -1,0 +1,4 @@
+- Launched model lifecycle feature. Some models will now specify the lifecycle
+- stage and deprecation timeline. See the following documentation for more
+- information:
+- [Model stages](https://ai.google.dev/api/generate-content#ModelStatus)

@@ -1,0 +1,2 @@
+- Launched support for Cloud Storage buckets and any public and private DB pre-signed URL as data input source for the Gemini API. The file size limit has also increased from 20MB to 100MB. For details, see [File input methods
+- guide](https://ai.google.dev/gemini-api/docs/file-input-methods).

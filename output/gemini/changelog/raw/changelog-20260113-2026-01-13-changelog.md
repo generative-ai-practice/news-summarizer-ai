@@ -1,0 +1,1 @@
+- Added 4k output resolutions for [Veo](https://ai.google.dev/gemini-api/docs/video) and more support for portrait videos in all resolutions.

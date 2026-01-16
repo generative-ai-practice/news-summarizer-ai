@@ -1,0 +1,1 @@
+- The `text-embedding-004` model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations).
