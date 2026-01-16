@@ -1,16 +1,16 @@
-name: Fetch Gemini News
+name: Fetch Claude News
 
 on:
   schedule:
-    # 3時間おき 1:00 から (UTC 1:00, 4:00, 7:00, 10:00, 13:00, 16:00, 19:00, 22:00)
-    - cron: '0 1/3 * * *'
+    # 3時間おき 2:00 から (UTC 2:00, 5:00, 8:00, 11:00, 14:00, 17:00, 20:00, 23:00)
+    - cron: '0 2/3 * * *'
   workflow_dispatch: # 手動実行用
 
 jobs:
   fetch:
     uses: ./.github/workflows/fetch-news-reusable.yml
     with:
-      provider: gemini
+      provider: claude
       has_deprecations: false
     secrets:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
