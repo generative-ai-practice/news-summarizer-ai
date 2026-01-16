@@ -1,7 +1,61 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-03T09:01:00.076Z",
+  "lastChecked": "2026-01-16T14:19:20.873Z",
   "articles": [
+    {
+      "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260116-anthropic-appoints-irina-ghose-as-managing-directo"
+    },
+    {
+      "title": "How scientists are using Claude to accelerate research and discovery",
+      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260116-how-scientists-are-using-claude-to-accelerate-rese"
+    },
+    {
+      "title": "Anthropic Economic Index: new building blocks for understanding AI use",
+      "url": "https://www.anthropic.com/research/economic-index-primitives",
+      "publishedDate": "2026-01-15",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260115-anthropic-economic-index-new-building-blocks-for-u"
+    },
+    {
+      "title": "Anthropic Economic Index report: economic primitives",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "publishedDate": "2026-01-13",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260113-anthropic-economic-index-report-economic-primitive"
+    },
+    {
+      "title": "Introducing Labs",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "publishedDate": "2026-01-14",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260114-introducing-labs"
+    },
+    {
+      "title": "Advancing Claude in healthcare and the life sciences",
+      "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+      "publishedDate": "2026-01-09",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260109-advancing-claude-in-healthcare-and-the-life-scienc"
+    },
     {
       "title": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
       "url": "https://www.anthropic.com/news/compliance-framework-SB53",

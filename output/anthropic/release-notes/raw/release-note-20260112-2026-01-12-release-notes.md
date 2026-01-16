@@ -1,0 +1,1 @@
+- `console.anthropic.com` now redirects to `platform.claude.com`. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the [September 16, 2025 announcement](https://platform.claude.com/#september-16-2025).
