@@ -211,7 +211,7 @@ const formatLine = (line: string) => {
     out += escapeHtml(line.slice(lastIndex, match.index));
     const safeText = escapeHtml(text);
     const safeUrl = escapeHtml(url);
-    out += `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="underline decoration-ember/70 hover:text-ember">${safeText}</a>`;
+    out += `<a href="${safeUrl}" target="_blank" rel="noopener noreferrer" class="text-tide underline decoration-tide/70 underline-offset-2 hover:text-ink">${safeText}</a>`;
     lastIndex = match.index + full.length;
   }
 
