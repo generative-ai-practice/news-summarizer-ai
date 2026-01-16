@@ -1,0 +1,1 @@
+- Released`gpt-5.2-codex`to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more[here](https://platform.openai.com/docs/models/gpt-5.2-codex).
