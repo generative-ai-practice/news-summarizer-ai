@@ -1,7 +1,7 @@
 ---
 title: "Introducing Labs"
 published: "2026-01-14"
-url: "https://anthropic.com/news/introducing-anthropic-labs"
+url: "https://www.anthropic.com/news/introducing-anthropic-labs"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Introducing Labs
 
 ## Key Points
-- Claudeのモデルは急速に進化しており、その能力を活かした製品体験を構築するため、実験、早期ユーザーとのテスト、そして製品化へとスケールするアプローチを強化しています。
-- このアプローチにより、Claude Codeが半年で10億ドル規模の製品に成長し、Model Context Protocol (MCP)は月間1億ダウンロードの業界標準となるなど、数々の成功を収めてきました。
-- 「Labs」チームは、Claudeの最先端の能力を活用した実験的製品をインキュベートするために拡張され、Instagramの共同創設者であるMike KriegerがBen Mannと共にLabsに参加します。
-- Ami Voraはプロダクト組織を率い、CTOのRahul Patilと緊密に連携して、数百万のユーザーが日常的に利用するClaudeの体験をスケールさせる責任を担います。
-- AnthropicのPresidentであるDaniela Amodeiは、LabsがAIの急速な発展に対応するための新しい組織構造であり、Claudeの最先端の実験的製品を発見し、企業顧客と成長するユーザーベースのニーズに合わせて責任を持ってスケールすることを目的としていると述べています。
+- Anthropicは、Claudeの最先端機能を用いた実験的な製品を開発・育成するため、「Labs」チームを拡大しました（2026年1月13日発表）。
+- Instagramの共同創設者であり、Anthropicの元CPOであるMike KriegerがLabsチームに加わり、Ami VoraがProduct組織を率いることになりました。
+- この新しいアプローチは、Claude Code（6ヶ月で10億ドル製品に成長）やModel Context Protocol（月間1億ダウンロードを達成）といった成功した製品を生み出しています。
+- Labsの目的は、AIの急速な進歩に対応し、革新的な製品の探求と、それらを企業顧客や成長するユーザーベースのニーズに合わせて責任ある形で拡大することです。
+- Anthropicは、AI能力の最先端で製品を創造し、進化させることに情熱を持つ人材を積極的に募集しています。
