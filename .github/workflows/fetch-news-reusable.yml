@@ -192,13 +192,13 @@ jobs:
           sed -i "s/PROVIDER_PLACEHOLDER/${PROVIDER_UPPER}/" /tmp/email.json
 
           # htmlフィールドを追加
-          jq --arg html "$(printf '%s' "${{ steps.email-content.outputs.html }}")" '. + {html: $html}' /tmp/email.json > /tmp/email_final.json
+          printf '%s' "${{ steps.email-content.outputs.html }}" > /tmp/email_body.html
+          jq -Rs --slurpfile base /tmp/email.json '{from: $base[0].from, to: $base[0].to, subject: $base[0].subject, html: .}' /tmp/email_body.html > /tmp/email_final.json
 
           curl -X POST 'https://api.resend.com/emails' \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H 'Content-Type: application/json' \
             -d @/tmp/email_final.json
-        continue-on-error: true
 
       - name: Summary
         if: always()
