@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-01-16T14:01:34.501Z",
+  "generatedAt": "2026-01-16T14:21:46.125Z",
   "items": [
+    {
+      "id": "anthropic-articles-article-20260116-anthropic-appoints-irina-ghose-as-managing-directo.md",
+      "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+      "published": "2026-01-16",
+      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "Anthropicは、ベンガルールに初のインドオフィス開設に先立ち、Irina Ghose氏をインド担当マネージングディレクターに任命しました。",
+        "Ghose氏は、Microsoft Indiaで企業向けAI導入を主導した30年以上のテクノロジービジネス拡大経験を有しています。",
+        "彼女は、AIがインドの多様な言語やコミュニティ全体に永続的な価値を創造すべきだという信念を持っており、Anthropicの使命と共鳴しています。",
+        "インドチームは、政策立案者や学術機関と緊密に連携し、開発者エンゲージメントを強化し、現地課題解決にAIを活用する企業や組織とのパートナーシップを構築する予定です。",
+        "インドはClaude.aiにとって世界第2位の市場であり、特にコンピューターおよび数学的タスクにおける技術的応用に強い焦点があります。"
+      ]
+    },
+    {
+      "id": "anthropic-articles-article-20260116-how-scientists-are-using-claude-to-accelerate-rese.md",
+      "title": "How scientists are using Claude to accelerate research and discovery",
+      "published": "2026-01-16",
+      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "2025年10月にClaude for Life Sciencesがローンチされ、Anthropicは科学研究向けのClaudeの能力に多大な投資を行っており、Opus 4.5は図の解釈、計算生物学、タンパク質理解のベンチマークで著しい改善を示しています。",
+        "「AI for Science」プログラムを通じて、研究者はClaudeを文献レビューやコーディング支援だけでなく、実験計画の立案、大規模データのパターン発見、研究のボトルネック解消といった研究プロセスの全段階で利用しています。",
+        "スタンフォード大学のBiomniは、数百のツールやデータベースにアクセスできるClaude搭載の汎用生物医学エージェントであり、数ヶ月かかっていた遺伝子ワイド関連解析（GWAS）を20分に短縮するなど、研究を大幅に加速させます。",
+        "MITのCheeseman Labは、CRISPR遺伝子ノックアウト実験で得られる膨大なデータの解釈を自動化するClaude搭載システム「MozzareLLM」を開発し、人間が見落としがちな生物学的発見を可能にしています。",
+        "スタンフォード大学のLundberg Labは、Claudeを用いて細胞内の分子マップからターゲット遺伝子を特定するAI主導の仮説生成システムを実験中で、従来の直感や文献に基づくアプローチから分子特性に基づく選定へと研究手法を変革することを目指しています。"
+      ]
+    },
+    {
+      "id": "anthropic-articles-article-20260115-anthropic-economic-index-new-building-blocks-for-u.md",
+      "title": "Anthropic Economic Index: new building blocks for understanding AI use",
+      "published": "2026-01-15",
+      "url": "https://www.anthropic.com/research/economic-index-primitives",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "Anthropic Economic Indexの第4回レポートでは、AI利用の経済的影響を追跡するために「タスクの複雑さ」「スキルレベル」「目的」「AIの自律性」「成功率」という5つの「経済的プリミティブ」を導入しました。",
+        "Claudeはより複雑なタスク（大学教育レベル）において大幅な高速化（約12倍）を実現しており、AIによる生産性向上は高スキル労働に集中していることが示唆されています。",
+        "GDPが高い国ではClaudeが仕事や個人利用に多く使われるのに対し、GDPが低い国では教育目的での利用が主であり、AI利用に国の経済発展段階に応じた傾向が見られます。",
+        "AIがカバーするタスクは平均的に高い教育レベル（平均14.4年）を要するものが多く、これらのタスクが除去されると平均的に仕事が「デスクスキル化」される可能性が示唆されています。",
+        "タスクの信頼性を考慮すると、AIの普及による米国の労働生産性成長率は当初の1.8%から1.0〜1.2%に修正されましたが、これは1990年代後半〜2000年代初頭の成長率に戻す注目すべき増加です。"
+      ]
+    },
     {
       "id": "gemini-articles-article-20260115-how-nano-banana-got-its-name.md",
       "title": "How Nano Banana got its name",
@@ -104,6 +158,24 @@
       ]
     },
     {
+      "id": "anthropic-articles-article-20260114-introducing-labs.md",
+      "title": "Introducing Labs",
+      "published": "2026-01-14",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "Anthropicは、Claudeの最先端能力を活用して実験的な製品を開発・育成する専門チーム「Labs」を拡張しました。",
+        "Instagramの共同創設者であるMike KriegerがLabsに加わり、Ben Mannと共に新しい製品を構築し、Ami VoraがProduct部門を率いて既存のClaude体験のスケーリングを担当します。",
+        "このアプローチは、6ヶ月で10億ドル規模の製品となったClaude Codeや、月間1億ダウンロードを達成したModel Context Protocol (MCP)などの成功実績に基づいて強化されています。",
+        "Anthropicの社長Daniela Amodeiは、AIの急速な進歩には新しいアプローチが必要であり、Labsは実験的な製品の発見と責任ある規模での提供を可能にするための重要な組織構造であると述べています。",
+        "同社は、AI能力の最前線で働くビルダーを積極的に募集しています。"
+      ]
+    },
+    {
       "id": "openai-articles-article-20260114-openai-partners-with-cerebras.md",
       "title": "OpenAI partners with Cerebras",
       "published": "2026-01-14",
@@ -154,6 +226,24 @@
       ]
     },
     {
+      "id": "anthropic-articles-article-20260113-anthropic-economic-index-report-economic-primitive.md",
+      "title": "Anthropic Economic Index report: economic primitives",
+      "published": "2026-01-13",
+      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "Claudeの利用は特にコーディングなどの特定のタスクに集中しつつも、ユーザーとの協調的な「オーグメンテーション」利用が再度増加傾向にある。高所得国では仕事・個人利用が、低所得国では学業利用が多いなど、地域による利用パターンの違いが顕著である。",
+        "AI利用の経済的影響を深く理解するため、「タスクの複雑さ」「人間とAIのスキル」「使用事例」「AIの自律性」「タスクの成功率」という5つの新たな指標（経済的プリミティブ）が導入された。",
+        "より複雑なタスクはAIによる大幅な時間短縮を可能にするが、同時に成功率が低下するトレードオフが存在する。特に、Claude.aiでは多段階の対話が複雑なタスクの成功率を維持するのに役立つ。",
+        "AIが主に高スキルを要するタスクを処理するため、多くの職種で「デスクキリング」効果が示唆される一方、不動産管理者など一部の職種ではより複雑な業務への集中による「アップスキリング」が見られる。",
+        "モデルの信頼性（タスク成功率）を考慮に入れると、AIがもたらす年間労働生産性成長率は1.8%から約1.0%に下方修正されるが、それでも経済的に重要な貢献となる。"
+      ]
+    },
+    {
       "id": "openai-articles-article-20260113-zenken-boosts-a-lean-sales-team-with-chatgpt-enter.md",
       "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
       "published": "2026-01-13",
@@ -185,6 +275,21 @@
         "2026-01-12 変更履歴",
         "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。",
         "[モデルの段階](https://ai.google.dev/api/generate-content#ModelStatus)"
+      ]
+    },
+    {
+      "id": "anthropic-release-notes-release-note-20260112-2026-01-12-release-notes.md",
+      "title": "2026-01-12 release notes",
+      "published": "2026-01-12",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2026-01-12",
+      "provider": "anthropic",
+      "category": "release-notes",
+      "source": "release-notes",
+      "sourceMedium": "Claude Developer Platform",
+      "summary": "`console.anthropic.com` は現在 `platform.claude.com` にリダイレクトされます。Claudeコンソールは、Claudeブランド統合の一環として新しい場所へ移動しました。既存のブックマークやリンクは、自動リダイレクトによって引き続き機能します。詳細については、[2025年9月16日の発表](https://platform.claude.com/#september-16-2025)を参照してください。",
+      "summaryLines": [
+        "2026年1月12日 リリースノート",
+        "`console.anthropic.com` は現在 `platform.claude.com` にリダイレクトされます。Claudeコンソールは、Claudeブランド統合の一環として新しい場所へ移動しました。既存のブックマークやリンクは、自動リダイレクトによって引き続き機能します。詳細については、[2025年9月16日の発表](https://platform.claude.com/#september-16-2025)を参照してください。"
       ]
     },
     {
@@ -235,6 +340,24 @@
       "summaryLines": [
         "2026-01-09 変更ログ",
         "`gpt-image-1.5`と`chatgpt-image-latest`が、`/v1/images/edits`を介した画像編集で、`fidelity`が明示的に`low`(デフォルト)に設定されていた場合でも、誤って高忠実度を使用していた問題を修正しました。"
+      ]
+    },
+    {
+      "id": "anthropic-articles-article-20260109-advancing-claude-in-healthcare-and-the-life-scienc.md",
+      "title": "Advancing Claude in healthcare and the life sciences",
+      "published": "2026-01-09",
+      "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+      "provider": "anthropic",
+      "category": "articles",
+      "source": "news",
+      "sourceMedium": "Anthropic News",
+      "summary": "",
+      "summaryLines": [
+        "Claude for Healthcareが導入され、HIPAA対応の製品を通じて医療提供者、保険者、消費者が医療目的でClaudeを利用できるようになりました。これにはCMSカバレッジデータベース、ICD-10、National Provider Identifier Registryなどへのコネクタが含まれます。",
+        "ライフサイエンス分野では、Claudeの機能が臨床試験運用および規制段階に拡大されました。Medidata、ClinicalTrials.gov、ToolUniverseなどの科学プラットフォームへのコネクタと、臨床試験プロトコルのドラフト作成スキルが追加されています。",
+        "最新モデルであるClaude Opus 4.5は、医療および科学タスクの詳細なシミュレーションにおけるエージェント性能が大幅に向上しました。これにより、実際の医療・科学タスクにおける有用性が高まっています。",
+        "Claude ProおよびMaxプランの加入者は、HealthEx、Function、Apple Health、Android Health Connect（ベータ版）を通じて個人健康データに安全にアクセスできます。これにより、医療履歴の要約、検査結果の説明、医療面談のための質問作成などが可能になりますが、ユーザーデータはモデルの訓練には使用されません。",
+        "これらの機能強化は、事前承認リクエストの迅速化、クレーム異議申し立ての支援、患者ケアの調整、ライフサイエンスにおける規制提出の加速など、業界の具体的な課題解決に貢献します。"
       ]
     },
     {
@@ -374,6 +497,21 @@
         "健康情報はChatGPT内の独立した専用スペースに保存され、会話は基盤モデルのトレーニングには使用されず、プライバシーとセキュリティが強化されています。",
         "60カ国260名以上の医師と協力して開発され、安全性、明瞭さ、個別性を重視した「HealthBench」評価フレームワークに基づいてモデルの品質が評価されています。",
         "現在、欧州経済領域、スイス、英国以外のChatGPT Free、Go、Plus、Proユーザー向けの待機リストが公開されており、数週間以内にウェブとiOSでアクセスが拡大される予定です。"
+      ]
+    },
+    {
+      "id": "anthropic-release-notes-release-note-20260105-2026-01-05-release-notes.md",
+      "title": "2026-01-05 release notes",
+      "published": "2026-01-05",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2026-01-05",
+      "provider": "anthropic",
+      "category": "release-notes",
+      "source": "release-notes",
+      "sourceMedium": "Claude Developer Platform",
+      "summary": "Claude Opus 3モデル（`claude-3-opus-20240229`）を廃止しました。このモデルへのすべてのリクエストはエラーを返します。大幅に改善されたインテリジェンスを3分の1のコストで提供する[Claude Opus 4.5](https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison)へのアップグレードをお勧めします。研究者は、[外部研",
+      "summaryLines": [
+        "2026-01-05 リリースノート",
+        "Claude Opus 3モデル（`claude-3-opus-20240229`）を廃止しました。このモデルへのすべてのリクエストはエラーを返します。大幅に改善されたインテリジェンスを3分の1のコストで提供する[Claude Opus 4.5](https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison)へのアップグレードをお勧めします。研究者は、[外部研究者アクセスプログラム](https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program)を通じて、API上でClaude Opus 3への継続的なアクセスをリクエストできます。"
       ]
     },
     {

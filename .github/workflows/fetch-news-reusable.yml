@@ -110,6 +110,16 @@ jobs:
             echo "safe_to_merge=true" >> $GITHUB_OUTPUT
             echo "Only output files changed, safe to auto-merge"
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable auto-merge
+        if: steps.check-safe.outputs.safe_to_merge == 'true'
+        run: |
+          PR_NUMBER="${{ steps.create-pr.outputs.pr_number }}"
+          gh pr merge "$PR_NUMBER" --auto --squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build email content
         if: steps.create-pr.outputs.pr_number
@@ -137,9 +147,10 @@ jobs:
               while IFS= read -r file; do
                 if [ -f "$file" ]; then
                   TITLE=$(grep -m1 '^# ' "$file" | sed 's/^# //' || echo "Untitled")
+                  SAFE_TITLE=$(printf '%s' "$TITLE" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g')
                   CONTENT=$(cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g' | sed ':a;N;$!ba;s/\n/<br>/g')
                   EMAIL_HTML+="<div style=\"margin-bottom: 20px; padding: 15px; border-left: 4px solid $color; background: #f9f9f9;\">"
-                  EMAIL_HTML+="<h4 style=\"margin-top: 0;\">$TITLE</h4>"
+                  EMAIL_HTML+="<h4 style=\"margin-top: 0;\">$SAFE_TITLE</h4>"
                   EMAIL_HTML+="<div style=\"font-size: 14px; line-height: 1.6;\">$CONTENT</div>"
                   EMAIL_HTML+="</div>"
                 fi
@@ -182,13 +193,13 @@ jobs:
           sed -i "s/PROVIDER_PLACEHOLDER/${PROVIDER_UPPER}/" /tmp/email.json
 
           # htmlフィールドを追加
-          jq --arg html "$(printf '%s' "${{ steps.email-content.outputs.html }}")" '. + {html: $html}' /tmp/email.json > /tmp/email_final.json
+          printf '%s' "${{ steps.email-content.outputs.html }}" > /tmp/email_body.html
+          jq -Rs --slurpfile base /tmp/email.json '{from: $base[0].from, to: $base[0].to, subject: $base[0].subject, html: .}' /tmp/email_body.html > /tmp/email_final.json
 
           curl -X POST 'https://api.resend.com/emails' \
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H 'Content-Type: application/json' \
             -d @/tmp/email_final.json
-        continue-on-error: true
 
       - name: Summary
         if: always()
