@@ -1,0 +1,1 @@
+- Added`gpt-image-1.5`and`chatgpt-image-latest`to the Responses API image generation tool.

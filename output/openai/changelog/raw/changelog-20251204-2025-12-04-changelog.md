@@ -1,0 +1,1 @@
+- Released`gpt-5.1-codex-max`to the Responses API. GPT-5.1-Codex is our most intelligent coding model optimized for long-horizon, agentic coding tasks. Read more[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max).

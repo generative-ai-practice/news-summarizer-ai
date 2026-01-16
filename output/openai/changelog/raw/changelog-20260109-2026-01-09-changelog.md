@@ -1,0 +1,1 @@
+- Fixed an issue where`gpt-image-1.5`and`chatgpt-image-latest`were incorrectly using high fidelity for image edits through`/v1/images/edits`, even when`fidelity`was explicitly set to`low`(the default).
