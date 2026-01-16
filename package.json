@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:data": "tsx scripts/build-timeline-data.ts",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue src scripts",
     "lint:fix": "eslint --ext .js,.ts,.vue src scripts --fix",
@@ -22,10 +23,10 @@
     "markdown-it": "^14.1.0",
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^17.2.3",
+    "dompurify": "^3.1.7",
     "vue": "^3.5.26"
   },
   "devDependencies": {
-    "@types/cheerio": "^1.0.0",
     "@types/markdown-it": "^14.1.2",
     "@eslint/js": "^9.39.2",
     "@types/node": "^25.0.3",
@@ -41,6 +42,9 @@
     "typescript-eslint": "^8.50.1",
     "vite": "^7.3.0",
     "vue-eslint-parser": "^10.2.0",
-    "vue-tsc": "^3.2.1"
+    "vue-tsc": "^3.2.1",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
   }
 }

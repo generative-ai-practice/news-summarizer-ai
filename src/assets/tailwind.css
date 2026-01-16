@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-fog text-ink font-body antialiased;
+    background-image: radial-gradient(
+        circle at 15% 20%,
+        rgba(31, 111, 235, 0.16),
+        transparent 45%
+      ),
+      radial-gradient(
+        circle at 85% 0%,
+        rgba(228, 87, 46, 0.18),
+        transparent 40%
+      ),
+      linear-gradient(120deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.6));
+    background-attachment: fixed;
+  }
+}

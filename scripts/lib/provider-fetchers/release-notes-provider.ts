@@ -20,6 +20,8 @@ export class ReleaseNotesProvider extends BaseProvider {
   private readonly provider = "anthropic";
   private readonly releaseNotesMarkdownUrl =
     "https://platform.claude.com/docs/en/release-notes/overview.md";
+  private readonly releaseNotesPublicUrl =
+    "https://platform.claude.com/docs/en/release-notes/overview";
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
   private readonly md = new MarkdownIt();
@@ -178,6 +180,7 @@ export class ReleaseNotesProvider extends BaseProvider {
     const results: Article[] = [];
     let currentDate: string | null = null;
     const entriesByDate: Map<string, { items: { text: string }[] }> = new Map();
+    const anchorByDate: Map<string, string> = new Map();
     let skipHeadingInline = false;
 
     for (let i = 0; i < tokens.length; i += 1) {
@@ -188,6 +191,7 @@ export class ReleaseNotesProvider extends BaseProvider {
         const detected = this.normalizeDate(content);
         if (detected) {
           currentDate = detected;
+          anchorByDate.set(detected, this.toReleaseAnchor(content));
           skipHeadingInline = true;
         }
         continue;
@@ -225,9 +229,10 @@ export class ReleaseNotesProvider extends BaseProvider {
     for (const [date, { items }] of entriesByDate) {
       const title = `${date} release notes`;
       const slug = this.buildReleaseSlug(title, undefined, date);
+      const anchor = anchorByDate.get(date) ?? date;
       results.push({
         title,
-        url: `${this.releaseNotesMarkdownUrl}#${date}`,
+        url: `${this.releaseNotesPublicUrl}#${anchor}`,
         publishedDate: date,
         source: "release-notes",
         slug,
@@ -324,6 +329,15 @@ export class ReleaseNotesProvider extends BaseProvider {
     const day = long[2].padStart(2, "0");
     const year = long[3];
     return `${year}-${month}-${day}`;
+  }
+
+  private toReleaseAnchor(heading: string): string {
+    return heading
+      .toLowerCase()
+      .replace(/,/g, "")
+      .replace(/[^a-z0-9\s-]/g, "")
+      .trim()
+      .replace(/\s+/g, "-");
   }
 
   private applyDateFilter(articles: Article[]): Article[] {
