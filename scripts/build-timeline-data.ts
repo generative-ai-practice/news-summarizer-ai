@@ -64,6 +64,31 @@ const parseFrontmatter = (
   return { fm, body };
 };
 
+const escapeHtml = (value: string) =>
+  value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+const renderInline = (text: string) => {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let out = "";
+
+  while ((match = regex.exec(text)) !== null) {
+    const [full, label, url] = match;
+    out += escapeHtml(text.slice(lastIndex, match.index));
+    out += `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="text-tide underline decoration-tide/70 underline-offset-2 hover:text-ink">${escapeHtml(label)}</a>`;
+    lastIndex = match.index + full.length;
+  }
+
+  out += escapeHtml(text.slice(lastIndex));
+  return out;
+};
+
 const collectSections = (body: string) => {
   const lines = body.split("\n");
   const sections: Record<string, string[]> = {};
@@ -77,7 +102,6 @@ const collectSections = (body: string) => {
       inCodeBlock = !inCodeBlock;
       continue;
     }
-    if (inCodeBlock) continue;
     if (line.startsWith("## ")) {
       current = line.replace(/^##\s+/, "").toLowerCase();
       if (!sections[current]) sections[current] = [];
@@ -90,15 +114,87 @@ const collectSections = (body: string) => {
   return sections;
 };
 
+const isTableLine = (line: string) => {
+  if (!line.startsWith("|")) return false;
+  const pipeCount = (line.match(/\|/g) || []).length;
+  return pipeCount >= 2;
+};
+
+const isSeparatorLine = (line: string) =>
+  /^\|[:\-\s|]+\|$/.test(line.replace(/\t/g, " "));
+
+const splitRow = (line: string) =>
+  line
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((cell) => cell.trim());
+
+const buildTableHtml = (lines: string[]) => {
+  if (!lines.length) return "";
+  const headerCells = splitRow(lines[0]);
+  let bodyStart = 1;
+  if (lines[1] && isSeparatorLine(lines[1])) {
+    bodyStart = 2;
+  }
+  const rows = lines.slice(bodyStart).map(splitRow);
+
+  const head = `<thead><tr>${headerCells
+    .map((cell) => `<th class="border border-ink/20 bg-ink/5 px-3 py-2 text-left">${renderInline(cell)}</th>`)
+    .join("")}</tr></thead>`;
+  const body = `<tbody>${rows
+    .map(
+      (cells) =>
+        `<tr>${cells
+          .map(
+            (cell) =>
+              `<td class="border border-ink/10 px-3 py-2">${renderInline(cell)}</td>`,
+          )
+          .join("")}</tr>`,
+    )
+    .join("")}</tbody>`;
+
+  return `<div class="overflow-x-auto"><table class="min-w-full border-collapse text-xs sm:text-sm">${head}${body}</table></div>`;
+};
+
+const buildLinesWithTables = (lines: string[]) => {
+  const output: string[] = [];
+  let i = 0;
+  while (i < lines.length) {
+    const raw = lines[i].trim();
+    if (raw.startsWith("```") || raw.startsWith("## ")) {
+      i += 1;
+      continue;
+    }
+    if (isTableLine(raw)) {
+      const tableLines: string[] = [raw];
+      let j = i + 1;
+      while (j < lines.length && isTableLine(lines[j].trim())) {
+        tableLines.push(lines[j].trim());
+        j += 1;
+      }
+      const html = buildTableHtml(tableLines);
+      if (html) output.push(`__TABLE__${html}`);
+      i = j;
+      continue;
+    }
+
+    const cleaned = raw.replace(/^\s*[-*]\s+/, "").trim();
+    if (cleaned) {
+      output.push(cleaned.replace(/^[#]+\s*/, "").trim());
+    }
+    i += 1;
+  }
+  return output.filter(Boolean);
+};
+
 const extractSummaryLines = (body: string): string[] => {
   const sections = collectSections(body);
-  const keys = ["key points", "summary", "updates (translated)"];
+  const keys = ["key points", "summary", "updates (translated)", "body"];
   for (const key of keys) {
     const lines = sections[key] ?? [];
-    const bullets = lines
-      .map((line) => line.replace(/^\s*[-*]\s+/, "").trim())
-      .filter(Boolean);
-    if (bullets.length > 0) return bullets.slice(0, 6);
+    const cleaned = buildLinesWithTables(lines);
+    if (cleaned.length > 0) return cleaned.slice(0, 6);
   }
   return [];
 };

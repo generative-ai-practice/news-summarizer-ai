@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-16T13:45:31.401Z",
+  "generatedAt": "2026-01-16T14:01:34.501Z",
   "items": [
     {
       "id": "gemini-articles-article-20260115-how-nano-banana-got-its-name.md",
@@ -66,7 +66,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "`text-embedding-004` モデルは[停止されました](https://ai.google.dev/gemini-api/docs/deprecations)。",
       "summaryLines": [
-        "# 2026年1月14日 変更履歴",
+        "2026年1月14日 変更履歴",
         "`text-embedding-004` モデルは[停止されました](https://ai.google.dev/gemini-api/docs/deprecations)。"
       ]
     },
@@ -79,8 +79,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "`gpt-5.2-codex`をResponses APIにリリースしました。GPT-5.2-Codexは、Codexまたは同様の環境におけるエージェント型コーディングタスクに最適化されたGPT-5.2のバージョンです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.2-codex)。",
+      "summaryLines": [
+        "2026-01-14 変更履歴",
+        "`gpt-5.2-codex`をResponses APIにリリースしました。GPT-5.2-Codexは、Codexまたは同様の環境におけるエージェント型コーディングタスクに最適化されたGPT-5.2のバージョンです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.2-codex)。"
+      ]
     },
     {
       "id": "gemini-articles-article-20260114-gemini-introduces-personal-intelligence.md",
@@ -129,7 +132,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "[Veo](https://ai.google.dev/gemini-api/docs/video)向けに4K出力解像度を追加し、すべての解像度でポートレート動画のサポートを強化しました。",
       "summaryLines": [
-        "# 2026-01-13 変更履歴",
+        "2026-01-13 変更履歴",
         "[Veo](https://ai.google.dev/gemini-api/docs/video)向けに4K出力解像度を追加し、すべての解像度でポートレート動画のサポートを強化しました。"
       ]
     },
@@ -144,7 +147,7 @@
       "sourceMedium": "OpenAI Platform Docs",
       "summary": "[gpt-realtime-mini](https://platform.openai.com/docs/models/gpt-realtime)と[gpt-audio-mini](https://platform.openai.com/docs/models/gpt-audio-mini)のスラッグを2025-12-15のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-realtime-mini-2025-10-06`と`gp",
       "summaryLines": [
-        "# 2026-01-13 変更履歴",
+        "2026-01-13 変更履歴",
         "[gpt-realtime-mini](https://platform.openai.com/docs/models/gpt-realtime)と[gpt-audio-mini](https://platform.openai.com/docs/models/gpt-audio-mini)のスラッグを2025-12-15のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-realtime-mini-2025-10-06`と`gpt-audio-mini-2025-10-06`を使用してください。",
         "[sora-2](https://platform.openai.com/docs/models/sora-2)のスラッグを`sora-2-2025-12-08`を指すように更新しました。以前のモデルスナップショットが必要な場合は、`sora-2-2025-10-06`を使用してください。",
         "`gpt-4o-mini-tts`と`gpt-4o-mini-transcribe`のスラッグを`2025-12-15`のスナップショットを指すように更新しました。以前のモデルスナップショットが必要な場合は、`gpt-4o-mini-tts-2025-03-20`と`gpt-4o-mini-transcribe-2025-03-20`を使用してください。現在、最良の結果を得るには、`gpt-4o-transcribe`よりも`gpt-4o-mini-transcribe`の使用をお勧めします。"
@@ -179,7 +182,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。",
       "summaryLines": [
-        "# 2026-01-12 変更履歴",
+        "2026-01-12 変更履歴",
         "モデルのライフサイクル機能をリリースしました。一部のモデルでは、ライフサイクルの段階と非推奨となるタイムラインが指定されるようになります。詳細については、以下のドキュメントを参照してください。",
         "[モデルの段階](https://ai.google.dev/api/generate-content#ModelStatus)"
       ]
@@ -228,8 +231,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "`gpt-image-1.5`と`chatgpt-image-latest`が、`/v1/images/edits`を介した画像編集で、`fidelity`が明示的に`low`(デフォルト)に設定されていた場合でも、誤って高忠実度を使用していた問題を修正しました。",
+      "summaryLines": [
+        "2026-01-09 変更ログ",
+        "`gpt-image-1.5`と`chatgpt-image-latest`が、`/v1/images/edits`を介した画像編集で、`fidelity`が明示的に`low`(デフォルト)に設定されていた場合でも、誤って高忠実度を使用していた問題を修正しました。"
+      ]
     },
     {
       "id": "openai-articles-article-20260109-datadog-uses-codex-for-system-level-code-review.md",
@@ -278,7 +284,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "Gemini APIのデータ入力ソースとして、Cloud Storageバケット、およびあらゆる公開・非公開のDBプリ署名URLのサポートを開始しました。ファイルサイズの上限も20MBから100MBに増加しました。詳細については、[ファイル入力方法ガイド](https://ai.google.dev/gemini-api/docs/file-input-methods)をご覧ください。",
       "summaryLines": [
-        "# 2026-01-08 変更履歴",
+        "2026-01-08 変更履歴",
         "Gemini APIのデータ入力ソースとして、Cloud Storageバケット、およびあらゆる公開・非公開のDBプリ署名URLのサポートを開始しました。ファイルサイズの上限も20MBから100MBに増加しました。詳細については、[ファイル入力方法ガイド](https://ai.google.dev/gemini-api/docs/file-input-methods)をご覧ください。"
       ]
     },
@@ -544,7 +550,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "v1betaのInteractions APIパブリックプレビューに破壊的変更を導入しました。`total_reasoning_tokens` フィールドは、思考モデルにおける「思考」の概念により良く合致させるため、`total_thought_tokens` に名称変更されました。",
       "summaryLines": [
-        "# 2025-12-19 変更履歴",
+        "2025-12-19 変更履歴",
         "v1betaのInteractions APIパブリックプレビューに破壊的変更を導入しました。`total_reasoning_tokens` フィールドは、思考モデルにおける「思考」の概念により良く合致させるため、`total_thought_tokens` に名称変更されました。"
       ]
     },
@@ -557,8 +563,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "Responses API の画像生成ツールに`gpt-image-1.5`と`chatgpt-image-latest`を追加しました。",
+      "summaryLines": [
+        "2025-12-19 変更履歴",
+        "Responses API の画像生成ツールに`gpt-image-1.5`と`chatgpt-image-latest`を追加しました。"
+      ]
     },
     {
       "id": "anthropic-deprecations-deprecation-20251219-2025-12-19-model-deprecations.md",
@@ -571,25 +580,23 @@
       "sourceMedium": "Claude Developer Platform",
       "summary": "2025年12月19日、当社はClaude APIでClaude Haiku 3.5モデルを使用している開発者に対し、そのモデルがまもなく廃止されることを通知しました。",
       "summaryLines": [
-        "# 2025年12月19日 モデル廃止のお知らせ",
+        "2025年12月19日 モデル廃止のお知らせ",
         "2025年12月19日、当社はClaude APIでClaude Haiku 3.5モデルを使用している開発者に対し、そのモデルがまもなく廃止されることを通知しました。",
-        "| 廃止日              | 廃止モデル                  | 推奨代替モデル                  |",
-        "|:--------------------|:----------------------------|:--------------------------------|",
-        "| 2026年2月19日       | `claude-3-5-haiku-20241022` | `claude-haiku-4-5-20251001`     |"
+        "__TABLE__<div class=\"overflow-x-auto\"><table class=\"min-w-full border-collapse text-xs sm:text-sm\"><thead><tr><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">廃止日</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">廃止モデル</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">推奨代替モデル</th></tr></thead><tbody><tr><td class=\"border border-ink/10 px-3 py-2\">2026年2月19日</td><td class=\"border border-ink/10 px-3 py-2\">`claude-3-5-haiku-20241022`</td><td class=\"border border-ink/10 px-3 py-2\">`claude-haiku-4-5-20251001`</td></tr></tbody></table></div>"
       ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251219-2025-12-19-release-notes.md",
       "title": "2025-12-19 release notes",
       "published": "2025-12-19",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-19",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#december-19-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "Claude Haiku 3.5モデルの非推奨化を発表しました。詳細については、[弊社のドキュメント](https://platform.claude.com/docs/en/about-claude/model-deprecations)をご覧ください。",
       "summaryLines": [
-        "# 2025年12月19日 リリースノート",
+        "2025年12月19日 リリースノート",
         "Claude Haiku 3.5モデルの非推奨化を発表しました。詳細については、[弊社のドキュメント](https://platform.claude.com/docs/en/about-claude/model-deprecations)をご覧ください。"
       ]
     },
@@ -859,8 +866,13 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "Gemini 3 Flash Preview (`gemini-3-flash-preview`) をリリースしました。これは、より大規模なモデルに匹敵する高速なフロンティアクラスのパフォーマンスを、わずかなコストで提供します。視覚および空間的推論と、エージェント的コーディング能力がアップグレードされています。以下の新しい機能についてドキュメントをお読みください。",
+      "summaryLines": [
+        "2025-12-17 変更履歴",
+        "Gemini 3 Flash Preview (`gemini-3-flash-preview`) をリリースしました。これは、より大規模なモデルに匹敵する高速なフロンティアクラスのパフォーマンスを、わずかなコストで提供します。視覚および空間的推論と、エージェント的コーディング能力がアップグレードされています。以下の新しい機能についてドキュメントをお読みください。",
+        "[マルチモーダル関数応答](https://ai.google.dev/gemini-api/docs/function-calling#multimodal)",
+        "[画像によるコード実行](https://ai.google.dev/gemini-api/docs/code-execution#images)"
+      ]
     },
     {
       "id": "gemini-articles-article-20251217-build-interactive-mini-apps-with-opal-in-the-gemin.md",
@@ -983,7 +995,7 @@
       "sourceMedium": "OpenAI Platform Docs",
       "summary": "画像生成のための、当社の最新かつ最も高度なモデルである[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)と[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest)をリリースしました。詳細はこちらをご覧ください[here](https://platform.openai.com/",
       "summaryLines": [
-        "# 2025-12-16 変更履歴",
+        "2025-12-16 変更履歴",
         "画像生成のための、当社の最新かつ最も高度なモデルである[gpt-image-1.5](https://platform.openai.com/docs/models/gpt-image-1.5)と[chatgpt-image-latest](https://platform.openai.com/docs/models/chatgpt-image-latest)をリリースしました。詳細はこちらをご覧ください[here](https://platform.openai.com/docs/guides/image-generation)。"
       ]
     },
@@ -1051,8 +1063,15 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "4つの新しい日付付きオーディオ・スナップショットをリリースしました。これらの更新は、リアルタイムの音声駆動型アプリケーション向けに、信頼性、品質、および音声の忠実度を向上させます：",
+      "summaryLines": [
+        "2025年12月15日 変更履歴",
+        "4つの新しい日付付きオーディオ・スナップショットをリリースしました。これらの更新は、リアルタイムの音声駆動型アプリケーション向けに、信頼性、品質、および音声の忠実度を向上させます：",
+        "詳細はこちら[here](https://platform.openai.com/docs/guides/audio)。",
+        "gpt-realtime-mini-2025-12-15",
+        "gpt-audio-mini-2025-12-15",
+        "gpt-4o-mini-transcribe-2025-12-15"
+      ]
     },
     {
       "id": "gemini-articles-article-20251215-bring-your-research-to-life-with-integrated-visual.md",
@@ -1083,7 +1102,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "Live API向けの新しいネイティブオーディオモデルである`gemini-2.5-flash-native-audio-preview-12-2025`をリリースしました。このアップデートにより、モデルが複雑なワークフローを処理する能力が向上します。詳細については、[Live APIガイド](https://ai.google.dev/gemini-api/docs/live-guide)および[Gemini 2.5 Flash ネイティブオーディオ](https://ai",
       "summaryLines": [
-        "# 2025-12-12 変更履歴",
+        "2025-12-12 変更履歴",
         "Live API向けの新しいネイティブオーディオモデルである`gemini-2.5-flash-native-audio-preview-12-2025`をリリースしました。このアップデートにより、モデルが複雑なワークフローを処理する能力が向上します。詳細については、[Live APIガイド](https://ai.google.dev/gemini-api/docs/live-guide)および[Gemini 2.5 Flash ネイティブオーディオ](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-live)をご覧ください。"
       ]
     },
@@ -1190,7 +1209,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "Interactions APIをベータ版でリリースしました。このAPIは、Geminiモデルおよびエージェントと対話するための統合インターフェースを提供します。詳細については、[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)ガイドをご覧ください。",
       "summaryLines": [
-        "# 2025-12-11 変更履歴",
+        "2025-12-11 変更履歴",
         "Interactions APIをベータ版でリリースしました。このAPIは、Geminiモデルおよびエージェントと対話するための統合インターフェースを提供します。詳細については、[Interactions API](https://ai.google.dev/gemini-api/docs/interactions)ガイドをご覧ください。",
         "Gemini Deep Research Agentをプレビュー版でリリースしました。これは、多段階の研究タスクに対して、自律的に計画、実行、結果の統合を行うことができます。詳細については、[Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)ガイドをご覧ください。"
       ]
@@ -1204,8 +1223,15 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "[GPT-5.2](https://platform.openai.com/docs/models/gpt-5.2)をリリースしました。これはGPT-5モデルファミリーの最新のフラッグシップモデルです。GPT-5.2は、以前のGPT-5.1に比べて以下の点で改善が見られます:",
+      "summaryLines": [
+        "2025-12-11 変更履歴",
+        "[GPT-5.2](https://platform.openai.com/docs/models/gpt-5.2)をリリースしました。これはGPT-5モデルファミリーの最新のフラッグシップモデルです。GPT-5.2は、以前のGPT-5.1に比べて以下の点で改善が見られます:",
+        "5.2の新機能は、新しいxhigh推論努力レベル、簡潔な推論要約、および圧縮を使用した新しいコンテキスト管理です。",
+        "汎用知能",
+        "指示追従性",
+        "精度とトークン効率"
+      ]
     },
     {
       "id": "openai-articles-article-20251211-advancing-science-and-math-with-gpt-5-2.md",
@@ -1364,8 +1390,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "当社の[テキスト読み上げモデル](https://ai.google.dev/gemini-api/docs/speech-generation)であるGemini 2.5 Flash TTSプレビュー（低遅延に最適化）とGemini 2.5 Pro TTSプレビュー（品質に最適化）に、表現力の強化、精密なペース調整、シームレスな対話を含む機能強化を導入しました。",
+      "summaryLines": [
+        "2025-12-10 changelog",
+        "当社の[テキスト読み上げモデル](https://ai.google.dev/gemini-api/docs/speech-generation)であるGemini 2.5 Flash TTSプレビュー（低遅延に最適化）とGemini 2.5 Pro TTSプレビュー（品質に最適化）に、表現力の強化、精密なペース調整、シームレスな対話を含む機能強化を導入しました。"
+      ]
     },
     {
       "id": "gemini-articles-article-20251210-improving-gemini-text-to-speech-models-for-better-.md",
@@ -1432,8 +1461,13 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "以下のGemini Live APIモデルは現在シャットダウンされました：",
+      "summaryLines": [
+        "2025年12月9日 変更履歴",
+        "以下のGemini Live APIモデルは現在シャットダウンされました：",
+        "`gemini-2.0-flash-live-001`",
+        "`gemini-live-2.5-flash-preview`"
+      ]
     },
     {
       "id": "anthropic-articles-article-20251209-accenture-and-anthropic-launch-multi-year-partners.md",
@@ -1651,7 +1685,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "[Google検索によるグラウンディング](https://ai.google.dev/gemini-api/docs/google-search)に対するGemini 3の課金は、2026年1月5日に開始されます。",
       "summaryLines": [
-        "# 2025年12月5日 変更履歴",
+        "2025年12月5日 変更履歴",
         "[Google検索によるグラウンディング](https://ai.google.dev/gemini-api/docs/google-search)に対するGemini 3の課金は、2026年1月5日に開始されます。"
       ]
     },
@@ -1664,8 +1698,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "廃止のお知らせ: `gemini-2.5-flash-image-preview`モデルは2026年1月15日に停止されます。",
+      "summaryLines": [
+        "2025年12月4日 変更履歴",
+        "廃止のお知らせ: `gemini-2.5-flash-image-preview`モデルは2026年1月15日に停止されます。"
+      ]
     },
     {
       "id": "openai-changelog-changelog-20251204-2025-12-04-changelog.md",
@@ -1678,7 +1715,7 @@
       "sourceMedium": "OpenAI Platform Docs",
       "summary": "`gpt-5.1-codex-max`をResponses APIにリリースしました。GPT-5.1-Codexは、長期間にわたるエージェント的なコーディングタスク向けに最適化された、当社の最もインテリジェントなコーディングモデルです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max)。",
       "summaryLines": [
-        "# 2025年12月04日 変更履歴",
+        "2025年12月04日 変更履歴",
         "`gpt-5.1-codex-max`をResponses APIにリリースしました。GPT-5.1-Codexは、長期間にわたるエージェント的なコーディングタスク向けに最適化された、当社の最もインテリジェントなコーディングモデルです。詳細はこちら[here](https://platform.openai.com/docs/models/gpt-5.1-codex-max)。"
       ]
     },
@@ -1686,14 +1723,14 @@
       "id": "anthropic-release-notes-release-note-20251204-2025-12-04-release-notes.md",
       "title": "2025-12-04 release notes",
       "published": "2025-12-04",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-04",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#december-4-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。",
       "summaryLines": [
-        "# 2025-12-04 リリースノート",
+        "2025-12-04 リリースノート",
         "[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) が Claude Haiku 4.5 に対応しました。"
       ]
     },
@@ -1743,8 +1780,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "非推奨化のお知らせ: `text-embedding-004`モデルは2026年1月14日にシャットダウンされます。",
+      "summaryLines": [
+        "2025年12月3日 変更履歴",
+        "非推奨化のお知らせ: `text-embedding-004`モデルは2026年1月14日にシャットダウンされます。"
+      ]
     },
     {
       "id": "openai-articles-article-20251203-announcing-the-initial-people-first-ai-fund-grante.md",
@@ -1936,14 +1976,14 @@
       "id": "anthropic-release-notes-release-note-20251124-2025-11-24-release-notes.md",
       "title": "2025-11-24 release notes",
       "published": "2025-11-24",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-24",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-24-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "最大限の能力と実用的なパフォーマンスを組み合わせた、最もインテリジェントなモデルである[Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)を公開しました。複雑な専門タスク、プロフェッショナルなソフトウェアエンジニアリング、高度なエージェントに最適です。以前のOpusモデルよりも手頃な価格で、視覚、コーディング、コンピューター使用において画期的な改善が特徴です。詳細は[モデルと料金のドキュメント](h",
       "summaryLines": [
-        "# 2025-11-24 リリースノート",
+        "2025-11-24 リリースノート",
         "最大限の能力と実用的なパフォーマンスを組み合わせた、最もインテリジェントなモデルである[Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)を公開しました。複雑な専門タスク、プロフェッショナルなソフトウェアエンジニアリング、高度なエージェントに最適です。以前のOpusモデルよりも手頃な価格で、視覚、コーディング、コンピューター使用において画期的な改善が特徴です。詳細は[モデルと料金のドキュメント](https://platform.claude.com/docs/en/about-claude/models)をご覧ください。",
         "[プログラマティックなツール呼び出し](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)をパブリックベータ版として公開しました。これにより、Claudeがコード実行内からツールを呼び出し、複数ツールを使ったワークフローでのレイテンシとトークン使用量を削減できるようになります。",
         "[ツール検索ツール](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool)をパブリックベータ版として公開しました。これにより、Claudeが大規模なツールカタログからツールを動的に発見し、オンデマンドでロードできるようになります。",
@@ -1955,14 +1995,14 @@
       "id": "anthropic-release-notes-release-note-20251121-2025-11-21-release-notes.md",
       "title": "2025-11-21 release notes",
       "published": "2025-11-21",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-21",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-21-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。",
       "summaryLines": [
-        "# 2025-11-21 リリースノート",
+        "2025-11-21 リリースノート",
         "検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。"
       ]
     },
@@ -1975,21 +2015,24 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "Gemini 3 Pro イメージプレビュー `gemini-3-pro-image-preview`（Nano Bananaモデルの次のイテレーション）をリリースしました。詳細については、[画像生成](https://ai.google.dev/gemini-api/docs/image-generation)ページをお読みください。",
+      "summaryLines": [
+        "2025-11-20 変更履歴",
+        "Gemini 3 Pro イメージプレビュー `gemini-3-pro-image-preview`（Nano Bananaモデルの次のイテレーション）をリリースしました。詳細については、[画像生成](https://ai.google.dev/gemini-api/docs/image-generation)ページをお読みください。"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251119-2025-11-19-release-notes.md",
       "title": "2025-11-19 release notes",
       "published": "2025-11-19",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-19",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-19-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。",
       "summaryLines": [
-        "# 2025年11月19日 リリースノート",
+        "2025年11月19日 リリースノート",
         "新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。"
       ]
     },
@@ -2004,7 +2047,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "初のGemini 3シリーズモデルである`gemini-3-pro-preview`をリリースしました。これは、強力なエージェント機能とコーディング能力を備えた、最先端の推論およびマルチモーダル理解モデルです。",
       "summaryLines": [
-        "# 2025年11月18日 変更ログ",
+        "2025年11月18日 変更ログ",
         "初のGemini 3シリーズモデルである`gemini-3-pro-preview`をリリースしました。これは、強力なエージェント機能とコーディング能力を備えた、最先端の推論およびマルチモーダル理解モデルです。",
         "知能とパフォーマンスの向上に加え、Gemini 3 Pro Previewは以下の新しい動作を導入します:",
         "[メディア解像度](https://ai.google.dev/gemini-api/docs/media-resolution)",
@@ -2023,25 +2066,23 @@
       "sourceMedium": "OpenAI Platform Docs",
       "summary": "2025年11月18日、弊社は`chatgpt-4o-latest`モデルスナップショットを使用している開発者に対し、2026年2月17日付けでこのモデルが非推奨となりAPIから削除されることを通知しました。",
       "summaryLines": [
-        "# 2025年11月18日の非推奨化",
+        "2025年11月18日の非推奨化",
         "2025年11月18日、弊社は`chatgpt-4o-latest`モデルスナップショットを使用している開発者に対し、2026年2月17日付けでこのモデルが非推奨となりAPIから削除されることを通知しました。",
-        "| 停止日 | 推奨される代替 | |",
-        "| --- | --- | --- |",
-        "| 2026-02-17 | `gpt-5.1-chat-latest` | |"
+        "__TABLE__<div class=\"overflow-x-auto\"><table class=\"min-w-full border-collapse text-xs sm:text-sm\"><thead><tr><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">停止日</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">推奨される代替</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\"></th></tr></thead><tbody><tr><td class=\"border border-ink/10 px-3 py-2\">2026-02-17</td><td class=\"border border-ink/10 px-3 py-2\">`gpt-5.1-chat-latest`</td><td class=\"border border-ink/10 px-3 py-2\"></td></tr></tbody></table></div>"
       ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251118-2025-11-18-release-notes.md",
       "title": "2025-11-18 release notes",
       "published": "2025-11-18",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-18",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-18-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.co",
       "summaryLines": [
-        "# 2025年11月18日 リリースノート",
+        "2025年11月18日 リリースノート",
         "Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)をご覧ください。"
       ]
     },
@@ -2054,8 +2095,12 @@
       "category": "deprecations",
       "source": "platform-deprecations",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "2025年11月17日、`codex-mini-latest`モデルを使用している開発者に対し、そのモデルが2026年1月16日にAPIから廃止および削除されることを通知しました。",
+      "summaryLines": [
+        "2025年11月17日 廃止予定",
+        "2025年11月17日、`codex-mini-latest`モデルを使用している開発者に対し、そのモデルが2026年1月16日にAPIから廃止および削除されることを通知しました。",
+        "__TABLE__<div class=\"overflow-x-auto\"><table class=\"min-w-full border-collapse text-xs sm:text-sm\"><thead><tr><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">シャットダウン日</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">推奨される代替品</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\"></th></tr></thead><tbody><tr><td class=\"border border-ink/10 px-3 py-2\">2026-01-16</td><td class=\"border border-ink/10 px-3 py-2\">`gpt-5-codex-mini`</td><td class=\"border border-ink/10 px-3 py-2\"></td></tr></tbody></table></div>"
+      ]
     },
     {
       "id": "openai-deprecations-deprecation-20251114-2025-11-14-deprecations.md",
@@ -2066,21 +2111,25 @@
       "category": "deprecations",
       "source": "platform-deprecations",
       "sourceMedium": "OpenAI Platform Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "2025年11月14日、DALL·Eモデルのスナップショットを使用している開発者に対し、2026年5月12日にAPIから非推奨化され、削除されることを通知しました。",
+      "summaryLines": [
+        "2025年11月14日の非推奨化",
+        "2025年11月14日、DALL·Eモデルのスナップショットを使用している開発者に対し、2026年5月12日にAPIから非推奨化され、削除されることを通知しました。",
+        "__TABLE__<div class=\"overflow-x-auto\"><table class=\"min-w-full border-collapse text-xs sm:text-sm\"><thead><tr><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">停止日</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\">推奨される代替</th><th class=\"border border-ink/20 bg-ink/5 px-3 py-2 text-left\"></th></tr></thead><tbody><tr><td class=\"border border-ink/10 px-3 py-2\">2026-05-12</td><td class=\"border border-ink/10 px-3 py-2\">`gpt-image-1`または`gpt-image-1-mini`</td><td class=\"border border-ink/10 px-3 py-2\"></td></tr><tr><td class=\"border border-ink/10 px-3 py-2\">2026-05-12</td><td class=\"border border-ink/10 px-3 py-2\">`gpt-image-1`または`gpt-image-1-mini`</td><td class=\"border border-ink/10 px-3 py-2\"></td></tr></tbody></table></div>"
+      ]
     },
     {
       "id": "anthropic-release-notes-release-note-20251114-2025-11-14-release-notes.md",
       "title": "2025-11-14 release notes",
       "published": "2025-11-14",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-14",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-14-2025",
       "provider": "anthropic",
       "category": "release-notes",
       "source": "release-notes",
       "sourceMedium": "Claude Developer Platform",
       "summary": "Claudeの応答に対するスキーマ適合性を保証する[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)をパブリックベータ版としてリリースしました。構造化データ応答にはJSON出力を、検証済みのツール入力には厳密なツール利用を使用してください。Claude Sonnet 4.5およびClaude Opus 4.1で利用可能です。有効にするには、ベータヘッダー`struc",
       "summaryLines": [
-        "# 2025年11月14日 リリースノート",
+        "2025年11月14日 リリースノート",
         "Claudeの応答に対するスキーマ適合性を保証する[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)をパブリックベータ版としてリリースしました。構造化データ応答にはJSON出力を、検証済みのツール入力には厳密なツール利用を使用してください。Claude Sonnet 4.5およびClaude Opus 4.1で利用可能です。有効にするには、ベータヘッダー`structured-outputs-2025-11-13`を使用してください。"
       ]
     },
@@ -2093,8 +2142,15 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "非推奨のお知らせ: 以下のモデルがシャットダウンされます:",
+      "summaryLines": [
+        "2025-11-11 変更履歴",
+        "非推奨のお知らせ: 以下のモデルがシャットダウンされます:",
+        "11月12日:",
+        "`veo-3.0-fast-generate-preview`",
+        "`veo-3.0-generate-preview`",
+        "11月14日:"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251110-2025-11-10-changelog.md",
@@ -2107,7 +2163,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "以下のモデルは停止されました:",
       "summaryLines": [
-        "# 2025-11-10 変更履歴",
+        "2025-11-10 変更履歴",
         "以下のモデルは停止されました:",
         "`imagen-3.0-generate-002`",
         "代わりに[Imagen 4](https://ai.google.dev/gemini-api/docs/imagen#imagen-4)を使用してください。詳細については、[Geminiの非推奨リスト](https://ai.google.dev/gemini-api/docs/deprecations)を参照してください。"
@@ -2122,8 +2178,11 @@
       "category": "changelog",
       "source": "changelog",
       "sourceMedium": "Google Gemini API Docs",
-      "summary": "",
-      "summaryLines": []
+      "summary": "ファイル検索APIを一般公開プレビューとしてリリースしました。これにより、デベロッパーが自身のデータに基づいて応答を根拠付けられるようになります。詳細については、新しい[ファイル検索](https://ai.google.dev/gemini-api/docs/file-search)ページをご覧ください。",
+      "summaryLines": [
+        "2025-11-06 変更履歴",
+        "ファイル検索APIを一般公開プレビューとしてリリースしました。これにより、デベロッパーが自身のデータに基づいて応答を根拠付けられるようになります。詳細については、新しい[ファイル検索](https://ai.google.dev/gemini-api/docs/file-search)ページをご覧ください。"
+      ]
     },
     {
       "id": "gemini-changelog-changelog-20251104-2025-11-04-changelog.md",
@@ -2136,7 +2195,7 @@
       "sourceMedium": "Google Gemini API Docs",
       "summary": "[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが下がりました。",
       "summaryLines": [
-        "# 2025年11月4日 変更履歴",
+        "2025年11月4日 変更履歴",
         "[Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが下がりました。",
         "提供終了のお知らせ：以下のモデルがシャットダウンされます。",
         "11月18日：",

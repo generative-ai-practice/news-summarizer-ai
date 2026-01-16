@@ -108,12 +108,18 @@
                 <li
                   v-for="(line, idx) in item.summaryLines"
                   :key="`${item.id}-${idx}`"
-                  class="flex gap-2"
+                  :class="
+                    isTableLine(line)
+                      ? 'rounded-2xl border border-ink/10 bg-white/80 p-3'
+                      : 'flex gap-2'
+                  "
                 >
                   <span
+                    v-if="!isTableLine(line)"
                     class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-ink/40"
                   ></span>
-                  <span v-html="formatLine(line)"></span>
+                  <span v-if="!isTableLine(line)" v-html="formatLine(line)"></span>
+                  <div v-else v-html="tableHtml(line)"></div>
                 </li>
               </ul>
               <p v-else class="text-sm text-ink/70">{{ item.summary }}</p>
@@ -218,6 +224,10 @@ const formatLine = (line: string) => {
   out += escapeHtml(line.slice(lastIndex));
   return out;
 };
+
+const isTableLine = (line: string) => line.startsWith("__TABLE__");
+
+const tableHtml = (line: string) => line.replace("__TABLE__", "");
 
 onMounted(loadTimeline);
 </script>
