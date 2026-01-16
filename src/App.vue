@@ -118,7 +118,10 @@
                     v-if="!isTableLine(line)"
                     class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-ink/40"
                   ></span>
-                  <span v-if="!isTableLine(line)" v-html="formatLine(line)"></span>
+                  <span
+                    v-if="!isTableLine(line)"
+                    v-html="formatLine(line)"
+                  ></span>
                   <div v-else v-html="tableHtml(line)"></div>
                 </li>
               </ul>

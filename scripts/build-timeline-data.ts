@@ -140,7 +140,10 @@ const buildTableHtml = (lines: string[]) => {
   const rows = lines.slice(bodyStart).map(splitRow);
 
   const head = `<thead><tr>${headerCells
-    .map((cell) => `<th class="border border-ink/20 bg-ink/5 px-3 py-2 text-left">${renderInline(cell)}</th>`)
+    .map(
+      (cell) =>
+        `<th class="border border-ink/20 bg-ink/5 px-3 py-2 text-left">${renderInline(cell)}</th>`,
+    )
     .join("")}</tr></thead>`;
   const body = `<tbody>${rows
     .map(
