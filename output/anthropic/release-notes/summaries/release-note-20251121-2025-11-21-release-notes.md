@@ -8,6 +8,6 @@ language: "ja"
 ---
 
 ## Updates (translated)
-# 2025-11-21 リリースノート
+# 2025年11月21日 リリースノート
 
-- 検索結果コンテンツブロックがAmazon Bedrockで一般提供開始になりました。詳細については、弊社の[検索結果ドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。
+- 検索結果コンテンツブロックが、Amazon Bedrockで一般提供されるようになりました。詳細については、[検索結果に関するドキュメント](https://platform.claude.com/docs/en/build-with-claude/search-results)をご覧ください。

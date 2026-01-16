@@ -1,10 +1,10 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-16T14:19:28.384Z",
+  "lastChecked": "2026-01-16T17:26:56.678Z",
   "articles": [
     {
       "title": "2026-01-12 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2026-01-12",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#january-12-2026",
       "publishedDate": "2026-01-12",
       "source": "release-notes",
       "slug": "20260112-2026-01-12-release-notes",
@@ -13,7 +13,7 @@
     },
     {
       "title": "2026-01-05 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2026-01-05",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#january-5-2026",
       "publishedDate": "2026-01-05",
       "source": "release-notes",
       "slug": "20260105-2026-01-05-release-notes",
@@ -22,7 +22,7 @@
     },
     {
       "title": "2025-12-19 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-19",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#december-19-2025",
       "publishedDate": "2025-12-19",
       "source": "release-notes",
       "slug": "20251219-2025-12-19-release-notes",
@@ -31,7 +31,7 @@
     },
     {
       "title": "2025-12-04 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-12-04",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#december-4-2025",
       "publishedDate": "2025-12-04",
       "source": "release-notes",
       "slug": "20251204-2025-12-04-release-notes",
@@ -40,7 +40,7 @@
     },
     {
       "title": "2025-11-24 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-24",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-24-2025",
       "publishedDate": "2025-11-24",
       "source": "release-notes",
       "slug": "20251124-2025-11-24-release-notes",
@@ -49,7 +49,7 @@
     },
     {
       "title": "2025-11-21 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-21",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-21-2025",
       "publishedDate": "2025-11-21",
       "source": "release-notes",
       "slug": "20251121-2025-11-21-release-notes",
@@ -58,7 +58,7 @@
     },
     {
       "title": "2025-11-19 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-19",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-19-2025",
       "publishedDate": "2025-11-19",
       "source": "release-notes",
       "slug": "20251119-2025-11-19-release-notes",
@@ -67,7 +67,7 @@
     },
     {
       "title": "2025-11-18 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-18",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-18-2025",
       "publishedDate": "2025-11-18",
       "source": "release-notes",
       "slug": "20251118-2025-11-18-release-notes",
@@ -76,7 +76,7 @@
     },
     {
       "title": "2025-11-14 release notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview.md#2025-11-14",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#november-14-2025",
       "publishedDate": "2025-11-14",
       "source": "release-notes",
       "slug": "20251114-2025-11-14-release-notes",

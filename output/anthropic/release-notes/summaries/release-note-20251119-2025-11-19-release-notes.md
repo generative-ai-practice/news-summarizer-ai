@@ -10,4 +10,4 @@ language: "ja"
 ## Updates (translated)
 # 2025年11月19日 リリースノート
 
-- 新しいドキュメンテーションプラットフォームを[platform.claude.com/docs](https://platform.claude.com/docs)で公開しました。私たちのドキュメンテーションはClaude Consoleと並んで配置され、統合された開発者体験を提供します。以前のドキュメントサイトであるdocs.claude.comは、新しい場所にリダイレクトされます。
+- [platform.claude.com/docs](https://platform.claude.com/docs)にて、新しいドキュメンテーションプラットフォームを立ち上げました。ドキュメンテーションはClaude Consoleと並んで配置されるようになり、統合された開発者体験を提供します。docs.claude.comにあった以前のドキュメントサイトは、新しい場所へリダイレクトされます。

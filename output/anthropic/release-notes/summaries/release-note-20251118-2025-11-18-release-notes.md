@@ -10,4 +10,4 @@ language: "ja"
 ## Updates (translated)
 # 2025年11月18日 リリースノート
 
-- Microsoft FoundryでClaudeをリリースしました。これにより、Azure課金とOAuth認証でClaudeモデルをAzureのお客様にご利用いただけます。拡張思考、プロンプトキャッシュ（5分および1時間）、PDFサポート、Files API、Agent Skills、ツール利用を含むすべてのMessages APIにアクセスできます。詳細については、当社の[Microsoft Foundryドキュメント](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)をご覧ください。
+- Microsoft FoundryでClaudeをリリースし、Azureの課金とOAuth認証を通じてAzureのお客様にClaudeモデルを提供します。思考の拡張、プロンプトキャッシュ（5分および1時間）、PDFサポート、ファイルAPI、エージェントスキル、およびツール利用を含むMessages APIの全機能にアクセスできます。詳細については、当社の[Microsoft Foundryのドキュメント](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)をご覧ください。

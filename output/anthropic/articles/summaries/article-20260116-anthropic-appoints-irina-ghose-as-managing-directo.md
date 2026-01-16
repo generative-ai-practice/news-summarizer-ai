@@ -1,7 +1,7 @@
 ---
 title: "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening"
 published: "2026-01-16"
-url: "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+url: "https://anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening
 
 ## Key Points
-- Anthropicは、ベンガルールに初のインドオフィス開設に先立ち、Irina Ghose氏をインド担当マネージングディレクターに任命しました。
-- Ghose氏は、Microsoft Indiaで企業向けAI導入を主導した30年以上のテクノロジービジネス拡大経験を有しています。
-- 彼女は、AIがインドの多様な言語やコミュニティ全体に永続的な価値を創造すべきだという信念を持っており、Anthropicの使命と共鳴しています。
-- インドチームは、政策立案者や学術機関と緊密に連携し、開発者エンゲージメントを強化し、現地課題解決にAIを活用する企業や組織とのパートナーシップを構築する予定です。
-- インドはClaude.aiにとって世界第2位の市場であり、特にコンピューターおよび数学的タスクにおける技術的応用に強い焦点があります。
+- Anthropicは、インド初のオフィス開設に先立ち、Irina Ghoseをインド担当マネージングディレクターに任命しました。
+- Ghose氏は、Microsoft Indiaでの30年以上の経験を持ち、インドの主要産業における企業AI導入を主導してきました。
+- 彼女は、インドがAIの構築と大規模展開を形成する真の機会を持つと考えており、Anthropicの使命が人々のエンパワーメントとアクセス拡大に合致すると述べています。
+- Anthropicのインドチームは、政策立案者や学術機関との緊密な連携、開発者エンゲージメントの強化、および地域課題に対応するための企業とのパートナーシップ構築を目指します。
+- インドはClaude.aiにとって世界で2番目に大きな市場であり、Claude.aiの利用のほぼ半分がコンピューターおよび数学的タスクに集中しています。
