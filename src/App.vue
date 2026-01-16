@@ -71,7 +71,20 @@
             </div>
             <div class="mt-4 flex flex-col gap-3">
               <h3 class="font-display text-xl text-ink">{{ item.title }}</h3>
-              <p class="text-sm text-ink/70">{{ item.summary }}</p>
+              <ul
+                v-if="item.summaryLines && item.summaryLines.length"
+                class="space-y-2 text-sm text-ink/70"
+              >
+                <li
+                  v-for="(line, idx) in item.summaryLines"
+                  :key="`${item.id}-${idx}`"
+                  class="flex gap-2"
+                >
+                  <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-ink/40"></span>
+                  <span>{{ line }}</span>
+                </li>
+              </ul>
+              <p v-else class="text-sm text-ink/70">{{ item.summary }}</p>
               <div class="flex flex-wrap items-center justify-between gap-3 text-sm">
                 <span class="text-ink/50">{{ item.sourceMedium }}</span>
                 <a
@@ -104,6 +117,7 @@ type TimelineItem = {
   source: string;
   sourceMedium: string;
   summary: string;
+  summaryLines: string[];
 };
 
 const loading = ref(true);

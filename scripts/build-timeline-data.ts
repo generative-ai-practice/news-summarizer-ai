@@ -11,6 +11,7 @@ type TimelineItem = {
   source: string;
   sourceMedium: string;
   summary: string;
+  summaryLines: string[];
 };
 
 type Frontmatter = Record<string, string>;
@@ -61,29 +62,56 @@ const parseFrontmatter = (content: string): { fm: Frontmatter; body: string } =>
   return { fm, body };
 };
 
-const extractSummary = (body: string): string => {
-  const lines = body.split("\n").map((line) => line.trim());
+const collectSections = (body: string) => {
+  const lines = body.split("\n");
+  const sections: Record<string, string[]> = {};
+  let current = "body";
   let inCodeBlock = false;
+  sections[current] = [];
 
-  for (const line of lines) {
-    if (!line) continue;
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
     if (line.startsWith("```")) {
       inCodeBlock = !inCodeBlock;
       continue;
     }
-    if (line.startsWith("#")) continue;
-
-    const cleaned = line.replace(/^\s*[-*]\s+/, "").trim();
-    if (!cleaned) continue;
-
-    if (!inCodeBlock && cleaned.startsWith("```")) continue;
-    if (cleaned === "## Summary" || cleaned === "## Updates (translated)") {
+    if (inCodeBlock) continue;
+    if (line.startsWith("## ")) {
+      current = line.replace(/^##\s+/, "").toLowerCase();
+      if (!sections[current]) sections[current] = [];
       continue;
     }
-
-    return cleaned.replace(/\s+/g, " ").slice(0, 240);
+    if (!line) continue;
+    sections[current].push(line);
   }
 
+  return sections;
+};
+
+const extractSummaryLines = (body: string): string[] => {
+  const sections = collectSections(body);
+  const keys = ["key points", "summary", "updates (translated)"];
+  for (const key of keys) {
+    const lines = sections[key] ?? [];
+    const bullets = lines
+      .map((line) => line.replace(/^\s*[-*]\s+/, "").trim())
+      .filter(Boolean);
+    if (bullets.length > 0) return bullets.slice(0, 6);
+  }
+  return [];
+};
+
+const extractSummary = (body: string): string => {
+  const sections = collectSections(body);
+  const candidates = ["summary", "updates (translated)", "body"];
+  for (const key of candidates) {
+    const lines = sections[key] ?? [];
+    for (const line of lines) {
+      const cleaned = line.replace(/^\s*[-*]\s+/, "").trim();
+      if (!cleaned || cleaned.startsWith("#")) continue;
+      return cleaned.replace(/\s+/g, " ").slice(0, 240);
+    }
+  }
   return "";
 };
 
@@ -105,6 +133,7 @@ const buildItem = (filePath: string, content: string): TimelineItem | null => {
   const published =
     fm.published || extractDateFromFilename(filename) || "unknown";
   const title = fm.title || filename.replace(/\.md$/, "");
+  const summaryLines = extractSummaryLines(body);
   const summary = extractSummary(body);
 
   return {
@@ -117,6 +146,7 @@ const buildItem = (filePath: string, content: string): TimelineItem | null => {
     source: fm.source || category,
     sourceMedium: fm.source_medium || "",
     summary,
+    summaryLines,
   };
 };
 
