@@ -31,13 +31,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 2
 
       - name: Check for output changes
         id: changes
         run: |
-          if git rev-parse HEAD^ >/dev/null 2>&1; then
-            CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          if [ "${{ github.event_name }}" = "workflow_run" ] && [ -n "${{ github.event.workflow_run.head_sha }}" ]; then
+            BASE_SHA="${{ github.event.workflow_run.head_sha }}^"
+            HEAD_SHA="${{ github.event.workflow_run.head_sha }}"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          if git rev-parse "$BASE_SHA" >/dev/null 2>&1; then
+            CHANGED_FILES=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")
           else
             CHANGED_FILES=""
           fi
