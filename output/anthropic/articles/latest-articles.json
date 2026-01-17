@@ -1,10 +1,10 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-17T17:13:01.139Z",
+  "lastChecked": "2026-01-17T20:17:48.273Z",
   "articles": [
     {
       "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
-      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+      "url": "https://anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
       "publishedDate": "2026-01-16",
       "source": "news",
       "language": "en",
@@ -13,16 +13,16 @@
     },
     {
       "title": "How scientists are using Claude to accelerate research and discovery",
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-      "publishedDate": "2026-01-15",
+      "url": "https://anthropic.com/news/accelerating-scientific-research",
+      "publishedDate": "2026-01-16",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20260115-how-scientists-are-using-claude-to-accelerate-rese"
+      "slug": "20260116-how-scientists-are-using-claude-to-accelerate-rese"
     },
     {
       "title": "Anthropic Economic Index: new building blocks for understanding AI use",
-      "url": "https://www.anthropic.com/research/economic-index-primitives",
+      "url": "https://anthropic.com/research/economic-index-primitives",
       "publishedDate": "2026-01-15",
       "source": "news",
       "language": "en",
@@ -31,34 +31,34 @@
     },
     {
       "title": "Anthropic Economic Index report: economic primitives",
-      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
-      "publishedDate": "2026-01-15",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20260115-anthropic-economic-index-report-economic-primitive"
-    },
-    {
-      "title": "Introducing Labs",
-      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "url": "https://anthropic.com/research/anthropic-economic-index-january-2026-report",
       "publishedDate": "2026-01-13",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20260113-introducing-labs"
+      "slug": "20260113-anthropic-economic-index-report-economic-primitive"
     },
     {
-      "title": "Advancing Claude in healthcare and the life sciences",
-      "url": "https://www.anthropic.com/news/healthcare-life-sciences",
-      "publishedDate": "2026-01-11",
+      "title": "Introducing Labs",
+      "url": "https://anthropic.com/news/introducing-anthropic-labs",
+      "publishedDate": "2026-01-14",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20260111-advancing-claude-in-healthcare-and-the-life-scienc"
+      "slug": "20260114-introducing-labs"
+    },
+    {
+      "title": "Advancing Claude in healthcare and the life sciences",
+      "url": "https://anthropic.com/news/healthcare-life-sciences",
+      "publishedDate": "2026-01-09",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260109-advancing-claude-in-healthcare-and-the-life-scienc"
     },
     {
       "title": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
-      "url": "https://www.anthropic.com/news/compliance-framework-SB53",
+      "url": "https://anthropic.com/news/compliance-framework-SB53",
       "publishedDate": "2025-12-19",
       "source": "news",
       "language": "en",
@@ -67,25 +67,25 @@
     },
     {
       "title": "Working with the US Department of Energy to unlock the next era of scientific discovery",
-      "url": "https://www.anthropic.com/news/genesis-mission-partnership",
-      "publishedDate": "2025-12-18",
+      "url": "https://anthropic.com/news/genesis-mission-partnership",
+      "publishedDate": "2025-12-19",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251218-working-with-the-us-department-of-energy-to-unlock"
+      "slug": "20251219-working-with-the-us-department-of-energy-to-unlock"
     },
     {
       "title": "Protecting the well-being of our users",
-      "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
-      "publishedDate": "2025-12-18",
+      "url": "https://anthropic.com/news/protecting-well-being-of-users",
+      "publishedDate": "2025-12-19",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251218-protecting-the-well-being-of-our-users"
+      "slug": "20251219-protecting-the-well-being-of-our-users"
     },
     {
       "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
-      "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+      "url": "https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
       "publishedDate": "2025-12-09",
       "source": "news",
       "language": "en",
@@ -94,7 +94,7 @@
     },
     {
       "title": "Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production",
-      "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+      "url": "https://anthropic.com/news/anthropic-accenture-partnership",
       "publishedDate": "2025-12-09",
       "source": "news",
       "language": "en",
@@ -103,30 +103,30 @@
     },
     {
       "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
-      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
-      "publishedDate": "2025-12-03",
+      "url": "https://anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "publishedDate": "2025-12-04",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251203-snowflake-and-anthropic-announce-200-million-partn"
+      "slug": "20251204-snowflake-and-anthropic-announce-200-million-partn"
     },
     {
       "title": "Anthropic acquires Bun as Claude Code reaches $1B milestone",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251203-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
-    },
-    {
-      "title": "Claude for Nonprofits",
-      "url": "https://www.anthropic.com/news/claude-for-nonprofits",
+      "url": "https://anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
       "publishedDate": "2025-12-02",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251202-claude-for-nonprofits"
+      "slug": "20251202-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
+    },
+    {
+      "title": "Claude for Nonprofits",
+      "url": "https://anthropic.com/news/claude-for-nonprofits",
+      "publishedDate": "2025-11-25",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251125-claude-for-nonprofits"
     }
   ]
 }

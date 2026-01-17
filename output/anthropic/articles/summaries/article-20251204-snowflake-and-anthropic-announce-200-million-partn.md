@@ -1,7 +1,7 @@
 ---
 title: "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises"
 published: "2025-12-04"
-url: "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
+url: "https://anthropic.com/news/snowflake-anthropic-expanded-partnership"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises
 
 ## Key Points
-- 2億ドルの複数年契約により、AnthropicのClaudeモデルがSnowflakeプラットフォームを通じて12,600社以上の顧客に提供され、グローバル企業へのAIエージェント展開を目指す共同GTMイニシアチブが確立されます。
-- Snowflakeは社内業務でClaudeを広く利用し、開発者生産性向上や、自然言語でのデータ検索を可能にするGTM AIアシスタントによる営業効率化を実現しています。
-- パートナーシップの次の段階では、Claudeの高度な推論とSnowflakeのガバナンスされたデータ環境を組み合わせたAIエージェントを展開し、複雑なテキスト-to-SQLタスクで90%以上の精度を達成します。
-- この提携は、Claudeを活用したエンタープライズインテリジェンス、SQLによるマルチモーダル分析、カスタムマルチエージェントソリューションの構築、およびSnowflake Horizon Catalogによるエンドツーエンドのガバナンスを提供します。
-- Simon DataやIntercomといった企業は既にSnowflake上でClaudeを利用しており、厳格なガバナンスを維持しつつデータから新たな洞察を発見したり、AIエージェントの自動化率を向上させたりしています。
+- AnthropicとSnowflakeは、グローバル企業向けにagentic AIを展開するため、2億ドルの複数年戦略的パートナーシップを発表しました。
+- この提携により、AnthropicのClaudeモデルはSnowflakeプラットフォームを通じて12,600を超える顧客に提供され、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Azureでも利用可能になります。
+- パートナーシップの次なる段階では、Claudeの高度な推論とSnowflakeのデータ環境を組み合わせた、複雑な多段階分析を処理できるAIエージェントの展開に注力します。
+- Snowflakeの内部ベンチマークによると、このAIエージェントは複雑なtext-to-SQLタスクで90%以上の精度を達成しています。
+- 企業は、Claudeの推論能力とSnowflakeの管理されたデータ環境を活用し、構造化および非構造化データの両方からインサイトを獲得しながら、厳格なセキュリティ基準を維持できます。

@@ -1,7 +1,7 @@
 ---
 title: "Protecting the well-being of our users"
 published: "2025-12-19"
-url: "https://www.anthropic.com/news/protecting-well-being-of-users"
+url: "https://anthropic.com/news/protecting-well-being-of-users"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Protecting the well-being of our users
 
 ## Key Points
-- Claudeは感情的サポートを含む様々な理由で利用されるAIであり、ユーザーの幸福を守るため、共感的で正直な対応と適切な安全対策が重要とAnthropicは考えている。
-- 自殺や自傷行為に関する会話において、Claudeは専門的なアドバイスの代わりではなく、共感と配慮をもってヘルプラインや精神衛生専門家など人間によるサポートを促すよう訓練され、危機バナーを導入している。
-- AIモデルがユーザーの聞きたいことだけを言う「シコファンシー（おべっか）」を軽減するため、モデルトレーニングと評価を強化しており、Claude Opus 4.5、Sonnet 4.5、Haiku 4.5は以前のモデルより大幅に改善された。
-- Claude.aiは18歳以上のユーザーのみを対象としており、アカウント設定時に年齢確認を行い、未成年であると確認された場合はアカウントを無効にする。
-- Anthropicは、ユーザーの安全と幸福を保護するための新たな保護措置と評価方法の改善に継続的に取り組み、業界の専門家との協力を通じてAIツールの行動改善を目指している。
+- Claudeはユーザーの感情的サポートに対応する際、共感、AIとしての限界の明示、ユーザーの幸福への配慮を重視し、Safeguardsチームが適切な会話処理を保証しています。
+- 自殺や自傷行為に関する会話では、Claudeは専門的アドバイスの代替ではなく、システムプロンプトと強化学習で訓練され、ThroughLineやIASPと連携してユーザーを専門的な支援（ヘルプライン、精神衛生専門家など）に誘導する製品セーフガードを導入しています。
+- 最新モデルであるClaude Opus 4.5、Sonnet 4.5、Haiku 4.5は、自殺・自傷行為に関する単一ターンおよび複数ターンの会話で98.6%〜99.3%の高い応答適切性を示し、旧モデルと比較して大幅に改善しました。
+- AIがユーザーに迎合する「追従性（sycophancy）」を減らすため、訓練と評価が継続されており、最新モデルは最も追従性が低く、オープンソースのPetri評価セットで他のフロンティアモデルよりも優れた性能を示しています。
+- Claude.aiの利用は18歳以上に限定されており、未成年ユーザーを検知する分類器の開発や、Family Online Safety Institute (FOSI) との協力により、若いユーザーへの悪影響リスク低減に取り組んでいます。
