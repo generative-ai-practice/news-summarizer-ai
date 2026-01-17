@@ -131,6 +131,16 @@ jobs:
           # 各カテゴリのサマリーファイルを取得
           NEW_ARTICLES=$(git diff --name-only --diff-filter=A origin/main...HEAD | grep "output/${PROVIDER}/articles/summaries/.*\\.md$" || true)
           NEW_CHANGELOG=$(git diff --name-only --diff-filter=A origin/main...HEAD | grep "output/${PROVIDER}/changelog/summaries/.*\\.md$" || true)
+          NEW_DEPRECATIONS=""
+          if [ "$HAS_DEPRECATIONS" = "true" ]; then
+            NEW_DEPRECATIONS=$(git diff --name-only --diff-filter=A origin/main...HEAD | grep "output/${PROVIDER}/deprecations/summaries/.*\\.md$" || true)
+          fi
+
+          if [ -z "$NEW_ARTICLES" ] && [ -z "$NEW_CHANGELOG" ] && [ -z "$NEW_DEPRECATIONS" ]; then
+            echo "should_send=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "should_send=true" >> $GITHUB_OUTPUT
 
           PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
           EMAIL_HTML="<h2>${PROVIDER_UPPER} ニュースが更新されました</h2>"
@@ -163,7 +173,6 @@ jobs:
 
           # Deprecationsセクション（has_deprecationsがtrueの場合のみ）
           if [ "$HAS_DEPRECATIONS" = "true" ]; then
-            NEW_DEPRECATIONS=$(git diff --name-only --diff-filter=A origin/main...HEAD | grep "output/${PROVIDER}/deprecations/summaries/.*\\.md$" || true)
             add_section "⚠️ Deprecations" "$NEW_DEPRECATIONS" "#dc2626"
           fi
 
@@ -175,7 +184,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Send email notification
-        if: steps.check-changes.outputs.has_changes == 'true' && steps.create-pr.outputs.pr_number
+        if: steps.email-content.outputs.should_send == 'true'
         run: |
           PROVIDER="${{ inputs.provider }}"
           PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
