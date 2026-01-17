@@ -41,8 +41,8 @@ jobs:
             BASE_SHA="${{ github.event.workflow_run.head_sha }}^"
             HEAD_SHA="${{ github.event.workflow_run.head_sha }}"
           else
-            BASE_SHA="HEAD^"
-            HEAD_SHA="HEAD"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            exit 0
           fi
 
           if git rev-parse "$BASE_SHA" >/dev/null 2>&1; then
