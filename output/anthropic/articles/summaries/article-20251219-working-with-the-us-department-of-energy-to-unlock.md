@@ -1,7 +1,7 @@
 ---
 title: "Working with the US Department of Energy to unlock the next era of scientific discovery"
 published: "2025-12-19"
-url: "https://anthropic.com/news/genesis-mission-partnership"
+url: "https://www.anthropic.com/news/genesis-mission-partnership"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Working with the US Department of Energy to unlock the next era of scientific discovery
 
 ## Key Points
-- Anthropicは米国エネルギー省（DOE）のGenesis Missionと複数年パートナーシップを締結し、AIを活用して科学分野でのアメリカのリーダーシップ強化を目指します。
-- この協力は、アメリカのエネルギー優位性、生物学および生命科学、科学的生産性の3つの主要分野に焦点を当て、全17の国立研究所の活動に影響を与える可能性があります。
-- Anthropicは、DOEの研究者にClaudeおよびAIエージェント、モデルコンテキストプロトコルサーバー、Claude Skillsなどの目的別ツールを開発するエンジニアチームを提供します。
-- Claudeは、エネルギー許認可プロセスの高速化、核技術研究、パンデミック早期警報システム開発、医薬品開発加速、および50年分のDOE研究データに基づく研究サイクル加速に貢献します。
-- このパートナーシップは、国家核安全保障局との核リスク分類器共同開発やローレンス・リバモア国立研究所でのClaude導入といった過去の協力に基づき、AIと人間の研究者連携モデルを構築し、AIツールのさらなる発展に繋がることが期待されています。
+- Anthropicは、米国科学におけるAIリーダーシップを確立するための米国エネルギー省（DOE）の「Genesis Mission」の一環として、DOEとの複数年にわたるパートナーシップを発表しました。
+- この提携は、アメリカのエネルギー優位性、生物・生命科学、科学的生産性の3つの領域に焦点を当て、米国の17の国立研究所すべてに影響を与える可能性があります。
+- Anthropicは、Claudeと、DOEの最優先課題に対応するAI「エージェント」、科学機器にClaudeを接続するサーバー、専門知識のためのClaude Skillsを開発するエンジニアチームをDOE研究者に提供します。
+- Claudeは、エネルギー拡張の許認可プロセスの加速、将来のパンデミック早期警戒システムの開発、創薬の促進、50年間のDOE研究データに基づいた研究サイクルの加速を支援します。
+- 過去には、国家核安全保障局との核リスク分類器の共同開発や、ローレンス・リバモア国立研究所でのClaudeの導入など、DOEとの協力実績があります。
