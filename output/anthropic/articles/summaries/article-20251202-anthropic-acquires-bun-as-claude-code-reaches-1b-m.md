@@ -1,7 +1,7 @@
 ---
 title: "Anthropic acquires Bun as Claude Code reaches $1B milestone"
 published: "2025-12-02"
-url: "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
+url: "https://anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Anthropic acquires Bun as Claude Code reaches $1B milestone
 
 ## Key Points
-- Claude Codeは2025年5月の一般提供開始からわずか6ヶ月で、年間収益10億ドルという重要なマイルストーンを達成しました。
-- Anthropicは、Claude Codeのさらなる加速を目的として、画期的なJavaScriptランタイムである「Bun」を買収しました。
-- Bunは、ランタイム、パッケージマネージャー、バンドラー、テストランナーを統合したオールインワンツールキットであり、現代のソフトウェアエンジニアリングにおける速度とパフォーマンスを再定義します。
-- この買収により、Claude Codeのユーザーは、より高速なパフォーマンス、安定性の向上、および新機能の恩恵を受けることになります。
-- Bunは引き続きオープンソースでありMITライセンスの下で提供され、AnthropicはJavaScriptおよびTypeScript開発者向けの主要なランタイムとしてBunへの投資を継続します。
+- AnthropicのAIモデル「Claude Code」は、2025年11月に公開後わずか6ヶ月で年間収益10億ドルのマイルストーンを達成しました。
+- Anthropicは、Claude Codeのさらなる加速とJavaScript開発者体験の向上のため、高性能JavaScriptランタイム「Bun」を買収しました。
+- BunはJavaScriptおよびTypeScript開発の速度、パフォーマンス、信頼性を向上させ、Claude Codeユーザーに高速なパフォーマンス、安定性、新機能を提供します。
+- Bunはオープンソースであり、MITライセンスのままで、Anthropicは今後もその開発と投資を継続する意向です。
+- AnthropicのCPOであるMike Kriegerは、Bunの買収がAI導入の指数関数的な成長に足並みを揃えるためのインフラ構築に不可欠であると述べています。
