@@ -1,7 +1,7 @@
 ---
 title: "Anthropic Economic Index: new building blocks for understanding AI use"
 published: "2026-01-15"
-url: "https://anthropic.com/research/economic-index-primitives"
+url: "https://www.anthropic.com/research/economic-index-primitives"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Anthropic Economic Index: new building blocks for understanding AI use
 
 ## Key Points
-- Anthropicは、AI使用の経済的影響を継続的に理解するため、「経済プリミティブ」（タスクの複雑さ、スキルレベル、目的、AIの自律性、成功の5項目）を導入しました。
-- Claudeはより複雑なタスクほど大きな速度向上をもたらし、大学卒業程度の教育を必要とするタスクでは12倍の生産性向上が見られました。
-- AIのタスク完了時間軸は、METRのベンチマークと比較して実際の使用（Claude.aiでは約19時間）で大幅に長くなっていますが、これはユーザーのタスク細分化や選択バイアスによるものです。
-- Claudeの利用形態は国によって異なり、高GDP国では仕事や個人利用が多い一方、低所得国では教育用途が中心であり、AI導入の段階的パターンを示唆しています。
-- AIがカバーするタスクは平均してより高い教育レベル（14.4年）を必要とし、信頼性を考慮したAIの普及は米国の労働生産性成長を年間1.0〜1.2%ポイント増加させる可能性があります。
+- AnthropicはAIの使用状況を詳細に分析するため、タスクの複雑さ、スキルレベル、目的（仕事、教育、個人）、AIの自律性、成功という5つの「経済的プリミティブ」を導入しました。
+- Claudeはより複雑なタスクほど大きな高速化をもたらし、大学教育レベルのタスクでは最大12倍の速度向上が見られ、AIの生産性向上が高技能タスクに集中していることを示しています。
+- Claudeのタスク成功率は、Claude.aiでは約19時間、APIでは約3.5時間かかるタスクで50%に達し、ユーザーによるタスク分解や選択バイアスがAIの実効的な作業時間軸を延ばしています。
+- GDPが高い国ではClaudeが仕事や個人利用に多く使われる一方、GDPが低い国では教育目的での利用が中心であり、AI利用が経済発展レベルに応じて異なることが示されました。
+- AIが米国の労働生産性成長を年間1.0〜1.2ポイント増加させる可能性が示唆されていますが、タスクの信頼性を考慮すると以前の試算（1.8ポイント）から下方修正されています。

@@ -1,7 +1,7 @@
 ---
 title: "Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production"
 published: "2025-12-09"
-url: "https://anthropic.com/news/anthropic-accenture-partnership"
+url: "https://www.anthropic.com/news/anthropic-accenture-partnership"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production
 
 ## Key Points
-- アクセンチュアとAnthropicは「Accenture Anthropic Business Group」を設立し、Anthropicをアクセンチュアの主要な戦略的パートナーの一つとする。
-- 約3万人のアクセンチュアのプロフェッショナルがClaudeのトレーニングを受け、世界最大規模のClaude専門家エコシステムを構築する。
-- アクセンチュアは、AIコーディング市場で過半数を占めるClaude Codeを数万人の開発者に提供する主要なAIコーディングパートナーとなる。
-- 両社は、CIOがエンジニアリング組織全体でAIの価値を測定し、大規模な導入を推進するための新しい共同サービスを開始する。
-- 金融サービス、ライフサイエンス、ヘルスケア、公共部門など、セキュリティとガバナンス要件が最も厳格な規制業界向けのAIソリューションを共同で開発する。
+- AccentureとAnthropicは「Accenture Anthropic Business Group」を設立し、Anthropicはアクセンチュアの主要戦略パートナーとなります。
+- 約30,000人のアクセンチュアの専門家がClaudeのトレーニングを受け、世界最大級のClaude実践者エコシステムを構築します。
+- アクセンチュアは、AIコーディング市場の半分以上を占めるClaude CodeのプレミアAIパートナーとなり、数万人の開発者が利用できるようになります。
+- 両社は、CIOがエンジニアリング組織全体でAIの価値を測定し、大規模なAI導入を推進するための新しい共同サービスを開始します。
+- 金融サービスやヘルスケアなどの規制業界向けに、厳格なセキュリティとガバナンス要件に対応した初期産業ソリューションを共同開発します。
