@@ -1,7 +1,5 @@
-import { execFile } from "node:child_process";
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { promisify } from "node:util";
 
 type TimelineItem = {
   id: string;
@@ -22,7 +20,6 @@ type Frontmatter = Record<string, string>;
 const OUTPUT_ROOT = path.resolve(process.cwd(), "output");
 const PUBLIC_ROOT = path.resolve(process.cwd(), "public");
 const DATA_PATH = path.join(PUBLIC_ROOT, "data.json");
-const execFileAsync = promisify(execFile);
 
 const readFile = async (filePath: string) => {
   const raw = await fs.readFile(filePath, "utf8");
@@ -66,20 +63,6 @@ const parseFrontmatter = (
   }
   const body = content.slice(match[0].length);
   return { fm, body };
-};
-
-const getGitCollectedAt = async (filePath: string): Promise<string | null> => {
-  try {
-    const { stdout } = await execFileAsync(
-      "git",
-      ["log", "-1", "--format=%cI", "--", filePath],
-      { cwd: process.cwd() },
-    );
-    const value = stdout.trim();
-    return value || null;
-  } catch {
-    return null;
-  }
 };
 
 const escapeHtml = (value: string) =>
