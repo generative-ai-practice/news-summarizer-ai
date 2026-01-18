@@ -253,10 +253,12 @@ export class OpenAINewsProvider extends BaseProvider {
       });
       const cleanedSummary = this.stripMetaLines(summary);
       const safeTitle = article.title.replace(/"/g, '\\"');
+      const collectedAt = generateTimestamp();
       const summaryWithFrontmatter = [
         "---",
         `title: "${safeTitle}"`,
         `published: "${updatedArticle.publishedDate || "N/A"}"`,
+        `collected_at: "${collectedAt}"`,
         `url: "${updatedArticle.url}"`,
         `source: "news"`,
         `source_medium: "OpenAI News"`,

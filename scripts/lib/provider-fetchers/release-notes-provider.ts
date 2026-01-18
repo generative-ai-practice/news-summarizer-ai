@@ -255,10 +255,12 @@ export class ReleaseNotesProvider extends BaseProvider {
         updatesMarkdown,
         { title: article.title },
       );
+      const collectedAt = generateTimestamp();
       const summary = [
         "---",
         `title: "${article.title.replace(/"/g, '\\"')}"`,
         `published: "${article.publishedDate || "N/A"}"`,
+        `collected_at: "${collectedAt}"`,
         `url: "${article.url}"`,
         `source: "release-notes"`,
         `source_medium: "Claude Developer Platform"`,

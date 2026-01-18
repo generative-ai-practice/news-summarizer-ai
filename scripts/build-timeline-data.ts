@@ -1,10 +1,13 @@
+import { execFile } from "node:child_process";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { promisify } from "node:util";
 
 type TimelineItem = {
   id: string;
   title: string;
   published: string;
+  collectedAt: string;
   url: string;
   provider: string;
   category: string;
@@ -19,6 +22,7 @@ type Frontmatter = Record<string, string>;
 const OUTPUT_ROOT = path.resolve(process.cwd(), "output");
 const PUBLIC_ROOT = path.resolve(process.cwd(), "public");
 const DATA_PATH = path.join(PUBLIC_ROOT, "data.json");
+const execFileAsync = promisify(execFile);
 
 const readFile = async (filePath: string) => {
   const raw = await fs.readFile(filePath, "utf8");
@@ -62,6 +66,20 @@ const parseFrontmatter = (
   }
   const body = content.slice(match[0].length);
   return { fm, body };
+};
+
+const getGitCollectedAt = async (filePath: string): Promise<string | null> => {
+  try {
+    const { stdout } = await execFileAsync(
+      "git",
+      ["log", "-1", "--format=%cI", "--", filePath],
+      { cwd: process.cwd() },
+    );
+    const value = stdout.trim();
+    return value || null;
+  } catch {
+    return null;
+  }
 };
 
 const escapeHtml = (value: string) =>
@@ -222,7 +240,11 @@ const extractDateFromFilename = (filename: string): string | null => {
   return `${match[1]}-${match[2]}-${match[3]}`;
 };
 
-const buildItem = (filePath: string, content: string): TimelineItem | null => {
+const buildItem = (
+  filePath: string,
+  content: string,
+  collectedAt: string,
+): TimelineItem | null => {
   const normalized = filePath.split(path.sep).join("/");
   const parts = normalized.split("/output/")[1]?.split("/") ?? [];
   if (parts.length < 4) return null;
@@ -233,6 +255,8 @@ const buildItem = (filePath: string, content: string): TimelineItem | null => {
   const { fm, body } = parseFrontmatter(content);
   const published =
     fm.published || extractDateFromFilename(filename) || "unknown";
+  const effectiveCollectedAt =
+    collectedAt && collectedAt !== "n/a" ? collectedAt : published;
   const title = fm.title || filename.replace(/\.md$/, "");
   const summaryLines = extractSummaryLines(body);
   const summary = extractSummary(body);
@@ -241,6 +265,7 @@ const buildItem = (filePath: string, content: string): TimelineItem | null => {
     id: `${provider}-${category}-${filename}`,
     title,
     published,
+    collectedAt: effectiveCollectedAt,
     url: fm.url || "",
     provider,
     category,
@@ -251,10 +276,33 @@ const buildItem = (filePath: string, content: string): TimelineItem | null => {
   };
 };
 
+const isCollectedAtValid = (value: string) => {
+  if (!value || value === "n/a") return false;
+  const parsed = Date.parse(value);
+  return !Number.isNaN(parsed);
+};
+
 const sortItems = (items: TimelineItem[]) => {
   return items.sort((a, b) => {
-    if (a.published === b.published) return a.title.localeCompare(b.title);
-    return a.published < b.published ? 1 : -1;
+    const aHasCollected = isCollectedAtValid(a.collectedAt);
+    const bHasCollected = isCollectedAtValid(b.collectedAt);
+
+    if (aHasCollected && bHasCollected) {
+      if (a.collectedAt === b.collectedAt) {
+        return a.title.localeCompare(b.title);
+      }
+      return a.collectedAt < b.collectedAt ? 1 : -1;
+    }
+
+    if (!aHasCollected && !bHasCollected) {
+      if (a.published === b.published) {
+        return a.title.localeCompare(b.title);
+      }
+      return a.published < b.published ? 1 : -1;
+    }
+
+    if (aHasCollected && !bHasCollected) return -1;
+    return 1;
   });
 };
 
@@ -269,7 +317,9 @@ const main = async () => {
 
     for (const filePath of files) {
       const content = await readFile(filePath);
-      const item = buildItem(filePath, content);
+      const { fm } = parseFrontmatter(content);
+      const collectedAt = fm.collected_at || "";
+      const item = buildItem(filePath, content, collectedAt);
       if (item) items.push(item);
     }
 

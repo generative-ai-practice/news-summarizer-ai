@@ -239,10 +239,12 @@ export class GeminiNewsProvider extends BaseProvider {
         `article-${updatedArticle.slug}.md`,
       );
 
+      const collectedAt = generateTimestamp();
       const header = [
         "---",
         `title: "${updatedArticle.title.replace(/"/g, '\\"')}"`,
         `published: "${updatedArticle.publishedDate || "N/A"}"`,
+        `collected_at: "${collectedAt}"`,
         `url: "${updatedArticle.url}"`,
         `source: "news"`,
         `source_medium: "Google Gemini Blog"`,

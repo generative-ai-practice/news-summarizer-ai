@@ -235,10 +235,12 @@ export class OpenAIDeprecationsProvider extends BaseProvider {
       updatesMarkdown,
       { title: article.title },
     );
+    const collectedAt = generateTimestamp();
     const summary = [
       "---",
       `title: "${article.title.replace(/"/g, '\\"')}"`,
       `published: "${article.publishedDate || "N/A"}"`,
+      `collected_at: "${collectedAt}"`,
       `url: "${article.url}"`,
       `source: "platform-deprecations"`,
       `source_medium: "OpenAI Platform Docs"`,
