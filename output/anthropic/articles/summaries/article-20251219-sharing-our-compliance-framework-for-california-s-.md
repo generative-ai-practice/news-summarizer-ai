@@ -1,7 +1,7 @@
 ---
 title: "Sharing our compliance framework for California's Transparency in Frontier AI Act"
 published: "2025-12-19"
-url: "https://www.anthropic.com/news/compliance-framework-SB53"
+url: "https://anthropic.com/news/compliance-framework-SB53"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +10,8 @@ language: "ja"
 # Sharing our compliance framework for California's Transparency in Frontier AI Act
 
 ## Key Points
-- カリフォルニア州の「Transparency in Frontier AI Act (SB 53)」が2025年1月1日に施行されるのに伴い、Anthropicは対応する「Frontier Compliance Framework (FCF)」を公開しました。
-- FCFは、サイバー攻撃、CBRN脅威、AIの破壊工作、制御喪失など、フロンティアモデルにおける壊滅的なリスクの評価、軽減策、モデルウェイトの保護、安全インシデントへの対応を詳述しています。
-- FCFに盛り込まれた実践の多くは、Anthropicが2023年から運用している自主的な安全ポリシーである「Responsible Scaling Policy (RSP)」の進化を反映したものです。
-- Anthropicは、SB 53が責任あるAI開発における透明性を義務化する重要な一歩であるとし、国全体の整合性を確保するために連邦レベルでのAI透明性フレームワークの必要性を提唱しています。
-- Anthropicが提案する連邦フレームワークの主要な原則には、公開された安全な開発フレームワークの義務化、システムカードの公開、内部告発者の保護、柔軟な透明性基準、および最大規模のモデル開発者への適用が含まれます。
+- カリフォルニア州の「フロンティアAI透明性法」（SB 53）が2025年1月1日に施行され、Anthropicはこの法律を支持し、フロンティアAI開発者による壊滅的なリスク評価と管理における透明性を義務付けるものとしている。
+- Anthropicは、SB 53の主要要件に従い、サイバー攻撃、化学・生物・放射性・核の脅威、AIサボタージュ、制御喪失といったフロンティアモデルの壊滅的なリスクを評価・緩和する方法を詳述した「Frontier Compliance Framework (FCF)」を公開した。
+- FCFはAnthropicの長年の安全実践（Responsible Scaling Policyなど）の発展形であり、今後SB 53およびその他の規制要件への準拠フレームワークとして機能する。
+- 記事は、SB 53のような州法の重要性を認めつつ、自主的な透明性慣行を義務化することで責任ある開発を保証し、全国的な一貫性のために連邦レベルでのAI透明性フレームワークが必要であると提言している。
+- 提案される連邦法案の主要原則には、公開された安全な開発フレームワークの義務化、モデル展開時のシステムカードの公開、内部告発者の保護、柔軟な透明性基準、および最も大規模なモデル開発者への適用制限が含まれる。
