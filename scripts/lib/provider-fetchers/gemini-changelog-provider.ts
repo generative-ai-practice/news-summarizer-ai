@@ -224,10 +224,12 @@ export class GeminiChangelogProvider extends BaseProvider {
       rawMarkdown,
       { title: article.title },
     );
+    const collectedAt = generateTimestamp();
     const summary = [
       "---",
       `title: "${article.title.replace(/"/g, '\\"')}"`,
       `published: "${article.publishedDate || "N/A"}"`,
+      `collected_at: "${collectedAt}"`,
       `url: "${article.url}"`,
       `source: "changelog"`,
       `source_medium: "Google Gemini API Docs"`,

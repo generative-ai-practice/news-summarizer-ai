@@ -98,6 +98,9 @@
               <span class="rounded-full bg-ink/5 px-3 py-1">{{
                 item.published
               }}</span>
+              <span class="rounded-full bg-ink/5 px-3 py-1">
+                Collected {{ formatCollected(item.collectedAt) }}
+              </span>
             </div>
             <div class="mt-4 flex flex-col gap-3">
               <h3 class="font-display text-xl text-ink">{{ item.title }}</h3>
@@ -155,6 +158,7 @@ type TimelineItem = {
   id: string;
   title: string;
   published: string;
+  collectedAt: string;
   url: string;
   provider: string;
   category: string;
@@ -238,6 +242,19 @@ const formatLine = (line: string) => {
 const isTableLine = (line: string) => line.startsWith("__TABLE__");
 
 const tableHtml = (line: string) => sanitizeHtml(line.replace("__TABLE__", ""));
+
+const formatCollected = (value: string) => {
+  if (!value) return "n/a";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "n/a";
+  return new Intl.DateTimeFormat("ja-JP", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+};
 
 onMounted(loadTimeline);
 </script>
