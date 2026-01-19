@@ -1,8 +1,8 @@
 ---
 title: "Donating the Model Context Protocol and establishing the Agentic AI Foundation"
 published: "2025-12-09"
-collected_at: "2026-01-19T08:30:15.564Z"
-url: "https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+collected_at: "2026-01-19T11:23:14.659Z"
+url: "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -11,8 +11,8 @@ language: "ja"
 # Donating the Model Context Protocol and establishing the Agentic AI Foundation
 
 ## Key Points
-- AnthropicはModel Context Protocol（MCP）をLinux Foundation傘下のAgentic AI Foundation（AAIF）に寄付しました。AAIFはAnthropic、Block、OpenAIが共同設立し、Google、Microsoft、AWSなどが支援しています。
-- MCPはAIアプリケーションを外部システムに接続するための普遍的なオープン標準として、1年で10,000以上の公開サーバーに導入され、ChatGPT、Microsoft Copilotなどの人気AI製品で採用されています。
-- この寄付は、MCPがオープンソース、コミュニティ主導、ベンダーニュートラルな標準として維持されることを保証するためのAnthropicのコミットメントを強化するものです。
-- AAIFは、エージェントAIが透明性、協力、および公共の利益をもって進化することを目的とし、MCPはBlockのgooseやOpenAIのAGENTS.mdと共にAAIFの設立プロジェクトとなります。
-- MCPのガバナンスモデルは変更されず、プロジェクトのメンテナーは今後もコミュニティの意見と透明な意思決定を優先します。
+- Anthropicは、AIアプリケーションを外部システムに接続するためのユニバーサルなオープン標準であるModel Context Protocol (MCP)を、Agentic AI Foundation (AAIF)に寄贈しました。
+- AAIFはLinux Foundation傘下のファンドで、Anthropic、Block、OpenAIが共同設立し、Google、Microsoft、AWS、Cloudflare、Bloombergが支援しています。
+- MCPは、ChatGPT、Cursor、Gemini、Microsoft Copilotなどの主要なAI製品に採用され、10,000以上の公開MCPサーバーが存在するなど、広く普及しています。
+- この寄贈は、MCPがオープンソース、コミュニティ主導、ベンダー中立であることを保証し、エージェントAIエコシステム全体のイノベーションを促進するためのコミットメントを強化するものです。
+- AAIFは、MCPを含む基盤技術が中立でオープン、コミュニティ主導であることを保証し、エージェントAIの透明かつ協調的な進化を目指します。
