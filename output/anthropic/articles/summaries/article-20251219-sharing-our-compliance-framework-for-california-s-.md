@@ -1,7 +1,8 @@
 ---
 title: "Sharing our compliance framework for California's Transparency in Frontier AI Act"
 published: "2025-12-19"
-url: "https://www.anthropic.com/news/compliance-framework-SB53"
+collected_at: "2026-01-19T08:29:51.702Z"
+url: "https://anthropic.com/news/compliance-framework-SB53"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -10,8 +11,8 @@ language: "ja"
 # Sharing our compliance framework for California's Transparency in Frontier AI Act
 
 ## Key Points
-- カリフォルニア州の「Transparency in Frontier AI Act（SB 53）」が2026年1月1日に施行され、壊滅的なリスクに対するフロンティアAIの安全性と透明性要件が国内で初めて確立されます。Anthropicはこの法案を支持し、その遵守フレームワークを公開しました。
-- Anthropicは、サイバー攻撃、化学・生物・放射性・核の脅威、AIの妨害、制御喪失といったフロンティアモデルのリスクを評価・軽減する方法を詳述した「Frontier Compliance Framework (FCF)」を公開しました。
-- FCFは、Anthropicが2023年から実施している「Responsible Scaling Policy (RSP)」を発展させたものであり、SB 53やその他の規制要件への準拠フレームワークとなります。RSPは、AIの発展に伴うベストプラクティスを反映する自主的な安全方針として維持されます。
-- SB 53の施行は重要な一歩であり、Anthropicは国全体で一貫したAI透明性フレームワークを確立するため、連邦レベルでの基準の必要性を強調しています。
-- Anthropicは、連邦法制に向けたフレームワークとして、公開されたセキュア開発フレームワークの義務付け、モデル展開時のシステムカード公開、内部告発者の保護、柔軟な透明性基準、および最も高性能なモデル開発者への適用限定を提案しています。
+- 2025年1月1日に施行されるカリフォルニア州のフロンティアAI透明性法（SB 53）は、壊滅的なリスクに対する国内初のフロンティアAIの安全性および透明性要件を確立します。
+- Anthropicは、フロンティアAI開発者がリスクの評価と管理方法を透明化すべきであるという信念から、このSB 53を支持しています。
+- Anthropicは、SB 53の主要要件を満たすために、サイバー攻撃、化学・生物・放射性・核の脅威、AIの妨害および制御喪失のリスクの評価・軽減策を詳述した「フロンティア・コンプライアンス・フレームワーク（FCF）」を公開しました。
+- FCFは、長年培ってきた責任あるスケーリングポリシー（RSP）の実践を発展させたものであり、今後SB 53およびその他の規制要件へのコンプライアンスフレームワークとして機能します。
+- Anthropicは、SB 53の施行を重要な一歩と捉え、これらの透明性実践を全国的に一貫させるための連邦AI透明性フレームワークの必要性を訴え、その主要原則を提案しています。
