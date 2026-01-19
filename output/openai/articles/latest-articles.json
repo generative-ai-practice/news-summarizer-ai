@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-18T21:13:52.099Z",
+  "lastChecked": "2026-01-19T01:20:20.052Z",
   "articles": [
     {
       "title": "AI for self empowerment",
@@ -14,9 +14,9 @@
     {
       "title": "A business that scales with the value of intelligence",
       "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence",
-      "publishedDate": "2026-01-17",
+      "publishedDate": "2026-01-18",
       "source": "news",
-      "slug": "20260117-a-business-that-scales-with-the-value-of-intellige",
+      "slug": "20260118-a-business-that-scales-with-the-value-of-intellige",
       "language": "en",
       "summaryLanguage": "ja"
     },
