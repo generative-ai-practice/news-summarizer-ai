@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-20T03:31:15.208Z",
+  "lastChecked": "2026-01-20T05:24:35.521Z",
   "articles": [
     {
       "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
@@ -91,6 +91,42 @@
       "language": "en",
       "summaryLanguage": "ja",
       "slug": "20251209-donating-the-model-context-protocol-and-establishi"
+    },
+    {
+      "title": "Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production",
+      "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251209-accenture-and-anthropic-launch-multi-year-partners"
+    },
+    {
+      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
+      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "publishedDate": "2025-12-04",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251204-snowflake-and-anthropic-announce-200-million-partn"
+    },
+    {
+      "title": "Anthropic acquires Bun as Claude Code reaches $1B milestone",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+      "publishedDate": "2025-12-02",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251202-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
+    },
+    {
+      "title": "Claude for Nonprofits",
+      "url": "https://www.anthropic.com/news/claude-for-nonprofits",
+      "publishedDate": "2025-11-25",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251125-claude-for-nonprofits"
     }
   ]
 }

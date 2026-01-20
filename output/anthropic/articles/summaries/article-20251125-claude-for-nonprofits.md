@@ -1,7 +1,7 @@
 ---
 title: "Claude for Nonprofits"
 published: "2025-11-25"
-collected_at: "2026-01-19T20:20:36.468Z"
+collected_at: "2026-01-20T05:24:35.519Z"
 url: "https://www.anthropic.com/news/claude-for-nonprofits"
 source: "news"
 source_medium: "Anthropic News"
@@ -11,8 +11,8 @@ language: "ja"
 # Claude for Nonprofits
 
 ## Key Points
-- Anthropicは、非営利団体が限られたリソースで社会貢献活動を最大化できるよう、GivingTuesdayと提携し「Claude for Nonprofits」プログラムを2025年12月2日に開始しました。
-- このプログラムには、ClaudeのTeamおよびEnterpriseプランの最大75%割引、Benevity、Blackbaud、Candidといった非営利団体向けツールへのオープンソースコネクタ提供が含まれます。
-- 非営利団体のチームがAIを効果的に活用するための無料コース「AI Fluency for Nonprofits」がAnthropic Academyを通じて提供されます。
-- Epilepsy FoundationやInternational Rescue Committeeなど、既に複数の非営利団体がClaudeを活用しており、24時間サポート、迅速なデータ分析、作業効率の最大16倍向上などの成果を報告しています。
-- Constellation Fundなどとのパイロットプログラムを通じて、助成金提案書作成、プログラム効果分析、寄付者対応、理事会資料・コンプライアンス文書作成など、非営利団体の主要なワークフローにおけるAI活用が支援されています。
+- **Claude for Nonprofits**は、非営利団体がその影響を最大化できるよう、最大75%の割引アクセス、新しい非営利ツール用コネクタ、および無料のAIトレーニングコースを提供します。
+- 非営利団体は、ClaudeのTeamおよびEnterpriseプランを最大75%割引で利用でき、Claude Sonnet 4.5とClaude Haiku 4.5が提供され、EnterpriseプランではClaude Opus 4.5もリクエストに応じて利用可能です。
+- 新たにBenevity、Blackbaud、Candidといった非営利団体向けツールへのオープンソースコネクタが追加され、既存のワークフローへのAI連携を可能にします。
+- GivingTuesdayとの提携により、助成金申請、プログラム評価、寄付者エンゲージメントなどにAIを効果的に活用するための無料コース「AI Fluency for Nonprofits」が提供されます。
+- Epilepsy FoundationやInternational Rescue Committeeなどの非営利団体が既にClaudeを活用し、Constellation Fundなどとのパートナーシップを通じて、非営利団体へのAI導入支援を強化しています。
