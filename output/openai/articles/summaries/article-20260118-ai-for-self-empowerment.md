@@ -1,7 +1,8 @@
 ---
 title: "AI for self empowerment"
 published: "2026-01-18"
-url: "https://openai.com/index/ai-for-human-agency"
+collected_at: "2026-01-20T01:15:45.526Z"
+url: "https://openai.com/index/ai-for-self-empowerment"
 source: "news"
 source_medium: "OpenAI News"
 language: "ja"
@@ -10,8 +11,8 @@ language: "ja"
 # AI for self empowerment
 
 ## Key Points
-- OpenAIは、人々に力を与えることを目的としてAIを開発し、AIの潜在能力と実際の活用度のギャップである「capability overhang」を縮めることに焦点を当てています。
-- AIは直感に反する技術であり、ChatGPTの予想外の普及と多様な利用法が、パワーユーザーの思考力を7倍に高め、経済的価値のある仕事を創出する可能性を示しました。
-- OpenAIは、「capability overhang」を管理するために、「First to Truth（真実の優先）」「Access（アクセス）」「Self Empowerment（自己エンパワーメント）」の3つの原則を掲げています。
-- 「First to Truth」として正確な情報公開を通じて意思決定を支援し、「Access」として広告付きの無料ChatGPTやAPI提供により、AIコアツールへの広範なアクセスを促進しています。
-- 「Self Empowerment」の原則に基づき、人々が未来を形作り、家族の予算最適化からビジネスアイデア開発まで、自身の能力を最大限に引き出せるように、カスタマイズ可能で多様な用途に対応できるツールを構築しています。
+- AIの目的は個人のエンパワーメントであり、AIシステムの持つ能力と、人々、企業、国々が実際に活用している価値との間の「能力オーバーハング」の解消が重要です。
+- AIは直感に反して予測不能な形で進化する技術であり、ChatGPTの事例のように、コミュニティがツールを探求することでその驚くべき新しい応用が発見されます。
+- AIを積極的に活用するパワーユーザーは、一般的なユーザーの7倍もの思考力と計算能力を使い、広範なタスクに高度な機能を適用することで、より経済的に価値のある成果を生み出すことができます。
+- OpenAIは「First to truth」（正確な情報提供）、「Access」（ChatGPT無料版やAPIを通じた広範なアクセス）、「Self empowerment」（カスタマイズ可能で人々の能力を向上させるツール設計）の3原則で能力オーバーハングに対処します。
+- AIはGDPの2桁成長、手頃な価格で効果的な医療、急速な科学的進歩といった高レベルな成果を可能にし、社会全体で能力オーバーハングを管理することで、誰もがAIの変革的な可能性から利益を得られる未来を目指します。

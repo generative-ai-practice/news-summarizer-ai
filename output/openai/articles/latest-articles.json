@@ -1,10 +1,10 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-19T21:15:31.553Z",
+  "lastChecked": "2026-01-20T01:15:45.529Z",
   "articles": [
     {
       "title": "AI for self empowerment",
-      "url": "https://openai.com/index/ai-for-human-agency",
+      "url": "https://openai.com/index/ai-for-self-empowerment",
       "publishedDate": "2026-01-18",
       "source": "news",
       "slug": "20260118-ai-for-self-empowerment",
