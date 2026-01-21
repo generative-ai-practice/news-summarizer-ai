@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-01-21T07:29:17.143Z",
+  "lastChecked": "2026-01-21T10:30:13.115Z",
   "articles": [
+    {
+      "title": "Prep for the SAT with practice tests in Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
+      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How Nano Banana got its name",
       "url": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
@@ -161,24 +179,6 @@
       "publishedDate": "2025-12-17",
       "source": "news",
       "slug": "20251217-gemini-3-flash-comes-to-the-gemini-app",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Build interactive mini apps with Opal in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/mini-apps-opal-gemini-app-experiment/",
-      "publishedDate": "2025-12-17",
-      "source": "news",
-      "slug": "20251217-build-interactive-mini-apps-with-opal-in-the-gemin",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Bring your research to life with integrated visual reports from Gemini Deep Research.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/visual-reports/",
-      "publishedDate": "2025-12-15",
-      "source": "news",
-      "slug": "20251215-bring-your-research-to-life-with-integrated-visual",
       "language": "en",
       "summaryLanguage": "ja"
     }
