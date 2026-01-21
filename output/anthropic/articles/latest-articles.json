@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-21T14:28:52.291Z",
+  "lastChecked": "2026-01-21T17:54:22.387Z",
   "articles": [
+    {
+      "title": "Claude's new constitution",
+      "url": "https://www.anthropic.com/news/claude-new-constitution",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20260121-claude-s-new-constitution"
+    },
     {
       "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
       "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust",
@@ -91,6 +100,60 @@
       "language": "en",
       "summaryLanguage": "ja",
       "slug": "20251218-working-with-the-us-department-of-energy-to-unlock"
+    },
+    {
+      "title": "Protecting the well-being of our users",
+      "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20231104-protecting-the-well-being-of-our-users"
+    },
+    {
+      "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
+      "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251209-donating-the-model-context-protocol-and-establishi"
+    },
+    {
+      "title": "Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production",
+      "url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251209-accenture-and-anthropic-launch-multi-year-partners"
+    },
+    {
+      "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
+      "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20231104-snowflake-and-anthropic-announce-200-million-partn"
+    },
+    {
+      "title": "Anthropic acquires Bun as Claude Code reaches $1B milestone",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+      "publishedDate": "2025-12-02",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251202-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
+    },
+    {
+      "title": "Claude for Nonprofits",
+      "url": "https://www.anthropic.com/news/claude-for-nonprofits",
+      "publishedDate": "2025-11-25",
+      "source": "news",
+      "language": "en",
+      "summaryLanguage": "ja",
+      "slug": "20251125-claude-for-nonprofits"
     }
   ]
 }
