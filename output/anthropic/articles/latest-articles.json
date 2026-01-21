@@ -1,15 +1,15 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-21T17:54:22.387Z",
+  "lastChecked": "2026-01-21T20:24:10.459Z",
   "articles": [
     {
       "title": "Claude's new constitution",
       "url": "https://www.anthropic.com/news/claude-new-constitution",
-      "publishedDate": "2026-01-21",
+      "publishedDate": "2026-01-22",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20260121-claude-s-new-constitution"
+      "slug": "20260122-claude-s-new-constitution"
     },
     {
       "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
@@ -104,11 +104,11 @@
     {
       "title": "Protecting the well-being of our users",
       "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2025-12-18",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20231104-protecting-the-well-being-of-our-users"
+      "slug": "20251218-protecting-the-well-being-of-our-users"
     },
     {
       "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
@@ -131,29 +131,29 @@
     {
       "title": "Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises",
       "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2025-12-03",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20231104-snowflake-and-anthropic-announce-200-million-partn"
+      "slug": "20251203-snowflake-and-anthropic-announce-200-million-partn"
     },
     {
       "title": "Anthropic acquires Bun as Claude Code reaches $1B milestone",
       "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
-      "publishedDate": "2025-12-02",
+      "publishedDate": "2025-12-03",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251202-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
+      "slug": "20251203-anthropic-acquires-bun-as-claude-code-reaches-1b-m"
     },
     {
       "title": "Claude for Nonprofits",
       "url": "https://www.anthropic.com/news/claude-for-nonprofits",
-      "publishedDate": "2025-11-25",
+      "publishedDate": "2025-12-02",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251125-claude-for-nonprofits"
+      "slug": "20251202-claude-for-nonprofits"
     }
   ]
 }
