@@ -1,0 +1,6 @@
+- Deprecation announcement: The following models will be
+- [shut down](https://ai.google.dev/gemini-api/docs/deprecations) February 17, 2026:
+- `gemini-2.5-flash-preview-09-25`
+- `imagen-4.0-generate-preview-06-06`
+- `imagen-4.0-ultra-generate-preview-06-06`
+- The `gemini-2.5-flash-image-preview` has been shut down.
