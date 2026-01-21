@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-21T08:29:29.704Z",
+  "lastChecked": "2026-01-21T11:23:29.411Z",
   "articles": [
     {
       "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
@@ -145,114 +145,6 @@
       "language": "en",
       "summaryLanguage": "ja",
       "slug": "20251202-claude-for-nonprofits"
-    },
-    {
-      "title": "Introducing Claude Opus 4.5",
-      "url": "https://www.anthropic.com/news/claude-opus-4-5",
-      "publishedDate": "2025-11-24",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251124-introducing-claude-opus-4-5"
-    },
-    {
-      "title": "Claude now available in Microsoft Foundry and Microsoft 365 Copilot",
-      "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
-      "publishedDate": "2025-11-17",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251117-claude-now-available-in-microsoft-foundry-and-micr"
-    },
-    {
-      "title": "Microsoft, NVIDIA, and Anthropic announce strategic partnerships",
-      "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
-      "publishedDate": "2023-11-04",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20231104-microsoft-nvidia-and-anthropic-announce-strategic-"
-    },
-    {
-      "title": "Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa",
-      "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
-      "publishedDate": "2023-11-04",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20231104-anthropic-partners-with-rwandan-government-and-alx"
-    },
-    {
-      "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
-      "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
-      "publishedDate": "2025-11-13",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251113-disrupting-the-first-reported-ai-orchestrated-cybe"
-    },
-    {
-      "title": "The state of Maryland partners with Anthropic to better serve residents",
-      "url": "https://www.anthropic.com/news/maryland-partnership",
-      "publishedDate": "2023-11-04",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20231104-the-state-of-maryland-partners-with-anthropic-to-b"
-    },
-    {
-      "title": "Measuring political bias in Claude",
-      "url": "https://www.anthropic.com/news/political-even-handedness",
-      "publishedDate": "2023-11-04",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20231104-measuring-political-bias-in-claude"
-    },
-    {
-      "title": "Anthropic invests $50 billion in American AI infrastructure",
-      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
-      "publishedDate": "2025-11-12",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251112-anthropic-invests-50-billion-in-american-ai-infras"
-    },
-    {
-      "title": "New offices in Paris and Munich expand Anthropic’s European presence",
-      "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
-      "publishedDate": "2025-11-07",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251107-new-offices-in-paris-and-munich-expand-anthropic-s"
-    },
-    {
-      "title": "Launching the Anthropic Economic Futures Programme in the UK and Europe",
-      "url": "https://www.anthropic.com/news/economic-futures-uk-europe",
-      "publishedDate": "2023-11-04",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20231104-launching-the-anthropic-economic-futures-programme"
-    },
-    {
-      "title": "Anthropic and Iceland announce one of the world’s first national AI education pilots",
-      "url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
-      "publishedDate": "2025-11-03",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251103-anthropic-and-iceland-announce-one-of-the-world-s-"
-    },
-    {
-      "title": "Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation",
-      "url": "https://www.anthropic.com/news/cognizant-partnership",
-      "publishedDate": "2025-11-07",
-      "source": "news",
-      "language": "en",
-      "summaryLanguage": "ja",
-      "slug": "20251107-cognizant-will-make-claude-available-to-350-000-em"
     }
   ]
 }
