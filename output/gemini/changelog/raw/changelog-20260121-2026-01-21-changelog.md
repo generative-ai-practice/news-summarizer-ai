@@ -1,0 +1,3 @@
+- Changed the `latest` aliases:
+- `gemini-pro-latest` switched to `gemini-3-pro-preview`
+- `gemini-flash-latest` switched to `gemini-3-flash-preview`

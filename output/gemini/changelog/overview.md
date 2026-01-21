@@ -5,6 +5,23 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## January 21, 2026
+
+- Changed the `latest` aliases:
+
+  - `gemini-pro-latest` switched to `gemini-3-pro-preview`
+  - `gemini-flash-latest` switched to `gemini-3-flash-preview`
+
+## January 15, 2026
+
+- Deprecation announcement: The following models will be
+  [shut down](https://ai.google.dev/gemini-api/docs/deprecations) February 17, 2026:
+
+  - `gemini-2.5-flash-preview-09-25`
+  - `imagen-4.0-generate-preview-06-06`
+  - `imagen-4.0-ultra-generate-preview-06-06`
+- The `gemini-2.5-flash-image-preview` has been shut down.
+
 ## January 14, 2026
 
 - The `text-embedding-004` model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations).
