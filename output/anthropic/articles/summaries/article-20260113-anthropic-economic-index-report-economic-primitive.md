@@ -1,8 +1,8 @@
 ---
 title: "Anthropic Economic Index report: economic primitives"
 published: "2026-01-13"
-collected_at: "2026-01-22T05:24:39.591Z"
-url: "https://anthropic.com/research/anthropic-economic-index-january-2026-report"
+collected_at: "2026-01-22T08:24:50.802Z"
+url: "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -11,8 +11,8 @@ language: "ja"
 # Anthropic Economic Index report: economic primitives
 
 ## Key Points
-- 本レポートは、AIの経済的影響に関連するユーザーおよびAIスキル、タスクの複雑性、AIの自律性、タスクの成功、利用目的の5つの新しい「経済的プリミティブ」を導入しています。
-- Claudeの利用は依然としてコーディング関連タスクに集中していますが、Claude.aiでは「拡張」利用（人間との協調作業）が再び優勢となり、1P APIトラフィックでは「自動化」利用が主流です。
-- 世界的にClaudeの利用はGDPと強く相関して不均一ですが、米国内では低利用の州での普及が加速し、2～5年で利用が均等化する可能性が示唆されています。
-- タスクが複雑になるほどAIによる時間短縮効果は大きいものの、成功率は低下する傾向にあり、Claude.aiではマルチターン対話が複雑なタスクの成功率維持に寄与しています。
-- Claudeはより高い教育水準を要するタスクをカバーする傾向があり、AIがこれらのタスクを担うことで、一部の職種では低スキル化、他の職種では高スキル化が生じる可能性があります。
+- AIの経済的影響を評価するため、タスクの複雑さ、人間とAIのスキル、利用目的、AIの自律度、タスクの成功率という5つの新しい「経済的プリミティブ」が導入された。
+- Claudeの利用は、主にコーディング関連タスクに集中しており、Claude.aiでは人間とAIが協調する増強モードが優勢である一方、1P APIでは自動化が支配的である。
+- Claudeの普及は所得水準と強く相関しており、低所得国では学習目的での利用が、高所得国では個人的利用がより一般的である。米国州内では利用の収束傾向が見られる。
+- 複雑なタスクほどClaudeの成功率は低下するものの、AIによる時間短縮効果はより高度なスキルを要するタスクで顕著に現れる。
+- AIが処理するタスクは経済全体と比較して高いスキルを要する傾向があり、これらのタスクが代替されると、多くの職業で「デスクスキル化」効果が生じる可能性がある。
