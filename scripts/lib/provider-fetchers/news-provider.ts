@@ -176,45 +176,47 @@ export class NewsProvider extends BaseProvider {
     // Fallback: Extract from news and research links with heading tags for titles
     if (results.length === 0) {
       $("a[href*='/news/'], a[href*='/research/']").each((_, el) => {
-      const href = $(el).attr("href") ?? "";
-      const url = this.normalizeUrl(href);
-      if (!url || seen.has(url)) return;
+        const href = $(el).attr("href") ?? "";
+        const url = this.normalizeUrl(href);
+        if (!url || seen.has(url)) return;
 
-      // Try to extract title from heading tags first
-      let title = $(el).find("h1, h2, h3, h4, h5, h6").first().text().trim();
+        // Try to extract title from heading tags first
+        let title = $(el).find("h1, h2, h3, h4, h5, h6").first().text().trim();
 
-      // If no heading found, try to get text excluding time/meta elements
-      if (!title) {
-        const fullText = $(el).text().trim();
-        // Remove date patterns and common category labels
-        title = fullText
-          .replace(/[A-Za-z]{3}\s+\d{1,2},\s*\d{4}/g, "") // Remove dates
-          .replace(
-            /^(Announcements|Product|Policy|Case Study|Research)\s*/i,
-            "",
-          ) // Remove category prefix
-          .trim()
-          .replace(/\s+/g, " ");
-      }
+        // If no heading found, try to get text excluding time/meta elements
+        if (!title) {
+          const fullText = $(el).text().trim();
+          // Remove date patterns and common category labels
+          title = fullText
+            .replace(/[A-Za-z]{3}\s+\d{1,2},\s*\d{4}/g, "") // Remove dates
+            .replace(
+              /^(Announcements|Product|Policy|Case Study|Research)\s*/i,
+              "",
+            ) // Remove category prefix
+            .trim()
+            .replace(/\s+/g, " ");
+        }
 
-      if (!title) return;
+        if (!title) return;
 
-      // Look for time element inside the link
-      const timeElement = $(el).find("time").first();
-      const dateText =
-        timeElement.attr("datetime")?.trim() ?? timeElement.text().trim() ?? "";
-      const publishedDate = this.normalizeDate(dateText) ?? "";
+        // Look for time element inside the link
+        const timeElement = $(el).find("time").first();
+        const dateText =
+          timeElement.attr("datetime")?.trim() ??
+          timeElement.text().trim() ??
+          "";
+        const publishedDate = this.normalizeDate(dateText) ?? "";
 
-      results.push({
-        title,
-        url,
-        publishedDate,
-        source: "news",
-        slug: "",
-        language: "en",
-        summaryLanguage: "ja",
-      });
-      seen.add(url);
+        results.push({
+          title,
+          url,
+          publishedDate,
+          source: "news",
+          slug: "",
+          language: "en",
+          summaryLanguage: "ja",
+        });
+        seen.add(url);
       });
     }
 
