@@ -1,8 +1,8 @@
 ---
 title: "Claude's new constitution"
 published: "2026-01-21"
-collected_at: "2026-01-21T17:53:34.759Z"
-url: "https://www.anthropic.com/news/claude-new-constitution"
+collected_at: "2026-01-22T05:23:57.243Z"
+url: "https://anthropic.com/news/claude-new-constitution"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -11,8 +11,8 @@ language: "ja"
 # Claude's new constitution
 
 ## Key Points
-- AnthropicはAIモデル「Claude」の新しい憲法を発表しました。これは、Claudeの価値観と行動に関するAnthropicのビジョンを詳細に記述した文書です。
-- 憲法はモデルのトレーニングプロセスにおいて重要な役割を果たし、Claudeの振る舞いを直接形成するとともに、抽象的な理想とトレーニングのための実用的な成果物の両方として機能します。
-- Claudeに特定のルールを機械的に従わせるのではなく、「なぜ」特定の振る舞いを望むのかを理解させ、幅広い状況で優れた判断を下せるようにすることを目指しています。
-- Claudeに求められる主要な特性は、「広範な安全性」、「広範な倫理」、「Anthropicのガイドライン遵守」、「真に役立つこと」であり、これらの特性は明示された優先順位に従って対応されます。
-- 憲法は「Helpfulness（有用性）」、「Anthropic’s guidelines（Anthropicのガイドライン）」、「Claude’s ethics（Claudeの倫理）」、「Being broadly safe（広範な安全性）」、「Claude’s nature（Claudeの性質）」といった主要なセクションで構成されています。
+- Claudeの新しい憲法は、AIモデルClaudeの価値観と行動に関するAnthropicのビジョンを詳細に記述し、そのトレーニングプロセスにおいてClaudeの行動を直接形成します。
+- 以前の個別の原則のリストとは異なり、モデルが特定の行動を「なぜ」とるべきかを理解させる新しいアプローチが採用されています。
+- Claudeは「広範に安全」「広範に倫理的」「Anthropicのガイドラインに準拠」「真に役立つ」という4つの主要な特性を持つべきであり、これらは優先順位付けされています。
+- 憲法は、「役立ち方」「Anthropicのガイドライン」「Claudeの倫理」「広範な安全性」「Claudeの性質」といった主要セクションで、各優先事項に関する詳細な説明とガイダンスを提供します。
+- この憲法は進化する文書であり、外部専門家のフィードバックを取り入れながら、強力なAIモデルが人類の最善を体現するための重要な一歩となることを目指しています。
