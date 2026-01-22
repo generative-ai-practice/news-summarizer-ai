@@ -148,7 +148,6 @@ export class NewsProvider extends BaseProvider {
       if (cells.length < 3) return;
 
       const dateText = $(cells[0]).text().trim(); // DATE column
-      const category = $(cells[1]).text().trim(); // CATEGORY column (for future use)
       const titleCell = $(cells[2]); // TITLE column
 
       // Find link in title cell
