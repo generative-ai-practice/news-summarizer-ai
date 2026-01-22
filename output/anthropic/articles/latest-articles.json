@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-22T11:19:36.812Z",
+  "lastChecked": "2026-01-22T14:28:53.762Z",
   "articles": [
     {
       "title": "Claude's new constitution",
@@ -102,13 +102,13 @@
       "slug": "20251218-working-with-the-us-department-of-energy-to-unlock"
     },
     {
-      "title": "Protecting the well-being of our users",
+      "title": "Protecting the wellbeing of our users",
       "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
       "publishedDate": "2025-12-18",
       "source": "news",
       "language": "en",
       "summaryLanguage": "ja",
-      "slug": "20251218-protecting-the-well-being-of-our-users"
+      "slug": "20251218-protecting-the-wellbeing-of-our-users"
     },
     {
       "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
