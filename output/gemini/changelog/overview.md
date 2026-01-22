@@ -5,6 +5,16 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## January 22, 2026
+
+- Deprecation announcement: The following models will be
+  [shut down](https://ai.google.dev/gemini-api/docs/deprecations) March 31, 2026:
+
+  - `gemini-2.0-flash`
+  - `gemini-2.0-flash-001`
+  - `gemini-2.0-flash-lite`
+  - `gemini-2.0-flash-lite-001`
+
 ## January 21, 2026
 
 - Changed the `latest` aliases:
