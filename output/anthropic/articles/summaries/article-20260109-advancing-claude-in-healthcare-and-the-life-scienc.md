@@ -1,8 +1,8 @@
 ---
 title: "Advancing Claude in healthcare and the life sciences"
 published: "2026-01-09"
-collected_at: "2026-01-22T05:24:52.746Z"
-url: "https://anthropic.com/news/healthcare-life-sciences"
+collected_at: "2026-01-22T08:25:06.900Z"
+url: "https://www.anthropic.com/news/healthcare-life-sciences"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -11,8 +11,8 @@ language: "ja"
 # Advancing Claude in healthcare and the life sciences
 
 ## Key Points
-- Claude for HealthcareがHIPAA対応で導入され、CMS、ICD-10などのコネクタを通じて、事前承認の迅速化や患者ケアの調整など、ヘルスケアプロバイダーや支払者の業務を支援します。
-- ライフサイエンス向けに、MedidataやClinicalTrials.govへのコネクタ、治験プロトコル作成や規制当局への提出準備を支援する新機能が追加され、研究開発から臨床試験、規制対応までのプロセスを強化します。
-- Claude Opus 4.5は、医療・科学タスクのシミュレーションと正確性において大幅な性能向上を示し、事実に基づく幻覚の削減にも進展がありました。
-- 米国ではClaude ProおよびMaxプラン加入者向けにHealthEx、Function、Apple Health、Android Health Connectとの個人健康データ連携がベータ版で開始され、ユーザーの健康理解と医師との対話準備をサポートします。
-- Claudeは主要クラウドサービスで利用可能であり、AI導入パートナーやヘルスケア・ライフサイエンス分野の多くの企業と連携し、業界全体のAI活用を推進しています。
+- Claudeは、2026年1月11日に、HIPAA対応の「Claude for Healthcare」を導入し、医療従事者、支払者、消費者向けに医療目的での利用を可能にしました。
+- ライフサイエンス分野では、臨床試験運用と規制業務に焦点を当て、MedidataやClinicalTrials.govなど新たな科学プラットフォームとの連携を強化しました。
+- 最新モデル「Claude Opus 4.5」は、医療および科学タスクのシミュレーションにおいて大幅な性能向上を示し、正確性の改善と事実の幻覚の減少を実現しました。
+- これらの新機能により、事前承認リクエストの迅速化、請求異議申し立ての支援、患者ケアの調整、臨床試験プロトコルのドラフト作成、規制当局への提出準備などが可能になります。
+- Claude ProおよびMaxプランの加入者は、HealthEx、Function、Apple Health、Android Health Connectを通じて自身の健康データに安全にアクセスし、医療情報の理解や医師との対話準備に活用できます。
