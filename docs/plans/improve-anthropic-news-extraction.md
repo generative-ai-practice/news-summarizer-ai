@@ -12,27 +12,32 @@ Anthropic News ページからの記事リスト抽出を、現在の LLM (Gemin
 
 ## 発見した事実
 
-Anthropic News ページは **`<table>` 構造** を使用している:
+**重要: 当初の仮説（テーブル構造）は誤りでした。**
+
+Anthropic News ページは **Next.js でレンダリングされたリンクリスト構造** を使用している:
 
 ```html
-<table>
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Category</th>
-      <th>Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Jan 22, 2026</td>
-      <td>Announcements</td>
-      <td><a href="/news/claude-new-constitution">Claude's new constitution</a></td>
-    </tr>
-    ...
-  </tbody>
-</table>
+<!-- Featured articles -->
+<a href="/news/claude-opus-4-5" class="...">
+  <h2 class="...">Introducing Claude Opus 4.5</h2>
+  <div class="...">
+    <span class="...">Announcements</span>
+    <time class="...">Nov 24, 2025</time>
+  </div>
+</a>
+
+<!-- List articles -->
+<a href="/news/claude-new-constitution" class="...">
+  <time class="...">Jan 22, 2026</time>
+  <span class="...">Announcements</span>
+  <h3 class="...">Claude's new constitution</h3>
+</a>
 ```
+
+### 制約事項
+
+1. **初期表示のみ取得可能**: "See more"ボタンで動的に読み込まれる記事は取得できない（JavaScript実行が必要）
+2. **取得件数**: 初期HTMLには約13件のnews記事リンクのみ含まれる
 
 ## 変更内容
 
@@ -70,7 +75,7 @@ async fetchRawData(): Promise<void> {
 
 #### 2. `extractNewsFromHtml()` メソッドの改善（159-217行目）
 
-テーブル構造から DATE、CATEGORY、TITLE を直接抽出するロジックを追加:
+リンク構造から TITLE と DATE を直接抽出するロジックに改善:
 
 ```typescript
 private extractNewsFromHtml(html: string): Article[] {
@@ -78,22 +83,30 @@ private extractNewsFromHtml(html: string): Article[] {
   const seen = new Set<string>();
   const results: Article[] = [];
 
-  // 新しい: テーブル構造からの抽出（Primary）
-  $("table tbody tr").each((_, row) => {
-    const cells = $(row).find("td");
-    if (cells.length < 3) return;
-
-    const dateText = $(cells[0]).text().trim();       // DATE
-    const category = $(cells[1]).text().trim();       // CATEGORY (将来の拡張用)
-    const titleCell = $(cells[2]);
-    const link = titleCell.find("a");
-    const title = link.text().trim() || titleCell.text().trim();
-    const href = link.attr("href") ?? "";
+  // newsリンクから抽出
+  $("a[href*='/news/']").each((_, el) => {
+    const href = $(el).attr("href") ?? "";
     const url = this.normalizeUrl(href);
-
     if (!url || seen.has(url)) return;
+
+    // 見出しタグからタイトルを抽出
+    let title = $(el).find("h1, h2, h3, h4, h5, h6").first().text().trim();
+
+    // 見出しがない場合は、テキストから日付とカテゴリを除外
+    if (!title) {
+      const fullText = $(el).text().trim();
+      title = fullText
+        .replace(/[A-Za-z]{3}\s+\d{1,2},\s*\d{4}/g, "") // 日付を削除
+        .replace(/^(Announcements|Product|Policy|Case Study|Research)\s*/i, "") // カテゴリを削除
+        .trim()
+        .replace(/\s+/g, " ");
+    }
+
     if (!title) return;
 
+    // リンク内のtimeタグから日付を取得
+    const timeElement = $(el).find("time").first();
+    const dateText = timeElement.attr("datetime")?.trim() ?? timeElement.text().trim() ?? "";
     const publishedDate = this.normalizeDate(dateText) ?? "";
 
     results.push({
@@ -108,13 +121,25 @@ private extractNewsFromHtml(html: string): Article[] {
     seen.add(url);
   });
 
-  // 既存のフォールバック: リンクベースの抽出
+  // フォールバック: 正規表現でURLを抽出
   if (results.length === 0) {
     // 既存のロジックを維持
   }
 
   return results;
 }
+```
+
+#### 3. `normalizeDate()` メソッドの拡張
+
+短縮形の月名（Jan, Feb, Mar等）をサポート:
+
+```typescript
+const monthIndex: Record<string, string> = {
+  january: "01", jan: "01",
+  february: "02", feb: "02",
+  // ... 他の月も同様
+};
 ```
 
 ## 検証方法
@@ -135,7 +160,43 @@ npx ts-node scripts/update-anthropic-news.ts --dry-run
 - ✅ 高速化（API レイテンシなし）
 - ✅ 既存のフォールバックロジックは維持
 
-## リスク
+## リスクと制約
 
 - ⚠️ Anthropic がページ構造を変更した場合、パースが失敗する可能性
-  - → 既存のフォールバックロジックで対応可能
+  - → 既存のフォールバックロジック（正規表現ベース）で対応可能
+- ⚠️ "See more"ボタンの後ろにある記事は取得できない
+  - 初期HTMLには約13件のみ含まれる
+  - 動的に読み込まれる記事を取得するにはPlaywright等のブラウザ自動化が必要
+  - → 現状: 定期実行により新しい記事は徐々に検出される想定
+
+## 実装結果（2026-01-22）
+
+### ✅ 実装完了
+
+1. **LLM依存の除去**: Gemini API呼び出しを削除し、直接DOMパースを使用
+2. **タイトル抽出の改善**: 見出しタグから正確にタイトルを抽出
+3. **日付正規化の拡張**: 短縮形の月名に対応
+
+### 📊 テスト結果
+
+```bash
+npm run fetch:providers:dry-run -- --provider=anthropic
+```
+
+- **取得記事数**: 13件（初期HTML内）
+- **日付フィルタ後**: 9件（2025-11-01以降）
+- **タイトル抽出**: ✅ 正常（例: "Introducing Claude Opus 4.5"）
+- **日付正規化**: ✅ 正常（"Jan 22, 2026" → "2026-01-22"）
+- **新規記事検出**: ✅ 正常（1件検出）
+
+### ⚠️ 既知の制約
+
+1. **取得可能記事数の制限**
+   - 初期HTMLから取得: 約13件
+   - "See more"後の記事: 取得不可（JavaScriptが必要）
+   - 定期実行により新しい記事は徐々にカバーされる
+
+2. **構造の前提**
+   - 当初想定していたテーブル構造は存在しない
+   - Next.jsでレンダリングされたリンクリスト構造を使用
+   - 見出しタグ（h1-h6）がタイトルに使用されている
