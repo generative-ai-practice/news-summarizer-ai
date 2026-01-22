@@ -46,29 +46,10 @@ export class NewsProvider extends BaseProvider {
     const startedAt = Date.now();
     log(`[news] fetching article list => ${this.newsUrl}`);
     const html = await this.fetchHtml(this.newsUrl);
-    let parsed: Article[] = [];
-    try {
-      const extracted = await this.geminiExtractor.extractArticleList(
-        html,
-        "news",
-      );
-      parsed = extracted.data.map((article) => ({
-        ...article,
-        url: this.normalizeUrl(article.url),
-        source: "news",
-        language: article.language ?? "en",
-        summaryLanguage: "ja",
-        publishedDate: article.publishedDate ?? "",
-      }));
-      log(
-        `[news] list fetched via Gemini: articles=${parsed.length} ms=${
-          Date.now() - startedAt
-        }`,
-      );
-    } catch (error) {
-      log("[news] Gemini extract failed, falling back to DOM parse", error);
-      parsed = this.extractNewsFromHtml(html);
-    }
+
+    // Use direct DOM parsing instead of LLM
+    const parsed = this.extractNewsFromHtml(html);
+
     if (parsed.length === 0) {
       throw new Error(
         "[news] no articles parsed from news page. The layout may have changed or the page failed to load.",
@@ -161,19 +142,23 @@ export class NewsProvider extends BaseProvider {
     const seen = new Set<string>();
     const results: Article[] = [];
 
-    $("a[href*='/news/']").each((_, el) => {
-      const href = $(el).attr("href") ?? "";
-      const url = this.normalizeUrl(href);
-      if (!url || seen.has(url)) return;
+    // Primary: Extract from table structure (DATE, CATEGORY, TITLE)
+    $("table tbody tr").each((_, row) => {
+      const cells = $(row).find("td");
+      if (cells.length < 3) return;
 
-      const title = $(el).text().trim().replace(/\s+/g, " ");
+      const dateText = $(cells[0]).text().trim(); // DATE column
+      const titleCell = $(cells[2]); // TITLE column
+
+      // Find link in title cell
+      const link = titleCell.find("a");
+      const title = link.text().trim() || titleCell.text().trim();
+      const href = link.attr("href") ?? "";
+      const url = this.normalizeUrl(href);
+
+      if (!url || seen.has(url)) return;
       if (!title) return;
 
-      const articleContainer = $(el).closest("article, section, div");
-      const timeElement =
-        articleContainer.find("time").first() || $(el).find("time").first();
-      const dateText =
-        timeElement.attr("datetime")?.trim() ?? timeElement.text().trim() ?? "";
       const publishedDate = this.normalizeDate(dateText) ?? "";
 
       results.push({
@@ -188,7 +173,54 @@ export class NewsProvider extends BaseProvider {
       seen.add(url);
     });
 
-    // Fallback: regex scan for /news/ URLs if DOM lookup finds nothing.
+    // Fallback: Extract from news and research links with heading tags for titles
+    if (results.length === 0) {
+      $("a[href*='/news/'], a[href*='/research/']").each((_, el) => {
+        const href = $(el).attr("href") ?? "";
+        const url = this.normalizeUrl(href);
+        if (!url || seen.has(url)) return;
+
+        // Try to extract title from heading tags first
+        let title = $(el).find("h1, h2, h3, h4, h5, h6").first().text().trim();
+
+        // If no heading found, try to get text excluding time/meta elements
+        if (!title) {
+          const fullText = $(el).text().trim();
+          // Remove date patterns and common category labels
+          title = fullText
+            .replace(/[A-Za-z]{3}\s+\d{1,2},\s*\d{4}/g, "") // Remove dates
+            .replace(
+              /^(Announcements|Product|Policy|Case Study|Research)\s*/i,
+              "",
+            ) // Remove category prefix
+            .trim()
+            .replace(/\s+/g, " ");
+        }
+
+        if (!title) return;
+
+        // Look for time element inside the link
+        const timeElement = $(el).find("time").first();
+        const dateText =
+          timeElement.attr("datetime")?.trim() ??
+          timeElement.text().trim() ??
+          "";
+        const publishedDate = this.normalizeDate(dateText) ?? "";
+
+        results.push({
+          title,
+          url,
+          publishedDate,
+          source: "news",
+          slug: "",
+          language: "en",
+          summaryLanguage: "ja",
+        });
+        seen.add(url);
+      });
+    }
+
+    // Fallback 2: Regex scan for /news/ URLs if DOM parsing finds nothing
     if (results.length === 0) {
       const urlRegex = /https?:\/\/www\.anthropic\.com\/news\/[^\s"']+/g;
       const relativeRegex = /["']\/news\/([a-z0-9-]+)["']/gi;
@@ -340,17 +372,28 @@ export class NewsProvider extends BaseProvider {
     if (!long) return null;
     const monthIndex: Record<string, string> = {
       january: "01",
+      jan: "01",
       february: "02",
+      feb: "02",
       march: "03",
+      mar: "03",
       april: "04",
+      apr: "04",
       may: "05",
       june: "06",
+      jun: "06",
       july: "07",
+      jul: "07",
       august: "08",
+      aug: "08",
       september: "09",
+      sep: "09",
       october: "10",
+      oct: "10",
       november: "11",
+      nov: "11",
       december: "12",
+      dec: "12",
     };
     const month = monthIndex[long[1].toLowerCase()];
     if (!month) return null;

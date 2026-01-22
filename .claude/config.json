@@ -1,0 +1,16 @@
+{
+  "plansDirectory": "docs/plans",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yarn lint --fix && yarn format || true"
+          }
+        ]
+      }
+    ]
+  }
+}
