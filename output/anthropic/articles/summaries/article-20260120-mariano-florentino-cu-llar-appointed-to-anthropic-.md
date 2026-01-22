@@ -1,8 +1,8 @@
 ---
 title: "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust"
 published: "2026-01-20"
-collected_at: "2026-01-20T17:25:58.120Z"
-url: "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
+collected_at: "2026-01-22T05:24:03.078Z"
+url: "https://anthropic.com/news/mariano-florentino-long-term-benefit-trust"
 source: "news"
 source_medium: "Anthropic News"
 language: "ja"
@@ -11,8 +11,8 @@ language: "ja"
 # Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust
 
 ## Key Points
-- AnthropicのLong-Term Benefit Trustは、Mariano-Florentino (Tino) Cuéllarを新メンバーとして任命しました。このトラストは、Anthropicの公共の利益という使命達成を支援する独立した組織です。
-- Cuéllarは、カリフォルニア州最高裁判事、スタンフォード大学の研究所長、カーネギー国際平和財団のプレジデントなどを歴任し、法律、ガバナンス、国際関係に関する豊富な経験を持っています。
-- 彼はAIが公共機関や民主的ガバナンスに与える影響に焦点を当てた活動を行っており、AIの急速な普及が進む世界でAnthropicを導く上で、その幅広い経歴が貴重であると評価されています。
-- Long-Term Benefit Trustは、Anthropicの取締役会メンバーを選出し、高度なAIの利点を最大化しリスクを軽減する方法について助言することで、Anthropicの公共の利益の使命達成を支援します。
-- 設立当初からトラストに貢献してきたKanika BahlとZachary Robinsonは、受託者としての任期を終えました。
+- AnthropicのLong-Term Benefit Trustは、Mariano-Florentino (Tino) Cuéllarを新しいメンバーに任命しました。
+- このTrustは、Anthropicが公共の利益という使命を達成するのを支援するために設立された独立した組織です。
+- Cuéllar氏は、カリフォルニア州最高裁判事の経験やカーネギー国際平和財団の理事長としての現在の役割など、法学、ガバナンス、国際問題における幅広い専門知識を持っています。
+- 彼はAIが公共機関や民主的ガバナンスに与える影響に焦点を当てた実績があり、AnthropicがAIの利点を最大化しリスクを軽減する上で重要な役割を果たすと期待されています。
+- また、Kanika BahlとZachary RobinsonがTrustの設立当初からの貢献を終え、受託者としての任期を終えました。
