@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-22T12:37:04.179Z",
+  "lastChecked": "2026-01-22T15:25:09.880Z",
   "articles": [
+    {
+      "title": "Inside Praktika's conversational approach to language learning",
+      "url": "https://openai.com/index/praktika",
+      "publishedDate": "2026-01-22",
+      "source": "news",
+      "slug": "20260122-inside-praktika-s-conversational-approach-to-langu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How Higgsfield turns simple ideas into cinematic social videos",
       "url": "https://openai.com/index/higgsfield",
@@ -12,20 +21,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How countries can end the capability overhang",
-      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-how-countries-can-end-the-capability-overhang",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing Edu for Countries",
       "url": "https://openai.com/index/edu-for-countries",
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-introducing-edu-for-countries",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How countries can end the capability overhang",
+      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-how-countries-can-end-the-capability-overhang",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -102,20 +111,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Our approach to advertising and expanding access to ChatGPT",
-      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing ChatGPT Go, now available worldwide",
       "url": "https://openai.com/index/introducing-chatgpt-go",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -228,15 +237,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "url": "https://openai.com/index/one-in-a-million-customers",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Continuously hardening ChatGPT Atlas against prompt injection",
       "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "publishedDate": "2025-12-22",
@@ -246,20 +246,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "url": "https://openai.com/index/one-in-a-million-customers",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Evaluating chain-of-thought monitorability",
       "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-evaluating-chain-of-thought-monitorability",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -282,6 +282,24 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
@@ -296,15 +314,6 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -408,20 +417,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.2",
       "url": "https://openai.com/index/introducing-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -480,20 +489,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "url": "https://openai.com/index/commonwealth-bank-of-australia",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "url": "https://openai.com/index/openai-appoints-denise-dresser",
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "url": "https://openai.com/index/commonwealth-bank-of-australia",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -588,20 +597,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "url": "https://openai.com/index/accenture-partnership",
-      "publishedDate": "2025-12-01",
-      "source": "news",
-      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
       "url": "https://openai.com/index/thrive-holdings",
       "publishedDate": "2025-12-01",
       "source": "news",
       "slug": "20251201-openai-takes-an-ownership-stake-in-thrive-holdings",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "url": "https://openai.com/index/accenture-partnership",
+      "publishedDate": "2025-12-01",
+      "source": "news",
+      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
       "language": "en",
       "summaryLanguage": "ja"
     }
