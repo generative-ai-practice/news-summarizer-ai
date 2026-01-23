@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-22T21:17:56.287Z",
+  "lastChecked": "2026-01-23T01:16:19.798Z",
   "articles": [
     {
       "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
