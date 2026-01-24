@@ -2,6 +2,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
 import { GeminiExtractor } from "../gemini-extractor";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -22,8 +23,7 @@ const log = (...args: unknown[]) =>
 
 export class GeminiChangelogProvider extends BaseProvider {
   private readonly provider = "gemini";
-  private readonly pageUrl =
-    "https://ai.google.dev/gemini-api/docs/changelog.md.txt";
+  private readonly pageUrl = getProviderSourceUrl("gemini-changelog");
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
 

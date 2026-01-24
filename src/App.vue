@@ -40,33 +40,67 @@
     </header>
 
     <main class="mx-auto w-full max-w-6xl px-6 pb-20">
+      <details
+        class="mb-6 rounded-3xl border border-ink/10 bg-white/80 p-5 shadow-glow backdrop-blur"
+      >
+        <summary
+          class="flex cursor-pointer items-center justify-between text-xs font-semibold uppercase tracking-[0.2em] text-ink/60"
+        >
+          <span>Sources</span>
+          <span>{{ sourceList.length }}</span>
+        </summary>
+        <div class="mt-4 text-xs text-ink/70">
+          <ul class="grid gap-2 sm:grid-cols-2">
+            <li
+              v-for="source in sourceList"
+              :key="source.id"
+              class="rounded-xl border border-ink/10 bg-white/80 p-2"
+            >
+              <p class="text-[10px] font-semibold uppercase text-ink/50">
+                {{ source.label }}
+              </p>
+              <a
+                class="mt-1 block break-all text-xs text-tide underline decoration-tide/60 underline-offset-2 hover:text-ink"
+                :href="source.url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ source.url }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </details>
+
       <section
         class="rounded-3xl border border-ink/10 bg-white/80 p-6 shadow-glow backdrop-blur"
       >
-        <div class="flex flex-wrap items-center justify-between gap-4">
+        <div class="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h2 class="font-display text-2xl text-ink">Timeline</h2>
             <p class="text-sm text-ink/60">
               New items first (3-day window), then by published date.
             </p>
           </div>
-          <div
-            class="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.2em]"
-          >
-            <button
-              v-for="option in providerOptions"
-              :key="option"
-              type="button"
-              class="rounded-full border border-ink/10 px-3 py-2 transition hover:border-ink/30"
-              :class="
-                option === activeProvider
-                  ? 'bg-ink text-white'
-                  : 'bg-white/70 text-ink/70'
-              "
-              @click="activeProvider = option"
+          <div class="flex w-full flex-col gap-3 sm:w-auto">
+            <div
+              class="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.2em]"
             >
-              {{ option }}
-            </button>
+              <button
+                v-for="option in providerOptions"
+                :key="option"
+                type="button"
+                class="rounded-full border border-ink/10 px-3 py-2 transition hover:border-ink/30"
+                :class="
+                  option === activeProvider
+                    ? 'bg-ink text-white'
+                    : 'bg-white/70 text-ink/70'
+                "
+                @click="activeProvider = option"
+              >
+                {{ option }}
+              </button>
+            </div>
           </div>
         </div>
 
@@ -159,6 +193,7 @@
 <script setup lang="ts">
 import DOMPurify from "dompurify";
 import { computed, onMounted, ref } from "vue";
+import { providerSources } from "./data/provider-sources";
 
 type TimelineItem = {
   id: string;
@@ -186,6 +221,10 @@ const providerOptions = computed(() => {
 
 const providerCount = computed(
   () => new Set(items.value.map((item) => item.provider)).size,
+);
+
+const sourceList = computed(() =>
+  [...providerSources].sort((a, b) => a.order - b.order),
 );
 
 const lastUpdatedLabel = computed(() => {

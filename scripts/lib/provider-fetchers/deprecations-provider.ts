@@ -2,6 +2,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
 import { GeminiExtractor } from "../gemini-extractor";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -17,8 +18,9 @@ const log = (...args: unknown[]) =>
 
 export class DeprecationsProvider extends BaseProvider {
   private readonly provider = "anthropic";
-  private readonly markdownUrl =
-    "https://platform.claude.com/docs/en/about-claude/model-deprecations.md";
+  private readonly markdownUrl = getProviderSourceUrl(
+    "anthropic-model-deprecations",
+  );
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
   private readonly monthIndex: Record<string, string> = {

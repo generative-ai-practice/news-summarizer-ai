@@ -3,6 +3,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { GeminiExtractor } from "../gemini-extractor";
 import { RateLimiter } from "../rate-limiter";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -25,7 +26,7 @@ const log = (...args: unknown[]) =>
 
 export class NewsProvider extends BaseProvider {
   private readonly provider = "anthropic";
-  private readonly newsUrl = "https://www.anthropic.com/news";
+  private readonly newsUrl = getProviderSourceUrl("anthropic-news");
   private readonly dryRun: boolean;
   private readonly cutoffDate = "2025-11-01";
   private currentNews: Article[] = [];

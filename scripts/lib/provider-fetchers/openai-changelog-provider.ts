@@ -4,6 +4,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
 import { GeminiExtractor } from "../gemini-extractor";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -24,7 +25,7 @@ type ParsedSections = {
 
 export class OpenAIChangelogProvider extends BaseProvider {
   private readonly provider = "openai";
-  private readonly pageUrl = "https://platform.openai.com/docs/changelog";
+  private readonly pageUrl = getProviderSourceUrl("openai-changelog");
   private readonly cutoffDate = "2025-12-01";
   private readonly dryRun: boolean;
   private readonly monthIndex: Record<string, string> = {
