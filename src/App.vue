@@ -101,6 +101,24 @@
                 {{ option }}
               </button>
             </div>
+            <div
+              class="flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.2em]"
+            >
+              <button
+                v-for="option in categoryOptions"
+                :key="option"
+                type="button"
+                class="rounded-full border border-ink/10 px-3 py-2 transition hover:border-ink/30"
+                :class="
+                  option === activeCategory
+                    ? 'bg-ink text-white'
+                    : 'bg-white/70 text-ink/70'
+                "
+                @click="activeCategory = option"
+              >
+                {{ option }}
+              </button>
+            </div>
           </div>
         </div>
 
@@ -213,11 +231,25 @@ type TimelineItem = {
 const loading = ref(true);
 const items = ref<TimelineItem[]>([]);
 const activeProvider = ref("All");
+const activeCategory = ref("All");
+
+const categoryGroupMap = {
+  News: new Set(["news", "articles"]),
+  Updates: new Set([
+    "changelog",
+    "release-notes",
+    "platform-deprecations",
+    "model-deprecations",
+    "deprecations",
+  ]),
+} as const;
 
 const providerOptions = computed(() => {
   const providers = new Set(items.value.map((item) => item.provider));
   return ["All", ...Array.from(providers).sort()];
 });
+
+const categoryOptions = computed(() => ["All", ...Object.keys(categoryGroupMap)]);
 
 const providerCount = computed(
   () => new Set(items.value.map((item) => item.provider)).size,
@@ -232,10 +264,19 @@ const lastUpdatedLabel = computed(() => {
   return items.value[0].published;
 });
 
-const filteredItems = computed(() => {
-  if (activeProvider.value === "All") return items.value;
-  return items.value.filter((item) => item.provider === activeProvider.value);
-});
+const filteredItems = computed(() =>
+  items.value.filter((item) => {
+    const providerMatch =
+      activeProvider.value === "All" ||
+      item.provider === activeProvider.value;
+    const categoryMatch =
+      activeCategory.value === "All" ||
+      categoryGroupMap[activeCategory.value as keyof typeof categoryGroupMap].has(
+        item.category,
+      );
+    return providerMatch && categoryMatch;
+  }),
+);
 
 const loadTimeline = async () => {
   try {
