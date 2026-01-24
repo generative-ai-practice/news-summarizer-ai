@@ -3,6 +3,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
 import { GeminiExtractor } from "../gemini-extractor";
+import { getProviderSource } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -16,12 +17,16 @@ import {
 const log = (...args: unknown[]) =>
   console.log(`[${new Date().toISOString()}]`, ...args);
 
+const releaseNotesSource = getProviderSource("anthropic-release-notes");
+const releaseNotesFetchUrl =
+  "fetchUrl" in releaseNotesSource && releaseNotesSource.fetchUrl
+    ? releaseNotesSource.fetchUrl
+    : releaseNotesSource.url;
+
 export class ReleaseNotesProvider extends BaseProvider {
   private readonly provider = "anthropic";
-  private readonly releaseNotesMarkdownUrl =
-    "https://platform.claude.com/docs/en/release-notes/overview.md";
-  private readonly releaseNotesPublicUrl =
-    "https://platform.claude.com/docs/en/release-notes/overview";
+  private readonly releaseNotesMarkdownUrl = releaseNotesFetchUrl;
+  private readonly releaseNotesPublicUrl = releaseNotesSource.url;
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
   private readonly md = new MarkdownIt();

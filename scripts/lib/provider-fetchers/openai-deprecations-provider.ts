@@ -4,6 +4,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { RateLimiter } from "../rate-limiter";
 import { GeminiExtractor } from "../gemini-extractor";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -24,8 +25,7 @@ type ParsedSections = {
 
 export class OpenAIDeprecationsProvider extends BaseProvider {
   private readonly provider = "openai";
-  private readonly markdownUrl =
-    "https://platform.openai.com/docs/deprecations";
+  private readonly markdownUrl = getProviderSourceUrl("openai-deprecations");
   private readonly cutoffDate = "2025-11-01";
   private readonly dryRun: boolean;
   private readonly monthIndex: Record<string, string> = {

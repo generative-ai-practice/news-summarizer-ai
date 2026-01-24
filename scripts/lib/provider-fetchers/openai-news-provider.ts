@@ -3,6 +3,7 @@ import { BaseProvider } from "./base-provider";
 import { Article, ArticleList } from "../../types/provider-info";
 import { GeminiExtractor } from "../gemini-extractor";
 import { RateLimiter } from "../rate-limiter";
+import { getProviderSourceUrl } from "../../../src/data/provider-sources";
 import {
   buildOutputPath,
   ensureDir,
@@ -25,7 +26,7 @@ const log = (...args: unknown[]) =>
 
 export class OpenAINewsProvider extends BaseProvider {
   private readonly provider = "openai";
-  private readonly rssUrl = "https://openai.com/news/rss.xml";
+  private readonly rssUrl = getProviderSourceUrl("openai-news");
   private readonly cutoffDate = "2025-12-01";
   private readonly dryRun: boolean;
   private readonly rssHtmlByUrl = new Map<string, string>();
