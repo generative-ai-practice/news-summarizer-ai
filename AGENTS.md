@@ -29,6 +29,7 @@ yarn build:data                                # Compile output/ → public/data
 ## Architecture
 
 ### Data Flow
+
 ```
 Provider Website → Cheerio/RSS Parser → Gemini LLM (extraction/summary)
 → output/{provider}/ (Markdown + JSON) → build-timeline-data.ts
@@ -36,11 +37,13 @@ Provider Website → Cheerio/RSS Parser → Gemini LLM (extraction/summary)
 ```
 
 ### Provider Pattern
+
 - `scripts/lib/provider-fetchers/base-provider.ts`: Abstract base class using template method pattern
 - Concrete implementations for each provider/content-type (news, changelog, release-notes, deprecations)
 - Each implements: `fetchRawData()`, `processData()`, `generateReport()`
 
 ### Key Directories
+
 - `scripts/lib/provider-fetchers/`: Provider implementations (9 total: 3 Anthropic, 3 OpenAI, 3 Gemini)
 - `scripts/lib/gemini-extractor.ts`: Gemini API wrapper with JSON parsing resilience
 - `scripts/lib/rate-limiter.ts`: Exponential backoff retry logic
@@ -48,11 +51,12 @@ Provider Website → Cheerio/RSS Parser → Gemini LLM (extraction/summary)
 - `src/App.vue`: Main Vue component with timeline display and filtering
 
 ### Data Sources
-| Provider | News | Changelog | Deprecations |
-|----------|------|-----------|--------------|
+
+| Provider  | News        | Changelog       | Deprecations    |
+| --------- | ----------- | --------------- | --------------- |
 | Anthropic | HTML scrape | Markdown direct | Markdown direct |
-| OpenAI | RSS | HTML scrape | HTML scrape |
-| Gemini | RSS | Markdown direct | N/A |
+| OpenAI    | RSS         | HTML scrape     | HTML scrape     |
+| Gemini    | RSS         | Markdown direct | N/A             |
 
 ## Configuration
 
