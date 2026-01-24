@@ -6,6 +6,7 @@ type TimelineItem = {
   title: string;
   published: string;
   collectedAt: string;
+  isNew: boolean;
   url: string;
   provider: string;
   category: string;
@@ -243,12 +244,14 @@ const buildItem = (
   const title = fm.title || filename.replace(/\.md$/, "");
   const summaryLines = extractSummaryLines(body);
   const summary = extractSummary(body);
+  const isNew = isNewItem(published);
 
   return {
     id: `${provider}-${category}-${filename}`,
     title,
     published,
     collectedAt: effectiveCollectedAt,
+    isNew,
     url: fm.url || "",
     provider,
     category,
@@ -259,33 +262,47 @@ const buildItem = (
   };
 };
 
-const isCollectedAtValid = (value: string) => {
-  if (!value || value === "n/a") return false;
+const parseDateValue = (value: string) => {
+  if (!value || value === "n/a") return null;
   const parsed = Date.parse(value);
-  return !Number.isNaN(parsed);
+  return Number.isNaN(parsed) ? null : parsed;
+};
+
+const isNewItem = (published: string) => {
+  const publishedValue = parseDateValue(published);
+  if (publishedValue === null) return false;
+  const diffMs = Date.now() - publishedValue;
+  const windowMs = 3 * 24 * 60 * 60 * 1000;
+  return diffMs >= 0 && diffMs <= windowMs;
+};
+
+const compareDatesDesc = (a: number | null, b: number | null) => {
+  if (a === null && b === null) return 0;
+  if (a === null) return 1;
+  if (b === null) return -1;
+  if (a === b) return 0;
+  return a < b ? 1 : -1;
 };
 
 const sortItems = (items: TimelineItem[]) => {
   return items.sort((a, b) => {
-    const aHasCollected = isCollectedAtValid(a.collectedAt);
-    const bHasCollected = isCollectedAtValid(b.collectedAt);
+    if (a.isNew !== b.isNew) return a.isNew ? -1 : 1;
 
-    if (aHasCollected && bHasCollected) {
-      if (a.collectedAt === b.collectedAt) {
-        return a.title.localeCompare(b.title);
-      }
-      return a.collectedAt < b.collectedAt ? 1 : -1;
+    if (a.isNew && b.isNew) {
+      const collectedCompare = compareDatesDesc(
+        parseDateValue(a.collectedAt),
+        parseDateValue(b.collectedAt),
+      );
+      if (collectedCompare !== 0) return collectedCompare;
+      return a.title.localeCompare(b.title);
     }
 
-    if (!aHasCollected && !bHasCollected) {
-      if (a.published === b.published) {
-        return a.title.localeCompare(b.title);
-      }
-      return a.published < b.published ? 1 : -1;
-    }
-
-    if (aHasCollected && !bHasCollected) return -1;
-    return 1;
+    const publishedCompare = compareDatesDesc(
+      parseDateValue(a.published),
+      parseDateValue(b.published),
+    );
+    if (publishedCompare !== 0) return publishedCompare;
+    return a.title.localeCompare(b.title);
   });
 };
 
