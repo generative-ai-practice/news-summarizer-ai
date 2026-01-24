@@ -10,13 +10,8 @@
           News Summarizer AI
         </p>
         <h1 class="font-display text-4xl leading-tight text-ink sm:text-5xl">
-          Provider timeline for summaries, deprecations, and changelog updates.
+          AI provider updates in one feed.
         </h1>
-        <p class="max-w-2xl text-base text-ink/70">
-          Auto-collected reports across providers, organized as a single stream.
-          Use this page to scan what changed, then open the source link for
-          details.
-        </p>
       </div>
       <div
         class="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.2em]"
