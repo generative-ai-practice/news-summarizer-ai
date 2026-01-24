@@ -142,7 +142,10 @@ jobs:
           fi
           echo "should_send=true" >> $GITHUB_OUTPUT
 
-          PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
+          case "$PROVIDER" in
+            openai) PROVIDER_UPPER="OpenAI" ;;
+            *) PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}') ;;
+          esac
           EMAIL_HTML="<h2>${PROVIDER_UPPER} ニュースが更新されました</h2>"
           EMAIL_HTML+="<p>PR: <a href=\"https://github.com/${{ github.repository }}/pull/${{ steps.create-pr.outputs.pr_number }}\">#${{ steps.create-pr.outputs.pr_number }}</a></p>"
 
@@ -187,7 +190,10 @@ jobs:
         if: steps.email-content.outputs.should_send == 'true'
         run: |
           PROVIDER="${{ inputs.provider }}"
-          PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
+          case "$PROVIDER" in
+            openai) PROVIDER_UPPER="OpenAI" ;;
+            *) PROVIDER_UPPER=$(echo "$PROVIDER" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}') ;;
+          esac
 
           # JSONをファイルに書き出し
           cat > /tmp/email.json << 'JSONEOF'

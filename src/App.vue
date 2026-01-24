@@ -47,7 +47,7 @@
           <div>
             <h2 class="font-display text-2xl text-ink">Timeline</h2>
             <p class="text-sm text-ink/60">
-              Sorted by published date with source and provider tags.
+              New items first (3-day window), then by published date.
             </p>
           </div>
           <div
@@ -92,13 +92,19 @@
               <span class="rounded-full bg-ink/5 px-3 py-1">{{
                 item.provider
               }}</span>
+              <span
+                v-if="item.isNew"
+                class="rounded-full bg-ember/10 px-3 py-1 text-ember"
+              >
+                New
+              </span>
               <span class="rounded-full bg-ink/5 px-3 py-1">{{
                 item.category
               }}</span>
               <span class="rounded-full bg-ink/5 px-3 py-1">{{
                 item.published
               }}</span>
-              <span class="rounded-full bg-ink/5 px-3 py-1">
+              <span v-if="item.isNew" class="rounded-full bg-ink/5 px-3 py-1">
                 Collected {{ formatCollected(item.collectedAt) }}
               </span>
             </div>
@@ -159,6 +165,7 @@ type TimelineItem = {
   title: string;
   published: string;
   collectedAt: string;
+  isNew: boolean;
   url: string;
   provider: string;
   category: string;
@@ -198,7 +205,10 @@ const loadTimeline = async () => {
     });
     if (!response.ok) throw new Error("Failed to load data.json");
     const payload = (await response.json()) as { items: TimelineItem[] };
-    items.value = payload.items ?? [];
+    items.value = (payload.items ?? []).map((item) => ({
+      ...item,
+      isNew: Boolean(item.isNew),
+    }));
   } catch (error) {
     console.error(error);
   } finally {

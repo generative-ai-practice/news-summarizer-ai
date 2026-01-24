@@ -1,0 +1,72 @@
+name: Delete Branch on Auto-Merge
+
+on:
+  pull_request:
+    types: [auto_merge_enabled, auto_merge_disabled, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  label-auto-merge:
+    if: >-
+      github.event.action == 'auto_merge_enabled' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add auto-merge label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number,
+              labels: ["auto-merge-enabled"],
+            });
+
+  unlabel-auto-merge:
+    if: >-
+      github.event.action == 'auto_merge_disabled' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove auto-merge label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            try {
+              await github.rest.issues.removeLabel({
+                owner,
+                repo,
+                issue_number,
+                name: "auto-merge-enabled",
+              });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+            }
+
+  delete-branch:
+    if: >-
+      github.event.pull_request.merged == true &&
+      contains(github.event.pull_request.labels.*.name, 'auto-merge-enabled') &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.head.ref != github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete head branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const ref = context.payload.pull_request.head.ref;
+            await github.rest.git.deleteRef({
+              owner,
+              repo,
+              ref: `heads/${ref}`,
+            });
