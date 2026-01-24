@@ -83,5 +83,8 @@ export const getProviderSource = (id: ProviderSourceId): ProviderSource => {
 
 export const getProviderSourceUrl = (id: ProviderSourceId) => {
   const source = getProviderSource(id);
-  return source.fetchUrl ?? source.url;
+  if ("fetchUrl" in source && source.fetchUrl) {
+    return source.fetchUrl;
+  }
+  return source.url;
 };

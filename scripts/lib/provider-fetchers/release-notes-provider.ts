@@ -19,7 +19,9 @@ const log = (...args: unknown[]) =>
 
 const releaseNotesSource = getProviderSource("anthropic-release-notes");
 const releaseNotesFetchUrl =
-  releaseNotesSource.fetchUrl ?? releaseNotesSource.url;
+  "fetchUrl" in releaseNotesSource && releaseNotesSource.fetchUrl
+    ? releaseNotesSource.fetchUrl
+    : releaseNotesSource.url;
 
 export class ReleaseNotesProvider extends BaseProvider {
   private readonly provider = "anthropic";
