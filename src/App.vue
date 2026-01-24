@@ -244,7 +244,10 @@ const providerOptions = computed(() => {
   return ["All", ...Array.from(providers).sort()];
 });
 
-const categoryOptions = computed(() => ["All", ...Object.keys(categoryGroupMap)]);
+const categoryOptions = computed(() => [
+  "All",
+  ...Object.keys(categoryGroupMap),
+]);
 
 const providerCount = computed(
   () => new Set(items.value.map((item) => item.provider)).size,
@@ -262,13 +265,12 @@ const lastUpdatedLabel = computed(() => {
 const filteredItems = computed(() =>
   items.value.filter((item) => {
     const providerMatch =
-      activeProvider.value === "All" ||
-      item.provider === activeProvider.value;
+      activeProvider.value === "All" || item.provider === activeProvider.value;
     const categoryMatch =
       activeCategory.value === "All" ||
-      categoryGroupMap[activeCategory.value as keyof typeof categoryGroupMap].has(
-        item.category,
-      );
+      categoryGroupMap[
+        activeCategory.value as keyof typeof categoryGroupMap
+      ].has(item.category);
     return providerMatch && categoryMatch;
   }),
 );
