@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-27T05:21:51.368Z",
+  "lastChecked": "2026-01-27T08:24:46.428Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -8,6 +8,15 @@
       "publishedDate": "2025-11-24",
       "source": "news",
       "slug": "20251124-introducing-claude-opus-4-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
+      "url": "https://www.anthropic.com/news/gov-UK-partnership",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-anthropic-partners-with-the-uk-government-to-bring",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-01-11",
       "source": "news",
       "slug": "20260111-advancing-claude-in-healthcare-and-the-life-scienc",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
-      "url": "https://www.anthropic.com/news/compliance-framework-SB53",
-      "publishedDate": "2025-12-19",
-      "source": "news",
-      "slug": "20251219-sharing-our-compliance-framework-for-california-s-",
       "language": "en",
       "summaryLanguage": "ja"
     }
