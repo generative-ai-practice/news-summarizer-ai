@@ -1,13 +1,49 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-01-27T16:31:47.000Z",
+  "lastChecked": "2026-01-27T19:27:59.244Z",
   "articles": [
     {
-      "title": "Prep for the SAT with practice tests in Gemini",
-      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "publishedDate": "2026-01-21",
+      "title": "Introducing Agentic Vision in Gemini 3 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
+      "publishedDate": "2026-01-27",
       "source": "news",
-      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
+      "slug": "20260127-introducing-agentic-vision-in-gemini-3-flash",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "New developer tools for Google AI Pro and Ultra subscribers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-mode-ai-overviews-updates/",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-new-developer-tools-for-google-ai-pro-and-ultra-su",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Google AI Plus is now available everywhere our AI plans are available, including the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-google-ai-plus-is-now-available-everywhere-our-ai-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Just ask anything: a seamless new Search experience",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-just-ask-anything-a-seamless-new-search-experience",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "In our latest podcast, hear how the “Smokejumpers” team brings Gemini to billions of people.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-in-our-latest-podcast-hear-how-the-smokejumpers-te",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -17,6 +53,15 @@
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Prep for the SAT with practice tests in Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -134,51 +179,6 @@
       "publishedDate": "2025-12-19",
       "source": "news",
       "slug": "20251219-10-gemini-prompts-to-help-you-keep-your-new-year-s",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Inside Kaggle's AI Agents intensive course with Google",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap/",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-inside-kaggle-s-ai-agents-intensive-course-with-go",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Watch a podcast discussion about Gemini 3 and the future of Search.",
-      "url": "https://blog.google/innovation-and-ai/products/release-notes-podcast-search/",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-watch-a-podcast-discussion-about-gemini-3-and-the-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3 Flash: frontier intelligence built for speed",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
-      "publishedDate": "2025-12-17",
-      "source": "news",
-      "slug": "20251217-gemini-3-flash-frontier-intelligence-built-for-spe",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Build with Gemini 3 Flash, frontier intelligence that scales with you",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-3-flash/",
-      "publishedDate": "2025-12-17",
-      "source": "news",
-      "slug": "20251217-build-with-gemini-3-flash-frontier-intelligence-th",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3 Flash comes to the Gemini app",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash-gemini-app/",
-      "publishedDate": "2025-12-17",
-      "source": "news",
-      "slug": "20251217-gemini-3-flash-comes-to-the-gemini-app",
       "language": "en",
       "summaryLanguage": "ja"
     }
