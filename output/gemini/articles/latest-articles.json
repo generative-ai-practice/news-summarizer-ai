@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-01-28T16:38:19.901Z",
+  "lastChecked": "2026-01-28T19:29:24.868Z",
   "articles": [
+    {
+      "title": "The new era of browsing: Putting Gemini to work in Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-the-new-era-of-browsing-putting-gemini-to-work-in-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Agentic Vision in Gemini 3 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-19",
       "source": "news",
       "slug": "20251219-40-of-our-most-helpful-ai-tips-from-2025",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "10 Gemini prompts to help you keep your New Year's resolutions",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-prompts-new-years-resolutions/",
-      "publishedDate": "2025-12-19",
-      "source": "news",
-      "slug": "20251219-10-gemini-prompts-to-help-you-keep-your-new-year-s",
       "language": "en",
       "summaryLanguage": "ja"
     }

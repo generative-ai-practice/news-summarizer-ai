@@ -173,6 +173,9 @@ This page documents updates to the Gemini API.
 
     - `gemini-2.0-flash-lite-preview`
     - `gemini-2.0-flash-lite-preview-02-05`
+    - `gemini-2.0-flash-exp`
+    - `gemini-2.0-pro-exp`
+    - `gemini-2.0-pro-exp-02-05`
 
 ## October 29, 2025
 
