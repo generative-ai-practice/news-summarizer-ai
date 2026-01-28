@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-28T20:22:12.704Z",
+  "lastChecked": "2026-01-28T23:20:52.963Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -8,6 +8,15 @@
       "publishedDate": "2025-11-24",
       "source": "news",
       "slug": "20251124-introducing-claude-opus-4-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "ServiceNow chooses Claude to power customer apps and increase internal productivity",
+      "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
+      "publishedDate": "2026-01-29",
+      "source": "news",
+      "slug": "20260129-servicenow-chooses-claude-to-power-customer-apps-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-01-13",
       "source": "news",
       "slug": "20260113-introducing-labs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Advancing Claude in healthcare and the life sciences",
-      "url": "https://www.anthropic.com/news/healthcare-life-sciences",
-      "publishedDate": "2026-01-11",
-      "source": "news",
-      "slug": "20260111-advancing-claude-in-healthcare-and-the-life-scienc",
       "language": "en",
       "summaryLanguage": "ja"
     }
