@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-28T06:29:02.082Z",
+  "lastChecked": "2026-01-28T09:29:41.683Z",
   "articles": [
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-emea-youth-wellbeing-grant",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "PVH reimagines the future of fashion with OpenAI",
       "url": "https://openai.com/index/pvh-future-of-fashion",
@@ -174,20 +192,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "url": "https://openai.com/index/introducing-chatgpt-go",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Our approach to advertising and expanding access to ChatGPT",
       "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "url": "https://openai.com/index/introducing-chatgpt-go",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -300,20 +318,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "url": "https://openai.com/index/one-in-a-million-customers",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Continuously hardening ChatGPT Atlas against prompt injection",
       "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "publishedDate": "2025-12-22",
       "source": "news",
       "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "url": "https://openai.com/index/one-in-a-million-customers",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -327,20 +345,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Updating our Model Spec with teen protections",
       "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-updating-our-model-spec-with-teen-protections",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -364,7 +382,7 @@
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex",
@@ -373,7 +391,7 @@
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
@@ -426,15 +444,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
@@ -453,29 +462,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Advancing science and math with GPT-5.2",
       "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-advancing-science-and-math-with-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-ten-years",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -503,6 +503,24 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -543,15 +561,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "url": "https://openai.com/index/deutsche-telekom-collaboration",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "url": "https://openai.com/index/openai-appoints-denise-dresser",
       "publishedDate": "2025-12-09",
@@ -566,6 +575,15 @@
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -606,20 +624,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How confessions can keep language models honest",
-      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "slug": "20251203-how-confessions-can-keep-language-models-honest",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI to acquire Neptune",
       "url": "https://openai.com/index/openai-to-acquire-neptune",
       "publishedDate": "2025-12-03",
       "source": "news",
       "slug": "20251203-openai-to-acquire-neptune",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How confessions can keep language models honest",
+      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "publishedDate": "2025-12-03",
+      "source": "news",
+      "slug": "20251203-how-confessions-can-keep-language-models-honest",
       "language": "en",
       "summaryLanguage": "ja"
     },
