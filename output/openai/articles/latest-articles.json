@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-01-28T01:17:29.949Z",
+  "lastChecked": "2026-01-28T04:04:32.934Z",
   "articles": [
     {
       "title": "PVH reimagines the future of fashion with OpenAI",
@@ -8,6 +8,15 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-pvh-reimagines-the-future-of-fashion-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "url": "https://openai.com/index/trustbank",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -165,20 +174,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Our approach to advertising and expanding access to ChatGPT",
-      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing ChatGPT Go, now available worldwide",
       "url": "https://openai.com/index/introducing-chatgpt-go",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -345,6 +354,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/gpt-5-2-codex",
       "publishedDate": "2025-12-18",
@@ -359,15 +377,6 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -417,11 +426,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -435,11 +444,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
+      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -453,29 +462,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Ten years",
       "url": "https://openai.com/index/ten-years",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-ten-years",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -494,6 +485,24 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -534,11 +543,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "url": "https://openai.com/index/commonwealth-bank-of-australia",
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
       "publishedDate": "2025-12-09",
       "source": "news",
-      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
+      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -552,11 +561,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "url": "https://openai.com/index/commonwealth-bank-of-australia",
       "publishedDate": "2025-12-09",
       "source": "news",
-      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
+      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -597,20 +606,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI to acquire Neptune",
-      "url": "https://openai.com/index/openai-to-acquire-neptune",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "slug": "20251203-openai-to-acquire-neptune",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How confessions can keep language models honest",
       "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "publishedDate": "2025-12-03",
       "source": "news",
       "slug": "20251203-how-confessions-can-keep-language-models-honest",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI to acquire Neptune",
+      "url": "https://openai.com/index/openai-to-acquire-neptune",
+      "publishedDate": "2025-12-03",
+      "source": "news",
+      "slug": "20251203-openai-to-acquire-neptune",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -651,20 +660,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "url": "https://openai.com/index/accenture-partnership",
-      "publishedDate": "2025-12-01",
-      "source": "news",
-      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
       "url": "https://openai.com/index/thrive-holdings",
       "publishedDate": "2025-12-01",
       "source": "news",
       "slug": "20251201-openai-takes-an-ownership-stake-in-thrive-holdings",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "url": "https://openai.com/index/accenture-partnership",
+      "publishedDate": "2025-12-01",
+      "source": "news",
+      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
       "language": "en",
       "summaryLanguage": "ja"
     }
