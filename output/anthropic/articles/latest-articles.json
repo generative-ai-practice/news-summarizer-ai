@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-01-28T23:20:52.963Z",
+  "lastChecked": "2026-01-29T04:02:39.743Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -14,9 +14,9 @@
     {
       "title": "ServiceNow chooses Claude to power customer apps and increase internal productivity",
       "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
-      "publishedDate": "2026-01-29",
+      "publishedDate": "2026-01-28",
       "source": "news",
-      "slug": "20260129-servicenow-chooses-claude-to-power-customer-apps-a",
+      "slug": "20260128-servicenow-chooses-claude-to-power-customer-apps-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
