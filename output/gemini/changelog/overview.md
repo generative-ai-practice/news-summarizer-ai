@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## January 29, 2026
+
+- Launched support for the Computer Use tool in `gemini-3-pro-preview` and `gemini-3-flash-preview`.
+
 ## January 22, 2026
 
 - Deprecation announcement: The following models will be

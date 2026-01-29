@@ -1,0 +1,1 @@
+- Launched support for the Computer Use tool in `gemini-3-pro-preview` and `gemini-3-flash-preview`.
