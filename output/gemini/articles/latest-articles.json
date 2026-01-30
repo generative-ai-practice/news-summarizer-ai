@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-01-30T16:40:16.472Z",
+  "lastChecked": "2026-01-30T19:32:30.446Z",
   "articles": [
+    {
+      "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
+      "publishedDate": "2026-01-30",
+      "source": "news",
+      "slug": "20260130-find-out-what-s-new-in-the-gemini-app-in-january-s",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The new era of browsing: Putting Gemini to work in Chrome",
       "url": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
@@ -48,11 +57,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "In our latest podcast, hear how the “Smokejumpers” team brings Gemini to billions of people.",
+      "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
       "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
       "publishedDate": "2026-01-27",
       "source": "news",
-      "slug": "20260127-in-our-latest-podcast-hear-how-the-smokejumpers-te",
+      "slug": "20260127-in-our-latest-podcast-hear-how-the-smoke-jumpers-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-19",
       "source": "news",
       "slug": "20251219-find-out-what-s-new-in-the-gemini-app-in-december-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "40 of our most helpful AI tips from 2025",
-      "url": "https://blog.google/innovation-and-ai/products/ai-tips-2025/",
-      "publishedDate": "2025-12-19",
-      "source": "news",
-      "slug": "20251219-40-of-our-most-helpful-ai-tips-from-2025",
       "language": "en",
       "summaryLanguage": "ja"
     }
