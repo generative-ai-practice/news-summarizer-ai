@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-02T11:31:13.927Z",
+  "lastChecked": "2026-02-02T14:37:25.044Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -8,6 +8,15 @@
       "publishedDate": "2025-11-24",
       "source": "news",
       "slug": "20251124-introducing-claude-opus-4-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Societal ImpactsAnthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery",
+      "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+      "publishedDate": "2026-02-02",
+      "source": "news",
+      "slug": "20260202-societal-impactsanthropic-partners-with-allen-inst",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-01-15",
       "source": "news",
       "slug": "20260115-economic-researchanthropic-economic-index-report-e",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Labs",
-      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
-      "publishedDate": "2026-01-13",
-      "source": "news",
-      "slug": "20260113-introducing-labs",
       "language": "en",
       "summaryLanguage": "ja"
     }
