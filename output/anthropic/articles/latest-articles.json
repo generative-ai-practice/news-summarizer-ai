@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-03T11:29:24.880Z",
+  "lastChecked": "2026-02-03T17:47:30.480Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -84,7 +84,7 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Economic ResearchAnthropic Economic Index: new building blocks for understanding AI use",
+      "title": "Economic ResearchAnthropic Economic Index: New building blocks for understanding AI use",
       "url": "https://www.anthropic.com/research/economic-index-primitives",
       "publishedDate": "2026-01-15",
       "source": "news",
