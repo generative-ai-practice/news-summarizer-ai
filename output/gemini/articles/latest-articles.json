@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-02T16:41:31.313Z",
+  "lastChecked": "2026-02-03T03:34:05.171Z",
   "articles": [
+    {
+      "title": "10 ways to plan your 2026 budget with Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
+      "publishedDate": "2026-02-02",
+      "source": "news",
+      "slug": "20260202-10-ways-to-plan-your-2026-budget-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
@@ -66,20 +75,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
-      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Prep for the SAT with practice tests in Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
+      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-22",
       "source": "news",
       "slug": "20251222-60-of-our-biggest-ai-announcements-in-2025",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Find out what’s new in the Gemini app in December's Gemini Drop.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-december-2025/",
-      "publishedDate": "2025-12-19",
-      "source": "news",
-      "slug": "20251219-find-out-what-s-new-in-the-gemini-app-in-december-",
       "language": "en",
       "summaryLanguage": "ja"
     }
