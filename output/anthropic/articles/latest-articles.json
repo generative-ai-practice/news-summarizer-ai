@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-03T17:47:30.480Z",
+  "lastChecked": "2026-02-03T20:28:59.147Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.5",
@@ -8,6 +8,15 @@
       "publishedDate": "2025-11-24",
       "source": "news",
       "slug": "20251124-introducing-claude-opus-4-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Apple’s Xcode now supports the Claude Agent SDK",
+      "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+      "publishedDate": "2026-02-03",
+      "source": "news",
+      "slug": "20260203-apple-s-xcode-now-supports-the-claude-agent-sdk",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-01-15",
       "source": "news",
       "slug": "20260115-economic-researchanthropic-economic-index-new-buil",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Economic ResearchAnthropic Economic Index report: economic primitives",
-      "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
-      "publishedDate": "2026-01-15",
-      "source": "news",
-      "slug": "20260115-economic-researchanthropic-economic-index-report-e",
       "language": "en",
       "summaryLanguage": "ja"
     }
