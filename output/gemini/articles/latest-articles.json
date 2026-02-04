@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-04T16:50:48.508Z",
+  "lastChecked": "2026-02-04T19:38:50.910Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in January",
+      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
+      "publishedDate": "2026-02-04",
+      "source": "news",
+      "slug": "20260204-the-latest-ai-news-we-announced-in-january",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "10 ways to plan your 2026 budget with Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
@@ -75,20 +84,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Prep for the SAT with practice tests in Gemini",
-      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
       "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Prep for the SAT with practice tests in Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-23",
       "source": "news",
       "slug": "20251223-here-s-where-you-can-use-nano-banana-pro",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "60 of our biggest AI announcements in 2025",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025/",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-60-of-our-biggest-ai-announcements-in-2025",
       "language": "en",
       "summaryLanguage": "ja"
     }
