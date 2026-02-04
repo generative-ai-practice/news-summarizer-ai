@@ -1,0 +1,1 @@
+- We have optimized our inference stack for API customers and[GPT-5.2](https://platform.openai.com/docs/models/gpt-5.2)and[GPT-5.2-Codex](https://platform.openai.com/docs/models/gpt-5.2-codex)now run ~40% faster. Model and model weights are unchanged.
