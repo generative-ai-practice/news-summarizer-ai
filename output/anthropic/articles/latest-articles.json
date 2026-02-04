@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-04T11:28:35.479Z",
+  "lastChecked": "2026-02-04T14:37:41.712Z",
   "articles": [
+    {
+      "title": "Claude is a space to think",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "publishedDate": "2026-02-04",
+      "source": "news",
+      "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Claude Opus 4.5",
       "url": "https://www.anthropic.com/news/claude-opus-4-5",
@@ -89,15 +98,6 @@
       "publishedDate": "2026-01-15",
       "source": "news",
       "slug": "20260115-how-scientists-are-using-claude-to-accelerate-rese",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Economic ResearchAnthropic Economic Index: New building blocks for understanding AI use",
-      "url": "https://www.anthropic.com/research/economic-index-primitives",
-      "publishedDate": "2026-01-15",
-      "source": "news",
-      "slug": "20260115-economic-researchanthropic-economic-index-new-buil",
       "language": "en",
       "summaryLanguage": "ja"
     }
