@@ -1,22 +1,22 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-05T14:39:16.731Z",
+  "lastChecked": "2026-02-05T20:26:12.401Z",
   "articles": [
+    {
+      "title": "Introducing Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-introducing-claude-opus-4-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Claude is a space to think",
       "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Claude Opus 4.5",
-      "url": "https://www.anthropic.com/news/claude-opus-4-5",
-      "publishedDate": "2025-11-24",
-      "source": "news",
-      "slug": "20251124-introducing-claude-opus-4-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +89,6 @@
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-anthropic-appoints-irina-ghose-as-managing-directo",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How scientists are using Claude to accelerate research and discovery",
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
-      "publishedDate": "2026-01-15",
-      "source": "news",
-      "slug": "20260115-how-scientists-are-using-claude-to-accelerate-rese",
       "language": "en",
       "summaryLanguage": "ja"
     }
