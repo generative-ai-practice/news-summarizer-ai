@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-05T14:05:48.403Z",
+  "lastChecked": "2026-02-05T16:51:18.357Z",
   "articles": [
+    {
+      "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-watch-our-new-gemini-ad-ahead-of-football-s-bigges",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in January",
       "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-29",
       "source": "news",
       "slug": "20251229-13-of-the-best-nano-banana-trends-from-2025",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Here’s where you can use Nano Banana Pro",
-      "url": "https://blog.google/products-and-platforms/products/gemini/where-to-use-nano-banana-pro/",
-      "publishedDate": "2025-12-23",
-      "source": "news",
-      "slug": "20251223-here-s-where-you-can-use-nano-banana-pro",
       "language": "en",
       "summaryLanguage": "ja"
     }
