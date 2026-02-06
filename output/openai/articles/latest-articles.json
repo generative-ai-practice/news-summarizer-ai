@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-05T21:23:20.049Z",
+  "lastChecked": "2026-02-06T01:28:24.250Z",
   "articles": [
     {
       "title": "GPT-5 lowers the cost of cell-free protein synthesis",
@@ -21,11 +21,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "title": "Introducing OpenAI Frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier",
       "publishedDate": "2026-02-05",
       "source": "news",
-      "slug": "20260205-gpt-5-3-codex-system-card",
+      "slug": "20260205-introducing-openai-frontier",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -39,20 +39,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-gpt-5-3-codex-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-introducing-gpt-5-3-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing OpenAI Frontier",
-      "url": "https://openai.com/index/introducing-openai-frontier",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-introducing-openai-frontier",
       "language": "en",
       "summaryLanguage": "ja"
     },
