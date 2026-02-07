@@ -1,0 +1,1 @@
+- We've launched [fast mode](https://platform.claude.com/docs/en/build-with-claude/fast-mode) in research preview for Opus 4.6, providing significantly faster output token generation via the `speed` parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the [waitlist](https://claude.com/fast-mode).
