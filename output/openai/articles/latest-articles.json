@@ -1,22 +1,22 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-09T15:50:39.637Z",
+  "lastChecked": "2026-02-09T21:34:36.639Z",
   "articles": [
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-testing-ads-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Making AI work for everyone, everywhere: our approach to localization",
       "url": "https://openai.com/index/our-approach-to-localization",
       "publishedDate": "2026-02-06",
       "source": "news",
       "slug": "20260206-making-ai-work-for-everyone-everywhere-our-approac",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Korea privacy policy",
-      "url": "https://openai.com/policies/kr-privacy-policy",
-      "publishedDate": "2026-02-06",
-      "source": "news",
-      "slug": "20260206-korea-privacy-policy",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -48,20 +48,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Navigating health questions with ChatGPT",
-      "url": "https://openai.com/index/navigating-health-questions",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-navigating-health-questions-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "GPT-5.3-Codex System Card",
       "url": "https://openai.com/index/gpt-5-3-codex-system-card",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-gpt-5-3-codex-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-navigating-health-questions-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -183,20 +183,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Prism",
-      "url": "https://openai.com/index/introducing-prism",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-introducing-prism",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Powering tax donations with AI powered personalized recommendations",
       "url": "https://openai.com/index/trustbank",
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Prism",
+      "url": "https://openai.com/index/introducing-prism",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-introducing-prism",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -498,20 +498,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Updating our Model Spec with teen protections",
-      "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-updating-our-model-spec-with-teen-protections",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Deepening our collaboration with the U.S. Department of Energy",
       "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Updating our Model Spec with teen protections",
+      "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-updating-our-model-spec-with-teen-protections",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -535,7 +535,7 @@
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex",
@@ -544,7 +544,7 @@
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
@@ -597,6 +597,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
@@ -615,15 +624,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Advancing science and math with GPT-5.2",
       "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
       "publishedDate": "2025-12-11",
@@ -633,11 +633,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -660,20 +669,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -831,20 +831,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "url": "https://openai.com/index/accenture-partnership",
-      "publishedDate": "2025-12-01",
-      "source": "news",
-      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
       "url": "https://openai.com/index/thrive-holdings",
       "publishedDate": "2025-12-01",
       "source": "news",
       "slug": "20251201-openai-takes-an-ownership-stake-in-thrive-holdings",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "url": "https://openai.com/index/accenture-partnership",
+      "publishedDate": "2025-12-01",
+      "source": "news",
+      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
       "language": "en",
       "summaryLanguage": "ja"
     }

@@ -1,0 +1,1 @@
+- Added support for`application/json`requests on`/v1/images/edits`for GPT image models. JSON requests use`images`(and optional`mask`) with`image_url`or`file_id`references instead of multipart uploads.
