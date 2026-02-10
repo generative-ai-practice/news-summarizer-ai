@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-09T21:34:36.639Z",
+  "lastChecked": "2026-02-10T01:57:24.611Z",
   "articles": [
+    {
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-bringing-chatgpt-to-genai-mil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
@@ -48,6 +57,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-introducing-gpt-5-3-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "GPT-5.3-Codex System Card",
       "url": "https://openai.com/index/gpt-5-3-codex-system-card",
       "publishedDate": "2026-02-05",
@@ -62,15 +80,6 @@
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-navigating-health-questions-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.3-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-introducing-gpt-5-3-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -129,15 +138,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
       "publishedDate": "2026-01-29",
@@ -147,11 +147,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The next chapter for AI in the EU",
-      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "publishedDate": "2026-01-28",
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "publishedDate": "2026-01-29",
       "source": "news",
-      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
+      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -161,6 +161,15 @@
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-emea-youth-wellbeing-grant",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -498,11 +507,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
+      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -516,20 +525,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -548,6 +548,15 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -606,15 +615,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
-      "url": "https://openai.com/index/bny",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How We Used Codex to Ship Sora for Android in 28 Days",
       "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "publishedDate": "2025-12-12",
@@ -624,20 +624,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "url": "https://openai.com/index/bny",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Advancing science and math with GPT-5.2",
       "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-advancing-science-and-math-with-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -656,6 +656,15 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -714,20 +723,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "url": "https://openai.com/index/openai-appoints-denise-dresser",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
       "url": "https://openai.com/index/deutsche-telekom-collaboration",
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -777,20 +786,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI to acquire Neptune",
-      "url": "https://openai.com/index/openai-to-acquire-neptune",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "slug": "20251203-openai-to-acquire-neptune",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How confessions can keep language models honest",
       "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
       "publishedDate": "2025-12-03",
       "source": "news",
       "slug": "20251203-how-confessions-can-keep-language-models-honest",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI to acquire Neptune",
+      "url": "https://openai.com/index/openai-to-acquire-neptune",
+      "publishedDate": "2025-12-03",
+      "source": "news",
+      "slug": "20251203-openai-to-acquire-neptune",
       "language": "en",
       "summaryLanguage": "ja"
     },
