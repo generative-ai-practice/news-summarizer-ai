@@ -1,22 +1,22 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-10T11:44:54.822Z",
+  "lastChecked": "2026-02-10T14:53:28.779Z",
   "articles": [
-    {
-      "title": "Claude is a space to think",
-      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-      "publishedDate": "2026-02-04",
-      "source": "news",
-      "slug": "20260204-claude-is-a-space-to-think",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "Introducing Claude Opus 4.6",
       "url": "https://www.anthropic.com/news/claude-opus-4-6",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-introducing-claude-opus-4-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Claude is a space to think",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "publishedDate": "2026-02-04",
+      "source": "news",
+      "slug": "20260204-claude-is-a-space-to-think",
       "language": "en",
       "summaryLanguage": "ja"
     },
