@@ -1,0 +1,3 @@
+- Launched[server-side compaction](https://platform.openai.com/api/docs/guides/context-management#server-side-compaction)in the Responses API.
+- Launched support for[Skills](https://platform.openai.com/api/docs/guides/tools-skills)in the Responses API. We support Skills across both local execution and hosted container-based execution.
+- Launched a new[Hosted Shell](https://platform.openai.com/api/docs/guides/tools-shell#hosted-shell-quickstart)tool, as well as support for networking in containers.
