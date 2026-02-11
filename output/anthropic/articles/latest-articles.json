@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-11T20:32:17.559Z",
+  "lastChecked": "2026-02-11T23:25:41.086Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.6",
@@ -17,6 +17,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Covering electricity price increases from our data centers",
+      "url": "https://www.anthropic.com/news/covering-electricity-price-increases",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-covering-electricity-price-increases-from-our-data",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-anthropic-and-teach-for-all-launch-global-ai-train",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
-      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-anthropic-appoints-irina-ghose-as-managing-directo",
       "language": "en",
       "summaryLanguage": "ja"
     }
