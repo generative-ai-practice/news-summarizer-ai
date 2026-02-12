@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-12T11:35:07.798Z",
+  "lastChecked": "2026-02-12T14:42:56.199Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.6",
@@ -17,6 +17,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic is donating $20 million to Public First Action",
+      "url": "https://www.anthropic.com/news/donate-public-first-action",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-anthropic-is-donating-20-million-to-public-first-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-mariano-florentino-cu-llar-appointed-to-anthropic-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic and Teach For All launch global AI training initiative for educators",
-      "url": "https://www.anthropic.com/news/anthropic-teach-for-all",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-anthropic-and-teach-for-all-launch-global-ai-train",
       "language": "en",
       "summaryLanguage": "ja"
     }
