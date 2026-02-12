@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-11T23:25:41.086Z",
+  "lastChecked": "2026-02-12T04:18:10.937Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.6",
@@ -23,9 +23,9 @@
     {
       "title": "Covering electricity price increases from our data centers",
       "url": "https://www.anthropic.com/news/covering-electricity-price-increases",
-      "publishedDate": "2026-02-12",
+      "publishedDate": "2026-02-11",
       "source": "news",
-      "slug": "20260212-covering-electricity-price-increases-from-our-data",
+      "slug": "20260211-covering-electricity-price-increases-from-our-data",
       "language": "en",
       "summaryLanguage": "ja"
     },
