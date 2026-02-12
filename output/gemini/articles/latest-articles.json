@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-12T14:11:10.695Z",
+  "lastChecked": "2026-02-12T16:59:35.864Z",
   "articles": [
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-gemini-3-deep-think-advancing-science-research-and",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
       "url": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
@@ -170,15 +179,6 @@
       "publishedDate": "2025-12-29",
       "source": "news",
       "slug": "20251229-the-latest-ai-news-we-announced-in-december",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "13 of the best Nano Banana trends from 2025",
-      "url": "https://blog.google/products-and-platforms/products/gemini/nano-banana-google-trends-2025/",
-      "publishedDate": "2025-12-29",
-      "source": "news",
-      "slug": "20251229-13-of-the-best-nano-banana-trends-from-2025",
       "language": "en",
       "summaryLanguage": "ja"
     }
