@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-12T17:53:22.788Z",
+  "lastChecked": "2026-02-12T20:27:39.171Z",
   "articles": [
+    {
+      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Claude Opus 4.6",
       "url": "https://www.anthropic.com/news/claude-opus-4-6",
@@ -80,15 +89,6 @@
       "publishedDate": "2026-01-22",
       "source": "news",
       "slug": "20260122-claude-s-new-constitution",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust",
-      "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-mariano-florentino-cu-llar-appointed-to-anthropic-",
       "language": "en",
       "summaryLanguage": "ja"
     }
