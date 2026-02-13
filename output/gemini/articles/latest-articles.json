@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-13T14:02:35.060Z",
+  "lastChecked": "2026-02-13T16:48:19.541Z",
   "articles": [
+    {
+      "title": "Take a look at these incredible photos from Lunar New Year celebrations.",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-camera-photo-tips-lunar-new-year/",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-take-a-look-at-these-incredible-photos-from-lunar-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-05",
       "source": "news",
       "slug": "20260105-google-introduces-new-gemini-for-google-tv-feature",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in December",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-december-2025/",
-      "publishedDate": "2025-12-29",
-      "source": "news",
-      "slug": "20251229-the-latest-ai-news-we-announced-in-december",
       "language": "en",
       "summaryLanguage": "ja"
     }
