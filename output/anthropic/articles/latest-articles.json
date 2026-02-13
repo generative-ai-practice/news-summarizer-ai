@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-13T11:26:14.038Z",
+  "lastChecked": "2026-02-13T14:37:37.076Z",
   "articles": [
     {
       "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
+      "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-anthropic-partners-with-codepath-to-bring-claude-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-anthropic-partners-with-the-uk-government-to-bring",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Claude's new constitution",
-      "url": "https://www.anthropic.com/news/claude-new-constitution",
-      "publishedDate": "2026-01-22",
-      "source": "news",
-      "slug": "20260122-claude-s-new-constitution",
       "language": "en",
       "summaryLanguage": "ja"
     }
