@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-13T16:48:19.541Z",
+  "lastChecked": "2026-02-13T19:42:38.642Z",
   "articles": [
+    {
+      "title": "5 ways Gemini can help students work smarter",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-features-for-students/",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-5-ways-gemini-can-help-students-work-smarter",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Take a look at these incredible photos from Lunar New Year celebrations.",
       "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-camera-photo-tips-lunar-new-year/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-08",
       "source": "news",
       "slug": "20260108-gmail-is-entering-the-gemini-era",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Google introduces new Gemini for Google TV features.",
-      "url": "https://blog.google/products-and-platforms/platforms/google-tv/ces-2026/",
-      "publishedDate": "2026-01-05",
-      "source": "news",
-      "slug": "20260105-google-introduces-new-gemini-for-google-tv-feature",
       "language": "en",
       "summaryLanguage": "ja"
     }
