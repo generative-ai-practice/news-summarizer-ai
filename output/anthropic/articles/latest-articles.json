@@ -1,22 +1,22 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-13T14:37:37.076Z",
+  "lastChecked": "2026-02-13T17:35:58.438Z",
   "articles": [
-    {
-      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
-      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "publishedDate": "2026-02-12",
-      "source": "news",
-      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "Introducing Claude Opus 4.6",
       "url": "https://www.anthropic.com/news/claude-opus-4-6",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-introducing-claude-opus-4-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -35,6 +35,15 @@
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-anthropic-partners-with-codepath-to-bring-claude-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Chris Liddell appointed to Anthropic’s board of directors",
+      "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-chris-liddell-appointed-to-anthropic-s-board-of-di",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-servicenow-chooses-claude-to-power-customer-apps-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services",
-      "url": "https://www.anthropic.com/news/gov-UK-partnership",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-anthropic-partners-with-the-uk-government-to-bring",
       "language": "en",
       "summaryLanguage": "ja"
     }
