@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-16T06:02:18.518Z",
+  "lastChecked": "2026-02-16T08:38:55.171Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.6",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
+      "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
+      "publishedDate": "2026-02-15",
+      "source": "news",
+      "slug": "20260215-anthropic-opens-bengaluru-office-and-announces-new",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-02-02",
       "source": "news",
       "slug": "20260202-societal-impactsanthropic-partners-with-allen-inst",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "ServiceNow chooses Claude to power customer apps and increase internal productivity",
-      "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
-      "publishedDate": "2026-01-28",
-      "source": "news",
-      "slug": "20260128-servicenow-chooses-claude-to-power-customer-apps-a",
       "language": "en",
       "summaryLanguage": "ja"
     }
