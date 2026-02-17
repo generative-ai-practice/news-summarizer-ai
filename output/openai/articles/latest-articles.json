@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-17T12:51:37.175Z",
+  "lastChecked": "2026-02-17T15:45:39.278Z",
   "articles": [
     {
       "title": "GPT-5.2 derives a new result in theoretical physics",
@@ -111,15 +111,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Navigating health questions with ChatGPT",
-      "url": "https://openai.com/index/navigating-health-questions",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-navigating-health-questions-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
@@ -134,6 +125,15 @@
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-gpt-5-3-codex-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-navigating-health-questions-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -192,15 +192,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
       "url": "https://openai.com/index/taisei",
       "publishedDate": "2026-01-29",
@@ -210,11 +201,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The next chapter for AI in the EU",
-      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "publishedDate": "2026-01-28",
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "publishedDate": "2026-01-29",
       "source": "news",
-      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
+      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -224,6 +215,15 @@
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-emea-youth-wellbeing-grant",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -408,20 +408,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "url": "https://openai.com/index/introducing-chatgpt-go",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Our approach to advertising and expanding access to ChatGPT",
       "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "url": "https://openai.com/index/introducing-chatgpt-go",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -597,20 +597,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
       "url": "https://openai.com/index/gpt-5-2-codex-system-card",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -660,11 +660,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
+      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -678,11 +678,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
-      "url": "https://openai.com/index/bny",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
+      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -696,29 +696,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Update to GPT-5 System Card: GPT-5.2",
       "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -732,11 +723,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-ten-years",
+      "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -777,6 +777,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "url": "https://openai.com/index/commonwealth-bank-of-australia",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
       "url": "https://openai.com/index/deutsche-telekom-collaboration",
       "publishedDate": "2025-12-09",
@@ -791,15 +800,6 @@
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "url": "https://openai.com/index/commonwealth-bank-of-australia",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
       "language": "en",
       "summaryLanguage": "ja"
     },
