@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-17T14:41:00.983Z",
+  "lastChecked": "2026-02-17T17:51:21.094Z",
   "articles": [
+    {
+      "title": "Introducing Claude Sonnet 4.6",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "publishedDate": "2026-02-17",
+      "source": "news",
+      "slug": "20260217-introducing-claude-sonnet-4-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Claude Opus 4.6",
       "url": "https://www.anthropic.com/news/claude-opus-4-6",
@@ -12,20 +21,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
-      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "publishedDate": "2026-02-12",
-      "source": "news",
-      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Claude is a space to think",
       "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
+      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "publishedDate": "2026-02-12",
+      "source": "news",
+      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
       "language": "en",
       "summaryLanguage": "ja"
     },
