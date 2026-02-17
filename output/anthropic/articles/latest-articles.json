@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-17T11:35:07.710Z",
+  "lastChecked": "2026-02-17T14:41:00.983Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.6",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
       "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
-      "publishedDate": "2026-02-14",
+      "publishedDate": "2026-02-17",
       "source": "news",
-      "slug": "20260214-anthropic-and-the-government-of-rwanda-sign-mou-fo",
+      "slug": "20260217-anthropic-and-the-government-of-rwanda-sign-mou-fo",
       "language": "en",
       "summaryLanguage": "ja"
     },
