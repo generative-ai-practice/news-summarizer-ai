@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-18T14:07:06.672Z",
+  "lastChecked": "2026-02-18T17:04:31.901Z",
   "articles": [
+    {
+      "title": "A new way to express yourself: Gemini can now create music",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
+      "publishedDate": "2026-02-18",
+      "source": "news",
+      "slug": "20260218-a-new-way-to-express-yourself-gemini-can-now-creat",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "5 ways Gemini can help students work smarter",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-features-for-students/",
@@ -120,20 +129,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
-      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Prep for the SAT with practice tests in Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
+      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-12",
       "source": "news",
       "slug": "20260112-joint-statement-from-google-and-apple",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gmail is entering the Gemini era",
-      "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
-      "publishedDate": "2026-01-08",
-      "source": "news",
-      "slug": "20260108-gmail-is-entering-the-gemini-era",
       "language": "en",
       "summaryLanguage": "ja"
     }
