@@ -5,6 +5,14 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## February 17, 2026
+
+- The following models are [shut down](https://ai.google.dev/gemini-api/docs/deprecations):
+
+  - `gemini-2.5-flash-preview-09-25`
+  - `imagen-4.0-generate-preview-06-06`
+  - `imagen-4.0-ultra-generate-preview-06-06`
+
 ## January 29, 2026
 
 - Launched support for the Computer Use tool in `gemini-3-pro-preview` and `gemini-3-flash-preview`.
@@ -34,7 +42,7 @@ This page documents updates to the Gemini API.
   - `gemini-2.5-flash-preview-09-25`
   - `imagen-4.0-generate-preview-06-06`
   - `imagen-4.0-ultra-generate-preview-06-06`
-- The `gemini-2.5-flash-image-preview` has been shut down.
+- The `gemini-2.5-flash-image-preview` model has been shut down.
 
 ## January 14, 2026
 
@@ -73,7 +81,7 @@ This page documents updates to the Gemini API.
 
 ## December 12, 2025
 
-- Released `gemini-2.5-flash-native-audio-preview-12-2025`, a new native audio model for the Live API. This update improves the model's ability to handle complex workflows. To learn more, see the [Live API guide](https://ai.google.dev/gemini-api/docs/live-guide) and [Gemini 2.5 Flash Native Audio](https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-live).
+- Released `gemini-2.5-flash-native-audio-preview-12-2025`, a new native audio model for the Live API. This update improves the model's ability to handle complex workflows. To learn more, see the [Live API guide](https://ai.google.dev/gemini-api/docs/live-guide) and [Gemini 2.5 Flash Native Audio](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-live).
 
 ## December 11, 2025
 
