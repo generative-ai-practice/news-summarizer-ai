@@ -1,0 +1,4 @@
+- The following models are [shut down](https://ai.google.dev/gemini-api/docs/deprecations):
+- `gemini-2.5-flash-preview-09-25`
+- `imagen-4.0-generate-preview-06-06`
+- `imagen-4.0-ultra-generate-preview-06-06`
