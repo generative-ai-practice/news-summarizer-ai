@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-19T14:08:47.724Z",
+  "lastChecked": "2026-02-19T16:54:27.938Z",
   "articles": [
+    {
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "publishedDate": "2026-02-19",
+      "source": "news",
+      "slug": "20260219-gemini-3-1-pro-a-smarter-model-for-your-most-compl",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "A new way to express yourself: Gemini can now create music",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-12",
       "source": "news",
       "slug": "20260112-increased-file-size-limits-and-expanded-inputs-sup",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Joint statement from Google and Apple",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/",
-      "publishedDate": "2026-01-12",
-      "source": "news",
-      "slug": "20260112-joint-statement-from-google-and-apple",
       "language": "en",
       "summaryLanguage": "ja"
     }

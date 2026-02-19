@@ -1,0 +1,6 @@
+- Deprecation announcement: The following models will be
+- [shut down](https://ai.google.dev/gemini-api/docs/deprecations) June 1, 2026:
+- `gemini-2.0-flash`
+- `gemini-2.0-flash-001`
+- `gemini-2.0-flash-lite`
+- `gemini-2.0-flash-lite-001`
