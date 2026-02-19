@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-19T16:54:52.835Z",
+  "lastChecked": "2026-02-19T19:39:09.994Z",
   "articles": [
+    {
+      "title": "2026-02-19 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-02-19",
+      "publishedDate": "2026-02-19",
+      "source": "changelog",
+      "slug": "20260219-2026-02-19-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-02-18 changelog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-02-18",

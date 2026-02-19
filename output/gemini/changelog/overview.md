@@ -5,6 +5,11 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## February 19, 2026
+
+- Released [Gemini 3.1 Pro Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview), our latest iteration in the new Gemini 3 series family.
+- Launched a separate endpoint `gemini-3.1-pro-preview-customtools`, which is better at prioritizing custom tools, for users building with a mix of bash and tools.
+
 ## February 18, 2026
 
 - Deprecation announcement: The following models will be
