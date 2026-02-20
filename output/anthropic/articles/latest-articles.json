@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-20T17:32:19.067Z",
+  "lastChecked": "2026-02-20T20:22:52.066Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-02-12",
       "source": "news",
       "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Making frontier cybersecurity capabilities available to defenders",
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "publishedDate": "2026-02-20",
+      "source": "news",
+      "slug": "20260220-making-frontier-cybersecurity-capabilities-availab",
       "language": "en",
       "summaryLanguage": "ja"
     },
