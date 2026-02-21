@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-21T12:34:30.930Z",
+  "lastChecked": "2026-02-21T15:19:34.465Z",
   "articles": [
     {
       "title": "Our First Proof submissions",
@@ -138,20 +138,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Navigating health questions with ChatGPT",
-      "url": "https://openai.com/index/navigating-health-questions",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-navigating-health-questions-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "GPT-5.3-Codex System Card",
       "url": "https://openai.com/index/gpt-5-3-codex-system-card",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-gpt-5-3-codex-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-navigating-health-questions-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -435,20 +435,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "url": "https://openai.com/index/introducing-chatgpt-go",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Our approach to advertising and expanding access to ChatGPT",
       "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "url": "https://openai.com/index/introducing-chatgpt-go",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -696,20 +696,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
       "source": "news",
       "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -732,29 +732,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Update to GPT-5 System Card: GPT-5.2",
       "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -768,11 +759,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -822,20 +822,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "url": "https://openai.com/index/openai-appoints-denise-dresser",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
       "url": "https://openai.com/index/deutsche-telekom-collaboration",
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
       "language": "en",
       "summaryLanguage": "ja"
     },
