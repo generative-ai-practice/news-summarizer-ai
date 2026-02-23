@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-02-23T12:52:08.255Z",
+  "lastChecked": "2026-02-23T15:43:48.652Z",
   "articles": [
+    {
+      "title": "OpenAI announces Frontier Alliance Partners",
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "publishedDate": "2026-02-23",
+      "source": "news",
+      "slug": "20260223-openai-announces-frontier-alliance-partners",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Our First Proof submissions",
       "url": "https://openai.com/index/first-proof-submissions",
@@ -57,20 +66,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Beyond rate limits: scaling access to Codex and Sora",
-      "url": "https://openai.com/index/beyond-rate-limits",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-beyond-rate-limits-scaling-access-to-codex-and-sor",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Scaling social science research",
       "url": "https://openai.com/index/scaling-social-science-research",
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-scaling-social-science-research",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-beyond-rate-limits-scaling-access-to-codex-and-sor",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -147,15 +156,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-gpt-5-3-codex-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
@@ -170,6 +170,15 @@
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-navigating-health-questions-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-gpt-5-3-codex-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -444,20 +453,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Our approach to advertising and expanding access to ChatGPT",
-      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing ChatGPT Go, now available worldwide",
       "url": "https://openai.com/index/introducing-chatgpt-go",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our approach to advertising and expanding access to ChatGPT",
+      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -570,15 +579,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "url": "https://openai.com/index/one-in-a-million-customers",
       "publishedDate": "2025-12-22",
@@ -588,20 +588,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Evaluating chain-of-thought monitorability",
       "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-evaluating-chain-of-thought-monitorability",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "AI literacy resources for teens and parents",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -624,20 +624,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex-2",
+      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -647,6 +638,24 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -705,11 +714,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -723,11 +732,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "publishedDate": "2025-12-12",
       "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
+      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -741,11 +750,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -755,15 +764,6 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-ten-years",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -782,6 +782,15 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
