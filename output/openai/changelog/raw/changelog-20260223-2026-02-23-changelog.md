@@ -1,0 +1,2 @@
+- Released`gpt-realtime-1.5`to the Realtime API. Read more[here](https://developers.openai.com/api/docs/models/gpt-realtime-1.5).
+- Released`gpt-audio-1.5`to the Chat Completions API. Read more[here](https://developers.openai.com/api/docs/models/gpt-realtime-1.5).
