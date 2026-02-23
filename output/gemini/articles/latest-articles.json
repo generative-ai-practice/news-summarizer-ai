@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-23T16:58:12.675Z",
+  "lastChecked": "2026-02-23T19:57:23.467Z",
   "articles": [
+    {
+      "title": "6 tips for prompting Lyria 3 in the Gemini app",
+      "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/",
+      "publishedDate": "2026-02-23",
+      "source": "news",
+      "slug": "20260223-6-tips-for-prompting-lyria-3-in-the-gemini-app",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
@@ -138,20 +147,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Prep for the SAT with practice tests in Gemini",
-      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
       "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Prep for the SAT with practice tests in Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
+      "publishedDate": "2026-01-21",
+      "source": "news",
+      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-14",
       "source": "news",
       "slug": "20260114-gemini-introduces-personal-intelligence",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Increased file size limits and expanded inputs support in Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-new-file-limits/",
-      "publishedDate": "2026-01-12",
-      "source": "news",
-      "slug": "20260112-increased-file-size-limits-and-expanded-inputs-sup",
       "language": "en",
       "summaryLanguage": "ja"
     }
