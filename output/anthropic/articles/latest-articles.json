@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-24T20:27:44.621Z",
+  "lastChecked": "2026-02-24T23:25:03.529Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -41,9 +41,9 @@
     {
       "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
       "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-      "publishedDate": "2026-02-23",
+      "publishedDate": "2026-02-24",
       "source": "news",
-      "slug": "20260223-anthropic-s-responsible-scaling-policy-version-3-0",
+      "slug": "20260224-anthropic-s-responsible-scaling-policy-version-3-0",
       "language": "en",
       "summaryLanguage": "ja"
     },
