@@ -1,0 +1,1 @@
+- Released`gpt-5.3-codex`to the Responses API. Read more[here](https://developers.openai.com/api/docs/models/gpt-5.3-codex).
