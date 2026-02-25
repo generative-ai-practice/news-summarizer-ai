@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-25T17:08:01.222Z",
+  "lastChecked": "2026-02-25T19:49:33.275Z",
   "articles": [
+    {
+      "title": "Let Gemini handle your multi-step daily tasks on Android.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
+      "publishedDate": "2026-02-25",
+      "source": "news",
+      "slug": "20260225-let-gemini-handle-your-multi-step-daily-tasks-on-a",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "A more intelligent Android on Samsung Galaxy S26",
+      "url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
+      "publishedDate": "2026-02-25",
+      "source": "news",
+      "slug": "20260225-a-more-intelligent-android-on-samsung-galaxy-s26",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "6 tips for prompting Lyria 3 in the Gemini app",
       "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-01-21",
       "source": "news",
       "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Nano Banana got its name",
-      "url": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/",
-      "publishedDate": "2026-01-15",
-      "source": "news",
-      "slug": "20260115-how-nano-banana-got-its-name",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini introduces Personal Intelligence",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/",
-      "publishedDate": "2026-01-14",
-      "source": "news",
-      "slug": "20260114-gemini-introduces-personal-intelligence",
       "language": "en",
       "summaryLanguage": "ja"
     }
