@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-25T14:44:04.407Z",
+  "lastChecked": "2026-02-25T17:53:29.933Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-02-12",
       "source": "news",
       "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+      "url": "https://www.anthropic.com/news/acquires-vercept",
+      "publishedDate": "2026-02-25",
+      "source": "news",
+      "slug": "20260225-anthropic-acquires-vercept-to-advance-claude-s-com",
       "language": "en",
       "summaryLanguage": "ja"
     },
