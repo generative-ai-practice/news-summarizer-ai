@@ -5,6 +5,14 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## February 26, 2026
+
+- Launched Nano Banana 2, [Gemini 3.1 Flash Image Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview), a high-efficiency
+  model optimized for speed and high-volume use cases.
+
+- Deprecation announcement: Gemini 3 Pro Preview (`gemini-3-pro-preview`)
+  will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) March 9, 2026.
+
 ## February 19, 2026
 
 - Released [Gemini 3.1 Pro Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview), our latest iteration in the new Gemini 3 series family.
