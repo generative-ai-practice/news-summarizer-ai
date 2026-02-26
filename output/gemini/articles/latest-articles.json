@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-26T14:09:38.929Z",
+  "lastChecked": "2026-02-26T16:59:24.853Z",
   "articles": [
+    {
+      "title": "Build with Nano Banana 2, our best image generation and editing model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
+      "publishedDate": "2026-02-26",
+      "source": "news",
+      "slug": "20260226-build-with-nano-banana-2-our-best-image-generation",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "publishedDate": "2026-02-26",
+      "source": "news",
+      "slug": "20260226-nano-banana-2-combining-pro-capabilities-with-ligh",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Let Gemini handle your multi-step daily tasks on Android.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-in-our-latest-podcast-hear-how-the-smoke-jumpers-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Transform teaching and learning with updates to Gemini and Google Classroom",
-      "url": "https://blog.google/products-and-platforms/products/education/bett-2026-gemini-classroom-updates/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-transform-teaching-and-learning-with-updates-to-ge",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Prep for the SAT with practice tests in Gemini",
-      "url": "https://blog.google/products-and-platforms/products/education/practice-sat-gemini/",
-      "publishedDate": "2026-01-21",
-      "source": "news",
-      "slug": "20260121-prep-for-the-sat-with-practice-tests-in-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     }
