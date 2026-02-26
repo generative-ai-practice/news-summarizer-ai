@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-26T19:43:25.964Z",
+  "lastChecked": "2026-02-26T22:34:37.556Z",
   "articles": [
+    {
+      "title": "3 Google AI tools that helped me get my new job",
+      "url": "https://blog.google/innovation-and-ai/products/google-ai-career-tools/",
+      "publishedDate": "2026-02-26",
+      "source": "news",
+      "slug": "20260226-3-google-ai-tools-that-helped-me-get-my-new-job",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Build with Nano Banana 2, our best image generation and editing model",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-just-ask-anything-a-seamless-new-search-experience",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-in-our-latest-podcast-hear-how-the-smoke-jumpers-t",
       "language": "en",
       "summaryLanguage": "ja"
     }
