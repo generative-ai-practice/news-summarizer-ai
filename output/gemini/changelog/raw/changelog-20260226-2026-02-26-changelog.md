@@ -1,0 +1,4 @@
+- Launched Nano Banana 2, [Gemini 3.1 Flash Image Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview), a high-efficiency
+- model optimized for speed and high-volume use cases.
+- Deprecation announcement: Gemini 3 Pro Preview (`gemini-3-pro-preview`)
+- will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) March 9, 2026.
