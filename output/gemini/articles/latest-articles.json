@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-02-27T03:29:43.285Z",
+  "lastChecked": "2026-02-27T05:14:37.273Z",
   "articles": [
+    {
+      "title": "Create personalized “Year of the Fire Horse” musical tracks with Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3-year-of-the-fire-horse/",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-create-personalized-year-of-the-fire-horse-musical",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "3 Google AI tools that helped me get my new job",
       "url": "https://blog.google/innovation-and-ai/products/google-ai-career-tools/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-google-ai-plus-is-now-available-everywhere-our-ai-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Just ask anything: a seamless new Search experience",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-just-ask-anything-a-seamless-new-search-experience",
       "language": "en",
       "summaryLanguage": "ja"
     }
