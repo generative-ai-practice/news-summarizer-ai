@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-27T23:18:06.107Z",
+  "lastChecked": "2026-02-28T03:49:07.183Z",
   "articles": [
+    {
+      "title": "Statement on the comments from Secretary of War Pete Hegseth",
+      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "publishedDate": "2026-02-28",
+      "source": "news",
+      "slug": "20260228-statement-on-the-comments-from-secretary-of-war-pe",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Statement from Dario Amodei on our discussions with the Department of War",
       "url": "https://www.anthropic.com/news/statement-department-of-war",
@@ -26,15 +35,6 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
-      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "publishedDate": "2026-02-12",
-      "source": "news",
-      "slug": "20260212-anthropic-raises-30-billion-in-series-g-funding-at",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +98,6 @@
       "publishedDate": "2026-02-16",
       "source": "news",
       "slug": "20260216-anthropic-opens-bengaluru-office-and-announces-new",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
-      "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-anthropic-partners-with-codepath-to-bring-claude-t",
       "language": "en",
       "summaryLanguage": "ja"
     }
