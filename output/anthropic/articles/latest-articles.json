@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-02-28T03:49:07.183Z",
+  "lastChecked": "2026-02-28T05:28:30.815Z",
   "articles": [
     {
       "title": "Statement on the comments from Secretary of War Pete Hegseth",
       "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-      "publishedDate": "2026-02-28",
+      "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260228-statement-on-the-comments-from-secretary-of-war-pe",
+      "slug": "20260227-statement-on-the-comments-from-secretary-of-war-pe",
       "language": "en",
       "summaryLanguage": "ja"
     },
