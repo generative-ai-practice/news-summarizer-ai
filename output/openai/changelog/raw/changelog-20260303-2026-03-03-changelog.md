@@ -1,0 +1,1 @@
+- Released`gpt-5.3-chat-latest`to the Chat Completions and Responses API. This model points to the GPT-5.3 Instant snapshot currently used in ChatGPT. Read more[here](https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest).
