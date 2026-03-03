@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-03T16:50:26.780Z",
+  "lastChecked": "2026-03-03T19:39:36.286Z",
   "articles": [
+    {
+      "title": "March Pixel Drop: New personalization and AI tools",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
+      "publishedDate": "2026-03-03",
+      "source": "news",
+      "slug": "20260303-march-pixel-drop-new-personalization-and-ai-tools",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-the-new-era-of-browsing-putting-gemini-to-work-in-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Agentic Vision in Gemini 3 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-introducing-agentic-vision-in-gemini-3-flash",
       "language": "en",
       "summaryLanguage": "ja"
     }
