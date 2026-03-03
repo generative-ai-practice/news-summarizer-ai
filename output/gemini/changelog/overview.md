@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 3, 2026
+
+- Launched Gemini 3.1 Flash-Lite Preview, the first Flash-Lite model in the Gemini 3 series. Read the [model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview) for specs, specific updates, and developer guidance.
+
 ## February 26, 2026
 
 - Launched Nano Banana 2, [Gemini 3.1 Flash Image Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview), a high-efficiency

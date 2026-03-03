@@ -1,0 +1,1 @@
+- Launched Gemini 3.1 Flash-Lite Preview, the first Flash-Lite model in the Gemini 3 series. Read the [model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview) for specs, specific updates, and developer guidance.
