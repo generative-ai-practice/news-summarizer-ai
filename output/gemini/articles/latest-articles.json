@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-03T14:00:03.168Z",
+  "lastChecked": "2026-03-03T16:50:26.780Z",
   "articles": [
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "publishedDate": "2026-03-03",
+      "source": "news",
+      "slug": "20260303-gemini-3-1-flash-lite-built-for-intelligence-at-sc",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Find out what’s new in the Gemini app in February's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-february-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-introducing-agentic-vision-in-gemini-3-flash",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "New developer tools for Google AI Pro and Ultra subscribers",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-new-developer-tools-for-google-ai-pro-and-ultra-su",
       "language": "en",
       "summaryLanguage": "ja"
     }
