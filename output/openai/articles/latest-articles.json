@@ -1,7 +1,43 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-05T15:44:29.782Z",
+  "lastChecked": "2026-03-05T19:12:15.466Z",
   "articles": [
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-reasoning-models-struggle-to-control-their-chains-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-introducing-gpt-5-4",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-gpt-5-4-thinking-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "url": "https://openai.com/index/ai-education-opportunity",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-ensuring-ai-use-in-education-leads-to-opportunity",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Extending single-minus amplitudes to gravitons",
       "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
@@ -57,20 +93,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Scaling AI for everyone",
-      "url": "https://openai.com/index/scaling-ai-for-everyone",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-scaling-ai-for-everyone",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI and Amazon announce strategic partnership",
       "url": "https://openai.com/index/amazon-partnership",
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-openai-and-amazon-announce-strategic-partnership",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-scaling-ai-for-everyone",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -300,11 +336,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Navigating health questions with ChatGPT",
-      "url": "https://openai.com/index/navigating-health-questions",
+      "title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
       "source": "news",
-      "slug": "20260205-navigating-health-questions-with-chatgpt",
+      "slug": "20260205-introducing-gpt-5-3-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -318,11 +354,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.3-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
       "publishedDate": "2026-02-05",
       "source": "news",
-      "slug": "20260205-introducing-gpt-5-3-codex",
+      "slug": "20260205-navigating-health-questions-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -381,15 +417,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
       "publishedDate": "2026-01-29",
@@ -399,11 +426,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "EMEA Youth & Wellbeing Grant",
-      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
-      "publishedDate": "2026-01-28",
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "publishedDate": "2026-01-29",
       "source": "news",
-      "slug": "20260128-emea-youth-wellbeing-grant",
+      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -413,6 +440,15 @@
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-emea-youth-wellbeing-grant",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -723,15 +759,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "url": "https://openai.com/index/one-in-a-million-customers",
       "publishedDate": "2025-12-22",
@@ -741,20 +768,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Evaluating chain-of-thought monitorability",
       "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-evaluating-chain-of-thought-monitorability",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "AI literacy resources for teens and parents",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -777,11 +804,29 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
+      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -791,15 +836,6 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -858,15 +894,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA and OpenAI collaborate to transform global banking",
-      "url": "https://openai.com/index/bbva-collaboration-expansion",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
@@ -885,29 +912,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "BBVA and OpenAI collaborate to transform global banking",
+      "url": "https://openai.com/index/bbva-collaboration-expansion",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bbva-and-openai-collaborate-to-transform-global-ba",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Advancing science and math with GPT-5.2",
       "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-advancing-science-and-math-with-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -921,6 +939,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Increasing revenue 300% by bringing AI to SMBs",
       "url": "https://openai.com/index/podium",
       "publishedDate": "2025-12-11",
@@ -930,11 +957,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1038,20 +1074,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How confessions can keep language models honest",
-      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "slug": "20251203-how-confessions-can-keep-language-models-honest",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI to acquire Neptune",
       "url": "https://openai.com/index/openai-to-acquire-neptune",
       "publishedDate": "2025-12-03",
       "source": "news",
       "slug": "20251203-openai-to-acquire-neptune",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How confessions can keep language models honest",
+      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "publishedDate": "2025-12-03",
+      "source": "news",
+      "slug": "20251203-how-confessions-can-keep-language-models-honest",
       "language": "en",
       "summaryLanguage": "ja"
     },

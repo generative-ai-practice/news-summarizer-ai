@@ -1,0 +1,5 @@
+- Released[GPT-5.4](https://platform.openai.com/api/docs/models/gpt-5.4), our newest frontier model for professional work, to the Chat Completions and Responses API, and released[GPT-5.4 pro](https://platform.openai.com/api/docs/models/gpt-5.4-pro)to the Responses API for tougher problems that benefit from more compute.
+- Also released:
+- [Tool search](https://platform.openai.com/api/docs/guides/tools-tool-search)in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency.
+- Built-in[Computer use](https://platform.openai.com/api/docs/guides/tools-computer-use)support in GPT-5.4 through the Responses API`computer`tool for screenshot-based UI interaction.
+- A 1M token context window and native[Compaction](https://platform.openai.com/api/docs/guides/compaction)support for longer-running agent workflows.
