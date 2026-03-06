@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-05T23:45:23.294Z",
+  "lastChecked": "2026-03-06T04:03:57.673Z",
   "articles": [
+    {
+      "title": "Where things stand with the Department of War",
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "publishedDate": "2026-03-06",
+      "source": "news",
+      "slug": "20260306-where-things-stand-with-the-department-of-war",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Statement on the comments from Secretary of War Pete Hegseth",
       "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
@@ -89,15 +98,6 @@
       "publishedDate": "2026-02-17",
       "source": "news",
       "slug": "20260217-anthropic-and-infosys-collaborate-to-build-ai-agen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
-      "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
-      "publishedDate": "2026-02-16",
-      "source": "news",
-      "slug": "20260216-anthropic-opens-bengaluru-office-and-announces-new",
       "language": "en",
       "summaryLanguage": "ja"
     }
