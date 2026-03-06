@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-06T08:29:42.365Z",
+  "lastChecked": "2026-03-06T11:23:10.974Z",
   "articles": [
     {
       "title": "Where things stand with the Department of War",
@@ -48,6 +48,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Partnering with Mozilla to improve Firefox’s security",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "publishedDate": "2026-03-06",
+      "source": "news",
+      "slug": "20260306-partnering-with-mozilla-to-improve-firefox-s-secur",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
       "url": "https://www.anthropic.com/news/acquires-vercept",
       "publishedDate": "2026-02-25",
@@ -89,15 +98,6 @@
       "publishedDate": "2026-02-17",
       "source": "news",
       "slug": "20260217-anthropic-and-the-government-of-rwanda-sign-mou-fo",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
-      "url": "https://www.anthropic.com/news/anthropic-infosys",
-      "publishedDate": "2026-02-17",
-      "source": "news",
-      "slug": "20260217-anthropic-and-infosys-collaborate-to-build-ai-agen",
       "language": "en",
       "summaryLanguage": "ja"
     }
