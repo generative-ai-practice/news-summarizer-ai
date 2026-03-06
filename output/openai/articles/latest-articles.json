@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-06T06:40:13.140Z",
+  "lastChecked": "2026-03-06T09:32:46.991Z",
   "articles": [
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-gpt-5-4-thinking-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing GPT-5.4",
       "url": "https://openai.com/index/introducing-gpt-5-4",
@@ -21,20 +30,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.4 Thinking System Card",
-      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-gpt-5-4-thinking-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Ensuring AI use in education leads to opportunity",
       "url": "https://openai.com/index/ai-education-opportunity",
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-ensuring-ai-use-in-education-leads-to-opportunity",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -57,15 +66,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The five AI value models driving business reinvention",
-      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Extending single-minus amplitudes to gravitons",
       "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
       "publishedDate": "2026-03-04",
@@ -75,20 +75,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Understanding AI and learning outcomes",
-      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
-      "publishedDate": "2026-03-04",
-      "source": "news",
-      "slug": "20260304-understanding-ai-and-learning-outcomes",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How Axios uses AI to help deliver high-impact local journalism",
       "url": "https://openai.com/index/axios-allison-murphy",
       "publishedDate": "2026-03-04",
       "source": "news",
       "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Understanding AI and learning outcomes",
+      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "publishedDate": "2026-03-04",
+      "source": "news",
+      "slug": "20260304-understanding-ai-and-learning-outcomes",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -120,20 +120,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "url": "https://openai.com/index/amazon-partnership",
       "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260227-joint-statement-from-openai-and-microsoft",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
+      "slug": "20260227-openai-and-amazon-announce-strategic-partnership",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -147,11 +138,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI and Amazon announce strategic partnership",
-      "url": "https://openai.com/index/amazon-partnership",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
       "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260227-openai-and-amazon-announce-strategic-partnership",
+      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-joint-statement-from-openai-and-microsoft",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -309,20 +309,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "publishedDate": "2026-02-09",
-      "source": "news",
-      "slug": "20260209-testing-ads-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Bringing ChatGPT to GenAI.mil",
       "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
       "publishedDate": "2026-02-09",
       "source": "news",
       "slug": "20260209-bringing-chatgpt-to-genai-mil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-testing-ads-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -363,6 +363,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Navigating health questions with ChatGPT",
+      "url": "https://openai.com/index/navigating-health-questions",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-navigating-health-questions-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
@@ -377,15 +386,6 @@
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-gpt-5-3-codex-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Navigating health questions with ChatGPT",
-      "url": "https://openai.com/index/navigating-health-questions",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-navigating-health-questions-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
