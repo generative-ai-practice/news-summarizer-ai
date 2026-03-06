@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-06T04:03:57.673Z",
+  "lastChecked": "2026-03-06T05:40:14.240Z",
   "articles": [
     {
       "title": "Where things stand with the Department of War",
       "url": "https://www.anthropic.com/news/where-stand-department-war",
-      "publishedDate": "2026-03-06",
+      "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260306-where-things-stand-with-the-department-of-war",
+      "slug": "20260305-where-things-stand-with-the-department-of-war",
       "language": "en",
       "summaryLanguage": "ja"
     },
