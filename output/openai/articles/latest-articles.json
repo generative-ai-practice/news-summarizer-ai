@@ -1,22 +1,22 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-08T12:36:07.667Z",
+  "lastChecked": "2026-03-08T15:18:09.524Z",
   "articles": [
-    {
-      "title": "Codex Security: now in research preview",
-      "url": "https://openai.com/index/codex-security-now-in-research-preview",
-      "publishedDate": "2026-03-06",
-      "source": "news",
-      "slug": "20260306-codex-security-now-in-research-preview",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "How Descript enables multilingual video dubbing at scale",
       "url": "https://openai.com/index/descript",
       "publishedDate": "2026-03-06",
       "source": "news",
       "slug": "20260306-how-descript-enables-multilingual-video-dubbing-at",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Codex Security: now in research preview",
+      "url": "https://openai.com/index/codex-security-now-in-research-preview",
+      "publishedDate": "2026-03-06",
+      "source": "news",
+      "slug": "20260306-codex-security-now-in-research-preview",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -30,11 +30,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "Introducing GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-reasoning-models-struggle-to-control-their-chains-",
+      "slug": "20260305-introducing-gpt-5-4",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -48,11 +48,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.4",
-      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-introducing-gpt-5-4",
+      "slug": "20260305-reasoning-models-struggle-to-control-their-chains-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -66,11 +66,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing the Adoption news channel",
-      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "url": "https://openai.com/index/chatgpt-for-excel",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-introducing-the-adoption-news-channel",
+      "slug": "20260305-introducing-chatgpt-for-excel-and-new-financial-da",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -84,11 +84,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT for Excel and new financial data integrations",
-      "url": "https://openai.com/index/chatgpt-for-excel",
+      "title": "Introducing the Adoption news channel",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-introducing-chatgpt-for-excel-and-new-financial-da",
+      "slug": "20260305-introducing-the-adoption-news-channel",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -165,20 +165,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "url": "https://openai.com/index/continuing-microsoft-partnership",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-joint-statement-from-openai-and-microsoft",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI and Amazon announce strategic partnership",
       "url": "https://openai.com/index/amazon-partnership",
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-openai-and-amazon-announce-strategic-partnership",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-joint-statement-from-openai-and-microsoft",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -300,20 +300,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Beyond rate limits: scaling access to Codex and Sora",
-      "url": "https://openai.com/index/beyond-rate-limits",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-beyond-rate-limits-scaling-access-to-codex-and-sor",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Scaling social science research",
       "url": "https://openai.com/index/scaling-social-science-research",
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-scaling-social-science-research",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Beyond rate limits: scaling access to Codex and Sora",
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-beyond-rate-limits-scaling-access-to-codex-and-sor",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -336,20 +336,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "publishedDate": "2026-02-09",
-      "source": "news",
-      "slug": "20260209-bringing-chatgpt-to-genai-mil",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "publishedDate": "2026-02-09",
       "source": "news",
       "slug": "20260209-testing-ads-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-bringing-chatgpt-to-genai-mil",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -390,20 +390,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-gpt-5-3-codex-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Navigating health questions with ChatGPT",
       "url": "https://openai.com/index/navigating-health-questions",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-navigating-health-questions-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-gpt-5-3-codex-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -471,20 +471,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
       "url": "https://openai.com/index/taisei",
       "publishedDate": "2026-01-29",
       "source": "news",
       "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "publishedDate": "2026-01-29",
+      "source": "news",
+      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -525,20 +525,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Powering tax donations with AI powered personalized recommendations",
-      "url": "https://openai.com/index/trustbank",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing Prism",
       "url": "https://openai.com/index/introducing-prism",
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-introducing-prism",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "url": "https://openai.com/index/trustbank",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -687,20 +687,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Go, now available worldwide",
-      "url": "https://openai.com/index/introducing-chatgpt-go",
-      "publishedDate": "2026-01-16",
-      "source": "news",
-      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Our approach to advertising and expanding access to ChatGPT",
       "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
       "publishedDate": "2026-01-16",
       "source": "news",
       "slug": "20260116-our-approach-to-advertising-and-expanding-access-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT Go, now available worldwide",
+      "url": "https://openai.com/index/introducing-chatgpt-go",
+      "publishedDate": "2026-01-16",
+      "source": "news",
+      "slug": "20260116-introducing-chatgpt-go-now-available-worldwide",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -840,20 +840,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Updating our Model Spec with teen protections",
       "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-updating-our-model-spec-with-teen-protections",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -984,6 +984,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
       "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
@@ -993,20 +1002,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1020,11 +1020,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-ten-years",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1065,15 +1065,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "url": "https://openai.com/index/deutsche-telekom-collaboration",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "url": "https://openai.com/index/openai-appoints-denise-dresser",
       "publishedDate": "2025-12-09",
@@ -1088,6 +1079,15 @@
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1128,20 +1128,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How confessions can keep language models honest",
-      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
-      "publishedDate": "2025-12-03",
-      "source": "news",
-      "slug": "20251203-how-confessions-can-keep-language-models-honest",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI to acquire Neptune",
       "url": "https://openai.com/index/openai-to-acquire-neptune",
       "publishedDate": "2025-12-03",
       "source": "news",
       "slug": "20251203-openai-to-acquire-neptune",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How confessions can keep language models honest",
+      "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+      "publishedDate": "2025-12-03",
+      "source": "news",
+      "slug": "20251203-how-confessions-can-keep-language-models-honest",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1182,20 +1182,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Accenture and OpenAI accelerate enterprise AI success",
-      "url": "https://openai.com/index/accenture-partnership",
-      "publishedDate": "2025-12-01",
-      "source": "news",
-      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption",
       "url": "https://openai.com/index/thrive-holdings",
       "publishedDate": "2025-12-01",
       "source": "news",
       "slug": "20251201-openai-takes-an-ownership-stake-in-thrive-holdings",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Accenture and OpenAI accelerate enterprise AI success",
+      "url": "https://openai.com/index/accenture-partnership",
+      "publishedDate": "2025-12-01",
+      "source": "news",
+      "slug": "20251201-accenture-and-openai-accelerate-enterprise-ai-succ",
       "language": "en",
       "summaryLanguage": "ja"
     }
