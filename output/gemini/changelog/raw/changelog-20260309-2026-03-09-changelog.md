@@ -1,0 +1,1 @@
+- The Gemini 3 Pro Preview model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). The `gemini-3-pro-preview` now points to [`gemini-3.1-pro-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview).
