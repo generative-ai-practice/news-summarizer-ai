@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 9, 2026
+
+- The Gemini 3 Pro Preview model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). The `gemini-3-pro-preview` now points to [`gemini-3.1-pro-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview).
+
 ## March 3, 2026
 
 - Launched Gemini 3.1 Flash-Lite Preview, the first Flash-Lite model in the Gemini 3 series. Read the [model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview) for specs, specific updates, and developer guidance.
