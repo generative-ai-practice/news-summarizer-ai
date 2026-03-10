@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-10T10:39:42.334Z",
+  "lastChecked": "2026-03-10T14:01:51.582Z",
   "articles": [
+    {
+      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+      "publishedDate": "2026-03-10",
+      "source": "news",
+      "slug": "20260310-gemini-in-google-sheets-just-achieved-state-of-the",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "New ways to create faster with Gemini in Docs, Sheets, Slides and Drive",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/",
+      "publishedDate": "2026-03-10",
+      "source": "news",
+      "slug": "20260310-new-ways-to-create-faster-with-gemini-in-docs-shee",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in February",
       "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-the-latest-ai-news-we-announced-in-january",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "10 ways to plan your 2026 budget with Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-budget-planning-tips/",
-      "publishedDate": "2026-02-02",
-      "source": "news",
-      "slug": "20260202-10-ways-to-plan-your-2026-budget-with-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Find out what’s new in the Gemini app in January's Gemini Drop.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-january-2026/",
-      "publishedDate": "2026-01-30",
-      "source": "news",
-      "slug": "20260130-find-out-what-s-new-in-the-gemini-app-in-january-s",
       "language": "en",
       "summaryLanguage": "ja"
     }
