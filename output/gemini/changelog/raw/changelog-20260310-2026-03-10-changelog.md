@@ -1,0 +1,1 @@
+- Released `gemini-embedding-2-preview`, our first multimodal embedding model. It supports text, image, video, audio, and PDF inputs, mapping all modalities into a unified embedding space. To learn more, see [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings).
