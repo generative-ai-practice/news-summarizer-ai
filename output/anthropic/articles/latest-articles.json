@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-10T20:26:19.800Z",
+  "lastChecked": "2026-03-10T23:21:26.840Z",
   "articles": [
     {
       "title": "Where things stand with the Department of War",
@@ -44,6 +44,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+      "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-sydney-will-become-anthropic-s-fourth-office-in-as",
       "language": "en",
       "summaryLanguage": "ja"
     },
