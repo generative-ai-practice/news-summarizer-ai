@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-10T18:40:09.537Z",
+  "lastChecked": "2026-03-10T21:24:42.958Z",
   "articles": [
     {
       "title": "Improving instruction hierarchy in frontier LLMs",
@@ -516,20 +516,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "EMEA Youth & Wellbeing Grant",
-      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
-      "publishedDate": "2026-01-28",
-      "source": "news",
-      "slug": "20260128-emea-youth-wellbeing-grant",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "The next chapter for AI in the EU",
       "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-emea-youth-wellbeing-grant",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -840,15 +840,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "url": "https://openai.com/index/one-in-a-million-customers",
       "publishedDate": "2025-12-22",
@@ -858,11 +849,29 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Evaluating chain-of-thought monitorability",
       "url": "https://openai.com/index/evaluating-chain-of-thought-monitorability",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-evaluating-chain-of-thought-monitorability",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Updating our Model Spec with teen protections",
+      "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-updating-our-model-spec-with-teen-protections",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -885,11 +894,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Updating our Model Spec with teen protections",
-      "url": "https://openai.com/index/updating-model-spec-with-teen-protections",
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-updating-our-model-spec-with-teen-protections",
+      "slug": "20251218-introducing-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -905,15 +914,6 @@
     {
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
@@ -1011,15 +1011,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-      "url": "https://openai.com/index/disney-sora-agreement",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Increasing revenue 300% by bringing AI to SMBs",
       "url": "https://openai.com/index/podium",
       "publishedDate": "2025-12-11",
@@ -1038,11 +1029,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+      "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
+      "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1052,6 +1043,15 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-ten-years",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1092,20 +1092,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Building AI fluency at scale with ChatGPT Enterprise",
-      "url": "https://openai.com/index/commonwealth-bank-of-australia",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
       "url": "https://openai.com/index/openai-appoints-denise-dresser",
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Building AI fluency at scale with ChatGPT Enterprise",
+      "url": "https://openai.com/index/commonwealth-bank-of-australia",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
       "language": "en",
       "summaryLanguage": "ja"
     },
