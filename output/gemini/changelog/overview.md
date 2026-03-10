@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 10, 2026
+
+- Released `gemini-embedding-2-preview`, our first multimodal embedding model. It supports text, image, video, audio, and PDF inputs, mapping all modalities into a unified embedding space. To learn more, see [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings).
+
 ## March 9, 2026
 
 - The Gemini 3 Pro Preview model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). The `gemini-3-pro-preview` now points to [`gemini-3.1-pro-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview).
