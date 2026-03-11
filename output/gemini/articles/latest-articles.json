@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-10T22:29:21.794Z",
+  "lastChecked": "2026-03-11T03:26:08.299Z",
   "articles": [
+    {
+      "title": "Expanding Chrome’s AI experiences to India, New Zealand and Canada",
+      "url": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-expanding-chrome-s-ai-experiences-to-india-new-zea",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-watch-our-new-gemini-ad-ahead-of-football-s-bigges",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in January",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
-      "publishedDate": "2026-02-04",
-      "source": "news",
-      "slug": "20260204-the-latest-ai-news-we-announced-in-january",
       "language": "en",
       "summaryLanguage": "ja"
     }
