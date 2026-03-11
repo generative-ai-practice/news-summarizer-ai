@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-11T08:33:05.855Z",
+  "lastChecked": "2026-03-11T11:28:22.667Z",
   "articles": [
     {
       "title": "Where things stand with the Department of War",
@@ -44,6 +44,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing The Anthropic Institute",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-introducing-the-anthropic-institute",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-02-20",
       "source": "news",
       "slug": "20260220-making-frontier-cybersecurity-capabilities-availab",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
-      "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
-      "publishedDate": "2026-02-17",
-      "source": "news",
-      "slug": "20260217-anthropic-and-the-government-of-rwanda-sign-mou-fo",
       "language": "en",
       "summaryLanguage": "ja"
     }
