@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-11T04:28:58.575Z",
+  "lastChecked": "2026-03-11T06:43:42.971Z",
   "articles": [
     {
       "title": "Improving instruction hierarchy in frontier LLMs",
@@ -57,20 +57,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-reasoning-models-struggle-to-control-their-chains-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.4",
       "url": "https://openai.com/index/introducing-gpt-5-4",
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-introducing-gpt-5-4",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-reasoning-models-struggle-to-control-their-chains-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -93,6 +93,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Introducing the Adoption news channel",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-introducing-the-adoption-news-channel",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "The five AI value models driving business reinvention",
       "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
       "publishedDate": "2026-03-05",
@@ -107,15 +116,6 @@
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-introducing-chatgpt-for-excel-and-new-financial-da",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing the Adoption news channel",
-      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-introducing-the-adoption-news-channel",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -147,15 +147,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
-      "publishedDate": "2026-03-03",
-      "source": "news",
-      "slug": "20260303-gpt-5-3-instant-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
       "url": "https://openai.com/index/gpt-5-3-instant",
       "publishedDate": "2026-03-03",
@@ -165,20 +156,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "GPT-5.3 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "publishedDate": "2026-03-03",
+      "source": "news",
+      "slug": "20260303-gpt-5-3-instant-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Our agreement with the Department of War",
       "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
       "publishedDate": "2026-02-28",
       "source": "news",
       "slug": "20260228-our-agreement-with-the-department-of-war",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Scaling AI for everyone",
-      "url": "https://openai.com/index/scaling-ai-for-everyone",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-scaling-ai-for-everyone",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -197,6 +188,15 @@
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-scaling-ai-for-everyone",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -363,20 +363,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing ChatGPT to GenAI.mil",
-      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
-      "publishedDate": "2026-02-09",
-      "source": "news",
-      "slug": "20260209-bringing-chatgpt-to-genai-mil",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "publishedDate": "2026-02-09",
       "source": "news",
       "slug": "20260209-testing-ads-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-bringing-chatgpt-to-genai-mil",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -417,20 +417,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3-Codex System Card",
-      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-gpt-5-3-codex-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.3-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex",
       "publishedDate": "2026-02-05",
       "source": "news",
       "slug": "20260205-introducing-gpt-5-3-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.3-Codex System Card",
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-gpt-5-3-codex-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -498,20 +498,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
       "publishedDate": "2026-01-29",
       "source": "news",
       "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "publishedDate": "2026-01-29",
+      "source": "news",
+      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -840,20 +840,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "One in a million: celebrating the customers shaping AI’s future",
       "url": "https://openai.com/index/one-in-a-million-customers",
       "publishedDate": "2025-12-22",
       "source": "news",
       "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -876,15 +876,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "AI literacy resources for teens and parents",
       "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "publishedDate": "2025-12-18",
@@ -894,20 +885,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex-2",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -917,6 +899,24 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1011,24 +1011,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-ten-years",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
       "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
@@ -1043,6 +1025,24 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-ten-years",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1101,20 +1101,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-      "url": "https://openai.com/index/deutsche-telekom-collaboration",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Building AI fluency at scale with ChatGPT Enterprise",
       "url": "https://openai.com/index/commonwealth-bank-of-australia",
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-building-ai-fluency-at-scale-with-chatgpt-enterpri",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+      "url": "https://openai.com/index/deutsche-telekom-collaboration",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
