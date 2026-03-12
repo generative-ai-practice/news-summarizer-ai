@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-12T17:43:42.567Z",
+  "lastChecked": "2026-03-12T20:27:22.812Z",
   "articles": [
     {
       "title": "Where things stand with the Department of War",
@@ -44,6 +44,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic invests $100 million into the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "publishedDate": "2026-03-12",
+      "source": "news",
+      "slug": "20260312-anthropic-invests-100-million-into-the-claude-part",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-02-23",
       "source": "news",
       "slug": "20260223-detecting-and-preventing-distillation-attacks",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Making frontier cybersecurity capabilities available to defenders",
-      "url": "https://www.anthropic.com/news/claude-code-security",
-      "publishedDate": "2026-02-20",
-      "source": "news",
-      "slug": "20260220-making-frontier-cybersecurity-capabilities-availab",
       "language": "en",
       "summaryLanguage": "ja"
     }
