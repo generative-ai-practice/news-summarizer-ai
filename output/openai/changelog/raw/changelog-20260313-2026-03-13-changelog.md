@@ -1,0 +1,1 @@
+- Updated our image encoder to fix a small bug with`input_image`inputs in GPT-5.4. Some image understanding use cases may now see improved quality. No action is required.
