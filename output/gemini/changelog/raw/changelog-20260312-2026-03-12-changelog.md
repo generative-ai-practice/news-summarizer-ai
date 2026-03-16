@@ -1,0 +1,1 @@
+- Introduced [project-level spend caps](https://ai.google.dev/gemini-api/docs/billing#project-spend-caps) to billing in AI Studio.

@@ -5,6 +5,14 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 16, 2026
+
+- Introduced revamped [usage tiers](https://ai.google.dev/gemini-api/docs/billing#about-billing) and [Billing Account spend caps](https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps) for a better user billing experience.
+
+## March 12, 2026
+
+- Introduced [project-level spend caps](https://ai.google.dev/gemini-api/docs/billing#project-spend-caps) to billing in AI Studio.
+
 ## March 10, 2026
 
 - Released `gemini-embedding-2-preview`, our first multimodal embedding model.
