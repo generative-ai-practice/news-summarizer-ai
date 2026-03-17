@@ -1,0 +1,1 @@
+- Updated the[gpt-5.3-chat-latest](https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest)slug to point to the latest model currently used in ChatGPT.
