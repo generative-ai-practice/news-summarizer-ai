@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-17T14:18:46.038Z",
+  "lastChecked": "2026-03-17T17:03:51.088Z",
   "articles": [
+    {
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "publishedDate": "2026-03-17",
+      "source": "news",
+      "slug": "20260317-bringing-the-power-of-personal-intelligence-to-mor",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Expanding Chrome’s AI experiences to India, New Zealand and Canada",
       "url": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-12",
       "source": "news",
       "slug": "20260212-gemini-3-deep-think-advancing-science-research-and",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-watch-our-new-gemini-ad-ahead-of-football-s-bigges",
       "language": "en",
       "summaryLanguage": "ja"
     }
