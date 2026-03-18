@@ -1,0 +1,2 @@
+- Released the new [Built-in Tools and Function Calling Combination](https://ai.google.dev/gemini-api/docs/tool-combination) feature, making it possible to use Gemini's built-in tools alongside custom function calling tools in a single API call.
+- [Grounding with Google Maps](https://ai.google.dev/gemini-api/docs/maps-grounding#supported_models) is now supported for Gemini 3 models going forward.
