@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-17T21:32:00.218Z",
+  "lastChecked": "2026-03-18T01:46:59.832Z",
   "articles": [
     {
       "title": "Introducing GPT-5.4 mini and nano",
@@ -48,20 +48,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "url": "https://openai.com/index/equip-responses-api-computer-environment",
-      "publishedDate": "2026-03-11",
-      "source": "news",
-      "slug": "20260311-from-model-to-agent-equipping-the-responses-api-wi",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
       "url": "https://openai.com/index/wayfair",
       "publishedDate": "2026-03-11",
       "source": "news",
       "slug": "20260311-wayfair-boosts-catalog-accuracy-and-support-speed-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-from-model-to-agent-equipping-the-responses-api-wi",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -93,20 +93,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "url": "https://openai.com/index/descript",
-      "publishedDate": "2026-03-06",
-      "source": "news",
-      "slug": "20260306-how-descript-enables-multilingual-video-dubbing-at",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Codex Security: now in research preview",
       "url": "https://openai.com/index/codex-security-now-in-research-preview",
       "publishedDate": "2026-03-06",
       "source": "news",
       "slug": "20260306-codex-security-now-in-research-preview",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "url": "https://openai.com/index/descript",
+      "publishedDate": "2026-03-06",
+      "source": "news",
+      "slug": "20260306-how-descript-enables-multilingual-video-dubbing-at",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -120,11 +120,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.4 Thinking System Card",
-      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "title": "Introducing GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-gpt-5-4-thinking-system-card",
+      "slug": "20260305-introducing-gpt-5-4",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -138,11 +138,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.4",
-      "url": "https://openai.com/index/introducing-gpt-5-4",
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-introducing-gpt-5-4",
+      "slug": "20260305-gpt-5-4-thinking-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -192,20 +192,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Understanding AI and learning outcomes",
-      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
-      "publishedDate": "2026-03-04",
-      "source": "news",
-      "slug": "20260304-understanding-ai-and-learning-outcomes",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How Axios uses AI to help deliver high-impact local journalism",
       "url": "https://openai.com/index/axios-allison-murphy",
       "publishedDate": "2026-03-04",
       "source": "news",
       "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Understanding AI and learning outcomes",
+      "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "publishedDate": "2026-03-04",
+      "source": "news",
+      "slug": "20260304-understanding-ai-and-learning-outcomes",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -426,20 +426,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "publishedDate": "2026-02-09",
-      "source": "news",
-      "slug": "20260209-testing-ads-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Bringing ChatGPT to GenAI.mil",
       "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
       "publishedDate": "2026-02-09",
       "source": "news",
       "slug": "20260209-bringing-chatgpt-to-genai-mil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "publishedDate": "2026-02-09",
+      "source": "news",
+      "slug": "20260209-testing-ads-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -561,20 +561,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
-      "url": "https://openai.com/index/taisei",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
       "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
       "publishedDate": "2026-01-29",
       "source": "news",
       "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "url": "https://openai.com/index/taisei",
+      "publishedDate": "2026-01-29",
+      "source": "news",
+      "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -615,20 +615,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Powering tax donations with AI powered personalized recommendations",
-      "url": "https://openai.com/index/trustbank",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing Prism",
       "url": "https://openai.com/index/introducing-prism",
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-introducing-prism",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "url": "https://openai.com/index/trustbank",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-powering-tax-donations-with-ai-powered-personalize",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -930,11 +930,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -948,17 +948,17 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
+      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex",
@@ -967,7 +967,7 @@
     },
     {
       "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
@@ -1047,20 +1047,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
-      "url": "https://openai.com/index/bny",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How We Used Codex to Ship Sora for Android in 28 Days",
       "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
       "publishedDate": "2025-12-12",
       "source": "news",
       "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+      "url": "https://openai.com/index/bny",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1074,20 +1074,29 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Increasing revenue 300% by bringing AI to SMBs",
-      "url": "https://openai.com/index/podium",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Ten years",
       "url": "https://openai.com/index/ten-years",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-ten-years",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Increasing revenue 300% by bringing AI to SMBs",
+      "url": "https://openai.com/index/podium",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-increasing-revenue-300-by-bringing-ai-to-smbs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1106,15 +1115,6 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1155,15 +1155,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "url": "https://openai.com/index/openai-appoints-denise-dresser",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Building AI fluency at scale with ChatGPT Enterprise",
       "url": "https://openai.com/index/commonwealth-bank-of-australia",
       "publishedDate": "2025-12-09",
@@ -1178,6 +1169,15 @@
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
       "language": "en",
       "summaryLanguage": "ja"
     },
