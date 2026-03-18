@@ -1,40 +1,22 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-18T14:57:46.387Z",
+  "lastChecked": "2026-03-18T17:55:50.745Z",
   "articles": [
-    {
-      "title": "Where things stand with the Department of War",
-      "url": "https://www.anthropic.com/news/where-stand-department-war",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-where-things-stand-with-the-department-of-war",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Statement on the comments from Secretary of War Pete Hegseth",
-      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-statement-on-the-comments-from-secretary-of-war-pe",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Statement from Dario Amodei on our discussions with the Department of War",
-      "url": "https://www.anthropic.com/news/statement-department-of-war",
-      "publishedDate": "2026-02-26",
-      "source": "news",
-      "slug": "20260226-statement-from-dario-amodei-on-our-discussions-wit",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "Introducing Claude Sonnet 4.6",
       "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
       "publishedDate": "2026-02-17",
       "source": "news",
       "slug": "20260217-introducing-claude-sonnet-4-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "publishedDate": "2026-02-05",
+      "source": "news",
+      "slug": "20260205-introducing-claude-opus-4-6",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,6 +62,33 @@
       "publishedDate": "2026-03-06",
       "source": "news",
       "slug": "20260306-partnering-with-mozilla-to-improve-firefox-s-secur",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Where things stand with the Department of War",
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-where-things-stand-with-the-department-of-war",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Statement on the comments from Secretary of War Pete Hegseth",
+      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-statement-on-the-comments-from-secretary-of-war-pe",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Statement from Dario Amodei on our discussions with the Department of War",
+      "url": "https://www.anthropic.com/news/statement-department-of-war",
+      "publishedDate": "2026-02-26",
+      "source": "news",
+      "slug": "20260226-statement-from-dario-amodei-on-our-discussions-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
