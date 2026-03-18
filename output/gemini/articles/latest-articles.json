@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-18T14:21:47.318Z",
+  "lastChecked": "2026-03-18T17:01:06.340Z",
   "articles": [
+    {
+      "title": "Gemini API tooling updates: context circulation, tool combos and Maps grounding for Gemini 3",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
+      "publishedDate": "2026-03-17",
+      "source": "news",
+      "slug": "20260317-gemini-api-tooling-updates-context-circulation-too",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Bringing the power of Personal Intelligence to more people",
       "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-take-a-look-at-these-incredible-photos-from-lunar-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
-      "publishedDate": "2026-02-12",
-      "source": "news",
-      "slug": "20260212-gemini-3-deep-think-advancing-science-research-and",
       "language": "en",
       "summaryLanguage": "ja"
     }
