@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-19T05:22:11.317Z",
+  "lastChecked": "2026-03-19T07:47:13.367Z",
   "articles": [
+    {
+      "title": "A more personal digital health experience for people in Europe",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-docmorris-partnership/",
+      "publishedDate": "2026-03-19",
+      "source": "news",
+      "slug": "20260319-a-more-personal-digital-health-experience-for-peop",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini API tooling updates: context circulation, tool combos and Maps grounding for Gemini 3",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-5-ways-gemini-can-help-students-work-smarter",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Take a look at these incredible photos from Lunar New Year celebrations.",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-camera-photo-tips-lunar-new-year/",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-take-a-look-at-these-incredible-photos-from-lunar-",
       "language": "en",
       "summaryLanguage": "ja"
     }
