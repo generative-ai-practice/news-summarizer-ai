@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-03-22T01:46:59.722Z",
+  "lastChecked": "2026-03-22T04:48:23.390Z",
   "articles": [
     {
       "title": "How we monitor internal coding agents for misalignment",
