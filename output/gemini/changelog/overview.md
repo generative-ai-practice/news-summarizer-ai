@@ -5,6 +5,14 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 23, 2026
+
+- Rolled out [Prepay and Postpay billing plans](https://ai.google.dev/gemini-api/docs/billing) in AI Studio. Existing accounts may be affected; read the [Billing](https://ai.google.dev/gemini-api/docs/billing) documentation for more information.
+
+## March 19, 2026
+
+- Updated OpenAI compatibility feature to support `gemini-3-pro-image-preview` and the `/v1/videos` endpoint with our `veo-3.1-generate-preview` model.
+
 ## March 18, 2026
 
 - Released the new [Built-in Tools and Function Calling Combination](https://ai.google.dev/gemini-api/docs/tool-combination) feature, making it possible to use Gemini's built-in tools alongside custom function calling tools in a single API call.

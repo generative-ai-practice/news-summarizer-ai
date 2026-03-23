@@ -1,0 +1,1 @@
+- Rolled out [Prepay and Postpay billing plans](https://ai.google.dev/gemini-api/docs/billing) in AI Studio. Existing accounts may be affected; read the [Billing](https://ai.google.dev/gemini-api/docs/billing) documentation for more information.
