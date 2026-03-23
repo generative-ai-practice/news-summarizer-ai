@@ -1,0 +1,1 @@
+- Updated OpenAI compatibility feature to support `gemini-3-pro-image-preview` and the `/v1/videos` endpoint with our `veo-3.1-generate-preview` model.
