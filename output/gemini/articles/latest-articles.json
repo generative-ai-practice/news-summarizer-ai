@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-24T14:19:10.488Z",
+  "lastChecked": "2026-03-24T17:00:15.691Z",
   "articles": [
+    {
+      "title": "3 new Gemini features are coming to Google TV",
+      "url": "https://blog.google/products-and-platforms/platforms/google-tv/new-gemini-features-march-2026/",
+      "publishedDate": "2026-03-24",
+      "source": "news",
+      "slug": "20260324-3-new-gemini-features-are-coming-to-google-tv",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "A more personal digital health experience for people in Europe",
       "url": "https://blog.google/innovation-and-ai/technology/health/google-docmorris-partnership/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-18",
       "source": "news",
       "slug": "20260218-a-new-way-to-express-yourself-gemini-can-now-creat",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "5 ways Gemini can help students work smarter",
-      "url": "https://blog.google/products-and-platforms/products/education/gemini-features-for-students/",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-5-ways-gemini-can-help-students-work-smarter",
       "language": "en",
       "summaryLanguage": "ja"
     }
