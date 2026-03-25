@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## March 25, 2026
+
+- Launched [Lyria 3](https://ai.google.dev/gemini-api/docs/music-generation) music generation models: [`lyria-3-clip-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/lyria-3-clip-preview) (30-second clips) and [`lyria-3-pro-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/lyria-3-pro-preview) (full-length songs). Both models accept text and image inputs and generate high-quality, 48kHz stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation) guide for details and code samples.
+
 ## March 23, 2026
 
 - Rolled out [Prepay and Postpay billing plans](https://ai.google.dev/gemini-api/docs/billing) in AI Studio. Existing accounts may be affected; read the [Billing](https://ai.google.dev/gemini-api/docs/billing) documentation for more information.
