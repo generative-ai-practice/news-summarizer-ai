@@ -5,17 +5,9 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
-## March 25, 2026
+## March 26, 2026
 
-- Launched [Lyria 3](https://ai.google.dev/gemini-api/docs/music-generation) music generation models: [`lyria-3-clip-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/lyria-3-clip-preview) (30-second clips) and [`lyria-3-pro-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/lyria-3-pro-preview) (full-length songs). Both models accept text and image inputs and generate high-quality, 48kHz stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation) guide for details and code samples.
-
-## March 23, 2026
-
-- Rolled out [Prepay and Postpay billing plans](https://ai.google.dev/gemini-api/docs/billing) in AI Studio. Existing accounts may be affected; read the [Billing](https://ai.google.dev/gemini-api/docs/billing) documentation for more information.
-
-## March 19, 2026
-
-- Updated OpenAI compatibility feature to support `gemini-3-pro-image-preview` and the `/v1/videos` endpoint with our `veo-3.1-generate-preview` model.
+- Released [`gemini-3.1-flash-live-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview), the latest audio-to-audio (A2A) model designed for real-time dialogue and voice-first AI applications. Read the [Live API](https://ai.google.dev/gemini-api/docs/live-api) docs to get started.
 
 ## March 18, 2026
 
