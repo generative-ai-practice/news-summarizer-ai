@@ -1,7 +1,52 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-03-25T14:18:04.197Z",
+  "lastChecked": "2026-03-28T05:21:53.084Z",
   "articles": [
+    {
+      "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+      "publishedDate": "2026-03-27",
+      "source": "news",
+      "slug": "20260327-find-out-what-s-new-in-the-gemini-app-in-march-s-g",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "We’re partnering with multiple national teams ahead of soccer’s biggest global showdown.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/soccer-nationalteam-partnerships/",
+      "publishedDate": "2026-03-26",
+      "source": "news",
+      "slug": "20260326-we-re-partnering-with-multiple-national-teams-ahea",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Make the switch: Bring your AI memories and chat history to Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
+      "publishedDate": "2026-03-26",
+      "source": "news",
+      "slug": "20260326-make-the-switch-bring-your-ai-memories-and-chat-hi",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "publishedDate": "2026-03-26",
+      "source": "news",
+      "slug": "20260326-gemini-3-1-flash-live-making-audio-ai-more-natural",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
+      "publishedDate": "2026-03-25",
+      "source": "news",
+      "slug": "20260325-lyria-3-pro-create-longer-tracks-in-more-google-pr",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "3 new Gemini features are coming to Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/new-gemini-features-march-2026/",
@@ -134,51 +179,6 @@
       "publishedDate": "2026-02-26",
       "source": "news",
       "slug": "20260226-nano-banana-2-combining-pro-capabilities-with-ligh",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Let Gemini handle your multi-step daily tasks on Android.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/android-multi-step-tasks/",
-      "publishedDate": "2026-02-25",
-      "source": "news",
-      "slug": "20260225-let-gemini-handle-your-multi-step-daily-tasks-on-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "A more intelligent Android on Samsung Galaxy S26",
-      "url": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
-      "publishedDate": "2026-02-25",
-      "source": "news",
-      "slug": "20260225-a-more-intelligent-android-on-samsung-galaxy-s26",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "6 tips for prompting Lyria 3 in the Gemini app",
-      "url": "https://blog.google/products-and-platforms/products/gemini/tips-prompting-lyria-3/",
-      "publishedDate": "2026-02-23",
-      "source": "news",
-      "slug": "20260223-6-tips-for-prompting-lyria-3-in-the-gemini-app",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
-      "publishedDate": "2026-02-19",
-      "source": "news",
-      "slug": "20260219-gemini-3-1-pro-a-smarter-model-for-your-most-compl",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "A new way to express yourself: Gemini can now create music",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
-      "publishedDate": "2026-02-18",
-      "source": "news",
-      "slug": "20260218-a-new-way-to-express-yourself-gemini-can-now-creat",
       "language": "en",
       "summaryLanguage": "ja"
     }
