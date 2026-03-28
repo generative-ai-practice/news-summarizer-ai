@@ -1,0 +1,1 @@
+- Released [`gemini-3.1-flash-live-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview), the latest audio-to-audio (A2A) model designed for real-time dialogue and voice-first AI applications. Read the [Live API](https://ai.google.dev/gemini-api/docs/live-api) docs to get started.
