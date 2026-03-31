@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-31T20:36:28.604Z",
+  "lastChecked": "2026-03-31T23:28:10.235Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Australian government and Anthropic sign MOU for AI safety and research",
+      "url": "https://www.anthropic.com/news/australia-MOU",
+      "publishedDate": "2026-04-01",
+      "source": "news",
+      "slug": "20260401-australian-government-and-anthropic-sign-mou-for-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-02-24",
       "source": "news",
       "slug": "20260224-anthropic-s-responsible-scaling-policy-version-3-0",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Detecting and preventing distillation attacks",
-      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-      "publishedDate": "2026-02-23",
-      "source": "news",
-      "slug": "20260223-detecting-and-preventing-distillation-attacks",
       "language": "en",
       "summaryLanguage": "ja"
     }
