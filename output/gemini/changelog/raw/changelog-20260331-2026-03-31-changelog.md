@@ -1,0 +1,5 @@
+- Launched Veo 3.1 Lite Preview, [`veo-3.1-lite-generate-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/veo-3.1-lite-generate-preview), our most
+- cost-efficient [video generation](https://ai.google.dev/gemini-api/docs/video) model, designed
+- for rapid iteration and building high-volume applications.
+- The `gemini-2.5-flash-lite-preview-09-2025` model has been shut down. Use
+- [`gemini-3.1-flash-lite-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview) instead.
