@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-03-31T23:28:10.235Z",
+  "lastChecked": "2026-04-01T04:43:13.733Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -32,9 +32,9 @@
     {
       "title": "Australian government and Anthropic sign MOU for AI safety and research",
       "url": "https://www.anthropic.com/news/australia-MOU",
-      "publishedDate": "2026-04-01",
+      "publishedDate": "2026-03-31",
       "source": "news",
-      "slug": "20260401-australian-government-and-anthropic-sign-mou-for-a",
+      "slug": "20260331-australian-government-and-anthropic-sign-mou-for-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
