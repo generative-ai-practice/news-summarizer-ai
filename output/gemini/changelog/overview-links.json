@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-04-01T16:55:57.508Z",
+  "fetchedAt": "2026-04-01T22:37:57.837Z",
   "links": [
+    {
+      "title": "2026-04-01 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-04-01",
+      "publishedDate": "2026-04-01",
+      "source": "changelog",
+      "slug": "20260401-2026-04-01-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-03-31 changelog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-03-31",
@@ -25,6 +34,15 @@
       "publishedDate": "2026-03-25",
       "source": "changelog",
       "slug": "20260325-2026-03-25-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-03-23 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-03-23",
+      "publishedDate": "2026-03-23",
+      "source": "changelog",
+      "slug": "20260323-2026-03-23-changelog",
       "language": "en",
       "summaryLanguage": "ja"
     },
