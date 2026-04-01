@@ -1,0 +1,1 @@
+- Introduced the new [Flex](https://ai.google.dev/gemini-api/docs/flex-inference) and [Priority](https://ai.google.dev/gemini-api/docs/priority-inference) inference tiers, offering more options for optimizing for costs or latency.

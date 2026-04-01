@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## April 1, 2026
+
+- Introduced the new [Flex](https://ai.google.dev/gemini-api/docs/flex-inference) and [Priority](https://ai.google.dev/gemini-api/docs/priority-inference) inference tiers, offering more options for optimizing for costs or latency.
+
 ## March 31, 2026
 
 - Launched Veo 3.1 Lite Preview, [`veo-3.1-lite-generate-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/veo-3.1-lite-generate-preview), our most
@@ -20,7 +24,11 @@ This page documents updates to the Gemini API.
 
 ## March 25, 2026
 
-- Launched [Lyria 3](https://ai.google.dev/gemini-api/docs/music-generation) music generation models: [`lyria-3-clip-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/lyria-3-clip-preview) (30-second clips) and [`lyria-3-pro-preview`](https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview) (full-length songs). Both models accept text and image inputs and generate high-quality, 48kHz stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation) guide for details and code samples.
+- Launched [Lyria 3](https://ai.google.dev/gemini-api/docs/music-generation) music generation models: [`lyria-3-clip-preview`](https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview) (30-second clips) and [`lyria-3-pro-preview`](https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview) (full-length songs). Both models accept text and image inputs and generate high-quality, 48kHz stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation) guide for details and code samples.
+
+## March 23, 2026
+
+- Rolled out [Prepay and Postpay billing plans](https://ai.google.dev/gemini-api/docs/billing) in AI Studio. Existing accounts may be affected; read the [Billing](https://ai.google.dev/gemini-api/docs/billing) documentation for more information.
 
 ## March 18, 2026
 
