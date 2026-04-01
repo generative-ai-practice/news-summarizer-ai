@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-01T10:56:56.466Z",
+  "lastChecked": "2026-04-01T14:28:24.598Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in March 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "publishedDate": "2026-04-01",
+      "source": "news",
+      "slug": "20260401-the-latest-ai-news-we-announced-in-march-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-26",
       "source": "news",
       "slug": "20260226-build-with-nano-banana-2-our-best-image-generation",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
-      "publishedDate": "2026-02-26",
-      "source": "news",
-      "slug": "20260226-nano-banana-2-combining-pro-capabilities-with-ligh",
       "language": "en",
       "summaryLanguage": "ja"
     }
