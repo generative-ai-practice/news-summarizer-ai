@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-02T14:21:43.321Z",
+  "lastChecked": "2026-04-02T16:56:50.560Z",
   "articles": [
+    {
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "publishedDate": "2026-04-02",
+      "source": "news",
+      "slug": "20260402-gemma-4-byte-for-byte-the-most-capable-open-models",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in March 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-26",
       "source": "news",
       "slug": "20260226-3-google-ai-tools-that-helped-me-get-my-new-job",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Build with Nano Banana 2, our best image generation and editing model",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
-      "publishedDate": "2026-02-26",
-      "source": "news",
-      "slug": "20260226-build-with-nano-banana-2-our-best-image-generation",
       "language": "en",
       "summaryLanguage": "ja"
     }
