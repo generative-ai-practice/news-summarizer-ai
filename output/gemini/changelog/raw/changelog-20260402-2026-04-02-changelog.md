@@ -1,0 +1,1 @@
+- Released `gemma-4-26b-a4b-it` and `gemma-4-31b-it`, available on [AI Studio](https://aistudio.google.com) and through the Gemini API, as part of the [Gemma 4](https://ai.google.dev/gemma/docs/core) launch.

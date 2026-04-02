@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## April 2, 2026
+
+- Released `gemma-4-26b-a4b-it` and `gemma-4-31b-it`, available on [AI Studio](https://aistudio.google.com) and through the Gemini API, as part of the [Gemma 4](https://ai.google.dev/gemma/docs/core) launch.
+
 ## April 1, 2026
 
 - Introduced the new [Flex](https://ai.google.dev/gemini-api/docs/flex-inference) and [Priority](https://ai.google.dev/gemini-api/docs/priority-inference) inference tiers, offering more options for optimizing for costs or latency.
