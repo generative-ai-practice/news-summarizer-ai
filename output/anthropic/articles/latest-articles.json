@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-06T20:31:42.535Z",
+  "lastChecked": "2026-04-06T23:29:00.913Z",
   "articles": [
     {
       "title": "Introducing Claude Sonnet 4.6",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "publishedDate": "2026-04-07",
+      "source": "news",
+      "slug": "20260407-anthropic-expands-partnership-with-google-and-broa",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-02-25",
       "source": "news",
       "slug": "20260225-anthropic-acquires-vercept-to-advance-claude-s-com",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
-      "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-      "publishedDate": "2026-02-24",
-      "source": "news",
-      "slug": "20260224-anthropic-s-responsible-scaling-policy-version-3-0",
       "language": "en",
       "summaryLanguage": "ja"
     }
