@@ -11,11 +11,11 @@ This page documents updates to the Gemini API.
 
 ## April 1, 2026
 
-- Introduced the new [Flex](https://ai.google.dev/gemini-api/docs/flex-inference) and [Priority](https://ai.google.dev/gemini-api/docs/priority-inference) inference tiers, offering more options for optimizing for costs or latency.
+- Introduced the new [Flex](https://ai.google.dev/gemini-api/docs/flex-inference) and [Priority](https://ai.google.dev/gemini-api/docs/priority-inference) inference tiers, offering more options for optimizing cost or latency.
 
 ## March 31, 2026
 
-- Launched Veo 3.1 Lite Preview, [`veo-3.1-lite-generate-preview`](https://ai.google.dev/gemini-api/docs/gemini-api/docs/models/veo-3.1-lite-generate-preview), our most
+- Launched Veo 3.1 Lite Preview, [`veo-3.1-lite-generate-preview`](https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview), our most
   cost-efficient [video generation](https://ai.google.dev/gemini-api/docs/video) model, designed
   for rapid iteration and building high-volume applications.
 
