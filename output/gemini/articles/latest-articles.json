@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-07T14:44:46.099Z",
+  "lastChecked": "2026-04-07T16:59:44.180Z",
   "articles": [
+    {
+      "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
+      "url": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
+      "publishedDate": "2026-04-07",
+      "source": "news",
+      "slug": "20260407-here-s-how-we-built-gmail-to-keep-your-data-secure",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "An update on our mental health work",
       "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-find-out-what-s-new-in-the-gemini-app-in-february-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Create personalized “Year of the Fire Horse” musical tracks with Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3-year-of-the-fire-horse/",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-create-personalized-year-of-the-fire-horse-musical",
       "language": "en",
       "summaryLanguage": "ja"
     }
