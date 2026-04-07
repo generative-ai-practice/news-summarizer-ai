@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-07T08:12:39.004Z",
+  "lastChecked": "2026-04-07T10:56:04.626Z",
   "articles": [
+    {
+      "title": "An update on our mental health work",
+      "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
+      "publishedDate": "2026-04-07",
+      "source": "news",
+      "slug": "20260407-an-update-on-our-mental-health-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemma 4: Byte for byte, the most capable open models",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-create-personalized-year-of-the-fire-horse-musical",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "3 Google AI tools that helped me get my new job",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-career-tools/",
-      "publishedDate": "2026-02-26",
-      "source": "news",
-      "slug": "20260226-3-google-ai-tools-that-helped-me-get-my-new-job",
       "language": "en",
       "summaryLanguage": "ja"
     }
