@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-04-07T13:07:04.315Z",
+  "lastChecked": "2026-04-07T18:56:00.635Z",
   "articles": [
     {
       "title": "Announcing the OpenAI Safety Fellowship",
@@ -1110,20 +1110,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
       "url": "https://openai.com/index/gpt-5-2-codex-system-card",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1254,20 +1254,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-ten-years",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How Podium is arming 10,000+ SMBs with AI agents",
       "url": "https://openai.com/index/podium",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-how-podium-is-arming-10-000-smbs-with-ai-agents",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
