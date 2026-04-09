@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-08T19:59:01.831Z",
+  "lastChecked": "2026-04-09T03:47:19.116Z",
   "articles": [
+    {
+      "title": "Try notebooks in Gemini to easily keep track of projects",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "publishedDate": "2026-04-08",
+      "source": "news",
+      "slug": "20260408-try-notebooks-in-gemini-to-easily-keep-track-of-pr",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
       "url": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-03",
       "source": "news",
       "slug": "20260303-gemini-3-1-flash-lite-built-for-intelligence-at-sc",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Find out what’s new in the Gemini app in February's Gemini Drop.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-february-2026/",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-find-out-what-s-new-in-the-gemini-app-in-february-",
       "language": "en",
       "summaryLanguage": "ja"
     }
