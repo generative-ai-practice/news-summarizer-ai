@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-09T14:54:03.087Z",
+  "lastChecked": "2026-04-09T17:08:08.731Z",
   "articles": [
+    {
+      "title": "The Gemini app can now generate interactive simulations and models.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+      "publishedDate": "2026-04-09",
+      "source": "news",
+      "slug": "20260409-the-gemini-app-can-now-generate-interactive-simula",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Try notebooks in Gemini to easily keep track of projects",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-03",
       "source": "news",
       "slug": "20260303-march-pixel-drop-new-personalization-and-ai-tools",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
-      "publishedDate": "2026-03-03",
-      "source": "news",
-      "slug": "20260303-gemini-3-1-flash-lite-built-for-intelligence-at-sc",
       "language": "en",
       "summaryLanguage": "ja"
     }

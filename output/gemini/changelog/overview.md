@@ -3,6 +3,8 @@ Title:
 URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 
 Markdown Content:
+# Release notes
+
 This page documents updates to the Gemini API.
 
 ## April 2, 2026
