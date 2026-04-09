@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-04-08T21:37:08.476Z",
+  "lastChecked": "2026-04-09T01:47:15.324Z",
   "articles": [
     {
       "title": "The next phase of enterprise AI",
@@ -1074,20 +1074,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "One in a million: celebrating the customers shaping AI’s future",
-      "url": "https://openai.com/index/one-in-a-million-customers",
-      "publishedDate": "2025-12-22",
-      "source": "news",
-      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Continuously hardening ChatGPT Atlas against prompt injection",
       "url": "https://openai.com/index/hardening-atlas-against-prompt-injection",
       "publishedDate": "2025-12-22",
       "source": "news",
       "slug": "20251222-continuously-hardening-chatgpt-atlas-against-promp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "One in a million: celebrating the customers shaping AI’s future",
+      "url": "https://openai.com/index/one-in-a-million-customers",
+      "publishedDate": "2025-12-22",
+      "source": "news",
+      "slug": "20251222-one-in-a-million-celebrating-the-customers-shaping",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1110,15 +1110,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Deepening our collaboration with the U.S. Department of Energy",
-      "url": "https://openai.com/index/us-department-of-energy-collaboration",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "AI literacy resources for teens and parents",
       "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
       "publishedDate": "2025-12-18",
@@ -1128,11 +1119,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex",
+      "title": "Deepening our collaboration with the U.S. Department of Energy",
+      "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-introducing-gpt-5-2-codex",
+      "slug": "20251218-deepening-our-collaboration-with-the-u-s-departmen",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1148,6 +1139,15 @@
     {
       "title": "Introducing GPT-5.2-Codex",
       "url": "https://openai.com/index/introducing-gpt-5-2-codex",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-introducing-gpt-5-2-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex",
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex-2",
@@ -1209,6 +1209,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "BBVA and OpenAI collaborate to transform global banking",
       "url": "https://openai.com/index/bbva-collaboration-expansion",
       "publishedDate": "2025-12-12",
@@ -1223,15 +1232,6 @@
       "publishedDate": "2025-12-12",
       "source": "news",
       "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1254,20 +1254,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Update to GPT-5 System Card: GPT-5.2",
-      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
       "url": "https://openai.com/index/disney-sora-agreement",
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1281,11 +1281,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
+      "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
