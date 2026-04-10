@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-10T08:20:53.487Z",
+  "lastChecked": "2026-04-10T14:17:15.152Z",
   "articles": [
+    {
+      "title": "6 easy ways to study for finals with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/education/gemini-finals-study-tips/",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-6-easy-ways-to-study-for-finals-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Gemini app can now generate interactive simulations and models.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-the-latest-ai-news-we-announced-in-february",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "March Pixel Drop: New personalization and AI tools",
-      "url": "https://blog.google/products-and-platforms/devices/pixel/march-2026-pixel-drop/",
-      "publishedDate": "2026-03-03",
-      "source": "news",
-      "slug": "20260303-march-pixel-drop-new-personalization-and-ai-tools",
       "language": "en",
       "summaryLanguage": "ja"
     }
