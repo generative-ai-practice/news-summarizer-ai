@@ -1,7 +1,7 @@
 ---
 title: "Our response to the Axios developer tool compromise"
 published: "2026-04-10"
-collected_at: "2026-04-12T07:07:11.504Z"
+collected_at: "2026-04-12T12:50:17.819Z"
 url: "https://openai.com/index/axios-developer-tool-compromise"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Our response to the Axios developer tool compromise
 
 ## Key Points
-- 2026年3月31日(UTC)に、広く利用されているサードパーティ開発ライブラリAxiosがソフトウェアサプライチェーン攻撃の一環として侵害されました。
-- このインシデントにより、macOSアプリ署名プロセスで使用されるGitHub Actionsワークフローが不正なAxios（バージョン1.14.1）をダウンロード・実行し、macOSアプリケーションの署名に使用される証明書にアクセスされた可能性があります。
-- OpenAIは、ユーザーデータ、システム、知的財産が侵害された証拠、またはソフトウェアが改ざんされた証拠は見つかっていないことを確認しました。パスワードやOpenAI APIキーも影響を受けていません。
-- 予防措置として、OpenAIはmacOSコード署名証明書を無効化し、新しい証明書で署名された最新バージョン（ChatGPT Desktop: 1.2026.051、Codex App: 26.406.40811、Codex CLI: 0.119.0、Atlas: 1.2026.84.2以降）への更新をすべてのmacOSユーザーに要求しています。
-- 2026年5月8日以降、古いバージョンのmacOSデスクトップアプリはアップデートやサポートを受けられなくなり、機能しなくなる可能性があります。
+- 2026年3月31日、広く報じられたサードパーティ製開発者ツール「Axios」のサプライチェーン攻撃により、OpenAIのmacOSアプリ署名プロセスにセキュリティ問題が発生しました。
+- OpenAIは予防措置としてmacOSコード署名証明書を更新し、すべてのmacOSユーザーに対し、OpenAIアプリ（ChatGPT Desktop, Codex App, Codex CLI, Atlas）の最新バージョンへの更新を推奨しています。
+- 現時点では、OpenAIユーザーデータへの不正アクセス、システムや知的財産の侵害、またはソフトウェアの改ざんの証拠は見つかっていません。
+- 2026年5月8日以降、古いバージョンのmacOSデスクトップアプリは更新やサポートを受けられなくなり、機能しなくなる可能性があります。
+- このインシデントの根本原因はGitHub Actionsワークフローの誤設定であり、OpenAIは既にこれを修正済みです。
