@@ -1,7 +1,7 @@
 ---
 title: "Using custom GPTs"
 published: "2026-04-10"
-collected_at: "2026-04-12T02:04:48.219Z"
+collected_at: "2026-04-12T05:21:38.521Z"
 url: "https://openai.com/academy/custom-gpts"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Using custom GPTs
 
 ## Key Points
-- カスタムGPTは、特定のタスクやワークフロー向けに調整されたChatGPTのバージョンで、ユーザーの指示、コンテキスト、一貫した出力を利用してワークフローを自動化します。
-- 短期的なタスクには一般的なチャットが適しているのに対し、カスタムGPTは反復的な作業の自動化、ツールや統合の追加、一貫した文脈の維持が必要な場合に適しています。
-- カスタムGPTの構築には、まず強力なユースケースを特定し、GPTビルダーで名前、説明、指示、会話スターター、知識、機能、カスタムアクションなどの詳細を設定します。
-- OpenAIチームが提供するカスタムGPTの例には、「ChatGPT Use Cases for Work」「Professional Writing Coach」「Data Analyst」「Coding Assistant」「Visual Designer」などがあります。
-- 構築後、GPTのパフォーマンスをテストするために、10〜15の質問と正しい回答を用意して評価し、必要に応じて指示や知識を調整することで、信頼性の高い出力を確保します。
+- カスタムGPTは、特定のタスクやワークフローのために構築されたChatGPTのバージョンで、一貫性のある出力や反復作業の効率化を目的としています。
+- 通常のChatGPTが単発タスクに適しているのに対し、カスタムGPTは同じプロンプトやコンテキストを繰り返し利用し、一貫性を維持する必要がある場合に特に有効です。
+- カスタムGPTは、詳細な指示に基づいて動作し、アップロードされた知識ファイルや、ウェブ検索、データ分析、外部連携などのツールを活用できます。
+- 構築プロセスには、繰り返し発生するニーズの特定、GPTビルダーでの設定（名前、説明、指示、知識、機能、カスタムアクションなど）、および性能テストが含まれます。
+- OpenAIチームによるカスタムGPTの例として、「ChatGPT Use Cases for Work」「Professional Writing Coach」「Data Analyst」「Coding Assistant」「Visual Designer」などが挙げられます。
