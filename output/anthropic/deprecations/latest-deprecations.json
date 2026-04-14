@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-14T17:59:27.636Z",
+  "lastChecked": "2026-04-14T20:45:20.280Z",
   "articles": [
+    {
+      "title": "2026-04-14 model deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md#2026-04-14",
+      "publishedDate": "2026-04-14",
+      "source": "model-deprecations",
+      "slug": "20260414-2026-04-14-model-deprecations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-02-19 model deprecations",
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md#2026-02-19",
