@@ -1,0 +1,8 @@
+- Released `gemini-robotics-er-1.6-preview`, our updated robotics model.
+- It now has new capabilities like instrument reading, improved spatial and
+- physical reasoning capabilities. To learn more, see
+- [Gemini Robotics-ER](https://ai.google.dev/gemini-api/docs/robotics-overview) page and the
+- [blog](https://deepmind.google/blog/gemini-robotics-er-1-6).
+- Deprecation announcement: The `gemini-robotics-er-1.5-preview` model
+- will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on April 30, 2026 at 9AM
+- PST.
