@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## April 15, 2026
+
+- Launched [Gemini 3.1 Flash TTS Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview), our cost-efficient, expressive, and steerable text to speech model. Read the [Text-to-Speech](https://ai.google.dev/gemini-api/docs/speech-generation) docs to learn more.
+
 ## April 14, 2026
 
 - Released `gemini-robotics-er-1.6-preview`, our updated robotics model.
