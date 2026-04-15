@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-15T14:44:57.843Z",
+  "lastChecked": "2026-04-15T17:05:06.645Z",
   "articles": [
+    {
+      "title": "The Gemini app is now on Mac",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "publishedDate": "2026-04-15",
+      "source": "news",
+      "slug": "20260415-the-gemini-app-is-now-on-mac",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "publishedDate": "2026-04-15",
+      "source": "news",
+      "slug": "20260415-gemini-3-1-flash-tts-the-next-generation-of-expres",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "6 easy ways to study for finals with Gemini",
       "url": "https://blog.google/products-and-platforms/products/education/gemini-finals-study-tips/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-03-10",
       "source": "news",
       "slug": "20260310-gemini-in-google-sheets-just-achieved-state-of-the",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "New ways to create faster with Gemini in Docs, Sheets, Slides and Drive",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/",
-      "publishedDate": "2026-03-10",
-      "source": "news",
-      "slug": "20260310-new-ways-to-create-faster-with-gemini-in-docs-shee",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in February",
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-the-latest-ai-news-we-announced-in-february",
       "language": "en",
       "summaryLanguage": "ja"
     }
