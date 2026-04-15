@@ -1,0 +1,4 @@
+- Updated the[Agents SDK](https://platform.openai.com/api/docs/guides/agents)with new capabilities, including:
+- running agents in controlled sandboxes;
+- inspecting and customizing the open-source harness; and
+- controlling when memories are created and where they're stored.
