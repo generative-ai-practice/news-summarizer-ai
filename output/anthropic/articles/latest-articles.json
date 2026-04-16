@@ -1,22 +1,22 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-16T11:55:22.738Z",
+  "lastChecked": "2026-04-16T15:21:12.613Z",
   "articles": [
+    {
+      "title": "Introducing Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "publishedDate": "2026-04-16",
+      "source": "news",
+      "slug": "20260416-introducing-claude-opus-4-7",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Claude Sonnet 4.6",
       "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
       "publishedDate": "2026-02-17",
       "source": "news",
       "slug": "20260217-introducing-claude-sonnet-4-6",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Claude Opus 4.6",
-      "url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "publishedDate": "2026-02-05",
-      "source": "news",
-      "slug": "20260205-introducing-claude-opus-4-6",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +107,6 @@
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-statement-on-the-comments-from-secretary-of-war-pe",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Statement from Dario Amodei on our discussions with the Department of War",
-      "url": "https://www.anthropic.com/news/statement-department-of-war",
-      "publishedDate": "2026-02-26",
-      "source": "news",
-      "slug": "20260226-statement-from-dario-amodei-on-our-discussions-wit",
       "language": "en",
       "summaryLanguage": "ja"
     }
