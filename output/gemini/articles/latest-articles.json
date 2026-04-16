@@ -1,6 +1,6 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-16T17:15:13.187Z",
+  "lastChecked": "2026-04-16T19:59:34.516Z",
   "articles": [
     {
       "title": "New ways to create personalized images in the Gemini app",
@@ -44,6 +44,15 @@
       "publishedDate": "2026-04-09",
       "source": "news",
       "slug": "20260409-the-gemini-app-can-now-generate-interactive-simula",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "6 ways Gemini can help you find your next home",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-home-buying-renting-tips/",
+      "publishedDate": "2026-04-09",
+      "source": "news",
+      "slug": "20260409-6-ways-gemini-can-help-you-find-your-next-home",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-17",
       "source": "news",
       "slug": "20260317-bringing-the-power-of-personal-intelligence-to-mor",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Expanding Chrome’s AI experiences to India, New Zealand and Canada",
-      "url": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/",
-      "publishedDate": "2026-03-11",
-      "source": "news",
-      "slug": "20260311-expanding-chrome-s-ai-experiences-to-india-new-zea",
       "language": "en",
       "summaryLanguage": "ja"
     }
