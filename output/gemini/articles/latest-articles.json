@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-16T14:55:40.922Z",
+  "lastChecked": "2026-04-16T17:15:13.187Z",
   "articles": [
+    {
+      "title": "New ways to create personalized images in the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+      "publishedDate": "2026-04-16",
+      "source": "news",
+      "slug": "20260416-new-ways-to-create-personalized-images-in-the-gemi",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Gemini app is now on Mac",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-11",
       "source": "news",
       "slug": "20260311-expanding-chrome-s-ai-experiences-to-india-new-zea",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
-      "publishedDate": "2026-03-10",
-      "source": "news",
-      "slug": "20260310-gemini-in-google-sheets-just-achieved-state-of-the",
       "language": "en",
       "summaryLanguage": "ja"
     }
