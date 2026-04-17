@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-17T14:49:29.175Z",
+  "lastChecked": "2026-04-17T17:43:00.929Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -12,11 +12,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Claude Sonnet 4.6",
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-      "publishedDate": "2026-02-17",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "publishedDate": "2026-04-17",
       "source": "news",
-      "slug": "20260217-introducing-claude-sonnet-4-6",
+      "slug": "20260417-introducing-claude-design-by-anthropic-labs",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +98,6 @@
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-where-things-stand-with-the-department-of-war",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Statement on the comments from Secretary of War Pete Hegseth",
-      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-statement-on-the-comments-from-secretary-of-war-pe",
       "language": "en",
       "summaryLanguage": "ja"
     }
