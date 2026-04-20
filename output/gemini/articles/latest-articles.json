@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-20T19:59:07.535Z",
+  "lastChecked": "2026-04-20T22:42:57.334Z",
   "articles": [
+    {
+      "title": "Start vibe coding in AI Studio with your Google AI subscription.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
+      "publishedDate": "2026-04-20",
+      "source": "news",
+      "slug": "20260420-start-vibe-coding-in-ai-studio-with-your-google-ai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "New ways to create personalized images in the Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-17",
       "source": "news",
       "slug": "20260317-gemini-api-tooling-updates-context-circulation-too",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Bringing the power of Personal Intelligence to more people",
-      "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
-      "publishedDate": "2026-03-17",
-      "source": "news",
-      "slug": "20260317-bringing-the-power-of-personal-intelligence-to-mor",
       "language": "en",
       "summaryLanguage": "ja"
     }
