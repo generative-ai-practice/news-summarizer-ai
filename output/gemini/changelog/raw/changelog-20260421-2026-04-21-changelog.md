@@ -1,0 +1,5 @@
+- Released new versions of the [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)
+- agent with collaborative planning, visualization support, MCP server
+- integration, and File Search:
+- [`deep-research-preview-04-2026`](https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026): Designed for speed and efficiency, ideal to be streamed back to a client UI.
+- [`deep-research-max-preview-04-2026`](https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026): Maximum comprehensiveness for automated context gathering and synthesis.

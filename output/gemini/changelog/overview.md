@@ -3,9 +3,16 @@ Title:
 URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 
 Markdown Content:
-# Release notes
-
 This page documents updates to the Gemini API.
+
+## April 21, 2026
+
+- Released new versions of the [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)
+  agent with collaborative planning, visualization support, MCP server
+  integration, and File Search:
+
+  - [`deep-research-preview-04-2026`](https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026): Designed for speed and efficiency, ideal to be streamed back to a client UI.
+  - [`deep-research-max-preview-04-2026`](https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026): Maximum comprehensiveness for automated context gathering and synthesis.
 
 ## April 15, 2026
 
