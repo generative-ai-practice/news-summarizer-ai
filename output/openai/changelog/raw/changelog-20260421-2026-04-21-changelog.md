@@ -1,0 +1,1 @@
+- Released[GPT Image 2](https://platform.openai.com/api/docs/models/gpt-image-2), a state-of-the-art image generation model for image generation and editing. GPT Image 2 supports flexible image sizes, high-fidelity image inputs, token-based image pricing, and Batch API support with a 50% discount.
