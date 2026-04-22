@@ -1,0 +1,2 @@
+- To improve reliability and make it easier for developers to choose the right models, we are deprecating a set of older OpenAI models. Access to these models will be shut down on the dates below.
+- We are also removing fine-tuned versions of models being deprecated above.
