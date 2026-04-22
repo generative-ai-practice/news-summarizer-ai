@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## April 22, 2026
+
+- Released `gemini-embedding-2` as generally available (GA). To learn more, see the [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings) page.
+
 ## April 21, 2026
 
 - Released new versions of the [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research)
