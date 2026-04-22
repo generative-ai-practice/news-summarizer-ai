@@ -1,0 +1,1 @@
+- Released `gemini-embedding-2` as generally available (GA). To learn more, see the [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings) page.
