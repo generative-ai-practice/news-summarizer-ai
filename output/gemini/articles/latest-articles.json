@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-22T14:46:08.622Z",
+  "lastChecked": "2026-04-22T17:02:19.917Z",
   "articles": [
+    {
+      "title": "Gemini Embedding 2 is now generally available.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
+      "publishedDate": "2026-04-22",
+      "source": "news",
+      "slug": "20260422-gemini-embedding-2-is-now-generally-available",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
       "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-25",
       "source": "news",
       "slug": "20260325-lyria-3-pro-create-longer-tracks-in-more-google-pr",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "3 new Gemini features are coming to Google TV",
-      "url": "https://blog.google/products-and-platforms/platforms/google-tv/new-gemini-features-march-2026/",
-      "publishedDate": "2026-03-24",
-      "source": "news",
-      "slug": "20260324-3-new-gemini-features-are-coming-to-google-tv",
       "language": "en",
       "summaryLanguage": "ja"
     }
