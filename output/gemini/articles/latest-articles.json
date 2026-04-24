@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-24T16:57:44.290Z",
+  "lastChecked": "2026-04-24T19:52:21.880Z",
   "articles": [
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "publishedDate": "2026-04-24",
+      "source": "news",
+      "slug": "20260424-8-gemini-tips-for-organizing-your-space-and-life",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-26",
       "source": "news",
       "slug": "20260326-make-the-switch-bring-your-ai-memories-and-chat-hi",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
-      "publishedDate": "2026-03-26",
-      "source": "news",
-      "slug": "20260326-gemini-3-1-flash-live-making-audio-ai-more-natural",
       "language": "en",
       "summaryLanguage": "ja"
     }
