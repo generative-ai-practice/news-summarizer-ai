@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-23T23:38:30.416Z",
+  "lastChecked": "2026-04-24T04:50:18.724Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "publishedDate": "2026-04-24",
+      "source": "news",
+      "slug": "20260424-anthropic-and-nec-collaborate-to-build-japan-s-lar",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-03-06",
       "source": "news",
       "slug": "20260306-partnering-with-mozilla-to-improve-firefox-s-secur",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Where things stand with the Department of War",
-      "url": "https://www.anthropic.com/news/where-stand-department-war",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-where-things-stand-with-the-department-of-war",
       "language": "en",
       "summaryLanguage": "ja"
     }
