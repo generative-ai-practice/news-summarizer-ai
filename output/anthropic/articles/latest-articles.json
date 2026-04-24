@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-24T11:53:48.912Z",
+  "lastChecked": "2026-04-24T15:02:38.895Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "An update on our election safeguards",
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "publishedDate": "2026-04-24",
+      "source": "news",
+      "slug": "20260424-an-update-on-our-election-safeguards",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-03-10",
       "source": "news",
       "slug": "20260310-sydney-will-become-anthropic-s-fourth-office-in-as",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Partnering with Mozilla to improve Firefox’s security",
-      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-      "publishedDate": "2026-03-06",
-      "source": "news",
-      "slug": "20260306-partnering-with-mozilla-to-improve-firefox-s-secur",
       "language": "en",
       "summaryLanguage": "ja"
     }
