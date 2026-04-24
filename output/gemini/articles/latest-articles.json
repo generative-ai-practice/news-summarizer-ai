@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-24T14:44:38.254Z",
+  "lastChecked": "2026-04-24T16:57:44.290Z",
   "articles": [
+    {
+      "title": "Find out what’s new in the Gemini app in April's Gemini Drop.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
+      "publishedDate": "2026-04-24",
+      "source": "news",
+      "slug": "20260424-find-out-what-s-new-in-the-gemini-app-in-april-s-g",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini Embedding 2 is now generally available.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-26",
       "source": "news",
       "slug": "20260326-gemini-3-1-flash-live-making-audio-ai-more-natural",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
-      "publishedDate": "2026-03-25",
-      "source": "news",
-      "slug": "20260325-lyria-3-pro-create-longer-tracks-in-more-google-pr",
       "language": "en",
       "summaryLanguage": "ja"
     }
