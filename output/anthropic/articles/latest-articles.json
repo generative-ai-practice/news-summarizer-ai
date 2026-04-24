@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-24T15:02:38.895Z",
+  "lastChecked": "2026-04-24T17:44:13.581Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -48,6 +48,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "publishedDate": "2026-04-21",
+      "source": "news",
+      "slug": "20260421-anthropic-and-amazon-expand-collaboration-for-up-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
       "url": "https://www.anthropic.com/news/narasimhan-board",
       "publishedDate": "2026-04-14",
@@ -89,15 +98,6 @@
       "publishedDate": "2026-03-11",
       "source": "news",
       "slug": "20260311-introducing-the-anthropic-institute",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
-      "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-      "publishedDate": "2026-03-10",
-      "source": "news",
-      "slug": "20260310-sydney-will-become-anthropic-s-fourth-office-in-as",
       "language": "en",
       "summaryLanguage": "ja"
     }
