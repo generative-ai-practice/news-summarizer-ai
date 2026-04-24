@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-24T17:44:13.581Z",
+  "lastChecked": "2026-04-24T20:39:04.565Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -50,9 +50,9 @@
     {
       "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
       "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "publishedDate": "2026-04-21",
+      "publishedDate": "2026-04-20",
       "source": "news",
-      "slug": "20260421-anthropic-and-amazon-expand-collaboration-for-up-t",
+      "slug": "20260420-anthropic-and-amazon-expand-collaboration-for-up-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
