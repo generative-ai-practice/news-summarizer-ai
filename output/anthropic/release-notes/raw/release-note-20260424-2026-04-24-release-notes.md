@@ -1,0 +1,1 @@
+- We've released the [Rate Limits API](https://platform.claude.com/docs/en/build-with-claude/rate-limits-api), allowing administrators to programmatically query the rate limits configured for their organization and workspaces.
