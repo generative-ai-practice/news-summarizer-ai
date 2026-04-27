@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-27T11:43:39.461Z",
+  "lastChecked": "2026-04-27T15:07:31.211Z",
   "articles": [
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "publishedDate": "2026-04-27",
+      "source": "news",
+      "slug": "20260427-join-the-new-ai-agents-vibe-coding-course-from-goo",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-26",
       "source": "news",
       "slug": "20260326-we-re-partnering-with-multiple-national-teams-ahea",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Make the switch: Bring your AI memories and chat history to Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app/",
-      "publishedDate": "2026-03-26",
-      "source": "news",
-      "slug": "20260326-make-the-switch-bring-your-ai-memories-and-chat-hi",
       "language": "en",
       "summaryLanguage": "ja"
     }
