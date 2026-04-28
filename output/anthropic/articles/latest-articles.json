@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-27T23:44:58.301Z",
+  "lastChecked": "2026-04-28T05:25:07.441Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
       "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-      "publishedDate": "2026-04-28",
+      "publishedDate": "2026-04-27",
       "source": "news",
-      "slug": "20260428-anthropic-names-theo-hourmouzis-general-manager-of",
+      "slug": "20260427-anthropic-names-theo-hourmouzis-general-manager-of",
       "language": "en",
       "summaryLanguage": "ja"
     },
