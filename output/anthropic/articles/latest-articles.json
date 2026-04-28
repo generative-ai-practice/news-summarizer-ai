@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-04-28T12:21:22.304Z",
+  "lastChecked": "2026-04-28T16:07:52.095Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "publishedDate": "2026-04-28",
+      "source": "news",
+      "slug": "20260428-claude-for-creative-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-03-31",
       "source": "news",
       "slug": "20260331-australian-government-and-anthropic-sign-mou-for-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic invests $100 million into the Claude Partner Network",
-      "url": "https://www.anthropic.com/news/claude-partner-network",
-      "publishedDate": "2026-03-12",
-      "source": "news",
-      "slug": "20260312-anthropic-invests-100-million-into-the-claude-part",
       "language": "en",
       "summaryLanguage": "ja"
     }
