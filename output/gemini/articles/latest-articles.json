@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-29T11:27:46.259Z",
+  "lastChecked": "2026-04-29T15:13:32.834Z",
   "articles": [
+    {
+      "title": "Enjoy new ways to create, search and stream on Google TV",
+      "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
+      "publishedDate": "2026-04-29",
+      "source": "news",
+      "slug": "20260429-enjoy-new-ways-to-create-search-and-stream-on-goog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-03-27",
       "source": "news",
       "slug": "20260327-find-out-what-s-new-in-the-gemini-app-in-march-s-g",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "We’re partnering with multiple national teams ahead of soccer’s biggest global showdown.",
-      "url": "https://blog.google/company-news/inside-google/company-announcements/soccer-nationalteam-partnerships/",
-      "publishedDate": "2026-03-26",
-      "source": "news",
-      "slug": "20260326-we-re-partnering-with-multiple-national-teams-ahea",
       "language": "en",
       "summaryLanguage": "ja"
     }
