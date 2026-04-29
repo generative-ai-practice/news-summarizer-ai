@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-04-29T15:13:32.834Z",
+  "lastChecked": "2026-04-29T17:39:53.278Z",
   "articles": [
+    {
+      "title": "You can now easily generate files in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
+      "publishedDate": "2026-04-29",
+      "source": "news",
+      "slug": "20260429-you-can-now-easily-generate-files-in-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Enjoy new ways to create, search and stream on Google TV",
       "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-01",
       "source": "news",
       "slug": "20260401-the-latest-ai-news-we-announced-in-march-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
-      "publishedDate": "2026-03-27",
-      "source": "news",
-      "slug": "20260327-find-out-what-s-new-in-the-gemini-app-in-march-s-g",
       "language": "en",
       "summaryLanguage": "ja"
     }
