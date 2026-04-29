@@ -1,22 +1,22 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-04-29T02:27:23.032Z",
+  "lastChecked": "2026-04-29T05:48:57.279Z",
   "articles": [
-    {
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "publishedDate": "2026-04-28",
-      "source": "news",
-      "slug": "20260428-our-commitment-to-community-safety",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "OpenAI models, Codex, and Managed Agents come to AWS",
       "url": "https://openai.com/index/openai-on-aws",
       "publishedDate": "2026-04-28",
       "source": "news",
       "slug": "20260428-openai-models-codex-and-managed-agents-come-to-aws",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "publishedDate": "2026-04-28",
+      "source": "news",
+      "slug": "20260428-our-commitment-to-community-safety",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -84,6 +84,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-what-is-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "How to get started with Codex",
       "url": "https://openai.com/academy/codex-how-to-start",
       "publishedDate": "2026-04-23",
@@ -138,15 +147,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "What is Codex?",
-      "url": "https://openai.com/academy/what-is-codex",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-what-is-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "GPT-5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
       "publishedDate": "2026-04-23",
@@ -174,20 +174,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "publishedDate": "2026-04-22",
-      "source": "news",
-      "slug": "20260422-speeding-up-agentic-workflows-with-websockets-in-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "publishedDate": "2026-04-22",
       "source": "news",
       "slug": "20260422-introducing-workspace-agents-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "publishedDate": "2026-04-22",
+      "source": "news",
+      "slug": "20260422-speeding-up-agentic-workflows-with-websockets-in-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -426,6 +426,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Brainstorming with ChatGPT",
+      "url": "https://openai.com/academy/brainstorming",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-brainstorming-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Analyzing data with ChatGPT",
       "url": "https://openai.com/academy/data-analysis",
       "publishedDate": "2026-04-10",
@@ -485,15 +494,6 @@
       "publishedDate": "2026-04-10",
       "source": "news",
       "slug": "20260410-writing-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Brainstorming with ChatGPT",
-      "url": "https://openai.com/academy/brainstorming",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-brainstorming-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -939,11 +939,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Scaling AI for everyone",
-      "url": "https://openai.com/index/scaling-ai-for-everyone",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
       "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260227-scaling-ai-for-everyone",
+      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -957,11 +957,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "title": "Scaling AI for everyone",
+      "url": "https://openai.com/index/scaling-ai-for-everyone",
       "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
+      "slug": "20260227-scaling-ai-for-everyone",
       "language": "en",
       "summaryLanguage": "ja"
     },
