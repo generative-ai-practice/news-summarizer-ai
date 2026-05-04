@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-05-04T19:20:50.420Z",
+  "lastChecked": "2026-05-04T21:55:28.176Z",
   "articles": [
     {
       "title": "How OpenAI delivers low-latency voice AI at scale",
