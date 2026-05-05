@@ -1,0 +1,1 @@
+- Released`chat-latest`snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging our latest-model for most API usage, but feel free to use this model to test our latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more[here](https://platform.openai.com/api/docs/models/chat-latest).
