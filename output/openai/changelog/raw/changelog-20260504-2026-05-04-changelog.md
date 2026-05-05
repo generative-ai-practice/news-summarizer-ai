@@ -1,0 +1,1 @@
+- Admin APIs are now supported in the OpenAI SDKs for Node, Python, Go, Ruby, and Java. See the[Admin APIs guide](https://platform.openai.com/api/docs/guides/admin-apis)for setup instructions and examples.
