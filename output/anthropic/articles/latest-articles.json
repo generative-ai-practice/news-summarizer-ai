@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-06T12:24:03.448Z",
+  "lastChecked": "2026-05-06T18:11:39.045Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "publishedDate": "2026-05-06",
+      "source": "news",
+      "slug": "20260506-higher-usage-limits-for-claude-and-a-compute-deal-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-04-20",
       "source": "news",
       "slug": "20260420-anthropic-and-amazon-expand-collaboration-for-up-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-      "url": "https://www.anthropic.com/news/narasimhan-board",
-      "publishedDate": "2026-04-14",
-      "source": "news",
-      "slug": "20260414-anthropic-s-long-term-benefit-trust-appoints-vas-n",
       "language": "en",
       "summaryLanguage": "ja"
     }
