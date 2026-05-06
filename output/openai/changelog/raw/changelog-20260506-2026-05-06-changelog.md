@@ -1,0 +1,1 @@
+- The updated Agents SDK is now available in TypeScript, with support for sandbox agents and an open-source harness built in. Learn more[here](https://developers.openai.com/api/docs/guides/agents).
