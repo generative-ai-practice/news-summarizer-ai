@@ -1,0 +1,1 @@
+- Updated **File Search** to support multimodal search. You can now natively embed and search through images using the `gemini-embedding-2` model. Grounding metadata now includes `media_id` for visual citations and `page_numbers` that indicate where information is found. To learn more, see the [File Search](https://ai.google.dev/gemini-api/docs/file-search) guide.

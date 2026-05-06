@@ -3,7 +3,21 @@ Title:
 URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 
 Markdown Content:
+# Release notes
+
 This page documents updates to the Gemini API.
+
+## May 5, 2026
+
+- Updated **File Search** to support multimodal search. You can now natively embed and search through images using the `gemini-embedding-2` model. Grounding metadata now includes `media_id` for visual citations and `page_numbers` that indicate where information is found. To learn more, see the [File Search](https://ai.google.dev/gemini-api/docs/file-search) guide.
+
+## May 04, 2026
+
+- Launched event-driven [Webhooks](https://ai.google.dev/gemini-api/docs/webhooks) support in the Gemini API to replace polling workflows for the Batch API and long-running operations.
+
+## April 30, 2026
+
+- The `gemini-robotics-er-1.5-preview` model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). Use [`gemini-robotics-er-1.6-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview) instead.
 
 ## April 22, 2026
 
