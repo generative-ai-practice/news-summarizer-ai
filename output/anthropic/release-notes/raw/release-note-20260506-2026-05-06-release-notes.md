@@ -1,0 +1,4 @@
+- [Multiagent sessions](https://platform.claude.com/docs/en/managed-agents/multi-agent) and [Outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes) are now in public beta under the standard `managed-agents-2026-04-01` beta header.
+- Vault credential background refresh is now supported for `mcp_oauth` credentials. See [Authenticate with vaults](https://platform.claude.com/docs/en/managed-agents/vaults).
+- Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See [Subscribe to webhooks](https://platform.claude.com/docs/en/managed-agents/webhooks).
+- Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
