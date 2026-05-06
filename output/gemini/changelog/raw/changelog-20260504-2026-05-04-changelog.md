@@ -1,0 +1,1 @@
+- Launched event-driven [Webhooks](https://ai.google.dev/gemini-api/docs/webhooks) support in the Gemini API to replace polling workflows for the Batch API and long-running operations.

@@ -1,0 +1,1 @@
+- The `gemini-robotics-er-1.5-preview` model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). Use [`gemini-robotics-er-1.6-preview`](https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview) instead.
