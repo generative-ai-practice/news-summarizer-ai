@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-05-07T13:51:53.143Z",
+  "lastChecked": "2026-05-07T16:45:28.921Z",
   "articles": [
     {
       "title": "Parloa builds service agents customers want to talk to",
@@ -12,11 +12,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "url": "https://openai.com/index/singular-bank",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-introducing-chatgpt-futures-class-of-2026",
+      "slug": "20260506-singular-bank-helps-bankers-move-fast-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -30,20 +30,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How frontier enterprises are building an AI advantage",
+      "title": "How frontier firms are pulling ahead",
       "url": "https://openai.com/index/introducing-b2b-signals",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-how-frontier-enterprises-are-building-an-ai-advant",
+      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "url": "https://openai.com/index/singular-bank",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-singular-bank-helps-bankers-move-fast-with-chatgpt",
+      "slug": "20260506-introducing-chatgpt-futures-class-of-2026",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -219,33 +219,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Codex settings",
-      "url": "https://openai.com/academy/codex-settings",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-codex-settings",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "What is Codex?",
-      "url": "https://openai.com/academy/what-is-codex",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-what-is-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Automations",
-      "url": "https://openai.com/academy/codex-automations",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-automations",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Top 10 uses for Codex at work",
       "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "publishedDate": "2026-04-23",
@@ -255,11 +228,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
       "publishedDate": "2026-04-23",
       "source": "news",
-      "slug": "20260423-plugins-and-skills",
+      "slug": "20260423-how-to-get-started-with-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-codex-settings",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -273,11 +255,29 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How to get started with Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
       "publishedDate": "2026-04-23",
       "source": "news",
-      "slug": "20260423-how-to-get-started-with-codex",
+      "slug": "20260423-plugins-and-skills",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-automations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-what-is-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -300,11 +300,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing workspace agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
       "publishedDate": "2026-04-22",
       "source": "news",
-      "slug": "20260422-introducing-workspace-agents-in-chatgpt",
+      "slug": "20260422-workspace-agents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -318,11 +318,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "publishedDate": "2026-04-22",
       "source": "news",
-      "slug": "20260422-workspace-agents",
+      "slug": "20260422-introducing-workspace-agents-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -777,20 +777,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Powering product discovery in ChatGPT",
-      "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-      "publishedDate": "2026-03-24",
-      "source": "news",
-      "slug": "20260324-powering-product-discovery-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Update on the OpenAI Foundation",
       "url": "https://openai.com/index/update-on-the-openai-foundation",
       "publishedDate": "2026-03-24",
       "source": "news",
       "slug": "20260324-update-on-the-openai-foundation",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Powering product discovery in ChatGPT",
+      "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "publishedDate": "2026-03-24",
+      "source": "news",
+      "slug": "20260324-powering-product-discovery-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
