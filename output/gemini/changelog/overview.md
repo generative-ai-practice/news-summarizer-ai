@@ -3,9 +3,11 @@ Title:
 URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 
 Markdown Content:
-# Release notes
-
 This page documents updates to the Gemini API.
+
+## May 7, 2026
+
+- **Upcoming breaking change** : The [Interactions API](https://ai.google.dev/gemini-api/docs/interactions) request and response schema (`outputs` → `steps`) and output format configuration (`response_format`) are changing. The new schema becomes the default on **May 20** and the legacy schema will be removed on **June 6** . See the [migration guide](https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026) for details.
 
 ## May 5, 2026
 
