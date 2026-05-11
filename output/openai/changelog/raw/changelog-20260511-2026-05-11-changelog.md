@@ -1,0 +1,1 @@
+- Added`return_token_budget`for the Responses API[web search tool](https://platform.openai.com/api/docs/guides/tools-web-search#run-longer-web-research). Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.
