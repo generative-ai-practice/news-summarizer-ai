@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-11T15:55:06.254Z",
+  "lastChecked": "2026-05-11T17:54:18.008Z",
   "articles": [
+    {
+      "title": "Digitize your paper notes with Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
+      "publishedDate": "2026-05-11",
+      "source": "news",
+      "slug": "20260511-digitize-your-paper-notes-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in April 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-07",
       "source": "news",
       "slug": "20260407-an-update-on-our-mental-health-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-      "publishedDate": "2026-04-02",
-      "source": "news",
-      "slug": "20260402-gemma-4-byte-for-byte-the-most-capable-open-models",
       "language": "en",
       "summaryLanguage": "ja"
     }
