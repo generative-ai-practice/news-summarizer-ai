@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-12T16:14:31.852Z",
+  "lastChecked": "2026-05-12T18:52:31.317Z",
   "articles": [
+    {
+      "title": "2026-05-12 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#may-12-2026",
+      "publishedDate": "2026-05-12",
+      "source": "release-notes",
+      "slug": "20260512-2026-05-12-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-05-11 release notes",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#may-11-2026",
