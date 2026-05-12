@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-12T15:39:37.449Z",
+  "lastChecked": "2026-05-12T17:59:26.864Z",
   "articles": [
+    {
+      "title": "The Android Show: I/O Edition 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-the-android-show-i-o-edition-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "A smarter, more proactive Android with Gemini Intelligence",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Digitize your paper notes with Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-04-08",
       "source": "news",
       "slug": "20260408-try-notebooks-in-gemini-to-easily-keep-track-of-pr",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Here’s how we built Gmail to keep your data secure and private in the Gemini era.",
-      "url": "https://blog.google/products-and-platforms/products/gmail/privacy-in-gmail-with-gemini/",
-      "publishedDate": "2026-04-07",
-      "source": "news",
-      "slug": "20260407-here-s-how-we-built-gmail-to-keep-your-data-secure",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "An update on our mental health work",
-      "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
-      "publishedDate": "2026-04-07",
-      "source": "news",
-      "slug": "20260407-an-update-on-our-mental-health-work",
       "language": "en",
       "summaryLanguage": "ja"
     }
