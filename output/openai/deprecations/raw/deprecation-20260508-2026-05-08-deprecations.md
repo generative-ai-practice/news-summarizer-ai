@@ -1,0 +1,1 @@
+- On May 8th, 2026, we notified developers using`gpt-5.2-chat-latest`and`gpt-5.3-chat-latest`model snapshots of their deprecation and removal from the API.
