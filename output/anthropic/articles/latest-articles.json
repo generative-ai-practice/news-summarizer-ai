@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-13T13:07:28.319Z",
+  "lastChecked": "2026-05-13T16:14:15.933Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Claude for Small Business",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-introducing-claude-for-small-business",
       "language": "en",
       "summaryLanguage": "ja"
     },
