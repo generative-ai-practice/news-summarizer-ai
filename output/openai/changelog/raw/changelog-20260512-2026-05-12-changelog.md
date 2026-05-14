@@ -1,0 +1,3 @@
+- Deprecated DALL·E model snapshots and the Realtime API Beta.
+- DALL·E model snapshots`dall-e-2`and`dall-e-3`were deprecated and removed from the API on May 12, 2026. We recommend using`gpt-image-2`,`gpt-image-1`, or`gpt-image-1-mini`instead.
+- The Realtime API Beta was deprecated and removed from the API on May 12, 2026. If you are still using the beta interface, migrate to the released Realtime API. See[the migration guide](https://platform.openai.com/api/docs/guides/realtime#beta-to-ga-migration)and the full[deprecations page](https://platform.openai.com/api/docs/deprecations).
