@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-14T12:22:07.468Z",
+  "lastChecked": "2026-05-14T16:06:33.387Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "publishedDate": "2026-05-14",
+      "source": "news",
+      "slug": "20260514-anthropic-forms-200-million-partnership-with-the-g",
       "language": "en",
       "summaryLanguage": "ja"
     },
