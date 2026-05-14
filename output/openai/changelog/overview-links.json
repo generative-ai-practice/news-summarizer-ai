@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-05-14T06:19:09.347Z",
+  "fetchedAt": "2026-05-14T11:10:02.590Z",
   "links": [
+    {
+      "title": "2026-05-12 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2026-05-12",
+      "publishedDate": "2026-05-12",
+      "source": "changelog",
+      "slug": "20260512-2026-05-12-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-05-11 changelog",
       "url": "https://platform.openai.com/docs/changelog#2026-05-11",
