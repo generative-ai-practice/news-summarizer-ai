@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-15T18:18:17.281Z",
+  "lastChecked": "2026-05-15T20:53:44.555Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
       "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "publishedDate": "2026-05-15",
+      "publishedDate": "2026-05-14",
       "source": "news",
-      "slug": "20260515-pwc-is-deploying-claude-to-build-technology-execut",
+      "slug": "20260514-pwc-is-deploying-claude-to-build-technology-execut",
       "language": "en",
       "summaryLanguage": "ja"
     },
