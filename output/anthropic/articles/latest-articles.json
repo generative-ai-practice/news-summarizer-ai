@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-18T18:27:28.147Z",
+  "lastChecked": "2026-05-18T21:04:26.044Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic acquires Stainless",
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "publishedDate": "2026-05-15",
+      "publishedDate": "2026-05-18",
       "source": "news",
-      "slug": "20260515-anthropic-acquires-stainless",
+      "slug": "20260518-anthropic-acquires-stainless",
       "language": "en",
       "summaryLanguage": "ja"
     },
