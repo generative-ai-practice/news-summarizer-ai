@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-18T16:43:50.813Z",
+  "lastChecked": "2026-05-18T18:27:28.147Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "publishedDate": "2026-05-15",
+      "source": "news",
+      "slug": "20260515-anthropic-acquires-stainless",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-04-24",
       "source": "news",
       "slug": "20260424-an-update-on-our-election-safeguards",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-      "url": "https://www.anthropic.com/news/anthropic-nec",
-      "publishedDate": "2026-04-24",
-      "source": "news",
-      "slug": "20260424-anthropic-and-nec-collaborate-to-build-japan-s-lar",
       "language": "en",
       "summaryLanguage": "ja"
     }

@@ -1,0 +1,1 @@
+- The [web search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool) now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.
