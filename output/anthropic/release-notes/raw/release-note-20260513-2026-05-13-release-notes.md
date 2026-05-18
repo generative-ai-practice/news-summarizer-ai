@@ -1,0 +1,1 @@
+- We've launched [cache diagnostics](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics) in public beta. Pass `diagnostics.previous_message_id` on a Messages request and the API reports a `cache_miss_reason` explaining where the prompt cache prefix diverged from the previous turn. Include the `cache-diagnosis-2026-04-07` beta header in your requests.
