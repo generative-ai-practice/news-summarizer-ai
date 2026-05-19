@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-19T21:12:54.680Z",
+  "lastChecked": "2026-05-19T23:57:20.653Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Widening the conversation on frontier AI",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-widening-the-conversation-on-frontier-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-04-28",
       "source": "news",
       "slug": "20260428-claude-for-creative-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
-      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-      "publishedDate": "2026-04-27",
-      "source": "news",
-      "slug": "20260427-anthropic-names-theo-hourmouzis-general-manager-of",
       "language": "en",
       "summaryLanguage": "ja"
     }
