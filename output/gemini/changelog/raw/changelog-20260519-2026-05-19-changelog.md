@@ -1,0 +1,15 @@
+- Released `gemini-3.5-flash`, the generally available (GA) version of
+- [Gemini 3.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash),
+- our most intelligent model for sustained frontier performance on
+- agentic and coding tasks.
+- Launched the **Managed Agents in the Gemini API** in public preview. This enables
+- developers to build and deploy autonomous, stateful agents that run in
+- secure, isolated Google-hosted Linux sandbox environments. To learn more,
+- see the [Agents overview](https://ai.google.dev/gemini-api/docs/agents) page and the
+- [Quickstart](https://ai.google.dev/gemini-api/docs/managed-agents-quickstart).
+- Released the general-purpose **Antigravity Agent** managed agent,
+- [`antigravity-preview-05-2026`](https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026), in public preview.
+- The Antigravity agent can autonomously plan, reason, write and execute code,
+- manage files, and browse the web inside its sandbox container. See the
+- [Antigravity Agent](https://ai.google.dev/gemini-api/docs/antigravity-agent) guide for code
+- samples and specifications.

@@ -1,7 +1,79 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-19T16:20:02.647Z",
+  "lastChecked": "2026-05-19T20:45:34.606Z",
   "articles": [
+    {
+      "title": "Making it easier to understand how content was created and edited",
+      "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-making-it-easier-to-understand-how-content-was-cre",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-i-o-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Gemini Omni",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-introducing-gemini-omni",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-i-o-2026-welcome-to-the-agentic-gemini-era",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-gemini-3-5-frontier-intelligence-with-action",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-gemini-for-science-ai-experiments-and-tools-for-a-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Gemini app becomes more agentic, delivering proactive, 24/7 help",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-the-gemini-app-becomes-more-agentic-delivering-pro",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "publishedDate": "2026-05-19",
+      "source": "news",
+      "slug": "20260519-everything-new-in-our-google-ai-subscriptions-fres",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Android Show: I/O Edition 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
@@ -107,78 +179,6 @@
       "publishedDate": "2026-04-21",
       "source": "news",
       "slug": "20260421-deep-research-max-a-step-change-for-autonomous-res",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Start vibe coding in AI Studio with your Google AI subscription.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-one-ai-studio/",
-      "publishedDate": "2026-04-20",
-      "source": "news",
-      "slug": "20260420-start-vibe-coding-in-ai-studio-with-your-google-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "New ways to create personalized images in the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-      "publishedDate": "2026-04-16",
-      "source": "news",
-      "slug": "20260416-new-ways-to-create-personalized-images-in-the-gemi",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Gemini app is now on Mac",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
-      "publishedDate": "2026-04-15",
-      "source": "news",
-      "slug": "20260415-the-gemini-app-is-now-on-mac",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "publishedDate": "2026-04-15",
-      "source": "news",
-      "slug": "20260415-gemini-3-1-flash-tts-the-next-generation-of-expres",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "6 easy ways to study for finals with Gemini",
-      "url": "https://blog.google/products-and-platforms/products/education/gemini-finals-study-tips/",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-6-easy-ways-to-study-for-finals-with-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Gemini app can now generate interactive simulations and models.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
-      "publishedDate": "2026-04-09",
-      "source": "news",
-      "slug": "20260409-the-gemini-app-can-now-generate-interactive-simula",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "6 ways Gemini can help you find your next home",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-home-buying-renting-tips/",
-      "publishedDate": "2026-04-09",
-      "source": "news",
-      "slug": "20260409-6-ways-gemini-can-help-you-find-your-next-home",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Try notebooks in Gemini to easily keep track of projects",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
-      "publishedDate": "2026-04-08",
-      "source": "news",
-      "slug": "20260408-try-notebooks-in-gemini-to-easily-keep-track-of-pr",
       "language": "en",
       "summaryLanguage": "ja"
     }
