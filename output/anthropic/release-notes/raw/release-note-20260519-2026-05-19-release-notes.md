@@ -1,0 +1,4 @@
+- [MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview) is now available as a Research Preview, so you can connect to MCP servers in your private network.
+- Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See [Self-hosted sandboxes](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes).
+- With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session.
+- With Claude Managed Agents, large outputs from `agent_toolset` and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.
