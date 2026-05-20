@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-19T23:57:20.653Z",
+  "lastChecked": "2026-05-20T06:00:59.968Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "Widening the conversation on frontier AI",
       "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "publishedDate": "2026-05-20",
+      "publishedDate": "2026-05-19",
       "source": "news",
-      "slug": "20260520-widening-the-conversation-on-frontier-ai",
+      "slug": "20260519-widening-the-conversation-on-frontier-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
