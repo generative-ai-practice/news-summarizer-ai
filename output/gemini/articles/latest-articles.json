@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-20T16:25:36.961Z",
+  "lastChecked": "2026-05-20T20:58:45.889Z",
   "articles": [
+    {
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-100-things-we-announced-at-i-o-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Making it easier to understand how content was created and edited",
       "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-21",
       "source": "news",
       "slug": "20260421-make-chats-more-natural-and-efficient-with-continu",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Deep Research Max: a step change for autonomous research agents",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/",
-      "publishedDate": "2026-04-21",
-      "source": "news",
-      "slug": "20260421-deep-research-max-a-step-change-for-autonomous-res",
       "language": "en",
       "summaryLanguage": "ja"
     }
