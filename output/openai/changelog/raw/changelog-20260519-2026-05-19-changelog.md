@@ -1,0 +1,2 @@
+- Released[Secure MCP Tunnel](https://platform.openai.com/api/docs/guides/secure-mcp-tunnels)for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted`tunnel-client`without exposing those servers to the public internet.
+- Initial GA is account-led rather than self-serve.
