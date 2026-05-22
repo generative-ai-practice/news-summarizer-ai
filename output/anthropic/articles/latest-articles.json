@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-22T18:49:35.857Z",
+  "lastChecked": "2026-05-22T21:03:55.685Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Project Glasswing: An initial update",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-project-glasswing-an-initial-update",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-05-04",
       "source": "news",
       "slug": "20260504-building-a-new-enterprise-ai-services-company-with",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Claude for Creative Work",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "publishedDate": "2026-04-28",
-      "source": "news",
-      "slug": "20260428-claude-for-creative-work",
       "language": "en",
       "summaryLanguage": "ja"
     }
