@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-22T21:03:55.685Z",
+  "lastChecked": "2026-05-22T23:59:11.552Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "Project Glasswing: An initial update",
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "publishedDate": "2026-05-20",
+      "publishedDate": "2026-05-22",
       "source": "news",
-      "slug": "20260520-project-glasswing-an-initial-update",
+      "slug": "20260522-project-glasswing-an-initial-update",
       "language": "en",
       "summaryLanguage": "ja"
     },
