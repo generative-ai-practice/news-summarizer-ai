@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-25T18:22:01.824Z",
+  "lastChecked": "2026-05-25T20:59:01.620Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "publishedDate": "2026-05-26",
+      "source": "news",
+      "slug": "20260526-anthropic-co-founder-chris-olah-s-remarks-on-pope-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-05-05",
       "source": "news",
       "slug": "20260505-agents-for-financial-services",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "publishedDate": "2026-05-04",
-      "source": "news",
-      "slug": "20260504-building-a-new-enterprise-ai-services-company-with",
       "language": "en",
       "summaryLanguage": "ja"
     }
