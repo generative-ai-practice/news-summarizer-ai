@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-26T21:37:56.995Z",
+  "lastChecked": "2026-05-26T23:58:41.961Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
+      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "publishedDate": "2026-05-27",
+      "source": "news",
+      "slug": "20260527-anthropic-appoints-kiyoung-choi-as-representative-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-05-06",
       "source": "news",
       "slug": "20260506-higher-usage-limits-for-claude-and-a-compute-deal-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Agents for financial services",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "publishedDate": "2026-05-05",
-      "source": "news",
-      "slug": "20260505-agents-for-financial-services",
       "language": "en",
       "summaryLanguage": "ja"
     }
