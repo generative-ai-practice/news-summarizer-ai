@@ -1,0 +1,1 @@
+- Released[workload identity federation](https://platform.openai.com/api/docs/guides/workload-identity-federation). Trusted workloads can exchange externally issued identity tokens for short-lived OpenAI access tokens without storing long-lived API keys.
