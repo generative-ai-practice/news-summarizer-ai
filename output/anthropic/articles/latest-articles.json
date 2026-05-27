@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-26T23:58:41.961Z",
+  "lastChecked": "2026-05-27T06:13:30.268Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.7",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
       "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "publishedDate": "2026-05-27",
+      "publishedDate": "2026-05-26",
       "source": "news",
-      "slug": "20260527-anthropic-appoints-kiyoung-choi-as-representative-",
+      "slug": "20260526-anthropic-appoints-kiyoung-choi-as-representative-",
       "language": "en",
       "summaryLanguage": "ja"
     },
