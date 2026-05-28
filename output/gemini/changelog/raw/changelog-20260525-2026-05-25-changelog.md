@@ -1,0 +1,1 @@
+- The `gemini-3.1-flash-lite-preview` model has been [shut down](https://ai.google.dev/gemini-api/docs/deprecations). Use [`gemini-3.1-flash-lite`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite) instead.
