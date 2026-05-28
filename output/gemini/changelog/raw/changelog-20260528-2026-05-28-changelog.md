@@ -1,0 +1,14 @@
+- Released `gemini-3.1-flash-image` (Nano Banana 2) and `gemini-3-pro-image`
+- (Nano Banana Pro), the generally available (GA) versions of our native
+- visual models, [Gemini 3.1 Flash Image](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image)
+- and [Gemini 3.1 Pro Image](https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image).
+- **Video-to-image generation support** : You can now pass a video file (via
+- direct upload or as a public YouTube URL) as multimodal context alongside a
+- text prompt to generate high-quality thumbnails, cinematic movie posters, or
+- summary infographics. This feature is supported exclusively on the
+- `gemini-3.1-flash-image` model. To learn more, see the
+- [Video-to-image generation](https://ai.google.dev/gemini-api/docs/image-generation#video-to-image)
+- guide.
+- Deprecation announcement: The `gemini-3.1-flash-image-preview` and
+- `gemini-3-pro-image-preview` models are deprecated
+- and will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on June 25, 2026.
