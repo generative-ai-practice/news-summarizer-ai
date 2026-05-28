@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-28T11:31:19.150Z",
+  "lastChecked": "2026-05-28T17:31:57.160Z",
   "articles": [
     {
-      "title": "Introducing Claude Opus 4.7",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "publishedDate": "2026-04-16",
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "publishedDate": "2026-05-28",
       "source": "news",
-      "slug": "20260416-introducing-claude-opus-4-7",
+      "slug": "20260528-introducing-claude-opus-4-8",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "publishedDate": "2026-05-28",
+      "source": "news",
+      "slug": "20260528-anthropic-opens-milan-office-to-support-italian-en",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,24 +107,6 @@
       "publishedDate": "2026-05-14",
       "source": "news",
       "slug": "20260514-anthropic-forms-200-million-partnership-with-the-g",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Claude for Small Business",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "publishedDate": "2026-05-13",
-      "source": "news",
-      "slug": "20260513-introducing-claude-for-small-business",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "publishedDate": "2026-05-06",
-      "source": "news",
-      "slug": "20260506-higher-usage-limits-for-claude-and-a-compute-deal-",
       "language": "en",
       "summaryLanguage": "ja"
     }
