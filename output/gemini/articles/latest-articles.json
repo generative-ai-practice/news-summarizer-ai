@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-28T10:56:13.441Z",
+  "lastChecked": "2026-05-28T16:53:39.902Z",
   "articles": [
+    {
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "publishedDate": "2026-05-28",
+      "source": "news",
+      "slug": "20260528-catch-up-on-12-major-i-o-2026-moments",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "100 things we announced at I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
@@ -84,20 +93,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Android Show: I/O Edition 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-the-android-show-i-o-edition-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "A smarter, more proactive Android with Gemini Intelligence",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Android Show: I/O Edition 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-the-android-show-i-o-edition-2026",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-22",
       "source": "news",
       "slug": "20260422-gemini-embedding-2-is-now-generally-available",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Make chats more natural and efficient with Continued Conversation, now in Gemini for Home",
-      "url": "https://blog.google/products-and-platforms/devices/how-to-use-gemini-continued-conversation/",
-      "publishedDate": "2026-04-21",
-      "source": "news",
-      "slug": "20260421-make-chats-more-natural-and-efficient-with-continu",
       "language": "en",
       "summaryLanguage": "ja"
     }
