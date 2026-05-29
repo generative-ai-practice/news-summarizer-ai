@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-05-28T21:51:13.401Z",
+  "lastChecked": "2026-05-29T00:05:14.381Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
       "url": "https://www.anthropic.com/news/series-h",
-      "publishedDate": "2026-05-29",
+      "publishedDate": "2026-05-28",
       "source": "news",
-      "slug": "20260529-anthropic-raises-65b-in-series-h-funding-at-965b-p",
+      "slug": "20260528-anthropic-raises-65b-in-series-h-funding-at-965b-p",
       "language": "en",
       "summaryLanguage": "ja"
     },
