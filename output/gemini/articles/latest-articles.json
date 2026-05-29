@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-05-29T16:41:28.980Z",
+  "lastChecked": "2026-05-29T21:07:39.307Z",
   "articles": [
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "publishedDate": "2026-05-29",
+      "source": "news",
+      "slug": "20260529-9-demos-of-gemini-omni-and-gemini-3-5-in-action",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Catch up on 12 major I/O 2026 moments",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-24",
       "source": "news",
       "slug": "20260424-find-out-what-s-new-in-the-gemini-app-in-april-s-g",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini Embedding 2 is now generally available.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
-      "publishedDate": "2026-04-22",
-      "source": "news",
-      "slug": "20260422-gemini-embedding-2-is-now-generally-available",
       "language": "en",
       "summaryLanguage": "ja"
     }
