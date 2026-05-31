@@ -1,0 +1,1 @@
+- For organizations without ZDR enabled,`prompt_cache_retention`now defaults to`24h`instead of`in_memory`, enabling extended prompt caching by default.[Learn more](https://developers.openai.com/api/docs/guides/prompt-caching#extended-prompt-cache-retention).
