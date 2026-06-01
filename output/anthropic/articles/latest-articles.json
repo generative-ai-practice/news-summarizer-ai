@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-01T13:29:51.327Z",
+  "lastChecked": "2026-06-01T19:16:53.353Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "publishedDate": "2026-06-02",
+      "source": "news",
+      "slug": "20260602-anthropic-confidentially-submits-draft-s-1-to-the-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-05-18",
       "source": "news",
       "slug": "20260518-anthropic-acquires-stainless",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "publishedDate": "2026-05-14",
-      "source": "news",
-      "slug": "20260514-pwc-is-deploying-claude-to-build-technology-execut",
       "language": "en",
       "summaryLanguage": "ja"
     }
