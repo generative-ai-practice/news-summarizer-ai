@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-01T19:16:53.353Z",
+  "lastChecked": "2026-06-01T22:30:35.631Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -32,9 +32,9 @@
     {
       "title": "Anthropic confidentially submits draft S-1 to the SEC",
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "publishedDate": "2026-06-02",
+      "publishedDate": "2026-06-01",
       "source": "news",
-      "slug": "20260602-anthropic-confidentially-submits-draft-s-1-to-the-",
+      "slug": "20260601-anthropic-confidentially-submits-draft-s-1-to-the-",
       "language": "en",
       "summaryLanguage": "ja"
     },
