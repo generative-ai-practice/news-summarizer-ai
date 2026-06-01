@@ -1,0 +1,8 @@
+- The following Gemini 2.0 models are now [shut down](https://ai.google.dev/gemini-api/docs/deprecations):
+- `gemini-2.0-flash`
+- `gemini-2.0-flash-001`
+- `gemini-2.0-flash-lite`
+- `gemini-2.0-flash-lite-001`
+- Use [`gemini-3.5-flash`](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash) or
+- [`gemini-3.1-flash-lite`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite)
+- instead.

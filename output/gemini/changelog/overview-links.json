@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-06-01T12:36:56.326Z",
+  "fetchedAt": "2026-06-01T18:37:43.783Z",
   "links": [
+    {
+      "title": "2026-06-01 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-06-01",
+      "publishedDate": "2026-06-01",
+      "source": "changelog",
+      "slug": "20260601-2026-06-01-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-05-28 changelog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-05-28",
