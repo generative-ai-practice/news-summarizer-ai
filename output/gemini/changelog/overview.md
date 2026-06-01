@@ -5,6 +5,19 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## June 1, 2026
+
+- The following Gemini 2.0 models are now [shut down](https://ai.google.dev/gemini-api/docs/deprecations):
+
+  - `gemini-2.0-flash`
+  - `gemini-2.0-flash-001`
+  - `gemini-2.0-flash-lite`
+  - `gemini-2.0-flash-lite-001`
+
+  Use [`gemini-3.5-flash`](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash) or
+  [`gemini-3.1-flash-lite`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite)
+  instead.
+
 ## May 28, 2026
 
 - Released `gemini-3.1-flash-image` (Nano Banana 2) and `gemini-3-pro-image`
