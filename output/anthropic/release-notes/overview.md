@@ -10,6 +10,10 @@ For release notes on Claude Apps, see the [Release notes for Claude Apps in the 
 For updates to Claude Code, see the [complete CHANGELOG.md](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) in the `claude-code` repository.
 </Tip>
 
+### June 2, 2026
+- The [advisor tool](/docs/en/agents-and-tools/tool-use/advisor-tool) now supports a `max_tokens` parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set `tools[].max_tokens` on the advisor tool definition; see [Capping advisor output](/docs/en/agents-and-tools/tool-use/advisor-tool#capping-advisor-output).
+- On the Claude API, you are no longer billed for a request when it returns `stop_reason: "refusal"` without Claude having generated any output. See [Streaming refusals](/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals) for detecting and handling refusals.
+
 ### May 29, 2026
 - Claude Managed Agents [webhooks](/docs/en/managed-agents/webhooks), [multiagent orchestration](/docs/en/managed-agents/multi-agent), and [self-hosted sandboxes](/docs/en/managed-agents/self-hosted-sandboxes) are now available on [Claude Platform on AWS](/docs/en/build-with-claude/claude-platform-on-aws). See [IAM actions for Claude Platform on AWS](/docs/en/api/claude-platform-on-aws-iam-actions) for the new IAM actions and the `AnthropicSelfHostedEnvironmentAccess` managed policy.
 
