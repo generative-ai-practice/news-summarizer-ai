@@ -1,0 +1,1 @@
+- On June 2, 2026, we notified developers using older GPT Image models of their deprecation and removal from the API on December 1, 2026.

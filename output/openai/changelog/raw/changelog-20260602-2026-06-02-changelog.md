@@ -1,0 +1,3 @@
+- Starting June 2, 2026, eligible container sessions will be billed per minute with a 5-minute minimum, instead of being billed at the full 20-minute session rate. The underlying per-minute rate will remain the same.
+- This update is intended to make billing more granular for shorter sessions and will lower effective cost for customers.
+- You can find current built-in tool pricing in our[API pricing docs](https://platform.openai.com/api/docs/pricing#built-in-tools).
