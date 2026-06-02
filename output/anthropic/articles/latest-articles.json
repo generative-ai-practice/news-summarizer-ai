@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-02T11:58:16.353Z",
+  "lastChecked": "2026-06-02T18:01:13.957Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Expanding Project Glasswing",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "publishedDate": "2026-06-02",
+      "source": "news",
+      "slug": "20260602-expanding-project-glasswing",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-kpmg-integrates-claude-across-its-core-business-an",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic acquires Stainless",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "publishedDate": "2026-05-18",
-      "source": "news",
-      "slug": "20260518-anthropic-acquires-stainless",
       "language": "en",
       "summaryLanguage": "ja"
     }
