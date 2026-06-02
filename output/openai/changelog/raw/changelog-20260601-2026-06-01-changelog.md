@@ -1,0 +1,1 @@
+- OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint. Supported models and features vary by AWS Region.[Learn more](https://platform.openai.com/api/docs/guides/amazon-bedrock).
