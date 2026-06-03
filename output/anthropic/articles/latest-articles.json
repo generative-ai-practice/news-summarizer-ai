@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-03T06:45:58.417Z",
+  "lastChecked": "2026-06-03T12:36:34.943Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "publishedDate": "2026-06-03",
+      "source": "news",
+      "slug": "20260603-what-we-learned-mapping-a-year-s-worth-of-ai-enabl",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-widening-the-conversation-on-frontier-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-kpmg-integrates-claude-across-its-core-business-an",
       "language": "en",
       "summaryLanguage": "ja"
     }
