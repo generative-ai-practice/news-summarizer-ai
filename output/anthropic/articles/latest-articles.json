@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-03T12:36:34.943Z",
+  "lastChecked": "2026-06-03T18:19:27.180Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-02-04",
       "source": "news",
       "slug": "20260204-claude-is-a-space-to-think",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "publishedDate": "2026-06-03",
+      "source": "news",
+      "slug": "20260603-introducing-the-services-track-and-partner-hub-of-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-05-22",
       "source": "news",
       "slug": "20260522-project-glasswing-an-initial-update",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Widening the conversation on frontier AI",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-widening-the-conversation-on-frontier-ai",
       "language": "en",
       "summaryLanguage": "ja"
     }
