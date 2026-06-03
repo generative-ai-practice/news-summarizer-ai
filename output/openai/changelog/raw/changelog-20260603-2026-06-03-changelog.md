@@ -1,0 +1,1 @@
+- Deprecated reusable prompt objects, the Evals platform, and Agent Builder. See the[deprecations page](https://platform.openai.com/api/docs/deprecations)for shutdown timelines and migration guidance.

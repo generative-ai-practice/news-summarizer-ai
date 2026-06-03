@@ -1,0 +1,7 @@
+- On June 3, 2026, we notified developers using reusable prompts in the dashboard and API that reusable prompt objects are being deprecated.
+- To migrate, move reusable prompt content into your application code. See[Migrate from prompt objects](https://platform.openai.com/api/docs/guides/prompting/migrate-from-prompt-object).
+- On June 3, 2026, we notified developers using the Evals platform that the product is being deprecated.
+- Graders documented for eval workflows are part of this transition. Fine-tuning-related timelines remain covered in the self-serve fine-tuning section below.
+- See[Moving from OpenAI Evals to Promptfoo](https://platform.openai.com/cookbook/examples/evaluation/moving-from-openai-evals-to-promptfoo)for a migration path.
+- On June 3, 2026, we notified developers using Agent Builder that the product is being deprecated. ChatKit remains available.
+- See[Migrate from Agent Builder](https://platform.openai.com/api/docs/guides/agent-builder/migrate-from-agent-builder)to continue with the Agents SDK or ChatGPT Workspace Agents.
