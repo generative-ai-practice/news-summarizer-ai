@@ -1,0 +1,1 @@
+- The Messages API response now includes [`usage.output_tokens_details.thinking_tokens`](https://platform.claude.com/docs/en/build-with-claude/extended-thinking#working-with-thinking-budgets), reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final `message_delta` event. No beta header is required.
