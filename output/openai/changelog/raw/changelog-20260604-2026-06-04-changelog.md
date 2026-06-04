@@ -1,0 +1,2 @@
+- Added moderation scores to the Responses API and Chat Completions API. Pass a`moderation`object in a generation request to receive moderation results for both the model input and generated output in the same response.
+- Learn more in the[Moderation guide](https://platform.openai.com/api/docs/guides/moderation#moderate-generated-content).
