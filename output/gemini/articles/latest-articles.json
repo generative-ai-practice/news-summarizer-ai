@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-05T10:46:21.866Z",
+  "lastChecked": "2026-06-05T15:53:53.823Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "publishedDate": "2026-06-05",
+      "source": "news",
+      "slug": "20260605-the-latest-ai-news-we-announced-in-may-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How we used Gemini to build Google I/O 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
@@ -111,20 +120,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Android Show: I/O Edition 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-the-android-show-i-o-edition-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "A smarter, more proactive Android with Gemini Intelligence",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Android Show: I/O Edition 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-the-android-show-i-o-edition-2026",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-27",
       "source": "news",
       "slug": "20260427-join-the-new-ai-agents-vibe-coding-course-from-goo",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "8 Gemini tips for organizing your space (and life)",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
-      "publishedDate": "2026-04-24",
-      "source": "news",
-      "slug": "20260424-8-gemini-tips-for-organizing-your-space-and-life",
       "language": "en",
       "summaryLanguage": "ja"
     }
