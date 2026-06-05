@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-05T11:20:07.809Z",
+  "lastChecked": "2026-06-05T16:26:59.058Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 4.8",
@@ -12,20 +12,38 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "publishedDate": "2026-04-17",
+      "title": "Expanding Project Glasswing",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "publishedDate": "2026-06-02",
       "source": "news",
-      "slug": "20260417-introducing-claude-design-by-anthropic-labs",
+      "slug": "20260602-expanding-project-glasswing",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "Claude is a space to think",
-      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-      "publishedDate": "2026-02-04",
+      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "publishedDate": "2026-05-25",
       "source": "news",
-      "slug": "20260204-claude-is-a-space-to-think",
+      "slug": "20260525-anthropic-co-founder-chris-olah-s-remarks-on-pope-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Widening the conversation on frontier AI",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-widening-the-conversation-on-frontier-ai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "An update on our election safeguards",
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "publishedDate": "2026-04-24",
+      "source": "news",
+      "slug": "20260424-an-update-on-our-election-safeguards",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -44,15 +62,6 @@
       "publishedDate": "2026-06-03",
       "source": "news",
       "slug": "20260603-what-we-learned-mapping-a-year-s-worth-of-ai-enabl",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Expanding Project Glasswing",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "publishedDate": "2026-06-02",
-      "source": "news",
-      "slug": "20260602-expanding-project-glasswing",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-05-26",
       "source": "news",
       "slug": "20260526-anthropic-appoints-kiyoung-choi-as-representative-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "publishedDate": "2026-05-25",
-      "source": "news",
-      "slug": "20260525-anthropic-co-founder-chris-olah-s-remarks-on-pope-",
       "language": "en",
       "summaryLanguage": "ja"
     },
