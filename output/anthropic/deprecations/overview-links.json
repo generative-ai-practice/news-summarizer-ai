@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-06-05T18:55:21.387Z",
+  "fetchedAt": "2026-06-05T21:18:48.148Z",
   "links": [
+    {
+      "title": "2026-06-05 model deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md#2026-06-05",
+      "publishedDate": "2026-06-05",
+      "source": "model-deprecations",
+      "slug": "20260605-2026-06-05-model-deprecations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-04-14 model deprecations",
       "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations.md#2026-04-14",
