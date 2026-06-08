@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-08T11:57:56.072Z",
+  "lastChecked": "2026-06-08T16:48:31.893Z",
   "articles": [
+    {
+      "title": "4 ways to keep up with the FIFA World Cup 2026™",
+      "url": "https://blog.google/products-and-platforms/products/search/fifa-world-cup-google-tools-2026/",
+      "publishedDate": "2026-06-08",
+      "source": "news",
+      "slug": "20260608-4-ways-to-keep-up-with-the-fifa-world-cup-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in May 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-29",
       "source": "news",
       "slug": "20260429-enjoy-new-ways-to-create-search-and-stream-on-goog",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "publishedDate": "2026-04-27",
-      "source": "news",
-      "slug": "20260427-join-the-new-ai-agents-vibe-coding-course-from-goo",
       "language": "en",
       "summaryLanguage": "ja"
     }
