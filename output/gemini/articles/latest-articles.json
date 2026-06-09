@@ -1,13 +1,22 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-09T10:34:17.683Z",
+  "lastChecked": "2026-06-09T15:55:14.525Z",
   "articles": [
     {
-      "title": "4 ways to keep up with the FIFA World Cup 2026™",
-      "url": "https://blog.google/products-and-platforms/products/search/fifa-world-cup-google-tools-2026/",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "publishedDate": "2026-06-09",
+      "source": "news",
+      "slug": "20260609-fluid-natural-voice-translation-with-gemini-3-5-li",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "4 ways soccer fans can catch every moment of the tournament",
+      "url": "https://blog.google/products-and-platforms/products/search/soccer-tournament-google-tools-2026/",
       "publishedDate": "2026-06-08",
       "source": "news",
-      "slug": "20260608-4-ways-to-keep-up-with-the-fifa-world-cup-2026",
+      "slug": "20260608-4-ways-soccer-fans-can-catch-every-moment-of-the-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -129,20 +138,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "A smarter, more proactive Android with Gemini Intelligence",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "The Android Show: I/O Edition 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-the-android-show-i-o-edition-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "A smarter, more proactive Android with Gemini Intelligence",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-04-29",
       "source": "news",
       "slug": "20260429-you-can-now-easily-generate-files-in-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Enjoy new ways to create, search and stream on Google TV",
-      "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
-      "publishedDate": "2026-04-29",
-      "source": "news",
-      "slug": "20260429-enjoy-new-ways-to-create-search-and-stream-on-goog",
       "language": "en",
       "summaryLanguage": "ja"
     }
