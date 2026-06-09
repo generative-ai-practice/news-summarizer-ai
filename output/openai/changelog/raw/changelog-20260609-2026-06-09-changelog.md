@@ -1,0 +1,1 @@
+- Web search can now return image results alongside regular text results. Use image search when your application needs current or web-grounded visuals, such as product photos, landmarks, places, events, or visual references. Read more in the[web search guide](https://platform.openai.com/api/docs/guides/tools-web-search).
