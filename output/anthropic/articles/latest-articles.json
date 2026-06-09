@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-09T16:27:35.642Z",
+  "lastChecked": "2026-06-09T19:13:30.488Z",
   "articles": [
     {
-      "title": "Introducing Claude Opus 4.8",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "publishedDate": "2026-05-28",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publishedDate": "2026-06-09",
       "source": "news",
-      "slug": "20260528-introducing-claude-opus-4-8",
+      "slug": "20260609-claude-fable-5-and-claude-mythos-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -17,6 +17,15 @@
       "publishedDate": "2026-06-02",
       "source": "news",
       "slug": "20260602-expanding-project-glasswing",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "publishedDate": "2026-05-28",
+      "source": "news",
+      "slug": "20260528-introducing-claude-opus-4-8",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -35,15 +44,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-widening-the-conversation-on-frontier-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "An update on our election safeguards",
-      "url": "https://www.anthropic.com/news/election-safeguards-update",
-      "publishedDate": "2026-04-24",
-      "source": "news",
-      "slug": "20260424-an-update-on-our-election-safeguards",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +98,6 @@
       "publishedDate": "2026-05-26",
       "source": "news",
       "slug": "20260526-anthropic-appoints-kiyoung-choi-as-representative-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Project Glasswing: An initial update",
-      "url": "https://www.anthropic.com/research/glasswing-initial-update",
-      "publishedDate": "2026-05-22",
-      "source": "news",
-      "slug": "20260522-project-glasswing-an-initial-update",
       "language": "en",
       "summaryLanguage": "ja"
     }
