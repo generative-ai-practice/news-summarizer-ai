@@ -1,0 +1,1 @@
+- Released a redesigned navigation for the OpenAI API platform, visit[here](https://platform.openai.com/login).
