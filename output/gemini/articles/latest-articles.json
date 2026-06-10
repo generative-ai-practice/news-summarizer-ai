@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-10T10:55:48.111Z",
+  "lastChecked": "2026-06-10T16:34:59.366Z",
   "articles": [
+    {
+      "title": "Save time and grow your business with new Gemini tools",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+      "publishedDate": "2026-06-10",
+      "source": "news",
+      "slug": "20260610-save-time-and-grow-your-business-with-new-gemini-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
@@ -138,20 +147,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The Android Show: I/O Edition 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-the-android-show-i-o-edition-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "A smarter, more proactive Android with Gemini Intelligence",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Android Show: I/O Edition 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-the-android-show-i-o-edition-2026",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-04",
       "source": "news",
       "slug": "20260504-the-latest-ai-news-we-announced-in-april-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "You can now easily generate files in Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
-      "publishedDate": "2026-04-29",
-      "source": "news",
-      "slug": "20260429-you-can-now-easily-generate-files-in-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     }
