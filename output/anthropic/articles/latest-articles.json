@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-11T17:33:20.227Z",
+  "lastChecked": "2026-06-11T21:54:49.145Z",
   "articles": [
     {
       "title": "Claude Fable 5 and Claude Mythos 5",
@@ -14,9 +14,9 @@
     {
       "title": "Introducing Claude Corps",
       "url": "https://www.anthropic.com/news/claude-corps",
-      "publishedDate": "2026-06-06",
+      "publishedDate": "2026-06-11",
       "source": "news",
-      "slug": "20260606-introducing-claude-corps",
+      "slug": "20260611-introducing-claude-corps",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -35,6 +35,15 @@
       "publishedDate": "2026-05-25",
       "source": "news",
       "slug": "20260525-anthropic-co-founder-chris-olah-s-remarks-on-pope-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "publishedDate": "2026-06-11",
+      "source": "news",
+      "slug": "20260611-dxc-will-integrate-claude-into-the-systems-banks-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-05-27",
       "source": "news",
       "slug": "20260527-anthropic-opens-milan-office-to-support-italian-en",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "publishedDate": "2026-05-26",
-      "source": "news",
-      "slug": "20260526-anthropic-appoints-kiyoung-choi-as-representative-",
       "language": "en",
       "summaryLanguage": "ja"
     }
