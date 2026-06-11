@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-06-11T18:09:11.196Z",
+  "lastChecked": "2026-06-11T22:47:52.365Z",
   "articles": [
     {
       "title": "OpenAI to acquire Ona",
@@ -12,20 +12,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "publishedDate": "2026-06-11",
-      "source": "news",
-      "slug": "20260611-how-an-astrophysicist-uses-codex-to-help-simulate-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "publishedDate": "2026-06-11",
       "source": "news",
       "slug": "20260611-supporting-europe-s-work-in-ensuring-a-trustworthy",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "publishedDate": "2026-06-11",
+      "source": "news",
+      "slug": "20260611-how-an-astrophysicist-uses-codex-to-help-simulate-",
       "language": "en",
       "summaryLanguage": "ja"
     },
