@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-06-12T18:59:47.301Z",
+  "lastChecked": "2026-06-12T21:26:27.801Z",
   "articles": [
     {
       "title": "Claude Fable 5 and Claude Mythos 5",
@@ -50,9 +50,9 @@
     {
       "title": "TCS and Anthropic partner to bring Claude to regulated industries",
       "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "publishedDate": "2026-06-10",
+      "publishedDate": "2026-06-12",
       "source": "news",
-      "slug": "20260610-tcs-and-anthropic-partner-to-bring-claude-to-regul",
+      "slug": "20260612-tcs-and-anthropic-partner-to-bring-claude-to-regul",
       "language": "en",
       "summaryLanguage": "ja"
     },
