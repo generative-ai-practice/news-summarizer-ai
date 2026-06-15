@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-06-15T20:49:00.657Z",
+  "fetchedAt": "2026-06-15T22:58:54.745Z",
   "links": [
+    {
+      "title": "2026-06-11 deprecations",
+      "url": "https://platform.openai.com/docs/deprecations#2026-06-11",
+      "publishedDate": "2026-06-11",
+      "source": "platform-deprecations",
+      "slug": "20260611-2026-06-11-deprecations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-06-03 deprecations",
       "url": "https://platform.openai.com/docs/deprecations#2026-06-03",
