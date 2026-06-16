@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-16T12:11:25.193Z",
+  "lastChecked": "2026-06-16T18:04:22.801Z",
   "articles": [
+    {
+      "title": "June Pixel Drop: New features for creators, Gemini upgrades and more",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+      "publishedDate": "2026-06-16",
+      "source": "news",
+      "slug": "20260616-june-pixel-drop-new-features-for-creators-gemini-u",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Save time and grow your business with new Gemini tools",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-11",
       "source": "news",
       "slug": "20260511-digitize-your-paper-notes-with-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in April 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-      "publishedDate": "2026-05-04",
-      "source": "news",
-      "slug": "20260504-the-latest-ai-news-we-announced-in-april-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
