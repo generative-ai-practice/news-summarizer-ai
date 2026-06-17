@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## June 17, 2026
+
+- **Streaming support for speech generation** : Streaming via `streamGenerateContent` (and `stream: true` in the Interactions API) is now supported for the `gemini-3.1-flash-tts-preview` model. To learn more, see the [Text-to-Speech](https://ai.google.dev/gemini-api/docs/speech-generation#streaming) guide.
+
 ## June 15, 2026
 
 - **Deprecation announcement** : The following image generation models are
