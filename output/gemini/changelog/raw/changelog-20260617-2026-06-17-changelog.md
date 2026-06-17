@@ -1,0 +1,1 @@
+- **Streaming support for speech generation** : Streaming via `streamGenerateContent` (and `stream: true` in the Interactions API) is now supported for the `gemini-3.1-flash-tts-preview` model. To learn more, see the [Text-to-Speech](https://ai.google.dev/gemini-api/docs/speech-generation#streaming) guide.
