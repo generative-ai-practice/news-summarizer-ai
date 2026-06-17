@@ -36,6 +36,7 @@ This page documents updates to the Gemini API.
     3.1 GA models available through the
     [Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate)
     to avoid service interruptions.
+- **Deprecation announcement** : The experimental GMP Contextual View tool (a fixed interface for Grounding with Google Maps outputs) will [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **June 15, 2026**:
 
 ## June 1, 2026
 
