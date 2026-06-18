@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-18T11:08:15.199Z",
+  "lastChecked": "2026-06-18T16:32:35.608Z",
   "articles": [
+    {
+      "title": "Powering the world’s first AI arts museum",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "publishedDate": "2026-06-18",
+      "source": "news",
+      "slug": "20260618-powering-the-world-s-first-ai-arts-museum",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "June Pixel Drop: New features for creators, Gemini upgrades and more",
       "url": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
@@ -156,15 +165,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "A smarter, more proactive Android with Gemini Intelligence",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "The Android Show: I/O Edition 2026",
       "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
       "publishedDate": "2026-05-12",
@@ -174,11 +174,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Digitize your paper notes with Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
-      "publishedDate": "2026-05-11",
+      "title": "A smarter, more proactive Android with Gemini Intelligence",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+      "publishedDate": "2026-05-12",
       "source": "news",
-      "slug": "20260511-digitize-your-paper-notes-with-gemini",
+      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
       "language": "en",
       "summaryLanguage": "ja"
     }
