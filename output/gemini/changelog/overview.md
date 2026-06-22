@@ -106,7 +106,7 @@ This page documents updates to the Gemini API.
 
 ## May 6, 2026
 
-- **Upcoming breaking change** : The [Interactions API](https://ai.google.dev/gemini-api/docs/interactions) request and response schema (`outputs` → `steps`) and output format configuration (`response_format`) are changing. The new schema becomes the default on **May 26** and the legacy schema will be removed on **June 8** . See the [migration guide](https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026) for details.
+- **Upcoming breaking change** : The [Interactions API](https://ai.google.dev/gemini-api/docs/interactions-overview) request and response schema (`outputs` → `steps`) and output format configuration (`response_format`) are changing. The new schema becomes the default on **May 26** and the legacy schema will be removed on **June 8** . See the [migration guide](https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026) for details.
 
 ## May 5, 2026
 
@@ -284,7 +284,7 @@ This page documents updates to the Gemini API.
 
 ## December 19, 2025
 
-- Introduced a breaking change to the Interactions API public preview in v1beta. The `total_reasoning_tokens` field has been renamed to `total_thought_tokens` to better align with the concept of "thoughts" in thinking models.
+- Introduced a breaking change to the Interactions API in v1beta. The `total_reasoning_tokens` field has been renamed to `total_thought_tokens` to better align with the concept of "thoughts" in thinking models.
 
 ## December 17, 2025
 
@@ -302,9 +302,9 @@ This page documents updates to the Gemini API.
 
 ## December 11, 2025
 
-- Launched the Interactions API in Beta. This API provides a unified interface
+- Launched the Interactions API. This API provides a unified interface
   for interacting with Gemini models and agents. To learn more, see the
-  [Interactions API](https://ai.google.dev/gemini-api/docs/interactions) guide.
+  [Interactions API](https://ai.google.dev/gemini-api/docs/interactions-overview) guide.
 
 - Launched the Gemini Deep Research Agent in preview. It can
   autonomously plan, execute, and synthesize results for multi-step research
