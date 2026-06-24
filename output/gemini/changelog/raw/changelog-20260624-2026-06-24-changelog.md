@@ -1,0 +1,1 @@
+- **Computer Use** : Launched public preview support for the [Computer Use](https://ai.google.dev/gemini-api/docs/computer-use) tool in Gemini 3.5 Flash. This release includes simplified actions with intents, built-in support for browser, mobile, and desktop environments, configurable safety policies, and advanced prompt injection detection.
