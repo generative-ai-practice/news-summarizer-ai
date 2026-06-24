@@ -1,0 +1,1 @@
+- Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on`safety_identifier`values sent on requests to identify end users. Visit the[Safety dashboard](https://platform.openai.com/usage/safety).
