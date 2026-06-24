@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-24T15:32:40.888Z",
+  "lastChecked": "2026-06-24T17:54:18.816Z",
   "articles": [
+    {
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "publishedDate": "2026-06-24",
+      "source": "news",
+      "slug": "20260624-introducing-computer-use-in-gemini-3-5-flash",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Powering the world’s first AI arts museum",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-the-android-show-i-o-edition-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "A smarter, more proactive Android with Gemini Intelligence",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-a-smarter-more-proactive-android-with-gemini-intel",
       "language": "en",
       "summaryLanguage": "ja"
     }
