@@ -1,6 +1,6 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-25T20:56:57.016Z",
+  "lastChecked": "2026-06-25T23:18:06.364Z",
   "articles": [
     {
       "title": "Try these 3 Google AI tools to help find your next job.",
@@ -8,6 +8,15 @@
       "publishedDate": "2026-06-25",
       "source": "news",
       "slug": "20260625-try-these-3-google-ai-tools-to-help-find-your-next",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "5 ways Google parents are using Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-tips-for-parents/",
+      "publishedDate": "2026-06-25",
+      "source": "news",
+      "slug": "20260625-5-ways-google-parents-are-using-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-gemini-for-science-ai-experiments-and-tools-for-a-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Gemini app becomes more agentic, delivering proactive, 24/7 help",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-the-gemini-app-becomes-more-agentic-delivering-pro",
       "language": "en",
       "summaryLanguage": "ja"
     }
