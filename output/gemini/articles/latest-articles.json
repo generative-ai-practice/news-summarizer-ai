@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-26T17:48:07.614Z",
+  "lastChecked": "2026-06-26T20:46:18.377Z",
   "articles": [
+    {
+      "title": "Here's how Gemini can help you avoid jetlag.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-help-avoid-jetlag/",
+      "publishedDate": "2026-06-26",
+      "source": "news",
+      "slug": "20260626-here-s-how-gemini-can-help-you-avoid-jetlag",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Try these 3 Google AI tools to help find your next job.",
       "url": "https://blog.google/products-and-platforms/products/gemini/find-job-with-google-ai-tools/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-gemini-3-5-frontier-intelligence-with-action",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-gemini-for-science-ai-experiments-and-tools-for-a-",
       "language": "en",
       "summaryLanguage": "ja"
     }
