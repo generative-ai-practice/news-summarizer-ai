@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-29T11:58:56.280Z",
+  "lastChecked": "2026-06-29T16:38:04.471Z",
   "articles": [
+    {
+      "title": "Gemini can now take notes in Google Meet for Google AI Pro and Ultra subscribers.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/",
+      "publishedDate": "2026-06-29",
+      "source": "news",
+      "slug": "20260629-gemini-can-now-take-notes-in-google-meet-for-googl",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Here's how Gemini can help you avoid jetlag.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-help-avoid-jetlag/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-i-o-2026-welcome-to-the-agentic-gemini-era",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini 3.5: frontier intelligence with action",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-gemini-3-5-frontier-intelligence-with-action",
       "language": "en",
       "summaryLanguage": "ja"
     }
