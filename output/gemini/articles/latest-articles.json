@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-29T16:38:04.471Z",
+  "lastChecked": "2026-06-29T20:48:39.587Z",
   "articles": [
+    {
+      "title": "The Gemini app is bringing personalized image creation to more users.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
+      "publishedDate": "2026-06-29",
+      "source": "news",
+      "slug": "20260629-the-gemini-app-is-bringing-personalized-image-crea",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini can now take notes in Google Meet for Google AI Pro and Ultra subscribers.",
       "url": "https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-introducing-gemini-omni",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "I/O 2026: Welcome to the agentic Gemini era",
-      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-i-o-2026-welcome-to-the-agentic-gemini-era",
       "language": "en",
       "summaryLanguage": "ja"
     }
