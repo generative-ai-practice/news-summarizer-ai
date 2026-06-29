@@ -10,6 +10,10 @@ Updates to the Claude Platform, including the Claude API, client SDKs, and the C
   For updates to Claude Code, see the [complete CHANGELOG.md](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) in the `claude-code` repository.
 </Tip>
 
+### June 29, 2026
+
+* We've removed [fast mode](/docs/en/build-with-claude/fast-mode) for Claude Opus 4.6. Requests to `claude-opus-4-6` with `speed: "fast"` no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's `usage.speed` field reports the speed used. To continue using fast mode, migrate to [Claude Opus 4.8](/docs/en/about-claude/models/migration-guide). Read more in [Fast mode](/docs/en/build-with-claude/fast-mode#supported-models).
+
 ### June 26, 2026
 
 * We've raised [rate limits](/docs/en/api/rate-limits) across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizations move to a higher tier, no organization receives lower limits than before, and no action is required. You can view your tier and current limits in the [Claude Console](/settings/limits).
