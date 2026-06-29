@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-06-29T21:18:54.189Z",
+  "fetchedAt": "2026-06-29T23:56:43.961Z",
   "links": [
+    {
+      "title": "2026-06-29 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#june-29-2026",
+      "publishedDate": "2026-06-29",
+      "source": "release-notes",
+      "slug": "20260629-2026-06-29-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-06-26 release notes",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#june-26-2026",
