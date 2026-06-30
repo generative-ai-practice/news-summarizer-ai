@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-30T20:56:37.681Z",
+  "lastChecked": "2026-06-30T23:13:05.234Z",
   "articles": [
+    {
+      "title": "Gemini Spark updates: macOS launch, connected apps and more",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
+      "publishedDate": "2026-06-30",
+      "source": "news",
+      "slug": "20260630-gemini-spark-updates-macos-launch-connected-apps-a",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-making-it-easier-to-understand-how-content-was-cre",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-i-o-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
