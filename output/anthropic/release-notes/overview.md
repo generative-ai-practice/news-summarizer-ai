@@ -10,6 +10,10 @@ Updates to the Claude Platform, including the Claude API, client SDKs, and the C
   For updates to Claude Code, see the [complete CHANGELOG.md](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md) in the `claude-code` repository.
 </Tip>
 
+### June 30, 2026
+
+* We've launched **Claude Sonnet 5** (`claude-sonnet-5`), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok through August 31, 2026 (standard $3 / $15 thereafter). Claude Sonnet 5 supports a [1M token context window](/docs/en/build-with-claude/context-windows), 128k max output tokens, and the same set of tools and platform features as Claude Sonnet 4.6, except [Priority Tier](/docs/en/api/service-tiers#supported-models), which is not available on Claude Sonnet 5. Three behavior changes apply when migrating: [adaptive thinking](/docs/en/build-with-claude/adaptive-thinking) is now on by default; manual extended thinking (`thinking: {type: "enabled", budget_tokens: N}`) is removed and returns a 400 error (it was deprecated on Sonnet 4.6); and setting sampling parameters (`temperature`, `top_p`, `top_k`) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. See [What's new in Claude Sonnet 5](/docs/en/about-claude/models/whats-new-sonnet-5) for details and migration guidance.
+
 ### June 29, 2026
 
 * We've removed [fast mode](/docs/en/build-with-claude/fast-mode) for Claude Opus 4.6. Requests to `claude-opus-4-6` with `speed: "fast"` no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's `usage.speed` field reports the speed used. To continue using fast mode, migrate to [Claude Opus 4.8](/docs/en/about-claude/models/migration-guide). Read more in [Fast mode](/docs/en/build-with-claude/fast-mode#supported-models).
@@ -21,6 +25,10 @@ Updates to the Claude Platform, including the Claude API, client SDKs, and the C
 ### June 25, 2026
 
 * We've deprecated [fast mode](/docs/en/build-with-claude/fast-mode) for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to `claude-opus-4-7` with `speed: "fast"` will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in [Fast mode](/docs/en/build-with-claude/fast-mode#supported-models).
+
+### June 22, 2026
+
+* **MCP tunnels** (research preview): the management API moved from `/v1/organizations/tunnels` on the Admin API to `/v1/tunnels` on the Claude API. The new surface uses the `anthropic-beta: mcp-tunnels-2026-06-22` header and the `workspace:manage_tunnels` WIF scope. The previous surface remains available during a migration window. See the [Tunnels API reference](/docs/en/api/beta/tunnels).
 
 ### June 18, 2026
 
