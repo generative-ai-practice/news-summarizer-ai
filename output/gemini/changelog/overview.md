@@ -5,6 +5,22 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## June 30, 2026
+
+- **Gemini Omni Flash in public preview** : Released `gemini-omni-flash-preview`,
+  a high-performance multimodal model designed for high-speed video generation
+  and conversational video editing. Using the [Interactions API](https://ai.google.dev/gemini-api/docs/interactions-overview),
+  you can generate 3--10 second videos at 720p from text descriptions or animate still images,
+  and then conversationally edit and refine the outputs. To get started, see the
+  [Gemini Omni Flash](https://ai.google.dev/gemini-api/docs/omni) guide and the
+  [Gemini Omni Flash](https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash) model card.
+
+- Released `gemini-3.1-flash-lite-image` (Nano Banana Lite) to general
+  availability (GA), our built-in multimodal model optimized for ultra-low
+  latency and cost-effective image generation and editing. See the [Gemini 3.1
+  Flash Lite Image](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-image) model
+  card and the [Image generation](https://ai.google.dev/gemini-api/docs/image-generation) guide.
+
 ## June 24, 2026
 
 - **Computer Use** : Launched public preview support for the [Computer Use](https://ai.google.dev/gemini-api/docs/computer-use) tool in Gemini 3.5 Flash. This release includes simplified actions with intents, built-in support for browser, mobile, and desktop environments, configurable safety policies, and advanced prompt injection detection.
