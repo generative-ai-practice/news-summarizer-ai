@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-06-30T15:27:24.622Z",
+  "lastChecked": "2026-06-30T17:53:53.330Z",
   "articles": [
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+      "publishedDate": "2026-06-30",
+      "source": "news",
+      "slug": "20260630-start-building-with-nano-banana-2-lite-and-gemini-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Gemini app is bringing personalized image creation to more users.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-19",
       "source": "news",
       "slug": "20260519-i-o-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Gemini Omni",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
-      "publishedDate": "2026-05-19",
-      "source": "news",
-      "slug": "20260519-introducing-gemini-omni",
       "language": "en",
       "summaryLanguage": "ja"
     }
