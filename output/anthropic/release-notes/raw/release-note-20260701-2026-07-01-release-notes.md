@@ -1,0 +1,1 @@
+- We've restored access to Claude Fable 5 and Claude Mythos 5. See [our statement](https://www.anthropic.com/news/redeploying-fable-5-mythos-5) for more information.
