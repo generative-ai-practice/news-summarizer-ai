@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-01T00:01:01.439Z",
+  "lastChecked": "2026-07-01T06:19:16.157Z",
   "articles": [
     {
       "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
@@ -48,6 +48,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Redeploying Fable 5",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "publishedDate": "2026-06-24",
+      "source": "news",
+      "slug": "20260624-redeploying-fable-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
       "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
       "publishedDate": "2026-06-17",
@@ -89,15 +98,6 @@
       "publishedDate": "2026-06-11",
       "source": "news",
       "slug": "20260611-introducing-claude-corps",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Claude Fable 5 and Claude Mythos 5",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "publishedDate": "2026-06-09",
-      "source": "news",
-      "slug": "20260609-claude-fable-5-and-claude-mythos-5",
       "language": "en",
       "summaryLanguage": "ja"
     }
