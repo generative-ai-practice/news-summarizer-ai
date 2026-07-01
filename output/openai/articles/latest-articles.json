@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-01T17:09:02.515Z",
+  "lastChecked": "2026-07-01T19:44:34.215Z",
   "articles": [
     {
       "title": "How ChatGPT adoption has expanded",
@@ -8,6 +8,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-how-chatgpt-adoption-has-expanded",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "publishedDate": "2026-06-30",
+      "source": "news",
+      "slug": "20260630-inside-genebench-pro",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -26,15 +35,6 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-core-dump-epidemiology-fixing-an-18-year-old-bug",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "publishedDate": "2026-06-30",
-      "source": "news",
-      "slug": "20260630-inside-genebench-pro",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -111,20 +111,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "publishedDate": "2026-06-22",
-      "source": "news",
-      "slug": "20260622-daybreak-tools-for-securing-every-organization-in-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
       "url": "https://openai.com/index/patch-the-planet",
       "publishedDate": "2026-06-22",
       "source": "news",
       "slug": "20260622-patch-the-planet-a-daybreak-initiative-to-support-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "publishedDate": "2026-06-22",
+      "source": "news",
+      "slug": "20260622-daybreak-tools-for-securing-every-organization-in-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -228,15 +228,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "url": "https://openai.com/index/bbva",
-      "publishedDate": "2026-06-11",
-      "source": "news",
-      "slug": "20260611-bbva-puts-ai-at-the-core-of-banking-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "publishedDate": "2026-06-11",
@@ -251,6 +242,15 @@
       "publishedDate": "2026-06-11",
       "source": "news",
       "slug": "20260611-openai-to-acquire-ona",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "publishedDate": "2026-06-11",
+      "source": "news",
+      "slug": "20260611-bbva-puts-ai-at-the-core-of-banking-with-openai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -390,20 +390,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "publishedDate": "2026-06-03",
-      "source": "news",
-      "slug": "20260603-a-blueprint-for-democratic-governance-of-frontier-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI public policy agenda",
       "url": "https://openai.com/index/public-policy-agenda",
       "publishedDate": "2026-06-03",
       "source": "news",
       "slug": "20260603-openai-public-policy-agenda",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "publishedDate": "2026-06-03",
+      "source": "news",
+      "slug": "20260603-a-blueprint-for-democratic-governance-of-frontier-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -516,20 +516,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "url": "https://openai.com/index/openai-frontier-governance-framework",
-      "publishedDate": "2026-05-28",
-      "source": "news",
-      "slug": "20260528-openai-s-frontier-governance-framework",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "MUFG aims to become AI-native with OpenAI",
       "url": "https://openai.com/index/mufg",
       "publishedDate": "2026-05-28",
       "source": "news",
       "slug": "20260528-mufg-aims-to-become-ai-native-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "publishedDate": "2026-05-28",
+      "source": "news",
+      "slug": "20260528-openai-s-frontier-governance-framework",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -606,6 +606,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "The next phase of OpenAI’s Education for Countries",
       "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "publishedDate": "2026-05-20",
@@ -620,15 +629,6 @@
       "publishedDate": "2026-05-20",
       "source": "news",
       "slug": "20260520-an-openai-model-has-disproved-a-central-conjecture",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "url": "https://openai.com/index/ramp",
-      "publishedDate": "2026-05-20",
-      "source": "news",
-      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -669,24 +669,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "url": "https://openai.com/index/databricks",
-      "publishedDate": "2026-05-15",
-      "source": "news",
-      "slug": "20260515-databricks-brings-gpt-5-5-to-enterprise-agent-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How business operations teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "publishedDate": "2026-05-15",
-      "source": "news",
-      "slug": "20260515-how-business-operations-teams-use-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How sales teams use Codex",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "publishedDate": "2026-05-15",
@@ -696,11 +678,29 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "url": "https://openai.com/index/databricks",
+      "publishedDate": "2026-05-15",
+      "source": "news",
+      "slug": "20260515-databricks-brings-gpt-5-5-to-enterprise-agent-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "A new personal finance experience in ChatGPT",
       "url": "https://openai.com/index/personal-finance-chatgpt",
       "publishedDate": "2026-05-15",
       "source": "news",
       "slug": "20260515-a-new-personal-finance-experience-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How business operations teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "publishedDate": "2026-05-15",
+      "source": "news",
+      "slug": "20260515-how-business-operations-teams-use-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -777,20 +777,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-how-nvidia-engineers-and-researchers-build-with-co",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "What Parameter Golf taught us about AI-assisted research",
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-what-parameter-golf-taught-us-about-ai-assisted-re",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-how-nvidia-engineers-and-researchers-build-with-co",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -804,20 +804,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "publishedDate": "2026-05-11",
-      "source": "news",
-      "slug": "20260511-how-enterprises-are-scaling-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI Campus Network: Student club interest form",
       "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "publishedDate": "2026-05-11",
       "source": "news",
       "slug": "20260511-openai-campus-network-student-club-interest-form",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "publishedDate": "2026-05-11",
+      "source": "news",
+      "slug": "20260511-how-enterprises-are-scaling-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -867,20 +867,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "publishedDate": "2026-05-07",
-      "source": "news",
-      "slug": "20260507-introducing-trusted-contact-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
       "publishedDate": "2026-05-07",
       "source": "news",
       "slug": "20260507-testing-ads-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "publishedDate": "2026-05-07",
+      "source": "news",
+      "slug": "20260507-introducing-trusted-contact-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -903,11 +903,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "url": "https://openai.com/index/introducing-b2b-signals",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "url": "https://openai.com/index/uber",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
+      "slug": "20260506-uber-uses-openai-to-help-people-earn-smarter-and-b",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -930,20 +930,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "url": "https://openai.com/index/uber",
+      "title": "How frontier firms are pulling ahead",
+      "url": "https://openai.com/index/introducing-b2b-signals",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-uber-uses-openai-to-help-people-earn-smarter-and-b",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "url": "https://openai.com/index/gpt-5-5-instant",
-      "publishedDate": "2026-05-05",
-      "source": "news",
-      "slug": "20260505-gpt-5-5-instant-smarter-clearer-and-more-personali",
+      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -953,6 +944,15 @@
       "publishedDate": "2026-05-05",
       "source": "news",
       "slug": "20260505-gpt-5-5-instant-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant",
+      "publishedDate": "2026-05-05",
+      "source": "news",
+      "slug": "20260505-gpt-5-5-instant-smarter-clearer-and-more-personali",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1119,6 +1119,51 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "How to use Codex for everyday work",
+      "url": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-how-to-use-codex-for-everyday-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-how-to-get-started-with-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Plugins and skills",
+      "url": "https://openai.com/academy/codex-plugins-and-skills",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-plugins-and-skills",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-automations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-working-with-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Codex settings",
       "url": "https://openai.com/academy/codex-settings",
       "publishedDate": "2026-04-23",
@@ -1133,51 +1178,6 @@
       "publishedDate": "2026-04-23",
       "source": "news",
       "slug": "20260423-what-is-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How to get started with Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-how-to-get-started-with-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How to use Codex for everyday work",
-      "url": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-how-to-use-codex-for-everyday-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Automations",
-      "url": "https://openai.com/academy/codex-automations",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-automations",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Plugins and skills",
-      "url": "https://openai.com/academy/codex-plugins-and-skills",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-plugins-and-skills",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Working with Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-working-with-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1200,11 +1200,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "publishedDate": "2026-04-22",
       "source": "news",
-      "slug": "20260422-workspace-agents",
+      "slug": "20260422-introducing-workspace-agents-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1218,11 +1218,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing workspace agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
       "publishedDate": "2026-04-22",
       "source": "news",
-      "slug": "20260422-introducing-workspace-agents-in-chatgpt",
+      "slug": "20260422-workspace-agents",
       "language": "en",
       "summaryLanguage": "ja"
     },
