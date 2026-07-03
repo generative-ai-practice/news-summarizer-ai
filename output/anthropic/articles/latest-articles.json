@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-03T05:46:46.050Z",
+  "lastChecked": "2026-07-03T10:28:17.708Z",
   "articles": [
     {
       "title": "Redeploying Fable 5",
@@ -41,9 +41,9 @@
     {
       "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
       "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "publishedDate": "2026-07-03",
+      "publishedDate": "2026-07-02",
       "source": "news",
-      "slug": "20260703-more-details-on-fable-5-s-cyber-safeguards-and-our",
+      "slug": "20260702-more-details-on-fable-5-s-cyber-safeguards-and-our",
       "language": "en",
       "summaryLanguage": "ja"
     },
