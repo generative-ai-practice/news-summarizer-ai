@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-06T18:51:40.496Z",
+  "lastChecked": "2026-07-06T21:22:52.835Z",
   "articles": [
     {
       "title": "Redeploying Fable 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-23",
       "source": "news",
       "slug": "20260623-introducing-claude-tag",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "publishedDate": "2026-07-06",
+      "source": "news",
+      "slug": "20260706-government-of-alberta-uses-claude-to-find-and-fix-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-06-12",
       "source": "news",
       "slug": "20260612-tcs-and-anthropic-partner-to-bring-claude-to-regul",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "publishedDate": "2026-06-11",
-      "source": "news",
-      "slug": "20260611-dxc-will-integrate-claude-into-the-systems-banks-a",
       "language": "en",
       "summaryLanguage": "ja"
     }
