@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-08T15:21:33.924Z",
+  "lastChecked": "2026-07-08T17:36:14.832Z",
   "articles": [
+    {
+      "title": "3 ways this coffee shop is growing with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
+      "publishedDate": "2026-07-08",
+      "source": "news",
+      "slug": "20260708-3-ways-this-coffee-shop-is-growing-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in June 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-28",
       "source": "news",
       "slug": "20260528-catch-up-on-12-major-i-o-2026-moments",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "100 things we announced at I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "publishedDate": "2026-05-20",
-      "source": "news",
-      "slug": "20260520-100-things-we-announced-at-i-o-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
