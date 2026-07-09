@@ -1,0 +1,1 @@
+- [Developer logs](https://ai.google.dev/gemini-api/docs/logs-datasets) support for the Interactions API: logs for supported Interactions API calls are now viewable in the [AI Studio dashboard](https://aistudio.google.com/logs).

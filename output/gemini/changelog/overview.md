@@ -5,6 +5,10 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## July 6, 2026
+
+- [Developer logs](https://ai.google.dev/gemini-api/docs/logs-datasets) support for the Interactions API: logs for supported Interactions API calls are now viewable in the [AI Studio dashboard](https://aistudio.google.com/logs).
+
 ## June 30, 2026
 
 - **Gemini Omni Flash in public preview** : Released `gemini-omni-flash-preview`,
