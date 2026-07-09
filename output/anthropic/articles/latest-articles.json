@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-09T16:22:51.984Z",
+  "lastChecked": "2026-07-09T18:46:22.830Z",
   "articles": [
+    {
+      "title": "Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "publishedDate": "2026-07-09",
+      "source": "news",
+      "slug": "20260709-inviting-hard-questions",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Redeploying Fable 5",
       "url": "https://www.anthropic.com/news/redeploying-fable-5",
@@ -30,11 +39,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Claude Tag",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "publishedDate": "2026-06-23",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "publishedDate": "2026-07-09",
       "source": "news",
-      "slug": "20260623-introducing-claude-tag",
+      "slug": "20260709-ben-bernanke-appointed-to-anthropic-s-long-term-be",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -66,29 +75,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "publishedDate": "2026-06-23",
+      "source": "news",
+      "slug": "20260623-introducing-claude-tag",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
       "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
       "publishedDate": "2026-06-17",
       "source": "news",
       "slug": "20260617-anthropic-opens-seoul-office-and-announces-new-par",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "publishedDate": "2026-06-12",
-      "source": "news",
-      "slug": "20260612-statement-on-the-us-government-directive-to-suspen",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Results from the first Anthropic Public Record",
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
-      "publishedDate": "2026-06-12",
-      "source": "news",
-      "slug": "20260612-results-from-the-first-anthropic-public-record",
       "language": "en",
       "summaryLanguage": "ja"
     }
