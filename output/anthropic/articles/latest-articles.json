@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-09T10:52:47.475Z",
+  "lastChecked": "2026-07-09T13:43:58.983Z",
   "articles": [
     {
       "title": "Redeploying Fable 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-23",
       "source": "news",
       "slug": "20260623-introducing-claude-tag",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing a way to reflect on how you use Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "publishedDate": "2026-07-09",
+      "source": "news",
+      "slug": "20260709-introducing-a-way-to-reflect-on-how-you-use-claude",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-06-12",
       "source": "news",
       "slug": "20260612-results-from-the-first-anthropic-public-record",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "publishedDate": "2026-06-12",
-      "source": "news",
-      "slug": "20260612-tcs-and-anthropic-partner-to-bring-claude-to-regul",
       "language": "en",
       "summaryLanguage": "ja"
     }
