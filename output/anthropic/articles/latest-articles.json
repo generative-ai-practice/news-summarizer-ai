@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-09T23:59:15.029Z",
+  "lastChecked": "2026-07-10T05:57:22.963Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-claude-science-an-ai-workbench-for-scientists-is-n",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "UST is bringing Claude to physical AI",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "publishedDate": "2026-07-10",
+      "source": "news",
+      "slug": "20260710-ust-is-bringing-claude-to-physical-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-06-23",
       "source": "news",
       "slug": "20260623-introducing-claude-tag",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "publishedDate": "2026-06-17",
-      "source": "news",
-      "slug": "20260617-anthropic-opens-seoul-office-and-announces-new-par",
       "language": "en",
       "summaryLanguage": "ja"
     }
