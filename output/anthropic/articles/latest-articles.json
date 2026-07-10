@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-10T05:57:22.963Z",
+  "lastChecked": "2026-07-10T10:45:49.470Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -41,9 +41,9 @@
     {
       "title": "UST is bringing Claude to physical AI",
       "url": "https://www.anthropic.com/news/ust-claude",
-      "publishedDate": "2026-07-10",
+      "publishedDate": "2026-07-09",
       "source": "news",
-      "slug": "20260710-ust-is-bringing-claude-to-physical-ai",
+      "slug": "20260709-ust-is-bringing-claude-to-physical-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
