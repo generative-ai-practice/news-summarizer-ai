@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-10T17:47:02.756Z",
+  "lastChecked": "2026-07-10T20:22:48.901Z",
   "articles": [
+    {
+      "title": "Here’s how to make study notebooks in the Gemini app.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
+      "publishedDate": "2026-07-10",
+      "source": "news",
+      "slug": "20260710-here-s-how-to-make-study-notebooks-in-the-gemini-a",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "3 ways this coffee shop is growing with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-05-29",
       "source": "news",
       "slug": "20260529-9-demos-of-gemini-omni-and-gemini-3-5-in-action",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Catch up on 12 major I/O 2026 moments",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "publishedDate": "2026-05-28",
-      "source": "news",
-      "slug": "20260528-catch-up-on-12-major-i-o-2026-moments",
       "language": "en",
       "summaryLanguage": "ja"
     }
