@@ -1,4 +1,4 @@
-# Claude Platform
+# Claude Platform release notes
 
 Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
 
