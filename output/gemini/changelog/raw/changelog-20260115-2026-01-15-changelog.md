@@ -3,4 +3,4 @@
 - `gemini-2.5-flash-preview-09-25`
 - `imagen-4.0-generate-preview-06-06`
 - `imagen-4.0-ultra-generate-preview-06-06`
-- The `gemini-2.5-flash-image-preview` has been shut down.
+- The `gemini-2.5-flash-image-preview` model has been shut down.

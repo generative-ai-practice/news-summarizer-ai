@@ -1,1 +1,1 @@
-- Introduced revamped [usage tiers](https://ai.google.dev/gemini-api/docs/billing#about-billing) and [Billing Account spend caps](https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps) for a better user billing experience.
+- Introduced revamped [Usage Tiers](https://ai.google.dev/gemini-api/docs/billing#about-billing) and [Billing Account spend caps](https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps) for a better user billing experience.

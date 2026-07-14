@@ -1,1 +1,1 @@
-- Deprecation announcement: The`text-embedding-004`model will be shut down January 14, 2026.
+- Deprecation announcement: The `text-embedding-004` model will be shut down January 14, 2026.

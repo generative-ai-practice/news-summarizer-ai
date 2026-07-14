@@ -1,1 +1,6 @@
-- Released `gemini-embedding-2-preview`, our first multimodal embedding model. It supports text, image, video, audio, and PDF inputs, mapping all modalities into a unified embedding space. To learn more, see [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings).
+- Released `gemini-embedding-2-preview`, our first multimodal embedding model.
+- It supports text, image, video, audio, and PDF inputs,
+- mapping all modalities into a unified embedding space. To learn more, see
+- [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings).
+- Deprecation announcement: The `gemini-2.5-flash-lite-preview-09-2025` model
+- will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on March 31, 2026.

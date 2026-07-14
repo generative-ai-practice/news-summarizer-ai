@@ -1,1 +1,6 @@
-- **Upcoming breaking change** : The [Interactions API](https://ai.google.dev/gemini-api/docs/interactions) request and response schema (`outputs` → `steps`) and output format configuration (`response_format`) are changing. The new schema becomes the default on **May 20** and the legacy schema will be removed on **June 6** . See the [migration guide](https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026) for details.
+- Released `gemini-3.1-flash-lite`, the generally available (GA) version of
+- [Gemini 3.1 Flash-Lite](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite),
+- optimized for speed, scale, and cost efficiency.
+- Deprecation announcement: The `gemini-3.1-flash-lite-preview` model is
+- deprecating on 5/11/26 and will be
+- [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on May 25, 2026.
