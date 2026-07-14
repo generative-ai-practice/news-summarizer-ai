@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-14T12:05:56.580Z",
+  "lastChecked": "2026-07-14T15:18:40.618Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -35,6 +35,24 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-claude-science-an-ai-workbench-for-scientists-is-n",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Claude for Teachers",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "publishedDate": "2026-07-14",
+      "source": "news",
+      "slug": "20260714-introducing-claude-for-teachers",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "publishedDate": "2026-07-14",
+      "source": "news",
+      "slug": "20260714-anthropic-commits-10-million-to-canadian-ai-resear",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +98,6 @@
       "publishedDate": "2026-07-02",
       "source": "news",
       "slug": "20260702-more-details-on-fable-5-s-cyber-safeguards-and-our",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Claude Tag",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "publishedDate": "2026-06-23",
-      "source": "news",
-      "slug": "20260623-introducing-claude-tag",
       "language": "en",
       "summaryLanguage": "ja"
     }
