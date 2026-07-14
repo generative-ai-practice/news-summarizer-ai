@@ -1,7 +1,7 @@
 - Released `gemini-3.5-flash`, the generally available (GA) version of
 - [Gemini 3.5 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash),
 - our most intelligent model for sustained frontier performance on
-- agentic and coding tasks.
+- agentic and coding tasks. This is now the model behind `gemini-flash-latest`.
 - Launched the **Managed Agents in the Gemini API** in public preview. This enables
 - developers to build and deploy autonomous, stateful agents that run in
 - secure, isolated Google-hosted Linux sandbox environments. To learn more,

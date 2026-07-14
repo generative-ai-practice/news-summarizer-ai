@@ -1,3 +1,4 @@
 - The following model is shut down:
 - `imagen-3.0-generate-002`
-- Use[Imagen 4](https://ai.google.dev/gemini-api/docs/imagen#imagen-4)instead. Refer to the[Gemini deprecations table](https://ai.google.dev/gemini-api/docs/deprecations)for more details.
+- Use [Imagen 4](https://ai.google.dev/gemini-api/docs/imagen#imagen-4) instead. Refer to the
+- [Gemini deprecations table](https://ai.google.dev/gemini-api/docs/deprecations) for more details.

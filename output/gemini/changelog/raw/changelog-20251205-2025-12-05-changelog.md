@@ -1,1 +1,1 @@
-- Gemini 3 billing for[Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search)will begin on January 5, 2026.
+- Gemini 3 billing for [Grounding with Google Search](https://ai.google.dev/gemini-api/docs/google-search) will begin on January 5, 2026.
