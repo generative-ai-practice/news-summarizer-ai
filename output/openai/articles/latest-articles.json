@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-14T07:52:16.586Z",
+  "lastChecked": "2026-07-14T10:39:51.629Z",
   "articles": [
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -1974,15 +1974,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The five AI value models driving business reinvention",
-      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing the Adoption news channel",
       "url": "https://openai.com/index/introducing-the-adoption-news-channel",
       "publishedDate": "2026-03-05",
@@ -2010,20 +2001,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "The five AI value models driving business reinvention",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Extending single-minus amplitudes to gravitons",
       "url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
       "publishedDate": "2026-03-04",
       "source": "news",
       "slug": "20260304-extending-single-minus-amplitudes-to-gravitons",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Axios uses AI to help deliver high-impact local journalism",
-      "url": "https://openai.com/index/axios-allison-murphy",
-      "publishedDate": "2026-03-04",
-      "source": "news",
-      "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2037,11 +2028,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-      "url": "https://openai.com/index/gpt-5-3-instant",
-      "publishedDate": "2026-03-03",
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "url": "https://openai.com/index/axios-allison-murphy",
+      "publishedDate": "2026-03-04",
       "source": "news",
-      "slug": "20260303-gpt-5-3-instant-smoother-more-useful-everyday-conv",
+      "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2051,6 +2042,15 @@
       "publishedDate": "2026-03-03",
       "source": "news",
       "slug": "20260303-gpt-5-3-instant-system-card",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "publishedDate": "2026-03-03",
+      "source": "news",
+      "slug": "20260303-gpt-5-3-instant-smoother-more-useful-everyday-conv",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2073,20 +2073,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "url": "https://openai.com/index/continuing-microsoft-partnership",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-joint-statement-from-openai-and-microsoft",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Scaling AI for everyone",
       "url": "https://openai.com/index/scaling-ai-for-everyone",
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-scaling-ai-for-everyone",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-joint-statement-from-openai-and-microsoft",
       "language": "en",
       "summaryLanguage": "ja"
     },
