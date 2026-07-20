@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-20T15:45:38.133Z",
+  "lastChecked": "2026-07-20T18:49:11.091Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-claude-science-an-ai-workbench-for-scientists-is-n",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "publishedDate": "2026-07-16",
+      "source": "news",
+      "slug": "20260716-apply-for-anthropic-s-ai-for-science-rare-disease-",
       "language": "en",
       "summaryLanguage": "ja"
     },
