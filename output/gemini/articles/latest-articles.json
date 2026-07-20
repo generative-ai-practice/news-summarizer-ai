@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-20T18:02:47.821Z",
+  "lastChecked": "2026-07-20T20:20:33.074Z",
   "articles": [
+    {
+      "title": "5 ways to build a side hustle with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
+      "publishedDate": "2026-07-20",
+      "source": "news",
+      "slug": "20260720-5-ways-to-build-a-side-hustle-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How Gemini is speaking the language of Southeast Asia",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-05",
       "source": "news",
       "slug": "20260605-the-latest-ai-news-we-announced-in-may-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "publishedDate": "2026-06-01",
-      "source": "news",
-      "slug": "20260601-how-we-used-gemini-to-build-google-i-o-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
