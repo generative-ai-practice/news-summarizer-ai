@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-20T18:49:11.091Z",
+  "lastChecked": "2026-07-20T21:03:45.232Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -41,9 +41,9 @@
     {
       "title": "Apply for Anthropic’s AI for Science rare disease research grants",
       "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-      "publishedDate": "2026-07-16",
+      "publishedDate": "2026-07-20",
       "source": "news",
-      "slug": "20260716-apply-for-anthropic-s-ai-for-science-rare-disease-",
+      "slug": "20260720-apply-for-anthropic-s-ai-for-science-rare-disease-",
       "language": "en",
       "summaryLanguage": "ja"
     },
