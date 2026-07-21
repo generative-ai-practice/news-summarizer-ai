@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-21T15:03:22.875Z",
+  "lastChecked": "2026-07-21T17:19:38.646Z",
   "articles": [
+    {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "publishedDate": "2026-07-21",
+      "source": "news",
+      "slug": "20260721-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "5 ways to build a side hustle with Gemini",
       "url": "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-08",
       "source": "news",
       "slug": "20260608-4-ways-soccer-fans-can-catch-every-moment-of-the-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in May 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "publishedDate": "2026-06-05",
-      "source": "news",
-      "slug": "20260605-the-latest-ai-news-we-announced-in-may-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }

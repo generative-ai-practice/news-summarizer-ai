@@ -1,0 +1,10 @@
+- **Gemini 3.6 Flash and Gemini 3.5 Flash-Lite generally available (GA)**:
+- Released stable, production-ready versions of our latest 3.x Flash models:
+- **Gemini 3.6 Flash** (`gemini-3.6-flash`): Features improved token efficiency and code/agentic planning capabilities at a lower price point than 3.5 Flash, resolving developer feedback around output verbosity.
+- **Gemini 3.5 Flash-Lite** (`gemini-3.5-flash-lite`): Offers a low-latency, highly cost-effective subagent option designed for high-volume automation.
+- To learn more, see the [Latest Gemini model](https://ai.google.dev/gemini-api/docs/latest-model)
+- guide.
+- **Deprecated parameters** : The sampling parameters `temperature`, `top_p`
+- and `top_k` are now deprecated. See the
+- [Latest Gemini Model](https://ai.google.dev/gemini-api/docs/latest-model#sampling-parameter-deprecation)
+- for details.
