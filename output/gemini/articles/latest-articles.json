@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-22T11:46:31.599Z",
+  "lastChecked": "2026-07-22T15:03:35.776Z",
   "articles": [
+    {
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "publishedDate": "2026-07-22",
+      "source": "news",
+      "slug": "20260722-3-google-updates-from-galaxy-unpacked-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "13 Google tips for a fun, productive summer off from college",
       "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-10",
       "source": "news",
       "slug": "20260610-save-time-and-grow-your-business-with-new-gemini-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
-      "publishedDate": "2026-06-09",
-      "source": "news",
-      "slug": "20260609-fluid-natural-voice-translation-with-gemini-3-5-li",
       "language": "en",
       "summaryLanguage": "ja"
     }
