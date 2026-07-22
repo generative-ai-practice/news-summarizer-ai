@@ -1,0 +1,1 @@
+- Added organization and project spend limits for the OpenAI API platform. Set monthly spend limits to monitor API costs, or enforce hard limits so API responses fail after an organization or project reaches its limit. Read more in the[spend limits guide](https://platform.openai.com/api/docs/guides/spend-limits).
