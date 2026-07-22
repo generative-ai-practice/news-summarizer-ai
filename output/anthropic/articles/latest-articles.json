@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-22T05:13:43.018Z",
+  "lastChecked": "2026-07-22T10:18:27.439Z",
   "articles": [
     {
       "title": "Inviting hard questions",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-claude-science-an-ai-workbench-for-scientists-is-n",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Anthropic is donating another $20 million to Public First Action",
+      "url": "https://www.anthropic.com/news/donation-public-first-action",
+      "publishedDate": "2026-07-20",
+      "source": "news",
+      "slug": "20260720-anthropic-is-donating-another-20-million-to-public",
       "language": "en",
       "summaryLanguage": "ja"
     },
