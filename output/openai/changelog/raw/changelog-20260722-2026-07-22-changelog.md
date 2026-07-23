@@ -1,0 +1,1 @@
+- Added hard spend limits for organizations and projects on the OpenAI API platform. Set a monthly cap that causes affected API requests to return a`429`error when tracked spend reaches the limit. Use spend alerts for notification before traffic is interrupted. Read more in the[spend limits guide](https://platform.openai.com/api/docs/guides/spend-limits).
