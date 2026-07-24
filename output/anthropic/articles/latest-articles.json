@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-24T18:12:53.234Z",
+  "lastChecked": "2026-07-24T20:56:11.616Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedDate": "2026-07-23",
+      "publishedDate": "2026-07-24",
       "source": "news",
-      "slug": "20260723-introducing-claude-opus-5",
+      "slug": "20260724-introducing-claude-opus-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
