@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-24T15:21:36.896Z",
+  "lastChecked": "2026-07-24T18:12:53.234Z",
   "articles": [
+    {
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedDate": "2026-07-23",
+      "source": "news",
+      "slug": "20260723-introducing-claude-opus-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Inviting hard questions",
       "url": "https://www.anthropic.com/news/hard-questions",
@@ -26,15 +35,6 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Claude Science, an AI workbench for scientists, is now available",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "publishedDate": "2026-06-30",
-      "source": "news",
-      "slug": "20260630-claude-science-an-ai-workbench-for-scientists-is-n",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +107,6 @@
       "publishedDate": "2026-07-09",
       "source": "news",
       "slug": "20260709-ben-bernanke-appointed-to-anthropic-s-long-term-be",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing a way to reflect on how you use Claude",
-      "url": "https://www.anthropic.com/news/reflect-with-claude",
-      "publishedDate": "2026-07-09",
-      "source": "news",
-      "slug": "20260709-introducing-a-way-to-reflect-on-how-you-use-claude",
       "language": "en",
       "summaryLanguage": "ja"
     }
