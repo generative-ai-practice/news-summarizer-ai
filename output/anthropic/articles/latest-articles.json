@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-27T11:12:02.475Z",
+  "lastChecked": "2026-07-27T16:09:42.469Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "publishedDate": "2026-07-28",
+      "source": "news",
+      "slug": "20260728-cognizant-and-anthropic-expand-their-partnership-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +107,6 @@
       "publishedDate": "2026-07-09",
       "source": "news",
       "slug": "20260709-ust-is-bringing-claude-to-physical-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "publishedDate": "2026-07-09",
-      "source": "news",
-      "slug": "20260709-ben-bernanke-appointed-to-anthropic-s-long-term-be",
       "language": "en",
       "summaryLanguage": "ja"
     }
