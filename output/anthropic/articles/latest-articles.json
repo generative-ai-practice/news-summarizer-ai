@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-27T21:03:55.059Z",
+  "lastChecked": "2026-07-27T23:56:51.905Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our position on open-weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "publishedDate": "2026-07-28",
+      "source": "news",
+      "slug": "20260728-our-position-on-open-weights-models",
       "language": "en",
       "summaryLanguage": "ja"
     },
