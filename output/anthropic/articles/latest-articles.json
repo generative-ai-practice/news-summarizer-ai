@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-27T16:09:42.469Z",
+  "lastChecked": "2026-07-27T18:19:23.631Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -41,9 +41,9 @@
     {
       "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
       "url": "https://www.anthropic.com/news/cognizant-anthropic",
-      "publishedDate": "2026-07-28",
+      "publishedDate": "2026-07-27",
       "source": "news",
-      "slug": "20260728-cognizant-and-anthropic-expand-their-partnership-t",
+      "slug": "20260727-cognizant-and-anthropic-expand-their-partnership-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
