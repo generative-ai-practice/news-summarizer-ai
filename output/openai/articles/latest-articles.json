@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-28T01:58:32.002Z",
+  "lastChecked": "2026-07-28T05:40:08.602Z",
   "articles": [
     {
       "title": "How AI is expanding what people do at work",
@@ -1704,11 +1704,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "ChatGPT for sales teams",
+      "title": "Learn ChatGPT for Sales Teams",
       "url": "https://openai.com/academy/sales",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-chatgpt-for-sales-teams",
+      "slug": "20260410-learn-chatgpt-for-sales-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
