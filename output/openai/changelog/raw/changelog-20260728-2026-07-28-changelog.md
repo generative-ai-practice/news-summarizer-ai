@@ -1,0 +1,2 @@
+- Released[GPT Transcribe](https://platform.openai.com/api/docs/models/gpt-transcribe)for accurate file transcription and final transcripts of committed Realtime turns, along with[GPT Live Transcribe](https://platform.openai.com/api/docs/models/gpt-live-transcribe)for low-latency streaming transcription.
+- Both models support free-form transcription context, keyword hints, and multiple expected input languages. Compare supported outputs and workflows in the[transcription guide](https://platform.openai.com/api/docs/guides/transcription).
