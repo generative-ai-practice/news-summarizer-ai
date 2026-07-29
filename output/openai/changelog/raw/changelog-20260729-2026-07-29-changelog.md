@@ -1,0 +1,2 @@
+- Released the official[OpenAI Terraform provider](https://platform.openai.com/api/docs/guides/terraform)for managing OpenAI API Platform resources as infrastructure as code.
+- Provision and manage projects, users, groups, roles, access assignments, service accounts, certificates, invitations, and project-level rate limits. Use standard Terraform workflows to review and apply changes, import existing resources, and detect and reconcile configuration drift. Install the provider from the[Terraform Registry](https://registry.terraform.io/providers/openai/openai/latest).
