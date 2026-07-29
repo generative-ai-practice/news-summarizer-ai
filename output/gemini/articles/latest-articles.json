@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-29T15:07:24.164Z",
+  "lastChecked": "2026-07-29T17:14:18.638Z",
   "articles": [
+    {
+      "title": "Gemini for macOS adds new natural language capabilities",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
+      "publishedDate": "2026-07-29",
+      "source": "news",
+      "slug": "20260729-gemini-for-macos-adds-new-natural-language-capabil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-24",
       "source": "news",
       "slug": "20260624-introducing-computer-use-in-gemini-3-5-flash",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Powering the world’s first AI arts museum",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
-      "publishedDate": "2026-06-18",
-      "source": "news",
-      "slug": "20260618-powering-the-world-s-first-ai-arts-museum",
       "language": "en",
       "summaryLanguage": "ja"
     }
