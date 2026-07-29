@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-29T13:54:29.606Z",
+  "lastChecked": "2026-07-29T16:16:30.720Z",
   "articles": [
     {
       "title": "Scientific computing in the age of agentic AI",
@@ -309,11 +309,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Inside Genebench-Pro",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
       "publishedDate": "2026-06-30",
       "source": "news",
-      "slug": "20260630-inside-genebench-pro",
+      "slug": "20260630-core-dump-epidemiology-fixing-an-18-year-old-bug",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -327,11 +327,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
       "publishedDate": "2026-06-30",
       "source": "news",
-      "slug": "20260630-core-dump-epidemiology-fixing-an-18-year-old-bug",
+      "slug": "20260630-inside-genebench-pro",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -534,6 +534,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "publishedDate": "2026-06-11",
+      "source": "news",
+      "slug": "20260611-how-an-astrophysicist-uses-codex-to-help-simulate-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
       "publishedDate": "2026-06-11",
@@ -548,15 +557,6 @@
       "publishedDate": "2026-06-11",
       "source": "news",
       "slug": "20260611-bbva-puts-ai-at-the-core-of-banking-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "publishedDate": "2026-06-11",
-      "source": "news",
-      "slug": "20260611-how-an-astrophysicist-uses-codex-to-help-simulate-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -912,11 +912,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "url": "https://openai.com/index/ramp",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "publishedDate": "2026-05-20",
       "source": "news",
-      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
+      "slug": "20260520-an-openai-model-has-disproved-a-central-conjecture",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -930,11 +930,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
       "publishedDate": "2026-05-20",
       "source": "news",
-      "slug": "20260520-an-openai-model-has-disproved-a-central-conjecture",
+      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -975,6 +975,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "url": "https://openai.com/index/databricks",
+      "publishedDate": "2026-05-15",
+      "source": "news",
+      "slug": "20260515-databricks-brings-gpt-5-5-to-enterprise-agent-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "How business operations teams use ChatGPT Work",
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "publishedDate": "2026-05-15",
@@ -989,15 +998,6 @@
       "publishedDate": "2026-05-15",
       "source": "news",
       "slug": "20260515-a-new-personal-finance-experience-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "url": "https://openai.com/index/databricks",
-      "publishedDate": "2026-05-15",
-      "source": "news",
-      "slug": "20260515-databricks-brings-gpt-5-5-to-enterprise-agent-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1191,11 +1191,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "url": "https://openai.com/index/introducing-b2b-signals",
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "url": "https://openai.com/index/singular-bank",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
+      "slug": "20260506-singular-bank-helps-bankers-move-fast-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1218,11 +1218,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "url": "https://openai.com/index/singular-bank",
+      "title": "How frontier firms are pulling ahead",
+      "url": "https://openai.com/index/introducing-b2b-signals",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-singular-bank-helps-bankers-move-fast-with-chatgpt",
+      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1398,20 +1398,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.5 System Card",
-      "url": "https://openai.com/index/gpt-5-5-system-card",
-      "publishedDate": "2026-04-23",
-      "source": "news",
-      "slug": "20260423-gpt-5-5-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5",
       "publishedDate": "2026-04-23",
       "source": "news",
       "slug": "20260423-introducing-gpt-5-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "publishedDate": "2026-04-23",
+      "source": "news",
+      "slug": "20260423-gpt-5-5-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1434,15 +1434,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "publishedDate": "2026-04-22",
-      "source": "news",
-      "slug": "20260422-workspace-agents",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "publishedDate": "2026-04-22",
@@ -1457,6 +1448,15 @@
       "publishedDate": "2026-04-22",
       "source": "news",
       "slug": "20260422-speeding-up-agentic-workflows-with-websockets-in-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "publishedDate": "2026-04-22",
+      "source": "news",
+      "slug": "20260422-workspace-agents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1551,11 +1551,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Applications of AI at OpenAI",
-      "url": "https://openai.com/academy/applications-of-ai",
+      "title": "Learn ChatGPT for Sales Teams",
+      "url": "https://openai.com/academy/sales",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-applications-of-ai-at-openai",
+      "slug": "20260410-learn-chatgpt-for-sales-teams",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Healthcare",
+      "url": "https://openai.com/academy/healthcare",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-healthcare",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1722,11 +1731,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Healthcare",
-      "url": "https://openai.com/academy/healthcare",
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-healthcare",
+      "slug": "20260410-applications-of-ai-at-openai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1745,15 +1754,6 @@
       "publishedDate": "2026-04-10",
       "source": "news",
       "slug": "20260410-chatgpt-for-customer-success-teams",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Learn ChatGPT for Sales Teams",
-      "url": "https://openai.com/academy/sales",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-learn-chatgpt-for-sales-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1974,20 +1974,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Rakuten fixes issues twice as fast with Codex",
-      "url": "https://openai.com/index/rakuten",
-      "publishedDate": "2026-03-11",
-      "source": "news",
-      "slug": "20260311-rakuten-fixes-issues-twice-as-fast-with-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
       "url": "https://openai.com/index/wayfair",
       "publishedDate": "2026-03-11",
       "source": "news",
       "slug": "20260311-wayfair-boosts-catalog-accuracy-and-support-speed-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "url": "https://openai.com/index/rakuten",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-rakuten-fixes-issues-twice-as-fast-with-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2082,15 +2082,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT for Excel and new financial data integrations",
-      "url": "https://openai.com/index/chatgpt-for-excel",
-      "publishedDate": "2026-03-05",
-      "source": "news",
-      "slug": "20260305-introducing-chatgpt-for-excel-and-new-financial-da",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing the Adoption news channel",
       "url": "https://openai.com/index/introducing-the-adoption-news-channel",
       "publishedDate": "2026-03-05",
@@ -2114,6 +2105,15 @@
       "publishedDate": "2026-03-05",
       "source": "news",
       "slug": "20260305-vfl-wolfsburg-turns-chatgpt-into-a-club-wide-capab",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "url": "https://openai.com/index/chatgpt-for-excel",
+      "publishedDate": "2026-03-05",
+      "source": "news",
+      "slug": "20260305-introducing-chatgpt-for-excel-and-new-financial-da",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2190,20 +2190,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI and Amazon announce strategic partnership",
       "url": "https://openai.com/index/amazon-partnership",
       "publishedDate": "2026-02-27",
       "source": "news",
       "slug": "20260227-openai-and-amazon-announce-strategic-partnership",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2487,20 +2487,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The next chapter for AI in the EU",
-      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
-      "publishedDate": "2026-01-28",
-      "source": "news",
-      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "EMEA Youth & Wellbeing Grant",
       "url": "https://openai.com/index/emea-youth-and-wellbeing-grant",
       "publishedDate": "2026-01-28",
       "source": "news",
       "slug": "20260128-emea-youth-wellbeing-grant",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "publishedDate": "2026-01-28",
+      "source": "news",
+      "slug": "20260128-the-next-chapter-for-ai-in-the-eu",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2568,20 +2568,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
-      "url": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
-      "publishedDate": "2026-01-22",
-      "source": "news",
-      "slug": "20260122-inside-gpt-5-for-work-how-businesses-use-gpt-5",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Inside Praktika's conversational approach to language learning",
       "url": "https://openai.com/index/praktika",
       "publishedDate": "2026-01-22",
       "source": "news",
       "slug": "20260122-inside-praktika-s-conversational-approach-to-langu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+      "url": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+      "publishedDate": "2026-01-22",
+      "source": "news",
+      "slug": "20260122-inside-gpt-5-for-work-how-businesses-use-gpt-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
