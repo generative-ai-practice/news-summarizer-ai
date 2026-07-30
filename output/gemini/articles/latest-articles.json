@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-30T17:26:36.695Z",
+  "lastChecked": "2026-07-30T20:13:34.432Z",
   "articles": [
+    {
+      "title": "Gemini Spark now integrates with Chrome",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "publishedDate": "2026-07-30",
+      "source": "news",
+      "slug": "20260730-gemini-spark-now-integrates-with-chrome",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing Gemini Robotics ER 2",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-25",
       "source": "news",
       "slug": "20260625-5-ways-google-parents-are-using-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "5 ways to learn with study notebooks in the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-study-notebooks/",
-      "publishedDate": "2026-06-25",
-      "source": "news",
-      "slug": "20260625-5-ways-to-learn-with-study-notebooks-in-the-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     }
