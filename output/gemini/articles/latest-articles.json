@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-30T11:50:54.814Z",
+  "lastChecked": "2026-07-30T15:09:55.716Z",
   "articles": [
+    {
+      "title": "Introducing Gemini Robotics ER 2",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+      "publishedDate": "2026-07-30",
+      "source": "news",
+      "slug": "20260730-introducing-gemini-robotics-er-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini for macOS adds new natural language capabilities",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-25",
       "source": "news",
       "slug": "20260625-5-ways-to-learn-with-study-notebooks-in-the-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-      "publishedDate": "2026-06-24",
-      "source": "news",
-      "slug": "20260624-introducing-computer-use-in-gemini-3-5-flash",
       "language": "en",
       "summaryLanguage": "ja"
     }
