@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-07-30T20:58:40.913Z",
+  "lastChecked": "2026-07-30T23:55:58.773Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Frontier Red TeamInvestigating three real-world incidents in our cybersecurity evaluations",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "publishedDate": "2026-07-29",
+      "source": "news",
+      "slug": "20260729-frontier-red-teaminvestigating-three-real-world-in",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-07-14",
       "source": "news",
       "slug": "20260714-anthropic-commits-10-million-to-canadian-ai-resear",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "UST is bringing Claude to physical AI",
-      "url": "https://www.anthropic.com/news/ust-claude",
-      "publishedDate": "2026-07-09",
-      "source": "news",
-      "slug": "20260709-ust-is-bringing-claude-to-physical-ai",
       "language": "en",
       "summaryLanguage": "ja"
     }
