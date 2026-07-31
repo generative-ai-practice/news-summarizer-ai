@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-31T06:05:33.851Z",
+  "lastChecked": "2026-07-31T11:25:07.000Z",
   "articles": [
+    {
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "publishedDate": "2026-07-31",
+      "source": "news",
+      "slug": "20260731-advancing-responsible-ai-across-europe",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "publishedDate": "2026-07-31",
+      "source": "news",
+      "slug": "20260731-univ-builds-an-ai-ready-workforce",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Advancing the price-performance frontier with GPT-5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
