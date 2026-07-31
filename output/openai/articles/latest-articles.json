@@ -1,16 +1,7 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-07-31T19:14:50.249Z",
+  "lastChecked": "2026-07-31T21:59:15.480Z",
   "articles": [
-    {
-      "title": "Disrupting a Criminal Scam Operation",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "publishedDate": "2026-08-04",
-      "source": "news",
-      "slug": "20260804-disrupting-a-criminal-scam-operation",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
     {
       "title": "Advancing responsible AI across Europe",
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
@@ -35,6 +26,15 @@
       "publishedDate": "2026-07-31",
       "source": "news",
       "slug": "20260731-univ-builds-an-ai-ready-workforce",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "publishedDate": "2026-07-31",
+      "source": "news",
+      "slug": "20260731-disrupting-a-criminal-scam-operation",
       "language": "en",
       "summaryLanguage": "ja"
     },
