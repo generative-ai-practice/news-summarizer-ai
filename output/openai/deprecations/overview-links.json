@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-31T02:10:30.547Z",
+  "fetchedAt": "2026-07-31T06:05:34.175Z",
   "links": [
     {
       "title": "2026-07-20 deprecations",
@@ -65,15 +65,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "2025-11-14 deprecations",
-      "url": "https://platform.openai.com/docs/deprecations#2025-11-14",
-      "publishedDate": "2025-11-14",
-      "source": "platform-deprecations",
-      "slug": "20251114-2025-11-14-deprecations",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "2025-11-18 deprecations",
       "url": "https://platform.openai.com/docs/deprecations#2025-11-18",
       "publishedDate": "2025-11-18",
@@ -88,6 +79,15 @@
       "publishedDate": "2025-11-17",
       "source": "platform-deprecations",
       "slug": "20251117-2025-11-17-deprecations",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2025-11-14 deprecations",
+      "url": "https://platform.openai.com/docs/deprecations#2025-11-14",
+      "publishedDate": "2025-11-14",
+      "source": "platform-deprecations",
+      "slug": "20251114-2025-11-14-deprecations",
       "language": "en",
       "summaryLanguage": "ja"
     }
