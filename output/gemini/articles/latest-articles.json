@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-31T17:36:26.930Z",
+  "lastChecked": "2026-07-31T20:20:25.330Z",
   "articles": [
+    {
+      "title": "Simplify your morning with this vibe-coded schedule app.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
+      "publishedDate": "2026-07-31",
+      "source": "news",
+      "slug": "20260731-simplify-your-morning-with-this-vibe-coded-schedul",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-26",
       "source": "news",
       "slug": "20260626-here-s-how-gemini-can-help-you-avoid-jetlag",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Try these 3 Google AI tools to help find your next job.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/find-job-with-google-ai-tools/",
-      "publishedDate": "2026-06-25",
-      "source": "news",
-      "slug": "20260625-try-these-3-google-ai-tools-to-help-find-your-next",
       "language": "en",
       "summaryLanguage": "ja"
     }
