@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-31T15:19:08.189Z",
+  "lastChecked": "2026-07-31T17:36:26.930Z",
   "articles": [
+    {
+      "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
+      "publishedDate": "2026-07-31",
+      "source": "news",
+      "slug": "20260731-find-out-what-s-new-in-the-gemini-app-in-july-s-ge",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini Spark now integrates with Chrome",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-25",
       "source": "news",
       "slug": "20260625-try-these-3-google-ai-tools-to-help-find-your-next",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "5 ways Google parents are using Gemini",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-tips-for-parents/",
-      "publishedDate": "2026-06-25",
-      "source": "news",
-      "slug": "20260625-5-ways-google-parents-are-using-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     }
