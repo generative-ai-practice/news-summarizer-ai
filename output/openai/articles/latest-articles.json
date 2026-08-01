@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-01T05:49:14.270Z",
+  "lastChecked": "2026-08-01T08:11:03.945Z",
   "articles": [
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "publishedDate": "2026-08-01",
+      "source": "news",
+      "slug": "20260801-ten-advances-in-mathematics-and-theoretical-comput",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Advancing responsible AI across Europe",
       "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
