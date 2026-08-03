@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-03T19:23:03.247Z",
+  "lastChecked": "2026-08-03T22:02:13.121Z",
   "articles": [
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "publishedDate": "2026-08-03",
+      "source": "news",
+      "slug": "20260803-how-we-built-a-realtime-system-for-responsive-voic",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Ten advances in mathematics and theoretical computer science",
       "url": "https://openai.com/index/ten-advances-in-mathematics",
