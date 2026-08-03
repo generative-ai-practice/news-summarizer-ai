@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-03T11:14:35.499Z",
+  "lastChecked": "2026-08-03T16:15:36.782Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -39,11 +39,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Frontier Red TeamInvestigating three real-world incidents in our cybersecurity evaluations",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
       "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
       "publishedDate": "2026-07-30",
       "source": "news",
-      "slug": "20260730-frontier-red-teaminvestigating-three-real-world-in",
+      "slug": "20260730-investigating-three-real-world-incidents-in-our-cy",
       "language": "en",
       "summaryLanguage": "ja"
     },
