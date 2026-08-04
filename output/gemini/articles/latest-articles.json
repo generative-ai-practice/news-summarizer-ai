@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-04T12:01:24.821Z",
+  "lastChecked": "2026-08-04T15:24:00.040Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "publishedDate": "2026-08-04",
+      "source": "news",
+      "slug": "20260804-the-latest-ai-news-we-announced-in-july-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Inside our 353,000-person vibe coding course",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "publishedDate": "2026-08-03",
+      "source": "news",
+      "slug": "20260803-inside-our-353-000-person-vibe-coding-course",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Simplify your morning with this vibe-coded schedule app.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-06-29",
       "source": "news",
       "slug": "20260629-the-gemini-app-is-bringing-personalized-image-crea",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini can now take notes in Google Meet for Google AI Pro and Ultra subscribers.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/",
-      "publishedDate": "2026-06-29",
-      "source": "news",
-      "slug": "20260629-gemini-can-now-take-notes-in-google-meet-for-googl",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Here's how Gemini can help you avoid jetlag.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-help-avoid-jetlag/",
-      "publishedDate": "2026-06-26",
-      "source": "news",
-      "slug": "20260626-here-s-how-gemini-can-help-you-avoid-jetlag",
       "language": "en",
       "summaryLanguage": "ja"
     }
