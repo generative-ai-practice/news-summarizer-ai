@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-04T16:47:30.330Z",
+  "lastChecked": "2026-08-04T19:22:35.855Z",
   "articles": [
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "publishedDate": "2026-08-04",
+      "source": "news",
+      "slug": "20260804-new-ways-to-learn-and-teach-with-chatgpt-work-and-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Apple is getting this wrong",
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
