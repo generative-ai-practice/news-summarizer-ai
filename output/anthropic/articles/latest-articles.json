@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-04T16:08:01.143Z",
+  "lastChecked": "2026-08-04T18:23:36.598Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "publishedDate": "2026-08-04",
+      "source": "news",
+      "slug": "20260804-mariano-florentino-tino-cu-llar-to-join-anthropic-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-07-14",
       "source": "news",
       "slug": "20260714-introducing-claude-for-teachers",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic commits $10 million to Canadian AI research",
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "publishedDate": "2026-07-14",
-      "source": "news",
-      "slug": "20260714-anthropic-commits-10-million-to-canadian-ai-resear",
       "language": "en",
       "summaryLanguage": "ja"
     }
