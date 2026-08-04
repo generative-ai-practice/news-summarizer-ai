@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-04T01:56:36.069Z",
+  "lastChecked": "2026-08-04T05:41:57.298Z",
   "articles": [
+    {
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "publishedDate": "2026-08-03",
+      "source": "news",
+      "slug": "20260803-apple-is-getting-this-wrong",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How we built a realtime system for responsive voice AI in six months",
       "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
