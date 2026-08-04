@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-04T19:22:35.855Z",
+  "lastChecked": "2026-08-04T22:06:15.483Z",
   "articles": [
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "publishedDate": "2026-08-04",
+      "source": "news",
+      "slug": "20260804-third-party-cyber-evaluations-involving-openai-mod",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "New ways to learn and teach with ChatGPT Work and Codex",
       "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
