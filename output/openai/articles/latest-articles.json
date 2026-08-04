@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-03T22:02:13.121Z",
+  "lastChecked": "2026-08-04T01:56:36.069Z",
   "articles": [
     {
       "title": "How we built a realtime system for responsive voice AI in six months",
@@ -8,6 +8,15 @@
       "publishedDate": "2026-08-03",
       "source": "news",
       "slug": "20260803-how-we-built-a-realtime-system-for-responsive-voic",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "publishedDate": "2026-08-03",
+      "source": "news",
+      "slug": "20260803-circles-powers-telco-personalization-with-openai-t",
       "language": "en",
       "summaryLanguage": "ja"
     },
