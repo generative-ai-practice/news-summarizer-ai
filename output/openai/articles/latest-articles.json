@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-05T16:27:45.701Z",
+  "lastChecked": "2026-08-05T19:20:36.596Z",
   "articles": [
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
@@ -1245,20 +1245,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "publishedDate": "2026-05-11",
-      "source": "news",
-      "slug": "20260511-openai-campus-network-student-club-interest-form",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How enterprises are scaling AI",
       "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "publishedDate": "2026-05-11",
       "source": "news",
       "slug": "20260511-how-enterprises-are-scaling-ai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "publishedDate": "2026-05-11",
+      "source": "news",
+      "slug": "20260511-openai-campus-network-student-club-interest-form",
       "language": "en",
       "summaryLanguage": "ja"
     },

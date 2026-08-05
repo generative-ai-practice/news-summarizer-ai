@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-08-05T16:27:46.413Z",
+  "fetchedAt": "2026-08-05T19:20:37.242Z",
   "links": [
+    {
+      "title": "2026-08-05 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2026-08-05",
+      "publishedDate": "2026-08-05",
+      "source": "changelog",
+      "slug": "20260805-2026-08-05-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-08-04 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2026-08-04",
+      "publishedDate": "2026-08-04",
+      "source": "changelog",
+      "slug": "20260804-2026-08-04-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-07-30 changelog",
       "url": "https://platform.openai.com/docs/changelog#2026-07-30",
