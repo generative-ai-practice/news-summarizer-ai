@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-04T22:06:15.483Z",
+  "lastChecked": "2026-08-05T01:56:03.586Z",
   "articles": [
     {
       "title": "Third-party cyber evaluations involving OpenAI models",
@@ -769,7 +769,7 @@
     },
     {
       "title": "Introducing the OpenAI Economic Research Exchange",
-      "url": "https://openai.com/index/economic-research-exchange",
+      "url": "https://openai.com/index/introducing-the-openai-economic-research-exchange",
       "publishedDate": "2026-06-08",
       "source": "news",
       "slug": "20260608-introducing-the-openai-economic-research-exchange",
