@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-07T15:50:04.100Z",
+  "lastChecked": "2026-08-07T18:44:59.505Z",
   "articles": [
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "publishedDate": "2026-08-07",
+      "source": "news",
+      "slug": "20260807-responding-to-the-next-frontier-of-critical-cyber-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
       "url": "https://openai.com/index/hsp-gruppe",
