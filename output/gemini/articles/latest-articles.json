@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-06T15:16:10.175Z",
+  "lastChecked": "2026-08-07T00:40:01.505Z",
   "articles": [
+    {
+      "title": "How Gemini plans such detailed vacation itineraries for you",
+      "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
+      "publishedDate": "2026-08-06",
+      "source": "news",
+      "slug": "20260806-how-gemini-plans-such-detailed-vacation-itinerarie",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The latest AI news we announced in July 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-start-building-with-nano-banana-2-lite-and-gemini-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The Gemini app is bringing personalized image creation to more users.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana-us-expansion/",
-      "publishedDate": "2026-06-29",
-      "source": "news",
-      "slug": "20260629-the-gemini-app-is-bringing-personalized-image-crea",
       "language": "en",
       "summaryLanguage": "ja"
     }
