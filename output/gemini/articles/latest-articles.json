@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-07T14:12:35.214Z",
+  "lastChecked": "2026-08-07T16:54:09.664Z",
   "articles": [
+    {
+      "title": "See what 5 builders are making with Gemini Omni",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
+      "publishedDate": "2026-08-07",
+      "source": "news",
+      "slug": "20260807-see-what-5-builders-are-making-with-gemini-omni",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How Gemini plans such detailed vacation itineraries for you",
       "url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-gemini-spark-updates-macos-launch-connected-apps-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
-      "publishedDate": "2026-06-30",
-      "source": "news",
-      "slug": "20260630-start-building-with-nano-banana-2-lite-and-gemini-",
       "language": "en",
       "summaryLanguage": "ja"
     }
