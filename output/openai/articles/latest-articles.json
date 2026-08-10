@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-10T12:53:50.619Z",
+  "lastChecked": "2026-08-10T15:54:12.310Z",
   "articles": [
+    {
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-openai-s-letter-to-governor-abbott-on-responsible-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-model-ml-completes-finance-work-more-efficiently-w",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Responding to the next frontier of critical cyber capabilities",
       "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
