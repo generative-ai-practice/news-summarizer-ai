@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-10T14:19:14.435Z",
+  "lastChecked": "2026-08-10T16:53:22.261Z",
   "articles": [
+    {
+      "title": "Have more fun at the state fair with these Google tools",
+      "url": "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-have-more-fun-at-the-state-fair-with-these-google-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "See what 5 builders are making with Gemini Omni",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-01",
       "source": "news",
       "slug": "20260701-the-latest-ai-news-we-announced-in-june-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini Spark updates: macOS launch, connected apps and more",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/",
-      "publishedDate": "2026-06-30",
-      "source": "news",
-      "slug": "20260630-gemini-spark-updates-macos-launch-connected-apps-a",
       "language": "en",
       "summaryLanguage": "ja"
     }
