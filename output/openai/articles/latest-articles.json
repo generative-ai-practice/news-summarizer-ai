@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-10T15:54:12.310Z",
+  "lastChecked": "2026-08-10T18:47:33.744Z",
   "articles": [
     {
       "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
@@ -17,6 +17,42 @@
       "publishedDate": "2026-08-10",
       "source": "news",
       "slug": "20260810-model-ml-completes-finance-work-more-efficiently-w",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-what-building-an-ai-native-finance-function-taught",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-expanding-daybreak-as-the-cyber-defense-window-nar",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-putting-frontier-cyber-models-in-more-trusted-hand",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-premium-seats-are-coming-to-chatgpt-business",
       "language": "en",
       "summaryLanguage": "ja"
     },
