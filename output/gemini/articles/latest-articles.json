@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-11T16:56:39.246Z",
+  "lastChecked": "2026-08-11T19:59:26.445Z",
   "articles": [
+    {
+      "title": "More than 1 billion people are using the Gemini app every month.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+      "publishedDate": "2026-08-11",
+      "source": "news",
+      "slug": "20260811-more-than-1-billion-people-are-using-the-gemini-ap",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Have more fun at the state fair with these Google tools",
       "url": "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-08",
       "source": "news",
       "slug": "20260708-3-ways-this-coffee-shop-is-growing-with-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in June 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "publishedDate": "2026-07-01",
-      "source": "news",
-      "slug": "20260701-the-latest-ai-news-we-announced-in-june-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
