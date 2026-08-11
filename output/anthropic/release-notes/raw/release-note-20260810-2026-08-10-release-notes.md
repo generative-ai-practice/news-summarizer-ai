@@ -1,0 +1,1 @@
+- The introductory pricing for Claude Sonnet 5 ($2 / $10 per MTok) is now the standard price: the previously scheduled increase to $3 / $15 per MTok on September 1, 2026 will not occur. See [Pricing](https://platform.claude.com/docs/en/about-claude/pricing).
