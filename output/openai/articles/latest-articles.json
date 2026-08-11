@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-11T15:54:47.378Z",
+  "lastChecked": "2026-08-11T18:53:20.541Z",
   "articles": [
+    {
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "publishedDate": "2026-08-11",
+      "source": "news",
+      "slug": "20260811-testing-ads-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
       "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
@@ -1421,15 +1430,6 @@
       "publishedDate": "2026-05-07",
       "source": "news",
       "slug": "20260507-advancing-voice-intelligence-with-new-models-in-th",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "publishedDate": "2026-05-07",
-      "source": "news",
-      "slug": "20260507-testing-ads-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
