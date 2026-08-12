@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-12T10:59:23.300Z",
+  "lastChecked": "2026-08-12T14:20:05.806Z",
   "articles": [
+    {
+      "title": "Now you can connect even more of your favorite apps and services to Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+      "publishedDate": "2026-08-12",
+      "source": "news",
+      "slug": "20260812-now-you-can-connect-even-more-of-your-favorite-app",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "More than 1 billion people are using the Gemini app every month.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-10",
       "source": "news",
       "slug": "20260710-here-s-how-to-make-study-notebooks-in-the-gemini-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "3 ways this coffee shop is growing with Gemini",
-      "url": "https://blog.google/products-and-platforms/products/gemini/coffee-shop-gemini-features/",
-      "publishedDate": "2026-07-08",
-      "source": "news",
-      "slug": "20260708-3-ways-this-coffee-shop-is-growing-with-gemini",
       "language": "en",
       "summaryLanguage": "ja"
     }
