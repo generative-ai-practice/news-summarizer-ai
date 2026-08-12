@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-12T18:53:21.026Z",
+  "lastChecked": "2026-08-12T21:38:09.580Z",
   "articles": [
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -57,20 +57,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "publishedDate": "2026-08-10",
-      "source": "news",
-      "slug": "20260810-expanding-daybreak-as-the-cyber-defense-window-nar",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Putting frontier cyber models in more trusted hands",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
       "publishedDate": "2026-08-10",
       "source": "news",
       "slug": "20260810-putting-frontier-cyber-models-in-more-trusted-hand",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-expanding-daybreak-as-the-cyber-defense-window-nar",
       "language": "en",
       "summaryLanguage": "ja"
     },
