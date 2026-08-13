@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-13T09:56:49.482Z",
+  "lastChecked": "2026-08-13T12:55:24.236Z",
   "articles": [
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -84,6 +84,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-premium-seats-are-coming-to-chatgpt-business",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
       "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
       "publishedDate": "2026-08-10",
@@ -98,15 +107,6 @@
       "publishedDate": "2026-08-10",
       "source": "news",
       "slug": "20260810-how-zapier-transformed-core-marketing-processes-wi",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Premium seats are coming to ChatGPT Business",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "publishedDate": "2026-08-10",
-      "source": "news",
-      "slug": "20260810-premium-seats-are-coming-to-chatgpt-business",
       "language": "en",
       "summaryLanguage": "ja"
     },
