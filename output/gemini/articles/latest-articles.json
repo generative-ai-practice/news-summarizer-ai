@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-13T11:00:05.268Z",
+  "lastChecked": "2026-08-13T14:21:34.798Z",
   "articles": [
+    {
+      "title": "Omni experts share what excites them most about the model.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
+      "publishedDate": "2026-08-13",
+      "source": "news",
+      "slug": "20260813-omni-experts-share-what-excites-them-most-about-th",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Now you can connect even more of your favorite apps and services to Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-14",
       "source": "news",
       "slug": "20260714-how-gemini-is-speaking-the-language-of-southeast-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Here’s how to make study notebooks in the Gemini app.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
-      "publishedDate": "2026-07-10",
-      "source": "news",
-      "slug": "20260710-here-s-how-to-make-study-notebooks-in-the-gemini-a",
       "language": "en",
       "summaryLanguage": "ja"
     }
