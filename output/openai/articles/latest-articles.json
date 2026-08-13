@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-13T01:22:53.095Z",
+  "lastChecked": "2026-08-13T04:46:01.617Z",
   "articles": [
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -84,6 +84,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-virgin-atlantic-sharpens-customer-journeys-with-ch",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "How Zapier transformed core marketing processes with ChatGPT Work",
       "url": "https://openai.com/index/zapier",
       "publishedDate": "2026-08-10",
@@ -98,15 +107,6 @@
       "publishedDate": "2026-08-10",
       "source": "news",
       "slug": "20260810-premium-seats-are-coming-to-chatgpt-business",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "publishedDate": "2026-08-10",
-      "source": "news",
-      "slug": "20260810-virgin-atlantic-sharpens-customer-journeys-with-ch",
       "language": "en",
       "summaryLanguage": "ja"
     },
