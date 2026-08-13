@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-13T16:55:18.689Z",
+  "lastChecked": "2026-08-13T19:55:17.633Z",
   "articles": [
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "publishedDate": "2026-08-13",
+      "source": "news",
+      "slug": "20260813-introducing-gemini-3-7-flash",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Omni experts share what excites them most about the model.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-20",
       "source": "news",
       "slug": "20260720-5-ways-to-build-a-side-hustle-with-gemini",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Gemini is speaking the language of Southeast Asia",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
-      "publishedDate": "2026-07-14",
-      "source": "news",
-      "slug": "20260714-how-gemini-is-speaking-the-language-of-southeast-a",
       "language": "en",
       "summaryLanguage": "ja"
     }
