@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-14T17:45:57.243Z",
+  "lastChecked": "2026-08-14T20:23:32.132Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How Claude’s text watermark works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "publishedDate": "2026-08-14",
+      "source": "news",
+      "slug": "20260814-how-claude-s-text-watermark-works",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -107,15 +116,6 @@
       "publishedDate": "2026-07-21",
       "source": "news",
       "slug": "20260721-anthropic-is-donating-another-20-million-to-public",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
-      "publishedDate": "2026-07-20",
-      "source": "news",
-      "slug": "20260720-apply-for-anthropic-s-ai-for-science-rare-disease-",
       "language": "en",
       "summaryLanguage": "ja"
     }
