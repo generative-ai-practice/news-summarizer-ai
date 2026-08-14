@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-14T01:21:56.206Z",
+  "lastChecked": "2026-08-14T04:43:55.779Z",
   "articles": [
+    {
+      "title": "2026-08-13 changelog",
+      "url": "https://platform.openai.com/docs/changelog#2026-08-13",
+      "publishedDate": "2026-08-13",
+      "source": "changelog",
+      "slug": "20260813-2026-08-13-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-08-07 changelog",
       "url": "https://platform.openai.com/docs/changelog#2026-08-07",

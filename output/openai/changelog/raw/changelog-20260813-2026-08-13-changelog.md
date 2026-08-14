@@ -1,0 +1,1 @@
+- Announced Ultrafast mode, a new API service tier for GPT-5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers. Sign up to receive updates on Ultrafast mode[here](https://openai.com/form/ultrafast/).
