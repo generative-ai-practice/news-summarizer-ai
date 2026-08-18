@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-18T19:26:55.922Z",
+  "lastChecked": "2026-08-18T22:22:35.250Z",
   "articles": [
+    {
+      "title": "Keep your SAT prep on track with practice tests in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-keep-your-sat-prep-on-track-with-practice-tests-in",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Get closer to the game with Gemini and Pixel",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-21",
       "source": "news",
       "slug": "20260721-13-google-tips-for-a-fun-productive-summer-off-fro",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "publishedDate": "2026-07-21",
-      "source": "news",
-      "slug": "20260721-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-",
       "language": "en",
       "summaryLanguage": "ja"
     }
