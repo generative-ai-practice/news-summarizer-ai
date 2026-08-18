@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-18T15:24:38.365Z",
+  "lastChecked": "2026-08-18T18:28:04.965Z",
   "articles": [
     {
       "title": "Partnering with CodeAI to prepare the first AI generation",
@@ -17,6 +17,15 @@
       "publishedDate": "2026-08-18",
       "source": "news",
       "slug": "20260818-introducing-chatgpt-for-teens-built-for-learning-b",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-asana-cleared-5-years-of-engineering-work-in-2-wee",
       "language": "en",
       "summaryLanguage": "ja"
     },
