@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-18T09:25:30.180Z",
+  "lastChecked": "2026-08-18T12:32:43.089Z",
   "articles": [
+    {
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-partnering-with-codeai-to-prepare-the-first-ai-gen",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-introducing-chatgpt-for-teens-built-for-learning-b",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Defender’s Window",
       "url": "https://openai.com/index/the-defenders-window",
