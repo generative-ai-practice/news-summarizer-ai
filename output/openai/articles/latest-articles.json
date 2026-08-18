@@ -1,13 +1,31 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-18T18:28:04.965Z",
+  "lastChecked": "2026-08-18T21:17:17.131Z",
   "articles": [
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-strengthening-democratic-oversight-in-national-sec",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Partnering with CodeAI to prepare the first AI generation",
       "url": "https://openai.com/index/partnering-with-codeai",
       "publishedDate": "2026-08-18",
       "source": "news",
       "slug": "20260818-partnering-with-codeai-to-prepare-the-first-ai-gen",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-pacing-model-development-in-an-era-of-cyber-critic",
       "language": "en",
       "summaryLanguage": "ja"
     },
