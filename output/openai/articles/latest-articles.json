@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-17T21:19:18.283Z",
+  "lastChecked": "2026-08-18T00:52:08.823Z",
   "articles": [
     {
       "title": "The Defender’s Window",
@@ -516,20 +516,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How data science teams use ChatGPT Work",
+      "title": "Data science workflows with ChatGPT Work",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
       "publishedDate": "2026-07-14",
       "source": "news",
-      "slug": "20260714-how-data-science-teams-use-chatgpt-work",
+      "slug": "20260714-data-science-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "How sales teams use ChatGPT Work",
+      "title": "Sales workflows with ChatGPT Work",
       "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
       "publishedDate": "2026-07-14",
       "source": "news",
-      "slug": "20260714-how-sales-teams-use-chatgpt-work",
+      "slug": "20260714-sales-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1335,11 +1335,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How business operations teams use ChatGPT Work",
+      "title": "Operations workflows with ChatGPT Work",
       "url": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
       "publishedDate": "2026-05-15",
       "source": "news",
-      "slug": "20260515-how-business-operations-teams-use-chatgpt-work",
+      "slug": "20260515-operations-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1407,11 +1407,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How finance teams use ChatGPT Work",
+      "title": "Finance workflows with ChatGPT Work",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
       "publishedDate": "2026-05-12",
       "source": "news",
-      "slug": "20260512-how-finance-teams-use-chatgpt-work",
+      "slug": "20260512-finance-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1767,11 +1767,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How to use ChatGPT Work for everyday tasks",
+      "title": "Everyday work with ChatGPT Work",
       "url": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
       "publishedDate": "2026-04-23",
       "source": "news",
-      "slug": "20260423-how-to-use-chatgpt-work-for-everyday-tasks",
+      "slug": "20260423-everyday-work-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2010,11 +2010,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "ChatGPT for finance teams",
+      "title": "Learn ChatGPT workflows for finance teams",
       "url": "https://openai.com/academy/finance",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-chatgpt-for-finance-teams",
+      "slug": "20260410-learn-chatgpt-workflows-for-finance-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2028,11 +2028,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "ChatGPT for marketing teams",
+      "title": "Learn ChatGPT workflows for marketing teams",
       "url": "https://openai.com/academy/marketing",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-chatgpt-for-marketing-teams",
+      "slug": "20260410-learn-chatgpt-workflows-for-marketing-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2073,11 +2073,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Learn ChatGPT for Sales Teams",
+      "title": "Learn ChatGPT workflows for sales teams",
       "url": "https://openai.com/academy/sales",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-learn-chatgpt-for-sales-teams",
+      "slug": "20260410-learn-chatgpt-workflows-for-sales-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
