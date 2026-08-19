@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-18T22:22:35.250Z",
+  "lastChecked": "2026-08-19T02:17:42.597Z",
   "articles": [
+    {
+      "title": "Try 4 new interactive BTS experiences inside the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-try-4-new-interactive-bts-experiences-inside-the-g",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Keep your SAT prep on track with practice tests in Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-22",
       "source": "news",
       "slug": "20260722-3-google-updates-from-galaxy-unpacked-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "13 Google tips for a fun, productive summer off from college",
-      "url": "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
-      "publishedDate": "2026-07-21",
-      "source": "news",
-      "slug": "20260721-13-google-tips-for-a-fun-productive-summer-off-fro",
       "language": "en",
       "summaryLanguage": "ja"
     }
