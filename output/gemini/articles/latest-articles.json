@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-19T16:30:36.409Z",
+  "lastChecked": "2026-08-19T19:24:23.015Z",
   "articles": [
+    {
+      "title": "Start the semester with one year of Gemini, on us",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
+      "publishedDate": "2026-08-19",
+      "source": "news",
+      "slug": "20260819-start-the-semester-with-one-year-of-gemini-on-us",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Waymo is bringing Gemini into its custom Ojai vehicles.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
+      "publishedDate": "2026-08-19",
+      "source": "news",
+      "slug": "20260819-waymo-is-bringing-gemini-into-its-custom-ojai-vehi",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Try 4 new interactive BTS experiences inside the Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-07-28",
       "source": "news",
       "slug": "20260728-how-gemini-flash-agents-are-helping-a-michigan-dai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Here’s how to ask Gemini Live for help with anything you see.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
-      "publishedDate": "2026-07-22",
-      "source": "news",
-      "slug": "20260722-here-s-how-to-ask-gemini-live-for-help-with-anythi",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "publishedDate": "2026-07-22",
-      "source": "news",
-      "slug": "20260722-3-google-updates-from-galaxy-unpacked-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
