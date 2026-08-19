@@ -1,10 +1,10 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-19T18:24:17.561Z",
+  "lastChecked": "2026-08-19T21:19:21.864Z",
   "articles": [
     {
       "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
       "publishedDate": "2026-08-19",
       "source": "news",
       "slug": "20260819-offering-zero-data-retention-for-frontier-models",
