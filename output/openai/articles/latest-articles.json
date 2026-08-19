@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-19T12:33:04.623Z",
+  "lastChecked": "2026-08-19T15:24:06.643Z",
   "articles": [
+    {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "publishedDate": "2026-08-19",
+      "source": "news",
+      "slug": "20260819-replit-expands-access-to-software-creation-with-gp",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "ChatGPT Ads expands across Europe",
       "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
