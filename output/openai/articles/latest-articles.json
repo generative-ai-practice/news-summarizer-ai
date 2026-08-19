@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-19T03:40:14.158Z",
+  "lastChecked": "2026-08-19T06:32:41.566Z",
   "articles": [
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "publishedDate": "2026-08-18",
+      "source": "news",
+      "slug": "20260818-chatgpt-ads-expands-across-europe",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Strengthening democratic oversight in national security",
       "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
