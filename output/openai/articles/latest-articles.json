@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-20T18:28:41.748Z",
+  "lastChecked": "2026-08-20T21:21:15.734Z",
   "articles": [
+    {
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "publishedDate": "2026-08-20",
+      "source": "news",
+      "slug": "20260820-introducing-ai-futures",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How ChatGPT Work helps Stampli move ideas to market",
       "url": "https://openai.com/index/stampli",
