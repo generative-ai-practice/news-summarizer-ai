@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-20T15:26:47.202Z",
+  "lastChecked": "2026-08-20T18:28:41.748Z",
   "articles": [
+    {
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "url": "https://openai.com/index/stampli",
+      "publishedDate": "2026-08-20",
+      "source": "news",
+      "slug": "20260820-how-chatgpt-work-helps-stampli-move-ideas-to-marke",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Offering Zero Data Retention for frontier models",
       "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
