@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-21T13:44:09.322Z",
+  "lastChecked": "2026-08-21T16:33:46.988Z",
   "articles": [
+    {
+      "title": "What does “full-stack” AI actually mean?",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
+      "publishedDate": "2026-08-21",
+      "source": "news",
+      "slug": "20260821-what-does-full-stack-ai-actually-mean",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Start the semester with one year of Gemini, on us",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-29",
       "source": "news",
       "slug": "20260729-gemini-for-macos-adds-new-natural-language-capabil",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
-      "publishedDate": "2026-07-28",
-      "source": "news",
-      "slug": "20260728-how-gemini-flash-agents-are-helping-a-michigan-dai",
       "language": "en",
       "summaryLanguage": "ja"
     }
