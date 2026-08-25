@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-25T13:49:42.264Z",
+  "lastChecked": "2026-08-25T16:36:51.347Z",
   "articles": [
+    {
+      "title": "Here’s how to use intelligent dictation in Gemini for macOS.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
+      "publishedDate": "2026-08-25",
+      "source": "news",
+      "slug": "20260825-here-s-how-to-use-intelligent-dictation-in-gemini-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "What does “full-stack” AI actually mean?",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-07-30",
       "source": "news",
       "slug": "20260730-introducing-gemini-robotics-er-2",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini for macOS adds new natural language capabilities",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
-      "publishedDate": "2026-07-29",
-      "source": "news",
-      "slug": "20260729-gemini-for-macos-adds-new-natural-language-capabil",
       "language": "en",
       "summaryLanguage": "ja"
     }
