@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-25T14:36:31.855Z",
+  "lastChecked": "2026-08-25T17:24:23.966Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "publishedDate": "2026-08-24",
+      "source": "news",
+      "slug": "20260824-funding-better-evaluations-of-ai-s-impact-on-wellb",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -75,11 +84,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Economic ResearchA research agenda for the Economic Futures Research Fund",
+      "title": "EconomicsA research agenda for the Economic Futures Research Fund",
       "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
       "publishedDate": "2026-07-22",
       "source": "news",
-      "slug": "20260722-economic-researcha-research-agenda-for-the-economi",
+      "slug": "20260722-economicsa-research-agenda-for-the-economic-future",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-07-22",
       "source": "news",
       "slug": "20260722-ask-claude-about-the-anthropic-economic-index",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Anthropic is donating another $20 million to Public First Action",
-      "url": "https://www.anthropic.com/news/donation-public-first-action",
-      "publishedDate": "2026-07-21",
-      "source": "news",
-      "slug": "20260721-anthropic-is-donating-another-20-million-to-public",
       "language": "en",
       "summaryLanguage": "ja"
     }
