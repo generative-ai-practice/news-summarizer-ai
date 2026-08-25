@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-25T17:24:23.966Z",
+  "lastChecked": "2026-08-25T20:19:24.335Z",
   "articles": [
     {
       "title": "Introducing Claude Opus 5",
@@ -41,9 +41,9 @@
     {
       "title": "Funding better evaluations of AI’s impact on wellbeing",
       "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "publishedDate": "2026-08-24",
+      "publishedDate": "2026-08-25",
       "source": "news",
-      "slug": "20260824-funding-better-evaluations-of-ai-s-impact-on-wellb",
+      "slug": "20260825-funding-better-evaluations-of-ai-s-impact-on-wellb",
       "language": "en",
       "summaryLanguage": "ja"
     },
