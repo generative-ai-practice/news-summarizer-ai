@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-25T12:35:09.725Z",
+  "lastChecked": "2026-08-25T15:36:22.818Z",
   "articles": [
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "publishedDate": "2026-08-25",
+      "source": "news",
+      "slug": "20260825-jalape-o-s-first-results-show-industry-leading-spe",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Disrupting a new covert influence campaign from Russia",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
