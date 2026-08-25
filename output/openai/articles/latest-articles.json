@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-25T15:36:22.818Z",
+  "lastChecked": "2026-08-25T18:30:21.921Z",
   "articles": [
+    {
+      "title": "The full stack behind abundant intelligence",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "publishedDate": "2026-08-25",
+      "source": "news",
+      "slug": "20260825-the-full-stack-behind-abundant-intelligence",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
       "url": "https://openai.com/index/jalapeno-first-results",
@@ -17,6 +26,15 @@
       "publishedDate": "2026-08-25",
       "source": "news",
       "slug": "20260825-disrupting-a-new-covert-influence-campaign-from-ru",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "publishedDate": "2026-08-25",
+      "source": "news",
+      "slug": "20260825-introducing-the-admin-plugin-for-chatgpt-work-and-",
       "language": "en",
       "summaryLanguage": "ja"
     },
