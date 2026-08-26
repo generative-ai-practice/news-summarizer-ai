@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-26T16:12:28.461Z",
+  "lastChecked": "2026-08-26T19:41:05.792Z",
   "articles": [
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-bringing-chatgpt-for-teachers-to-more-u-s-school-d",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-learning-never-stops-how-ai-makes-learning-continu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How loveholidays is making everyone a builder with Codex",
       "url": "https://openai.com/index/loveholidays",
