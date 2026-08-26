@@ -1,7 +1,34 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-26T16:47:12.667Z",
+  "lastChecked": "2026-08-26T21:41:33.447Z",
   "articles": [
+    {
+      "title": "7 ways to kick-start back to school using Gemini in Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-7-ways-to-kick-start-back-to-school-using-gemini-i",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Turn your voice into action with new productivity features in Gemini Live",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-turn-your-voice-into-action-with-new-productivity-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-intelligent-transcription-with-gemini-3-5-transcri",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Here’s how to use intelligent dictation in Gemini for macOS.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
@@ -152,33 +179,6 @@
       "publishedDate": "2026-07-31",
       "source": "news",
       "slug": "20260731-simplify-your-morning-with-this-vibe-coded-schedul",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Find out what’s new in the Gemini app in July's Gemini Drop.",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
-      "publishedDate": "2026-07-31",
-      "source": "news",
-      "slug": "20260731-find-out-what-s-new-in-the-gemini-app-in-july-s-ge",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini Spark now integrates with Chrome",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "publishedDate": "2026-07-30",
-      "source": "news",
-      "slug": "20260730-gemini-spark-now-integrates-with-chrome",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Gemini Robotics ER 2",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-      "publishedDate": "2026-07-30",
-      "source": "news",
-      "slug": "20260730-introducing-gemini-robotics-er-2",
       "language": "en",
       "summaryLanguage": "ja"
     }
