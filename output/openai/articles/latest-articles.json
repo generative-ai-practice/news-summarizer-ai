@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-26T09:34:15.246Z",
+  "lastChecked": "2026-08-26T12:38:24.448Z",
   "articles": [
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "url": "https://openai.com/index/loveholidays",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-how-loveholidays-is-making-everyone-a-builder-with",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The full stack behind abundant intelligence",
       "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
