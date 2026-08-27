@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-27T00:23:16.769Z",
+  "lastChecked": "2026-08-27T13:35:47.925Z",
   "articles": [
+    {
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "publishedDate": "2026-08-27",
+      "source": "news",
+      "slug": "20260827-expanding-openai-s-presence-in-brazil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
       "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
@@ -97,7 +106,7 @@
       "url": "https://openai.com/index/introducing-intelligence-age",
       "publishedDate": "2026-08-20",
       "source": "news",
-      "slug": "20260820-introducing-intelligence-age-1",
+      "slug": "20260820-introducing-intelligence-age-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
