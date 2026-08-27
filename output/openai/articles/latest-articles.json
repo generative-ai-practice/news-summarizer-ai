@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-26T19:41:05.792Z",
+  "lastChecked": "2026-08-27T00:23:16.769Z",
   "articles": [
     {
       "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
@@ -17,6 +17,15 @@
       "publishedDate": "2026-08-26",
       "source": "news",
       "slug": "20260826-learning-never-stops-how-ai-makes-learning-continu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "publishedDate": "2026-08-26",
+      "source": "news",
+      "slug": "20260826-the-hugging-face-incident-and-the-road-ahead",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -75,11 +84,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing AI Futures",
+      "title": "Introducing Intelligence Age",
       "url": "https://openai.com/index/introducing-ai-futures",
       "publishedDate": "2026-08-20",
       "source": "news",
-      "slug": "20260820-introducing-ai-futures",
+      "slug": "20260820-introducing-intelligence-age",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing Intelligence Age",
+      "url": "https://openai.com/index/introducing-intelligence-age",
+      "publishedDate": "2026-08-20",
+      "source": "news",
+      "slug": "20260820-introducing-intelligence-age-1",
       "language": "en",
       "summaryLanguage": "ja"
     },
