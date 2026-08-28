@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-08-28T00:11:38.294Z",
+  "lastChecked": "2026-08-28T14:47:51.511Z",
   "articles": [
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "publishedDate": "2026-08-28",
+      "source": "news",
+      "slug": "20260828-supporting-thailand-s-next-generation-of-ai-startu",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
