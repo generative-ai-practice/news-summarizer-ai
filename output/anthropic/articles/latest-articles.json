@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-27T16:01:50.610Z",
+  "lastChecked": "2026-08-28T01:14:14.021Z",
   "articles": [
     {
-      "title": "Introducing Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedDate": "2026-07-24",
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "publishedDate": "2023-11-04",
       "source": "news",
-      "slug": "20260724-introducing-claude-opus-5",
+      "slug": "20231104-previewing-the-model-hardware-standard",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -21,11 +21,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Improving Fable 5's biology safeguards",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "publishedDate": "2026-08-07",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedDate": "2026-07-24",
       "source": "news",
-      "slug": "20260807-improving-fable-5-s-biology-safeguards",
+      "slug": "20260724-introducing-claude-opus-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -39,11 +39,29 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Expanding our support for scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "slug": "20231104-expanding-our-support-for-scientists",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Funding better evaluations of AI’s impact on wellbeing",
       "url": "https://www.anthropic.com/news/wellbeing-research-grants",
       "publishedDate": "2026-08-25",
       "source": "news",
       "slug": "20260825-funding-better-evaluations-of-ai-s-impact-on-wellb",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Improving Fable 5's biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "publishedDate": "2026-08-07",
+      "source": "news",
+      "slug": "20260807-improving-fable-5-s-biology-safeguards",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,24 +98,6 @@
       "publishedDate": "2026-07-27",
       "source": "news",
       "slug": "20260727-cognizant-and-anthropic-expand-their-partnership-t",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "EconomicsA research agenda for the Economic Futures Research Fund",
-      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-      "publishedDate": "2026-07-22",
-      "source": "news",
-      "slug": "20260722-economicsa-research-agenda-for-the-economic-future",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Ask Claude about the Anthropic Economic Index",
-      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "publishedDate": "2026-07-22",
-      "source": "news",
-      "slug": "20260722-ask-claude-about-the-anthropic-economic-index",
       "language": "en",
       "summaryLanguage": "ja"
     }
