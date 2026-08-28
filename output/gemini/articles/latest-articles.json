@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-08-27T15:00:30.648Z",
+  "lastChecked": "2026-08-28T00:45:44.940Z",
   "articles": [
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "publishedDate": "2026-08-27",
+      "source": "news",
+      "slug": "20260827-gemini-omni-1-1-flash-lets-you-build-with-more-con",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "7 ways to kick-start back to school using Gemini in Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-03",
       "source": "news",
       "slug": "20260803-inside-our-353-000-person-vibe-coding-course",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Simplify your morning with this vibe-coded schedule app.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
-      "publishedDate": "2026-07-31",
-      "source": "news",
-      "slug": "20260731-simplify-your-morning-with-this-vibe-coded-schedul",
       "language": "en",
       "summaryLanguage": "ja"
     }
