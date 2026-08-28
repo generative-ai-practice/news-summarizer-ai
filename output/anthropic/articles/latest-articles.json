@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-28T01:14:14.021Z",
+  "lastChecked": "2026-08-28T13:38:29.161Z",
   "articles": [
     {
       "title": "Previewing the Model Hardware Standard",
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-08-27",
       "source": "news",
-      "slug": "20231104-previewing-the-model-hardware-standard",
+      "slug": "20260827-previewing-the-model-hardware-standard",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -41,9 +41,9 @@
     {
       "title": "Expanding our support for scientists",
       "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-08-27",
       "source": "news",
-      "slug": "20231104-expanding-our-support-for-scientists",
+      "slug": "20260827-expanding-our-support-for-scientists",
       "language": "en",
       "summaryLanguage": "ja"
     },
