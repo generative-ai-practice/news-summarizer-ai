@@ -1,0 +1,2 @@
+- On August 26, 2026, we notified developers using`whisper-1`,`gpt-4o-transcribe`,`gpt-4o-mini-transcribe`, and`gpt-4o-transcribe-diarize`of their deprecation and removal from the API on February 26, 2027.
+- For information about the recommended replacements, see the[transcription guide](https://platform.openai.com/api/docs/guides/transcription).
