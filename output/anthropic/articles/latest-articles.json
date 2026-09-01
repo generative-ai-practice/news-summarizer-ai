@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-01T17:30:57.202Z",
+  "lastChecked": "2026-09-01T22:16:07.647Z",
   "articles": [
     {
       "title": "Previewing the Model Hardware Standard",
@@ -30,11 +30,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedDate": "2026-06-30",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedDate": "2023-11-04",
       "source": "news",
-      "slug": "20260630-introducing-claude-sonnet-5",
+      "slug": "20231104-developing-enterprise-frontier-safeguards-with-our",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -98,15 +98,6 @@
       "publishedDate": "2026-07-27",
       "source": "news",
       "slug": "20260727-our-position-on-open-weights-models",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
-      "url": "https://www.anthropic.com/news/cognizant-anthropic",
-      "publishedDate": "2026-07-27",
-      "source": "news",
-      "slug": "20260727-cognizant-and-anthropic-expand-their-partnership-t",
       "language": "en",
       "summaryLanguage": "ja"
     }

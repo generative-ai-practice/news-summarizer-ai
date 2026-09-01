@@ -1,0 +1,22 @@
+---
+title: "2026-09-01 release notes"
+published: "2026-09-01"
+collected_at: "2026-09-01T22:16:29.064Z"
+url: "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026"
+source: "release-notes"
+source_medium: "Claude Developer Platform"
+language: "ja"
+---
+
+## Updates (translated)
+# 2026年9月1日 リリースノート
+
+- 長期間にわたるエージェント的なコーディング、ナレッジワーク、および研究のためのClaude Fable 5の後継モデルであるClaude Fable 5.1 (`claude-fable-5-1`)を、Project Glasswing参加者向けのClaude Mythos 5.1 (`claude-mythos-5-1`)と同時にリリースしました。両モデルは、デフォルトで[1Mトークンのコンテキストウィンドウ](https://platform.claude.com/docs/en/build-with-claude/context-windows)、最大128kの出力トークン、常時稼働の[適応思考](https://platform.claude.com/docs/en/build-with-claude/thinking)をサポートし、価格はClaude Fable 5と同じく1Mトークンあたり$10 / $50 USDですが、キャッシュ読み取りは1Mトークンあたり$0.25に削減されます。Claude Fable 5.1は、Claude API、[Amazon Bedrock上のClaude](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock)、[AWS上のClaude Platform](https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws)、[Google Cloud上のClaude](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai)、および[Microsoft Foundry上のClaude](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry)で利用できます。機能、APIの変更、移行ガイダンスについては、[Claude Fable 5.1の新機能](https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1)をご覧ください。
+- Claude Fable 5.1およびClaude Mythos 5.1におけるプロンプトキャッシュの読み取りは、100万トークンあたり$0.25 USDです。これは、他のモデルの0.1倍と比較して、ベース入力価格の0.025倍です。キャッシュへの書き込みは変更ありません。[プロンプトキャッシングの料金](https://platform.claude.com/docs/en/about-claude/pricing#prompt-caching)をご覧ください。
+- Claude Fable 5.1およびClaude Mythos 5.1では、`tool_choice`のタイプ`any`および`tool`はサポートされておらず、400エラーを返します。`auto`および`none`は変更ありません。スキーマに準拠したツール入力を保証するには、[厳密なツール使用](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use)または[構造化出力](https://platform.claude.com/docs/en/build-with-claude/structured-outputs)を使用してください。
+- Claude Fable 5.1およびClaude Mythos 5.1によって生成された思考ブロックは、それらを生成したモデル、またはそれよりも新しいモデルでのみ保持されます。以前のモデルはそれらを読み取ることができず、APIは以前のモデルにリプレイされたブロックを破棄します。Claude Fable 5.1は、Claude Opus 5、Claude Fable 5、Claude Mythos 5、およびそれ以前のClaudeモデルからの思考ブロックを受け入れます。Claude Fable 5.1では、APIはまた、[ブロックより前のものが変更されていないかを確認します](https://platform.claude.com/docs/en/build-with-claude/thinking#preserved-in-conversation)。2026年8月31日以降に作成された新規アカウントの場合、`system`プロンプト、`tools`、または以前のメッセージが変更された後にブロックをリプレイすると、400エラーが返されます。`thinking-binding-controls-2026-08-01`ベータヘッダーを使用すると、破棄されたブロックは`input_transformations`応答フィールドで報告され、`thinking.block_binding.prefix_mismatch_behavior`は、履歴が変更されたブロックを拒否するか破棄するかを選択します。[思考の保持](https://platform.claude.com/docs/en/build-with-claude/thinking#preserved-thinking)を参照してください。
+- Claude Fable 5.1、Claude Mythos 5.1、およびClaude Opus 5のClaude APIにおいて、メッセージごとのエフォート変更がベータ版として提供されています。プロンプトキャッシュを維持しながら、後のターンでエフォートを変更するには、`messages`内に`output_config.effort`を含む`role: "system"`メッセージを追加します。リクエストには`mid-conversation-output-config-2026-07-01`ベータヘッダーを含めてください。[メッセージごとのエフォート](https://platform.claude.com/docs/en/build-with-claude/effort#change-effort-mid-conversation-beta)をご覧ください。
+- [ターン単位のシステムメッセージ](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#turn-scoped-system-messages)はベータ版として提供されています（`mid-conversation-system-clear-at-2026-08-21`ヘッダー）。会話途中の`role: "system"`メッセージに`clear_at: "next_user_message"`を設定すると、そのメッセージは現在のターンでのみ表示され、その後トークンコストなしで履歴に残ります。ターンごとのリマインダーは蓄積されず、プロンプトキャッシュやそれ以降の思考ブロックを無効にすることもありません。
+- `thinking.display`は、ベータ版として3番目の値`"updates"`を受け入れます（`thinking-display-updates-2026-08-18`ヘッダー）。推論は`"omitted"`の場合と同様に空の`thinking`フィールドとともに返され、Claude Fable 5.1、Claude Mythos 5.1、およびClaude Fable 5がツール呼び出し間に書き出す短い進捗アップデートはテキストとして返されます。ツール呼び出しの前には最大1つの`thinking`ブロックがあります。[ツール呼び出し間の進捗アップデート](https://platform.claude.com/docs/en/build-with-claude/thinking#progress-updates)をご覧ください。
+- Claude Fable 5.1およびClaude Mythos 5.1によって生成されたテキストにはAnthropicのテキストウォーターマークが付与され、Claudeが[コード実行ツール](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool)を通じて生成するサポート対象の画像およびビデオファイルには、Claude API上の[Files API](https://platform.claude.com/docs/en/build-with-claude/files)を通じて取得する際にC2PAコンテンツクレデンシャルが付与されます。マーキングには、リクエストや応答処理の変更は必要ありません。
+- Claude Fable 5と同様に、両モデルとも30日間のデータ保持が必要であり、Anthropicから明示的に許可されない限り、ゼロデータ保持では利用できません。[モデル固有のデータ保持要件](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements)をご覧ください。
