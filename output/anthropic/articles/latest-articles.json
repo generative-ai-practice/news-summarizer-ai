@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-08-31T21:42:29.165Z",
+  "lastChecked": "2026-09-01T01:32:07.442Z",
   "articles": [
     {
       "title": "Previewing the Model Hardware Standard",
@@ -35,6 +35,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-introducing-claude-sonnet-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "slug": "20231104-improving-our-alignment-and-security-efforts",
       "language": "en",
       "summaryLanguage": "ja"
     },
