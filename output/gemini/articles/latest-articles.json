@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-01T17:10:36.620Z",
+  "lastChecked": "2026-09-01T21:36:19.369Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "publishedDate": "2026-09-01",
+      "source": "news",
+      "slug": "20260901-the-latest-ai-news-we-announced-in-august-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Introducing agentic video understanding with Gemini",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-06",
       "source": "news",
       "slug": "20260806-how-gemini-plans-such-detailed-vacation-itinerarie",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "The latest AI news we announced in July 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "publishedDate": "2026-08-04",
-      "source": "news",
-      "slug": "20260804-the-latest-ai-news-we-announced-in-july-2026",
       "language": "en",
       "summaryLanguage": "ja"
     }
