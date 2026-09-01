@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-01T12:22:45.995Z",
+  "lastChecked": "2026-09-01T17:10:36.620Z",
   "articles": [
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+      "publishedDate": "2026-09-01",
+      "source": "news",
+      "slug": "20260901-introducing-agentic-video-understanding-with-gemin",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-04",
       "source": "news",
       "slug": "20260804-the-latest-ai-news-we-announced-in-july-2026",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Inside our 353,000-person vibe coding course",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "publishedDate": "2026-08-03",
-      "source": "news",
-      "slug": "20260803-inside-our-353-000-person-vibe-coding-course",
       "language": "en",
       "summaryLanguage": "ja"
     }
