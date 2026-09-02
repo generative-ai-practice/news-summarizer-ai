@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-01T22:16:07.647Z",
+  "lastChecked": "2026-09-02T00:43:54.430Z",
   "articles": [
     {
       "title": "Previewing the Model Hardware Standard",
@@ -32,9 +32,9 @@
     {
       "title": "Developing Enterprise Frontier Safeguards with our customers",
       "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-09-01",
       "source": "news",
-      "slug": "20231104-developing-enterprise-frontier-safeguards-with-our",
+      "slug": "20260901-developing-enterprise-frontier-safeguards-with-our",
       "language": "en",
       "summaryLanguage": "ja"
     },
