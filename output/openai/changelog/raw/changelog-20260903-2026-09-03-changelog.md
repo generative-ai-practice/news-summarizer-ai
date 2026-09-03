@@ -1,0 +1,12 @@
+- Released[GPT-6 Astra](https://platform.openai.com/api/docs/models/gpt-6-astra), our most capable model, built for the hardest end-to-end work.
+- Use GPT-6 Astra for reasoning, coding, computer use, research, and document creation. It combines these capabilities to carry complex tasks from an initial request to a finished result, using the context and tools you provide.
+- Key changes to consider when migrating:
+- Start with[Using GPT-6 Astra](https://platform.openai.com/api/docs/guides/latest-model)for capabilities, prompting, and migration guidance. Explore[computer use](https://platform.openai.com/api/docs/guides/tools-computer-use)for browser and desktop workflows, and see[pricing](https://platform.openai.com/api/docs/pricing)for available inference tiers.
+- GPT-6 Astra does not support the`none`reasoning effort level.
+- GPT-6 Astra does not support custom`temperature`or`top_p`values or log probabilities (`logprobs`).
+- Tool calling requires the Responses API. If you use tools with Chat Completions, follow the[Responses migration guide](https://platform.openai.com/api/docs/guides/migrate-to-responses).
+- [Misalignment monitoring](https://platform.openai.com/api/docs/guides/safety-checks/misalignment-monitoring)asynchronously checks for potential issues during agent work in supported Responses API requests. Checks can trigger safety alerts or stop a conversation for review.
+- Added new controls for long-running work with GPT-6 Astra in the Responses API:
+- [Async tool calling](https://platform.openai.com/api/docs/guides/async-tool-calling): Let the model continue working while your application runs function or custom tools, then return results as they become available.
+- [Mid-turn steering](https://platform.openai.com/api/docs/guides/steering): Send additional instructions while a response is in progress over WebSockets, so the model can incorporate corrections or changing requirements.
+- [Change reasoning effort mid-conversation](https://platform.openai.com/api/docs/guides/reasoning#change-reasoning-mid-conversation): Increase effort for difficult work or reduce it for routine follow-ups while preserving the cached prompt prefix.

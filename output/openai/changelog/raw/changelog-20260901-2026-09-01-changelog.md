@@ -1,0 +1,1 @@
+- Connections to`api.openai.com`can now use IPv6.
