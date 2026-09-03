@@ -1,7 +1,25 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-09-03T13:10:32.520Z",
+  "lastChecked": "2026-09-03T18:17:02.618Z",
   "articles": [
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "publishedDate": "2026-09-03",
+      "source": "news",
+      "slug": "20260903-playco-cut-manual-fixes-50-prototyping-games-with-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "publishedDate": "2026-09-03",
+      "source": "news",
+      "slug": "20260903-legora-reviewed-41-documents-in-minutes-with-gpt-6",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "url": "https://openai.com/index/atv-big-air-tour",
@@ -408,20 +426,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "publishedDate": "2026-08-10",
-      "source": "news",
-      "slug": "20260810-expanding-daybreak-as-the-cyber-defense-window-nar",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Putting frontier cyber models in more trusted hands",
       "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
       "publishedDate": "2026-08-10",
       "source": "news",
       "slug": "20260810-putting-frontier-cyber-models-in-more-trusted-hand",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "publishedDate": "2026-08-10",
+      "source": "news",
+      "slug": "20260810-expanding-daybreak-as-the-cyber-defense-window-nar",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -804,20 +822,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Sales workflows with ChatGPT Work",
-      "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "publishedDate": "2026-07-14",
-      "source": "news",
-      "slug": "20260714-sales-workflows-with-chatgpt-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Data science workflows with ChatGPT Work",
       "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
       "publishedDate": "2026-07-14",
       "source": "news",
       "slug": "20260714-data-science-workflows-with-chatgpt-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Sales workflows with ChatGPT Work",
+      "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+      "publishedDate": "2026-07-14",
+      "source": "news",
+      "slug": "20260714-sales-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -849,20 +867,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "url": "https://openai.com/index/gpt-5-6",
-      "publishedDate": "2026-07-09",
-      "source": "news",
-      "slug": "20260709-gpt-5-6-frontier-intelligence-that-scales-with-you",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "GPT-5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/bio-bug-bounty",
       "publishedDate": "2026-07-09",
       "source": "news",
       "slug": "20260709-gpt-5-5-bio-bug-bounty",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "publishedDate": "2026-07-09",
+      "source": "news",
+      "slug": "20260709-gpt-5-6-frontier-intelligence-that-scales-with-you",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -912,15 +930,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "url": "https://openai.com/index/mufg",
-      "publishedDate": "2026-07-07",
-      "source": "news",
-      "slug": "20260707-mufg-aims-to-become-ai-native-with-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
       "url": "https://openai.com/index/australian-payments-plus",
       "publishedDate": "2026-07-07",
@@ -930,20 +939,20 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "publishedDate": "2026-07-07",
+      "source": "news",
+      "slug": "20260707-mufg-aims-to-become-ai-native-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "How ChatGPT adoption has expanded",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-how-chatgpt-adoption-has-expanded",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "url": "https://openai.com/index/introducing-genebench-pro",
-      "publishedDate": "2026-06-30",
-      "source": "news",
-      "slug": "20260630-introducing-genebench-pro",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -962,6 +971,15 @@
       "publishedDate": "2026-06-30",
       "source": "news",
       "slug": "20260630-core-dump-epidemiology-fixing-an-18-year-old-bug",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "publishedDate": "2026-06-30",
+      "source": "news",
+      "slug": "20260630-introducing-genebench-pro",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1164,6 +1182,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "publishedDate": "2026-06-11",
+      "source": "news",
+      "slug": "20260611-openai-to-acquire-ona",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "How an astrophysicist uses Codex to help simulate black holes",
       "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "publishedDate": "2026-06-11",
@@ -1178,15 +1205,6 @@
       "publishedDate": "2026-06-11",
       "source": "news",
       "slug": "20260611-supporting-europe-s-work-in-ensuring-a-trustworthy",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "url": "https://openai.com/index/openai-to-acquire-ona",
-      "publishedDate": "2026-06-11",
-      "source": "news",
-      "slug": "20260611-openai-to-acquire-ona",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1317,20 +1335,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "publishedDate": "2026-06-03",
-      "source": "news",
-      "slug": "20260603-openai-public-policy-agenda",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "A blueprint for democratic governance of frontier AI",
       "url": "https://openai.com/index/frontier-safety-blueprint",
       "publishedDate": "2026-06-03",
       "source": "news",
       "slug": "20260603-a-blueprint-for-democratic-governance-of-frontier-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "publishedDate": "2026-06-03",
+      "source": "news",
+      "slug": "20260603-openai-public-policy-agenda",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1560,6 +1578,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "publishedDate": "2026-05-20",
+      "source": "news",
+      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "publishedDate": "2026-05-20",
@@ -1574,15 +1601,6 @@
       "publishedDate": "2026-05-20",
       "source": "news",
       "slug": "20260520-the-next-phase-of-openai-s-education-for-countries",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "url": "https://openai.com/index/ramp",
-      "publishedDate": "2026-05-20",
-      "source": "news",
-      "slug": "20260520-how-ramp-engineers-accelerate-code-review-with-cod",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1623,6 +1641,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Operations workflows with ChatGPT Work",
+      "url": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
+      "publishedDate": "2026-05-15",
+      "source": "news",
+      "slug": "20260515-operations-workflows-with-chatgpt-work",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "A new personal finance experience in ChatGPT",
       "url": "https://openai.com/index/personal-finance-chatgpt",
       "publishedDate": "2026-05-15",
@@ -1637,15 +1664,6 @@
       "publishedDate": "2026-05-15",
       "source": "news",
       "slug": "20260515-databricks-brings-gpt-5-5-to-enterprise-agent-work",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Operations workflows with ChatGPT Work",
-      "url": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
-      "publishedDate": "2026-05-15",
-      "source": "news",
-      "slug": "20260515-operations-workflows-with-chatgpt-work",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1704,20 +1722,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "publishedDate": "2026-05-12",
-      "source": "news",
-      "slug": "20260512-what-parameter-golf-taught-us-about-ai-assisted-re",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How NVIDIA engineers and researchers build with Codex",
       "url": "https://openai.com/index/nvidia",
       "publishedDate": "2026-05-12",
       "source": "news",
       "slug": "20260512-how-nvidia-engineers-and-researchers-build-with-co",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "publishedDate": "2026-05-12",
+      "source": "news",
+      "slug": "20260512-what-parameter-golf-taught-us-about-ai-assisted-re",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1740,20 +1758,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "publishedDate": "2026-05-11",
-      "source": "news",
-      "slug": "20260511-how-enterprises-are-scaling-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "OpenAI Campus Network: Student club interest form",
       "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "publishedDate": "2026-05-11",
       "source": "news",
       "slug": "20260511-openai-campus-network-student-club-interest-form",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "publishedDate": "2026-05-11",
+      "source": "news",
+      "slug": "20260511-how-enterprises-are-scaling-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1830,11 +1848,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "url": "https://openai.com/index/introducing-b2b-signals",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
+      "slug": "20260506-introducing-chatgpt-futures-class-of-2026",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1848,11 +1866,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "title": "How frontier firms are pulling ahead",
+      "url": "https://openai.com/index/introducing-b2b-signals",
       "publishedDate": "2026-05-06",
       "source": "news",
-      "slug": "20260506-introducing-chatgpt-futures-class-of-2026",
+      "slug": "20260506-how-frontier-firms-are-pulling-ahead",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -1875,20 +1893,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.5 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "publishedDate": "2026-05-05",
-      "source": "news",
-      "slug": "20260505-gpt-5-5-instant-system-card",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
       "url": "https://openai.com/index/mrc-supercomputer-networking",
       "publishedDate": "2026-05-05",
       "source": "news",
       "slug": "20260505-unlocking-large-scale-ai-training-networks-with-mr",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "GPT-5.5 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "publishedDate": "2026-05-05",
+      "source": "news",
+      "slug": "20260505-gpt-5-5-instant-system-card",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2073,20 +2091,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "publishedDate": "2026-04-22",
-      "source": "news",
-      "slug": "20260422-workspace-agents",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "publishedDate": "2026-04-22",
       "source": "news",
       "slug": "20260422-speeding-up-agentic-workflows-with-websockets-in-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "publishedDate": "2026-04-22",
+      "source": "news",
+      "slug": "20260422-workspace-agents",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2190,119 +2208,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Brainstorming with ChatGPT",
-      "url": "https://openai.com/academy/brainstorming",
+      "title": "Responsible and safe use of AI",
+      "url": "https://openai.com/academy/responsible-and-safe-use",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-brainstorming-with-chatgpt",
+      "slug": "20260410-responsible-and-safe-use-of-ai",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "Applications of AI at OpenAI",
-      "url": "https://openai.com/academy/applications-of-ai",
+      "title": "Personalizing ChatGPT",
+      "url": "https://openai.com/academy/personalization",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-applications-of-ai-at-openai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Research with ChatGPT",
-      "url": "https://openai.com/academy/search-and-deep-research",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-research-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Analyzing data with ChatGPT",
-      "url": "https://openai.com/academy/data-analysis",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-analyzing-data-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Using projects in ChatGPT",
-      "url": "https://openai.com/academy/projects",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-using-projects-in-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Learn ChatGPT workflows for marketing teams",
-      "url": "https://openai.com/academy/marketing",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-learn-chatgpt-workflows-for-marketing-teams",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Creating images with ChatGPT",
-      "url": "https://openai.com/academy/image-generation",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-creating-images-with-chatgpt",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Using custom GPTs",
-      "url": "https://openai.com/academy/custom-gpts",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-using-custom-gpts",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Learn ChatGPT workflows for finance teams",
-      "url": "https://openai.com/academy/finance",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-learn-chatgpt-workflows-for-finance-teams",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Our response to the Axios developer tool compromise",
-      "url": "https://openai.com/index/axios-developer-tool-compromise",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-our-response-to-the-axios-developer-tool-compromis",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "ChatGPT for operations teams",
-      "url": "https://openai.com/academy/operations",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-chatgpt-for-operations-teams",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "ChatGPT for customer success teams",
-      "url": "https://openai.com/academy/customer-success",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-chatgpt-for-customer-success-teams",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "ChatGPT for managers",
-      "url": "https://openai.com/academy/managers",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-chatgpt-for-managers",
+      "slug": "20260410-personalizing-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2316,6 +2235,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "Creating images with ChatGPT",
+      "url": "https://openai.com/academy/image-generation",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-creating-images-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Using skills",
       "url": "https://openai.com/academy/skills",
       "publishedDate": "2026-04-10",
@@ -2325,38 +2253,29 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Financial services",
-      "url": "https://openai.com/academy/financial-services",
+      "title": "Using projects in ChatGPT",
+      "url": "https://openai.com/academy/projects",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-financial-services",
+      "slug": "20260410-using-projects-in-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "Working with files in ChatGPT",
-      "url": "https://openai.com/academy/working-with-files",
+      "title": "ChatGPT for managers",
+      "url": "https://openai.com/academy/managers",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-working-with-files-in-chatgpt",
+      "slug": "20260410-chatgpt-for-managers",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "Responsible and safe use of AI",
-      "url": "https://openai.com/academy/responsible-and-safe-use",
+      "title": "ChatGPT for research",
+      "url": "https://openai.com/academy/research",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-responsible-and-safe-use-of-ai",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "AI fundamentals",
-      "url": "https://openai.com/academy/what-is-ai",
-      "publishedDate": "2026-04-10",
-      "source": "news",
-      "slug": "20260410-ai-fundamentals",
+      "slug": "20260410-chatgpt-for-research",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2379,20 +2298,119 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Personalizing ChatGPT",
-      "url": "https://openai.com/academy/personalization",
+      "title": "ChatGPT for customer success teams",
+      "url": "https://openai.com/academy/customer-success",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-personalizing-chatgpt",
+      "slug": "20260410-chatgpt-for-customer-success-teams",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
-      "title": "ChatGPT for research",
-      "url": "https://openai.com/academy/research",
+      "title": "Applications of AI at OpenAI",
+      "url": "https://openai.com/academy/applications-of-ai",
       "publishedDate": "2026-04-10",
       "source": "news",
-      "slug": "20260410-chatgpt-for-research",
+      "slug": "20260410-applications-of-ai-at-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Our response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-our-response-to-the-axios-developer-tool-compromis",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Analyzing data with ChatGPT",
+      "url": "https://openai.com/academy/data-analysis",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-analyzing-data-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "ChatGPT for operations teams",
+      "url": "https://openai.com/academy/operations",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-chatgpt-for-operations-teams",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "AI fundamentals",
+      "url": "https://openai.com/academy/what-is-ai",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-ai-fundamentals",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Learn ChatGPT workflows for marketing teams",
+      "url": "https://openai.com/academy/marketing",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-learn-chatgpt-workflows-for-marketing-teams",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Using custom GPTs",
+      "url": "https://openai.com/academy/custom-gpts",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-using-custom-gpts",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Learn ChatGPT workflows for finance teams",
+      "url": "https://openai.com/academy/finance",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-learn-chatgpt-workflows-for-finance-teams",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Financial services",
+      "url": "https://openai.com/academy/financial-services",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-financial-services",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Working with files in ChatGPT",
+      "url": "https://openai.com/academy/working-with-files",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-working-with-files-in-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Brainstorming with ChatGPT",
+      "url": "https://openai.com/academy/brainstorming",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-brainstorming-with-chatgpt",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Research with ChatGPT",
+      "url": "https://openai.com/academy/search-and-deep-research",
+      "publishedDate": "2026-04-10",
+      "source": "news",
+      "slug": "20260410-research-with-chatgpt",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2613,20 +2631,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "url": "https://openai.com/index/wayfair",
-      "publishedDate": "2026-03-11",
-      "source": "news",
-      "slug": "20260311-wayfair-boosts-catalog-accuracy-and-support-speed-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Rakuten fixes issues twice as fast with Codex",
       "url": "https://openai.com/index/rakuten",
       "publishedDate": "2026-03-11",
       "source": "news",
       "slug": "20260311-rakuten-fixes-issues-twice-as-fast-with-codex",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "publishedDate": "2026-03-11",
+      "source": "news",
+      "slug": "20260311-wayfair-boosts-catalog-accuracy-and-support-speed-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2667,20 +2685,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How Descript engineers multilingual video dubbing at scale",
-      "url": "https://openai.com/index/descript",
-      "publishedDate": "2026-03-06",
-      "source": "news",
-      "slug": "20260306-how-descript-engineers-multilingual-video-dubbing-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "How Balyasny Asset Management built an AI research engine",
       "url": "https://openai.com/index/balyasny-asset-management",
       "publishedDate": "2026-03-06",
       "source": "news",
       "slug": "20260306-how-balyasny-asset-management-built-an-ai-research",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How Descript engineers multilingual video dubbing at scale",
+      "url": "https://openai.com/index/descript",
+      "publishedDate": "2026-03-06",
+      "source": "news",
+      "slug": "20260306-how-descript-engineers-multilingual-video-dubbing-",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2721,11 +2739,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The five AI value models driving business reinvention",
-      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "title": "Introducing the Adoption news channel",
+      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
+      "slug": "20260305-introducing-the-adoption-news-channel",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2739,11 +2757,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing the Adoption news channel",
-      "url": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "title": "The five AI value models driving business reinvention",
+      "url": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
       "publishedDate": "2026-03-05",
       "source": "news",
-      "slug": "20260305-introducing-the-adoption-news-channel",
+      "slug": "20260305-the-five-ai-value-models-driving-business-reinvent",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2766,15 +2784,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How Axios uses AI to help deliver high-impact local journalism",
-      "url": "https://openai.com/index/axios-allison-murphy",
-      "publishedDate": "2026-03-04",
-      "source": "news",
-      "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Understanding AI and learning outcomes",
       "url": "https://openai.com/index/understanding-ai-and-learning-outcomes",
       "publishedDate": "2026-03-04",
@@ -2784,11 +2793,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-      "url": "https://openai.com/index/gpt-5-3-instant",
-      "publishedDate": "2026-03-03",
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "url": "https://openai.com/index/axios-allison-murphy",
+      "publishedDate": "2026-03-04",
       "source": "news",
-      "slug": "20260303-gpt-5-3-instant-smoother-more-useful-everyday-conv",
+      "slug": "20260304-how-axios-uses-ai-to-help-deliver-high-impact-loca",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2802,11 +2811,29 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant",
+      "publishedDate": "2026-03-03",
+      "source": "news",
+      "slug": "20260303-gpt-5-3-instant-smoother-more-useful-everyday-conv",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Our agreement with the Department of War",
       "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
       "publishedDate": "2026-02-28",
       "source": "news",
       "slug": "20260228-our-agreement-with-the-department-of-war",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "publishedDate": "2026-02-27",
+      "source": "news",
+      "slug": "20260227-joint-statement-from-openai-and-microsoft",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2820,15 +2847,6 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "publishedDate": "2026-02-27",
-      "source": "news",
-      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Scaling AI for everyone",
       "url": "https://openai.com/index/scaling-ai-for-everyone",
       "publishedDate": "2026-02-27",
@@ -2838,11 +2856,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "url": "https://openai.com/index/continuing-microsoft-partnership",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
       "publishedDate": "2026-02-27",
       "source": "news",
-      "slug": "20260227-joint-statement-from-openai-and-microsoft",
+      "slug": "20260227-introducing-the-stateful-runtime-environment-for-a",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -2964,20 +2982,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Scaling social science research",
-      "url": "https://openai.com/index/scaling-social-science-research",
-      "publishedDate": "2026-02-13",
-      "source": "news",
-      "slug": "20260213-scaling-social-science-research",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Beyond rate limits: scaling access to Codex and Sora",
       "url": "https://openai.com/index/beyond-rate-limits",
       "publishedDate": "2026-02-13",
       "source": "news",
       "slug": "20260213-beyond-rate-limits-scaling-access-to-codex-and-sor",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Scaling social science research",
+      "url": "https://openai.com/index/scaling-social-science-research",
+      "publishedDate": "2026-02-13",
+      "source": "news",
+      "slug": "20260213-scaling-social-science-research",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3108,20 +3126,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
-      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
-      "publishedDate": "2026-01-29",
-      "source": "news",
-      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Taisei Corporation shapes the next generation of talent with AI",
       "url": "https://openai.com/index/taisei",
       "publishedDate": "2026-01-29",
       "source": "news",
       "slug": "20260129-taisei-corporation-shapes-the-next-generation-of-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "url": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "publishedDate": "2026-01-29",
+      "source": "news",
+      "slug": "20260129-retiring-gpt-4o-gpt-4-1-gpt-4-1-mini-and-openai-o4",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3162,20 +3180,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
-      "url": "https://openai.com/index/trustbank",
-      "publishedDate": "2026-01-27",
-      "source": "news",
-      "slug": "20260127-trustbank-uses-ai-agents-to-personalize-furusato-n",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing Prism",
       "url": "https://openai.com/index/introducing-prism",
       "publishedDate": "2026-01-27",
       "source": "news",
       "slug": "20260127-introducing-prism",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "TRUSTBANK uses AI agents to personalize Furusato Nozei gifts",
+      "url": "https://openai.com/index/trustbank",
+      "publishedDate": "2026-01-27",
+      "source": "news",
+      "slug": "20260127-trustbank-uses-ai-agents-to-personalize-furusato-n",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3441,6 +3459,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "AI literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "publishedDate": "2025-12-18",
+      "source": "news",
+      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Deepening our collaboration with the U.S. Department of Energy",
       "url": "https://openai.com/index/us-department-of-energy-collaboration",
       "publishedDate": "2025-12-18",
@@ -3459,11 +3486,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "AI literacy resources for teens and parents",
-      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
+      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
       "publishedDate": "2025-12-18",
       "source": "news",
-      "slug": "20251218-ai-literacy-resources-for-teens-and-parents",
+      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3473,15 +3500,6 @@
       "publishedDate": "2025-12-18",
       "source": "news",
       "slug": "20251218-introducing-gpt-5-2-codex",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-      "url": "https://openai.com/index/gpt-5-2-codex-system-card",
-      "publishedDate": "2025-12-18",
-      "source": "news",
-      "slug": "20251218-addendum-to-gpt-5-2-system-card-gpt-5-2-codex",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3549,20 +3567,20 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
-      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
-      "publishedDate": "2025-12-12",
-      "source": "news",
-      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
       "url": "https://openai.com/index/bny",
       "publishedDate": "2025-12-12",
       "source": "news",
       "slug": "20251212-bny-builds-ai-for-everyone-everywhere-with-openai",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+      "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+      "publishedDate": "2025-12-12",
+      "source": "news",
+      "slug": "20251212-how-we-used-codex-to-ship-sora-for-android-in-28-d",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3585,11 +3603,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Introducing GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "title": "Ten years",
+      "url": "https://openai.com/index/ten-years",
       "publishedDate": "2025-12-11",
       "source": "news",
-      "slug": "20251211-introducing-gpt-5-2",
+      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3599,6 +3617,15 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-update-to-gpt-5-system-card-gpt-5-2",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2",
+      "publishedDate": "2025-12-11",
+      "source": "news",
+      "slug": "20251211-introducing-gpt-5-2",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3617,15 +3644,6 @@
       "publishedDate": "2025-12-11",
       "source": "news",
       "slug": "20251211-the-walt-disney-company-and-openai-reach-landmark-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Ten years",
-      "url": "https://openai.com/index/ten-years",
-      "publishedDate": "2025-12-11",
-      "source": "news",
-      "slug": "20251211-ten-years",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -3666,6 +3684,15 @@
       "summaryLanguage": "ja"
     },
     {
+      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+      "url": "https://openai.com/index/openai-appoints-denise-dresser",
+      "publishedDate": "2025-12-09",
+      "source": "news",
+      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
       "title": "Commonwealth Bank of Australia builds AI fluency at scale",
       "url": "https://openai.com/index/commonwealth-bank-of-australia",
       "publishedDate": "2025-12-09",
@@ -3680,15 +3707,6 @@
       "publishedDate": "2025-12-09",
       "source": "news",
       "slug": "20251209-bringing-powerful-ai-to-millions-across-europe-wit",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-      "url": "https://openai.com/index/openai-appoints-denise-dresser",
-      "publishedDate": "2025-12-09",
-      "source": "news",
-      "slug": "20251209-openai-appoints-denise-dresser-as-chief-revenue-of",
       "language": "en",
       "summaryLanguage": "ja"
     },
