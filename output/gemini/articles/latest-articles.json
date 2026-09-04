@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-04T11:59:28.692Z",
+  "lastChecked": "2026-09-04T16:45:02.951Z",
   "articles": [
+    {
+      "title": "Create your best tracks yet with Lyria 3.5 in Gemini.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+      "publishedDate": "2026-09-04",
+      "source": "news",
+      "slug": "20260904-create-your-best-tracks-yet-with-lyria-3-5-in-gemi",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Proactive cyber defense for governments and enterprises",
       "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-12",
       "source": "news",
       "slug": "20260812-now-you-can-connect-even-more-of-your-favorite-app",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "More than 1 billion people are using the Gemini app every month.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
-      "publishedDate": "2026-08-11",
-      "source": "news",
-      "slug": "20260811-more-than-1-billion-people-are-using-the-gemini-ap",
       "language": "en",
       "summaryLanguage": "ja"
     }
