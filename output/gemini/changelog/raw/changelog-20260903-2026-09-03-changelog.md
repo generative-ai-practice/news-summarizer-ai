@@ -1,0 +1,6 @@
+- **Lyria 3.5 in public preview**: Released the next generation of Google's music
+- generation model:
+- [`lyria-3.5`](https://ai.google.dev/gemini-api/docs/models/lyria-3.5): Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control.
+- The model supports text and image inputs and generates high-fidelity 44.1 kHz
+- stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation)
+- guide for details and code samples.

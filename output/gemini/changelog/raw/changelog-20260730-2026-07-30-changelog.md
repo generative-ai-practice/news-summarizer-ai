@@ -1,0 +1,12 @@
+- **Gemini Robotics ER 2 in public preview**: Released two new embodied
+- reasoning model endpoints for robotics:
+- `gemini-robotics-er-2-preview`: Advanced spatial reasoning, agentic code execution, multi-step tool orchestration, video moment finding, progress classification, and multi-robot coordination.
+- `gemini-robotics-er-2-streaming-preview`: Optimized for real-time text streaming using the Live API, enabling low-latency robot agents with bidirectional audio and video input.
+- Both model endpoints accept text, image, video, and audio inputs and support
+- function calling with blocking behavior for physical robot actions.
+- To get started, see the
+- [Gemini Robotics ER overview](https://ai.google.dev/gemini-api/docs/robotics-overview). For
+- real-time streaming use cases, see
+- [Robotics with streaming](https://ai.google.dev/gemini-api/docs/robotics-streaming).
+- **Deprecation announcement** : The `gemini-robotics-er-1.6-preview` model
+- will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on August 31, 2026.
