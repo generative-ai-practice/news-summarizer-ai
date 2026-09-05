@@ -1,9 +1,96 @@
-Title: 
-
-URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
-
-Markdown Content:
 This page documents updates to the Gemini API.
+
+## September 3, 2026
+
+- **Lyria 3.5 in public preview**: Released the next generation of Google's music
+  generation model:
+
+  - [`lyria-3.5`](https://ai.google.dev/gemini-api/docs/models/lyria-3.5): Full-length song generation with improved musical coherence, natural vocals, and fine-grained duration and structural control.
+
+  The model supports text and image inputs and generates high-fidelity 44.1 kHz
+  stereo audio. See the [Music generation](https://ai.google.dev/gemini-api/docs/music-generation)
+  guide for details and code samples.
+
+## September 2, 2026
+
+- **Gemini 3.8 Flash generally available (GA)** : Released
+  `gemini-3.8-flash`, our most intelligent Flash model, engineered for
+  long-horizon software engineering, autonomous agents, and complex enterprise
+  workflows.
+
+  To get started, see the
+  [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash) model page and
+  the [Latest model guide](https://ai.google.dev/gemini-api/docs/latest-model).
+
+## September 1, 2026
+
+- **Agentic video understanding**: Released agentic video understanding for
+  Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite across the Interactions and
+  GenerateContent APIs. The model dynamically navigates video timelines,
+  requesting transcripts, frames, or audio tracks on demand. This approach uses
+  up to 88% fewer tokens for long-form content compared to static processing.
+
+  To get started, see the
+  [Agentic video understanding](https://ai.google.dev/gemini-api/docs/video-understanding#agentic-video-understanding) guide.
+
+## August 27, 2026
+
+- **Gemini Omni Flash generally available (GA)** : Released
+  `gemini-omni-1.1-flash`, the GA version of our fast, conversational video
+  generation and editing model. This release includes significant new
+  capabilities:
+
+  - **Video extension** : Seamlessly extend existing videos by generating continuations at the end of a clip using the `extend` task or directly with a prompt.
+  - **Interpolation (first + last frame)** : Generate a video transitioning between two images using the `image_to_video` task with up to 2 images.
+  - **Resolution control** : New `resolution` parameter in `video_config` supports `360p`, `720p` (default), `1080p`, and `4k` outputs. 1080p and 4K outputs are generated using upscaling.
+
+  The existing `gemini-omni-flash-preview` endpoint will be deprecated on
+  September 30, 2026.
+
+  To get started, see the
+  [Gemini Omni Flash](https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash) model page
+  and the [omni guide](https://ai.google.dev/gemini-api/docs/omni).
+
+## August 26, 2026
+
+- **Gemini 3.5 Transcribe generally available (GA)**: Released two dedicated
+  speech-to-text models based on Gemini's audio understanding:
+
+  - **Gemini 3.5 Transcribe** (`gemini-3.5-transcribe`): High-accuracy, low-latency non-streaming speech-to-text with utterance-based language detection across 85+ languages, speaker diarization, word-level timestamps, and custom vocabulary biasing (up to 1,000 terms).
+  - **Gemini 3.5 Transcribe Live** (`gemini-3.5-transcribe-live`): Low-latency, bidirectional streaming speech-to-text over WebSockets using the Live API, supporting interim and finalized transcription events, Smart transcription mode, and multiple Voice Activity Detection (VAD) strategies.
+
+  To get started, see the
+  [Audio transcription guide](https://ai.google.dev/gemini-api/docs/transcribe), the
+  [Live transcription guide](https://ai.google.dev/gemini-api/docs/live-api/live-transcribe), and the
+  [Gemini 3.5 Transcribe model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe).
+
+## August 13, 2026
+
+- **Gemini 3.7 Flash generally available (GA)**: Released our most
+  intelligent workhorse model yet for coding and agents:
+
+  - **Gemini 3.7 Flash** (`gemini-3.7-flash`): Substantial improvements across software engineering, web development, and agentic workflows, available at an introductory price through December 31, 2026.
+
+  To get started, see the
+  [Gemini 3.7 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash) model page
+  and the [Latest model guide](https://ai.google.dev/gemini-api/docs/latest-model).
+
+## July 30, 2026
+
+- **Gemini Robotics ER 2 in public preview**: Released two new embodied
+  reasoning model endpoints for robotics:
+
+  - `gemini-robotics-er-2-preview`: Advanced spatial reasoning, agentic code execution, multi-step tool orchestration, video moment finding, progress classification, and multi-robot coordination.
+  - `gemini-robotics-er-2-streaming-preview`: Optimized for real-time text streaming using the Live API, enabling low-latency robot agents with bidirectional audio and video input.
+
+  Both model endpoints accept text, image, video, and audio inputs and support
+  function calling with blocking behavior for physical robot actions.
+  To get started, see the
+  [Gemini Robotics ER overview](https://ai.google.dev/gemini-api/docs/robotics-overview). For
+  real-time streaming use cases, see
+  [Robotics with streaming](https://ai.google.dev/gemini-api/docs/robotics-streaming).
+- **Deprecation announcement** : The `gemini-robotics-er-1.6-preview` model
+  will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on August 31, 2026.
 
 ## July 21, 2026
 
@@ -53,28 +140,26 @@ This page documents updates to the Gemini API.
 - **Deprecation announcement** : The following image generation models are
   being deprecated and will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **August 17, 2026**:
 
-  - **Imagen 4 and Gemini 3 Image models**:
-
+  - **Imagen 4 and Gemini 3 Image models** :
     - `imagen-4.0-generate-001`
     - `imagen-4.0-ultra-generate-001`
     - `imagen-4.0-fast-generate-001`
 
-    To migrate your code to newer stable or preview endpoints, refer to the
-    [Gemini deprecations](https://ai.google.dev/gemini-api/docs/deprecations#imagen-models) page.
+  To migrate your code to newer stable or preview endpoints, refer to the
+  [Gemini deprecations](https://ai.google.dev/gemini-api/docs/deprecations#imagen-models) page.
 - **Deprecation announcement** : The following video generation models are
   being deprecated and will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **June 30, 2026**:
 
-  - **Veo models**:
-
+  - **Veo models** :
     - `veo-2.0-generate-001`
     - `veo-3.0-generate-001`
     - `veo-3.0-fast-generate-001`
 
-    Update your integration to either use the Veo 3.1 preview model IDs
-    (`veo-3.1-generate-preview`, `veo-3.1-fast-generate-preview`) or the
-    3.1 GA models available through the
-    [Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate)
-    to avoid service interruptions.
+  Update your integration to either use the Veo 3.1 preview model IDs
+  (`veo-3.1-generate-preview`, `veo-3.1-fast-generate-preview`) or the
+  3.1 GA models available through the
+  [Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate)
+  to avoid service interruptions.
 - **Deprecation announcement** : The experimental GMP Contextual View tool (a fixed interface for Grounding with Google Maps outputs) will [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **June 15, 2026**:
 
 ## June 1, 2026
@@ -181,7 +266,7 @@ This page documents updates to the Gemini API.
 - Released `gemini-robotics-er-1.6-preview`, our updated robotics model.
   It now has new capabilities like instrument reading, improved spatial and
   physical reasoning capabilities. To learn more, see
-  [Gemini Robotics-ER](https://ai.google.dev/gemini-api/docs/robotics-overview) page and the
+  [Gemini Robotics ER](https://ai.google.dev/gemini-api/docs/robotics-overview) page and the
   [blog](https://deepmind.google/blog/gemini-robotics-er-1-6).
 
 - Deprecation announcement: The `gemini-robotics-er-1.5-preview` model
@@ -345,7 +430,7 @@ This page documents updates to the Gemini API.
   for interacting with Gemini models and agents. To learn more, see the
   [Interactions API](https://ai.google.dev/gemini-api/docs/interactions-overview) guide.
 
-- Launched the Gemini Deep Research Agent in preview. It can
+- Launched the Gemini Deep Research agent in preview. It can
   autonomously plan, execute, and synthesize results for multi-step research
   tasks. See the [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research) guide for
   details.
@@ -495,7 +580,7 @@ This page documents updates to the Gemini API.
 
 ## September 25, 2025
 
-- Released Gemini Robotics-ER 1.5 model in preview. See the
+- Released Gemini Robotics ER 1.5 model in preview. See the
   [Robotics overview](https://ai.google.dev/gemini-api/docs/robotics-overview)
   to learn about how to use the model for your robotics application.
 
@@ -997,7 +1082,6 @@ See [the API versions topic](https://ai.google.dev/gemini-api/docs/api-versions)
 - Multimodal capability: Image is a new supported modality
 - New beta features:
   - [Function Calling](https://ai.google.dev/gemini-api/docs/function-calling)
-  - [Semantic Retriever](https://ai.google.dev/gemini-api/docs/semantic_retrieval)
   - Attributed Question Answering (AQA)
 - Updated candidate count: Gemini models only return 1 candidate.
 - Different Safety Settings and SafetyRating categories. See [safety settings](https://ai.google.dev/gemini-api/docs/safety-settings) for more details.

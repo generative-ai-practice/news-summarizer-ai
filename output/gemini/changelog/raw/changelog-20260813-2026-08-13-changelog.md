@@ -1,0 +1,6 @@
+- **Gemini 3.7 Flash generally available (GA)**: Released our most
+- intelligent workhorse model yet for coding and agents:
+- **Gemini 3.7 Flash** (`gemini-3.7-flash`): Substantial improvements across software engineering, web development, and agentic workflows, available at an introductory price through December 31, 2026.
+- To get started, see the
+- [Gemini 3.7 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash) model page
+- and the [Latest model guide](https://ai.google.dev/gemini-api/docs/latest-model).

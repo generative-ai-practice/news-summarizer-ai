@@ -1,0 +1,7 @@
+- **Gemini 3.8 Flash generally available (GA)** : Released
+- `gemini-3.8-flash`, our most intelligent Flash model, engineered for
+- long-horizon software engineering, autonomous agents, and complex enterprise
+- workflows.
+- To get started, see the
+- [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash) model page and
+- the [Latest model guide](https://ai.google.dev/gemini-api/docs/latest-model).

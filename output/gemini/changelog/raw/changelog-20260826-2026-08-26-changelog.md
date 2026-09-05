@@ -1,0 +1,8 @@
+- **Gemini 3.5 Transcribe generally available (GA)**: Released two dedicated
+- speech-to-text models based on Gemini's audio understanding:
+- **Gemini 3.5 Transcribe** (`gemini-3.5-transcribe`): High-accuracy, low-latency non-streaming speech-to-text with utterance-based language detection across 85+ languages, speaker diarization, word-level timestamps, and custom vocabulary biasing (up to 1,000 terms).
+- **Gemini 3.5 Transcribe Live** (`gemini-3.5-transcribe-live`): Low-latency, bidirectional streaming speech-to-text over WebSockets using the Live API, supporting interim and finalized transcription events, Smart transcription mode, and multiple Voice Activity Detection (VAD) strategies.
+- To get started, see the
+- [Audio transcription guide](https://ai.google.dev/gemini-api/docs/transcribe), the
+- [Live transcription guide](https://ai.google.dev/gemini-api/docs/live-api/live-transcribe), and the
+- [Gemini 3.5 Transcribe model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe).

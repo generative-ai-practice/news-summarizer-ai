@@ -1,0 +1,12 @@
+- **Gemini Omni Flash generally available (GA)** : Released
+- `gemini-omni-1.1-flash`, the GA version of our fast, conversational video
+- generation and editing model. This release includes significant new
+- capabilities:
+- **Video extension** : Seamlessly extend existing videos by generating continuations at the end of a clip using the `extend` task or directly with a prompt.
+- **Interpolation (first + last frame)** : Generate a video transitioning between two images using the `image_to_video` task with up to 2 images.
+- **Resolution control** : New `resolution` parameter in `video_config` supports `360p`, `720p` (default), `1080p`, and `4k` outputs. 1080p and 4K outputs are generated using upscaling.
+- The existing `gemini-omni-flash-preview` endpoint will be deprecated on
+- September 30, 2026.
+- To get started, see the
+- [Gemini Omni Flash](https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash) model page
+- and the [omni guide](https://ai.google.dev/gemini-api/docs/omni).

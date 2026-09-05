@@ -1,0 +1,7 @@
+- **Agentic video understanding**: Released agentic video understanding for
+- Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite across the Interactions and
+- GenerateContent APIs. The model dynamically navigates video timelines,
+- requesting transcripts, frames, or audio tracks on demand. This approach uses
+- up to 88% fewer tokens for long-form content compared to static processing.
+- To get started, see the
+- [Agentic video understanding](https://ai.google.dev/gemini-api/docs/video-understanding#agentic-video-understanding) guide.

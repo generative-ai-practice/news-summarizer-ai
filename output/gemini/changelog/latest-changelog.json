@@ -1,7 +1,70 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-07-29T15:07:28.479Z",
+  "lastChecked": "2026-09-05T11:09:30.713Z",
   "articles": [
+    {
+      "title": "2026-09-03 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-09-03",
+      "publishedDate": "2026-09-03",
+      "source": "changelog",
+      "slug": "20260903-2026-09-03-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-09-02 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-09-02",
+      "publishedDate": "2026-09-02",
+      "source": "changelog",
+      "slug": "20260902-2026-09-02-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-09-01 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-09-01",
+      "publishedDate": "2026-09-01",
+      "source": "changelog",
+      "slug": "20260901-2026-09-01-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-08-27 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-08-27",
+      "publishedDate": "2026-08-27",
+      "source": "changelog",
+      "slug": "20260827-2026-08-27-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-08-26 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-08-26",
+      "publishedDate": "2026-08-26",
+      "source": "changelog",
+      "slug": "20260826-2026-08-26-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-08-13 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-08-13",
+      "publishedDate": "2026-08-13",
+      "source": "changelog",
+      "slug": "20260813-2026-08-13-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-07-30 changelog",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-07-30",
+      "publishedDate": "2026-07-30",
+      "source": "changelog",
+      "slug": "20260730-2026-07-30-changelog",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-07-21 changelog",
       "url": "https://ai.google.dev/gemini-api/docs/changelog.md#2026-07-21",
