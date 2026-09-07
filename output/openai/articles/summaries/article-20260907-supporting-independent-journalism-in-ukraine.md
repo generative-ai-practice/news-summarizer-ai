@@ -1,7 +1,7 @@
 ---
 title: "Supporting independent journalism in Ukraine"
 published: "2026-09-07"
-collected_at: "2026-09-07T18:57:09.684Z"
+collected_at: "2026-09-07T23:14:16.919Z"
 url: "https://openai.com/index/supporting-independent-journalism-in-ukraine"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Supporting independent journalism in Ukraine
 
 ## Key Points
-- OpenAI、WAN-IFRA、およびウクライナ独立地域報道出版社協会（AIRPPU）は、ウクライナの報道機関を支援するための新しいAIプログラムを2026年9月7日に開始しました。
-- このプログラムは、紛争下にあるウクライナの独立ジャーナリズムのイノベーション、レジリエンス、持続可能性を強化するためにAIの導入を支援することを目的としています。
-- 主要な要素は「Newsroom AI Masterclass Series」と「Newsroom AI Catalyst」で、それぞれAIを活用した編集ワークフロー、読者エンゲージメント、収益化などの実践的知識と、具体的なAIソリューションの開発支援を提供します。
-- 参加するウクライナの10の報道機関は、OpenAIのAPIクレジットを受け取り、それぞれのニーズに合わせたAI活用策を策定・実施します。
-- Newsroom AI Masterclass Seriesは2026年8月5日に開始し、Newsroom AI Catalystは2026年9月17日に開始予定です。
+- OpenAI、WAN-IFRA、およびウクライナ独立地域報道出版者協会（AIRPPU）は、ウクライナのニュース発行者を支援する新たなAIプログラムを発表しました。
+- このイニシアチブは、AI能力の構築と組織全体のイノベーション加速を通じて、独立系ジャーナリズムの持続可能性、効率性、およびレジリエンスを強化することを目的としています。
+- プログラムは、AI駆動のニュースルームプロジェクトを支援する「Newsroom AI Masterclass Series」と、商業・運営変革プロジェクトを支援する「Business Transformation」の2つの要素で構成されます。
+- 参加するウクライナのニュース組織は、国際的な専門知識、実践的なツール、およびOpenAIのAPIクレジットを受け取り、AIを活用したソリューションの開発と導入を支援されます。
+- Newsroom AI Masterclass Seriesは2026年8月5日に開始され、Newsroom AI Catalystは2026年9月17日に開始される予定です。
