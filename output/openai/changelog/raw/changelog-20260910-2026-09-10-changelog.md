@@ -1,0 +1,3 @@
+- [GPT-Live 1](https://platform.openai.com/api/docs/models/gpt-live-1)is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools.
+- Use Responses delegation with an OpenAI model, or client delegation to connect your own backend. Voice sessions cost $0.05 per minute, billed per second; backend model and tool usage is charged separately.
+- Start with[GPT-Live](https://platform.openai.com/api/docs/guides/live),[prompting](https://platform.openai.com/api/docs/guides/live-prompting), and[migration guidance](https://platform.openai.com/api/docs/guides/live-migration). See[pricing](https://platform.openai.com/api/docs/pricing)for details.
