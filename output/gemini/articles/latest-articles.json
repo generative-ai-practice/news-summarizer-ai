@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-10T12:04:15.352Z",
+  "lastChecked": "2026-09-10T16:54:13.748Z",
   "articles": [
+    {
+      "title": "The Gemini app is now available for Windows",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+      "publishedDate": "2026-09-10",
+      "source": "news",
+      "slug": "20260910-the-gemini-app-is-now-available-for-windows",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "4 ways Gemini makes administrative chores quick and easy",
       "url": "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-13",
       "source": "news",
       "slug": "20260813-introducing-gemini-3-7-flash",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Omni experts share what excites them most about the model.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
-      "publishedDate": "2026-08-13",
-      "source": "news",
-      "slug": "20260813-omni-experts-share-what-excites-them-most-about-th",
       "language": "en",
       "summaryLanguage": "ja"
     }
