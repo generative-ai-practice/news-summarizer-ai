@@ -1,7 +1,16 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-09-11T13:10:06.604Z",
+  "lastChecked": "2026-09-11T18:05:16.874Z",
   "articles": [
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "publishedDate": "2026-09-11",
+      "source": "news",
+      "slug": "20260911-rapidly-scaling-online-storage-to-serve-over-1-bil",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
@@ -3747,11 +3756,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "The new ChatGPT Images is here",
+      "title": "Introducing ChatGPT Images and GPT‑Image‑1.5",
       "url": "https://openai.com/index/new-chatgpt-images-is-here",
       "publishedDate": "2025-12-16",
       "source": "news",
-      "slug": "20251216-the-new-chatgpt-images-is-here",
+      "slug": "20251216-introducing-chatgpt-images-and-gpt-image-1-5",
       "language": "en",
       "summaryLanguage": "ja"
     },
