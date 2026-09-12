@@ -1,0 +1,1 @@
+- The`gpt-5.4-cyber`model is deprecated and will be removed from the API on October 1, 2026. Migrate to`gpt-5.6-cyber`before the shutdown date.
