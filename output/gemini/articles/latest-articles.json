@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-14T13:41:00.961Z",
+  "lastChecked": "2026-09-14T20:09:45.233Z",
   "articles": [
+    {
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "publishedDate": "2026-09-14",
+      "source": "news",
+      "slug": "20260914-devfest-is-back",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "The Gemini app is now available for Windows",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-17",
       "source": "news",
       "slug": "20260817-get-closer-to-the-game-with-gemini-and-pixel",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "publishedDate": "2026-08-13",
-      "source": "news",
-      "slug": "20260813-introducing-gemini-3-7-flash",
       "language": "en",
       "summaryLanguage": "ja"
     }
