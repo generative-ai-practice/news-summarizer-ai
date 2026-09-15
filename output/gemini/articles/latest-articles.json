@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-15T12:28:45.036Z",
+  "lastChecked": "2026-09-15T17:29:34.824Z",
   "articles": [
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "publishedDate": "2026-09-15",
+      "source": "news",
+      "slug": "20260915-introducing-gemini-3-8-live-and-3-8-live-extended-",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "4 ways to tackle household chores with Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
+      "publishedDate": "2026-09-15",
+      "source": "news",
+      "slug": "20260915-4-ways-to-tackle-household-chores-with-gemini",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "DevFest is back",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-08-18",
       "source": "news",
       "slug": "20260818-try-4-new-interactive-bts-experiences-inside-the-g",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Keep your SAT prep on track with practice tests in Gemini.",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
-      "publishedDate": "2026-08-18",
-      "source": "news",
-      "slug": "20260818-keep-your-sat-prep-on-track-with-practice-tests-in",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "publishedDate": "2026-08-17",
-      "source": "news",
-      "slug": "20260817-get-closer-to-the-game-with-gemini-and-pixel",
       "language": "en",
       "summaryLanguage": "ja"
     }
