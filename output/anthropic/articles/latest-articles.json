@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-17T17:52:42.445Z",
+  "lastChecked": "2026-09-17T22:33:57.237Z",
   "articles": [
     {
       "title": "Improving our alignment and security efforts",
@@ -12,29 +12,11 @@
       "summaryLanguage": "ja"
     },
     {
-      "title": "Previewing the Model Hardware Standard",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "publishedDate": "2026-08-27",
-      "source": "news",
-      "slug": "20260827-previewing-the-model-hardware-standard",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Introducing Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedDate": "2026-07-24",
-      "source": "news",
-      "slug": "20260724-introducing-claude-opus-5",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
       "title": "Introducing the Life Sciences Verification Program",
       "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-09-17",
       "source": "news",
-      "slug": "20231104-introducing-the-life-sciences-verification-program",
+      "slug": "20260917-introducing-the-life-sciences-verification-program",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -44,6 +26,15 @@
       "publishedDate": "2026-09-01",
       "source": "news",
       "slug": "20260901-developing-enterprise-frontier-safeguards-with-our",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "publishedDate": "2026-08-27",
+      "source": "news",
+      "slug": "20260827-previewing-the-model-hardware-standard",
       "language": "en",
       "summaryLanguage": "ja"
     },
