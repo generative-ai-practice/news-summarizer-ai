@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-17T12:55:04.796Z",
+  "lastChecked": "2026-09-17T17:52:42.445Z",
   "articles": [
     {
       "title": "Improving our alignment and security efforts",
@@ -26,6 +26,15 @@
       "publishedDate": "2026-07-24",
       "source": "news",
       "slug": "20260724-introducing-claude-opus-5",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Introducing the Life Sciences Verification Program",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "slug": "20231104-introducing-the-life-sciences-verification-program",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -89,15 +98,6 @@
       "publishedDate": "2026-07-30",
       "source": "news",
       "slug": "20260730-investigating-three-real-world-incidents-in-our-cy",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Our position on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "publishedDate": "2026-07-27",
-      "source": "news",
-      "slug": "20260727-our-position-on-open-weights-models",
       "language": "en",
       "summaryLanguage": "ja"
     }
