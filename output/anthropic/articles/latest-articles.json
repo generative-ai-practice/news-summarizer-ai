@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-18T17:23:45.816Z",
+  "lastChecked": "2026-09-18T22:08:17.773Z",
   "articles": [
     {
       "title": "Improving our alignment and security efforts",
@@ -8,6 +8,15 @@
       "publishedDate": "2026-08-31",
       "source": "news",
       "slug": "20260831-improving-our-alignment-and-security-efforts",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Partnering with Accenture on embedded evaluation",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "publishedDate": "2023-11-04",
+      "source": "news",
+      "slug": "20231104-partnering-with-accenture-on-embedded-evaluation",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-08-04",
       "source": "news",
       "slug": "20260804-mariano-florentino-tino-cu-llar-to-join-anthropic-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "publishedDate": "2026-07-30",
-      "source": "news",
-      "slug": "20260730-investigating-three-real-world-incidents-in-our-cy",
       "language": "en",
       "summaryLanguage": "ja"
     }
