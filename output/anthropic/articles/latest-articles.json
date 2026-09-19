@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-18T22:08:17.773Z",
+  "lastChecked": "2026-09-19T00:51:32.945Z",
   "articles": [
     {
       "title": "Improving our alignment and security efforts",
@@ -14,9 +14,9 @@
     {
       "title": "Partnering with Accenture on embedded evaluation",
       "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-09-18",
       "source": "news",
-      "slug": "20231104-partnering-with-accenture-on-embedded-evaluation",
+      "slug": "20260918-partnering-with-accenture-on-embedded-evaluation",
       "language": "en",
       "summaryLanguage": "ja"
     },
