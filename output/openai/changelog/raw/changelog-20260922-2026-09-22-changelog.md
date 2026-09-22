@@ -1,0 +1,6 @@
+- Released[GPT-6 Sol](https://platform.openai.com/api/docs/models/gpt-6-sol)(`gpt-6-sol`) and[GPT-6 Luna](https://platform.openai.com/api/docs/models/gpt-6-luna)(`gpt-6-luna`).
+- These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.
+- Standard pricing per 1M tokens for prompts with up to 272K input tokens:
+- Compare capabilities in the[model catalog](https://platform.openai.com/api/docs/models), and see[pricing](https://platform.openai.com/api/docs/pricing)for cache writes, longer prompts, and other processing tiers.
+- GPT-6 Sol: $2 input, $0.20 cached input, and $10 output.
+- GPT-6 Luna: $0.10 input, $0.01 cached input, and $0.50 output.
