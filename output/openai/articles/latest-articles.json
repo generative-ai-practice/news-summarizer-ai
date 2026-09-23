@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastChecked": "2026-09-23T02:51:24.761Z",
+  "lastChecked": "2026-09-23T08:11:23.631Z",
   "articles": [
     {
       "title": "Better prompt caching for GPT-6",
