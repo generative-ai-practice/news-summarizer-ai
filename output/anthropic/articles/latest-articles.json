@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-24T00:59:20.672Z",
+  "lastChecked": "2026-09-24T07:00:39.373Z",
   "articles": [
     {
       "title": "Science Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "publishedDate": "2023-11-04",
+      "publishedDate": "2026-09-23",
       "source": "news",
-      "slug": "20231104-science-claude-discovers-a-novel-enzyme-system-wit",
+      "slug": "20260923-science-claude-discovers-a-novel-enzyme-system-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
