@@ -1,22 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-09-23T13:11:40.192Z",
+  "lastChecked": "2026-09-24T00:59:20.672Z",
   "articles": [
     {
-      "title": "Improving our alignment and security efforts",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "publishedDate": "2026-08-31",
+      "title": "Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedDate": "2023-11-04",
       "source": "news",
-      "slug": "20260831-improving-our-alignment-and-security-efforts",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Previewing the Model Hardware Standard",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "publishedDate": "2026-08-27",
-      "source": "news",
-      "slug": "20260827-previewing-the-model-hardware-standard",
+      "slug": "20231104-science-claude-discovers-a-novel-enzyme-system-wit",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -44,6 +35,24 @@
       "publishedDate": "2026-09-01",
       "source": "news",
       "slug": "20260901-developing-enterprise-frontier-safeguards-with-our",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedDate": "2026-08-31",
+      "source": "news",
+      "slug": "20260831-improving-our-alignment-and-security-efforts",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "publishedDate": "2026-08-27",
+      "source": "news",
+      "slug": "20260827-previewing-the-model-hardware-standard",
       "language": "en",
       "summaryLanguage": "ja"
     },
@@ -80,15 +89,6 @@
       "publishedDate": "2026-08-07",
       "source": "news",
       "slug": "20260807-improving-fable-5-s-biology-safeguards",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "publishedDate": "2026-08-04",
-      "source": "news",
-      "slug": "20260804-mariano-florentino-tino-cu-llar-to-join-anthropic-",
       "language": "en",
       "summaryLanguage": "ja"
     }
