@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-24T12:33:49.157Z",
+  "lastChecked": "2026-09-24T17:45:21.454Z",
   "articles": [
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "publishedDate": "2026-09-24",
+      "source": "news",
+      "slug": "20260924-introducing-gemini-3-8-live-with-live-avatar",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "A new wave of Connected Apps is rolling out to Gemini.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-21",
       "source": "news",
       "slug": "20260821-what-does-full-stack-ai-actually-mean",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Start the semester with one year of Gemini, on us",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-      "publishedDate": "2026-08-19",
-      "source": "news",
-      "slug": "20260819-start-the-semester-with-one-year-of-gemini-on-us",
       "language": "en",
       "summaryLanguage": "ja"
     }
