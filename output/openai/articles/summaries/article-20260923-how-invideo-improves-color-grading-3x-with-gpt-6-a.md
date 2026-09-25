@@ -1,7 +1,7 @@
 ---
 title: "How invideo improves color grading 3x with GPT‑6 Astra"
 published: "2026-09-23"
-collected_at: "2026-09-24T23:43:20.424Z"
+collected_at: "2026-09-25T02:58:29.142Z"
 url: "https://openai.com/index/invideo-builds-with-gpt-6-astra"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # How invideo improves color grading 3x with GPT‑6 Astra
 
 ## Key Points
-- InvideoはGPT-6 Astraを活用することで、複雑な動画編集の計画と実行の精度を向上させました。CEOのSanket Shah氏は、Astraが少ない推論ステップと出力トークンで複雑な作業を完了できると述べています。
-- 特にカラー補正とグレーディングのタスクにおいて、GPT-6 Astraの成功率は約3倍に改善されました。これは、背景の変更時に人物の肌のトーンを保持するような、複数の重なり合うアプローチから選択する作業で特に効果的です。
-- GPT-6 Astraは、説明や視覚的参照に基づいてカスタムエフェクトを生成し、タイムラインに配置して編集者が調整できるようにします。これにより、Invideoの編集者は1日で約50のカスタムエフェクトを作成できました。
-- GPT-6 Astraを用いることで、クリエイティブプロフェッショナルは、時間のかかる計画やフレームごとの作業に費やすことなく、ストーリー、感性、最終的なカットのコントロールを維持できます。
+- invideoはGPT-6 Astraを活用し、より高い精度で編集を計画し、カラーコレクションとグレーディングの成功率を3倍に向上させました。
+- GPT-6 Astraの導入により、1日で50種類のカスタムエフェクトを制作できるようになりました。
+- invideoのCEOであるSanket Shahは、Astraがフレームレベルの精度で編集を計画する能力を「驚くべきもの」と評価しています。
+- AIエージェントは、編集者の指示を複数のステップに変換し、適切なツールを選択して作業を実行し、結果を検証する能力を持っています。
+- Astraは、カラー作業において、補正、グレーディング、再生、LUT、分離といった重複するアプローチの中から最適なものを選択するのに特に効果的です。
