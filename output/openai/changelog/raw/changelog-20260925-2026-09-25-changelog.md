@@ -1,0 +1,2 @@
+- Fixed a bug in image encoding that degraded image understanding in[GPT-6 Sol](https://platform.openai.com/api/docs/models/gpt-6-sol)and[GPT-6 Luna](https://platform.openai.com/api/docs/models/gpt-6-luna). This update improves results on visual tasks in the API and Codex, including computer use.
+- If your use cases involve image inputs, we recommend rerunning your evaluations and retrying workflows affected by the issue.

@@ -1,7 +1,7 @@
 ---
 title: "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
 published: "2026-09-23"
-collected_at: "2026-09-26T15:33:09.919Z"
+collected_at: "2026-09-26T20:31:40.868Z"
 url: "https://openai.com/index/ringg"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
 
 ## Key Points
-- RinggのAIエージェントはOpenAIのGPT-5.6を活用し、音声、チャット、WhatsApp、ウェブを含むマルチリンガルチャネルで最大65%の顧客問い合わせを解決しています。
-- GPT-5.6を使用することで、特定のワークロードにおいてGPT-4.1と比較してモデルコストを約90%削減し、必要な品質と低遅延を実現しています。
-- 現在、月間700万件以上のコネクテッドコールを処理しており、顧客満足度（CSAT）は平均4.8です。
-- インドの大手保険プラットフォームPolicybazaarでは、57,000件以上の顧客リクエストを処理し、67%のコールを人間介入なしで対応、平均応答時間を約88%短縮しました。
-- Ringgは、OpenAIのコンピュータ使用能力を用いて、ブラウザエージェントの開発を進めており、顧客オンボーディング、KYCプロセス、ITトラブルシューティングなどの複雑なワークフローを自動化する予定です。
+- RinggのAIエージェントはOpenAIのGPT-5.6を活用し、音声、チャット、WhatsApp、Web全体で多言語対応を行い、顧客通話の最大65%を解決しています。
+- GPT-4.1からGPT-5.6への移行により、特定のリアルタイムワークロードにおけるモデルコストを約90%削減しつつ、必要な品質と低遅延を実現しました。
+- RinggのAIエージェントは毎月700万件以上の通話を処理し、顧客満足度（CSAT）は平均4.8を達成しています。
+- モデルはタスクのニーズに応じて使い分けられ、GPT-5.6 Terraは通話後分析や地域言語対応で最大97%の精度を発揮しています。
+- 顧客事例として、Policybazaarでの応答時間88%改善、Practoでの初回通話解決率85%と運用コスト70%削減、Growwでの問い合わせ72%セルフサービス解決などが挙げられます。
