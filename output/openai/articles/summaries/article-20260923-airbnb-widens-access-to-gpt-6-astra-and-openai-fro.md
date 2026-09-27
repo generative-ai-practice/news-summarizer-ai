@@ -1,7 +1,7 @@
 ---
 title: "Airbnb widens access to GPT-6 Astra and OpenAI frontier models"
 published: "2026-09-23"
-collected_at: "2026-09-26T23:20:42.109Z"
+collected_at: "2026-09-27T03:07:58.369Z"
 url: "https://openai.com/index/airbnb-gpt-6-astra"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Airbnb widens access to GPT-6 Astra and OpenAI frontier models
 
 ## Key Points
-- Airbnbは、GPT-6 Astraを含むOpenAIの最先端モデルへのアクセスをエンジニアリングおよび製品開発チームに拡大しました。
-- この拡大は、CodexやGPT-5.6 Sol, Terra, Lunaといったモデルを活用した既存のAIアシスタントおよびAIエージェントの利用に基づいています。
-- 新しい契約により、OpenAI APIとAmazon Bedrockを通じてOpenAIモデルへの広範なアクセスが可能となり、GPT-6 Astraの採用が加速しています。
-- GPT-6 Astraの早期利用では、コーディング以外の作業においても、バグ追跡、システム設計、エンジニアリングアプローチの考案などで高い成果を示し、作業効率を大幅に向上させています。
-- Airbnbは、検索、不正防止、ゲストおよびホストサポート、保険金請求などの様々な業務でAIモデルを活用し、サービス体験の向上と業務の迅速化に貢献しています。
+- Airbnbは、GPT-6 Astraを含むOpenAIのフロンティアモデルへのアクセスをエンジニアリングおよび製品開発チームに拡大しました。
+- この拡大は、以前から利用していたCodexやGPT-5.6 Sol、Terra、Lunaなどのモデルを使用した社内AIアシスタントの活用に基づいています。
+- GPT-6 Astraは、コーディング作業だけでなく、バグ追跡、システム設計、エンジニアリングアプローチの検討など、幅広い分野で顕著な効率向上をもたらしています。
+- AirbnbのCTOによると、開発チームの機能リリース速度が前年比で約80%向上しており、OpenAIのフロンティアモデルがこの勢いを維持し、より迅速な製品開発に貢献しています。
+- Airbnbは、検索、詐欺防止、ゲストとホストのサポート、保険請求など、多岐にわたる事業領域でOpenAIモデルを活用し、顧客体験と業務効率の向上を図っています。
