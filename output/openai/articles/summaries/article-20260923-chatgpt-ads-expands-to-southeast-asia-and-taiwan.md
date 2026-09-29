@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT Ads expands to Southeast Asia and Taiwan"
 published: "2026-09-23"
-collected_at: "2026-09-28T21:01:33.217Z"
+collected_at: "2026-09-29T00:56:42.564Z"
 url: "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,7 @@ language: "ja"
 # ChatGPT Ads expands to Southeast Asia and Taiwan
 
 ## Key Points
-- ChatGPT Adsは、2026年9月23日よりインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7つの追加市場で展開を開始しました。
-- この拡大により、ChatGPT Adsは現在60カ国以上で利用可能となり、あらゆる規模の企業がより多くの人々にリーチする新たな機会を提供します。
-- 広告主はOpenAI Ads Solutionsチーム、dentsu、Havas Media、Omnicom Media、Publicis Groupe、WPPなどの代理店パートナー、および技術パートナーを通じてアクセスできます。対象企業向けにはAds Managerからのセルフサービスアクセスも提供されます。
-- 広告は、無料プランとGoプランのユーザーにのみ表示され、Plus、Pro、Enterpriseの有料サブスクリプションは広告なしのままです。これはAIへのアクセスを民主化するというOpenAIのミッションを支援するためです。
-- 広告は明確に表示され、ChatGPTの回答に影響を与えることはなく、ユーザーの目標達成や意思決定に役立つ関連製品やサービスを提供することを目的としています。
+- ChatGPT Adsは2026年9月23日より、インドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7つの市場に展開を開始し、これにより提供国は60カ国以上になります。
+- 広告はChatGPTの無料およびGoプランのユーザーにのみ表示され、Plus、Pro、Enterpriseの有料サブスクリプションは広告なしで提供されます。
+- OpenAIは、ユーザーの信頼を保護するため、会話のプライバシー保護、顧客データの不販売、広告の明確な表示、ChatGPTの回答への広告の影響なしといった広告原則に従っています。
+- ChatGPT Adsはローンチ後200日足らずで年間収益ランレート10億ドルを達成し、今後も新規市場への拡大や、新しいフォーマット、最適化ツール、測定ソリューションの開発を続ける予定です。
