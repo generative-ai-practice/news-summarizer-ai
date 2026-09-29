@@ -1,7 +1,7 @@
 ---
 title: "Proaction boosts sales 60% and saves 75+ hours with Codex"
 published: "2026-09-25"
-collected_at: "2026-09-29T17:28:10.370Z"
+collected_at: "2026-09-29T21:46:32.890Z"
 url: "https://openai.com/index/proaction"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,7 @@ language: "ja"
 # Proaction boosts sales 60% and saves 75+ hours with Codex
 
 ## Key Points
-- ProactionはCodexを活用し、顧客固有のニーズに合わせたインタラクティブなデモを迅速に作成できるようになり、セールスが60%増加しました。
-- 共同創設者兼COOのColin Knudsenは、Codexを使用して月に4～6件のカスタムデモを自身で作成し、エンジニアリング作業を月間40～60時間削減しました。
-- Colin Knudsenは、Codexを営業、顧客サポート、製品管理の中心ツールとして利用し、月に25～33時間の業務時間を節約しています。
-- ProactionはGPT-Live-1とGPT-6 Astraを用いて、車両のメンテナンス調整などを自動化する音声エージェント「Managed Execution Layer」を構築し、フリート管理業務の効率化を進めています。
-- GPT-6 Astraの導入により、従来のモデルに比べてより簡潔なコンピューター利用実行が可能になり、顧客向けエクスペリエンスの開発を加速しています。
+- ProactionはCodexを活用して顧客のデータに基づいたカスタマイズデモを生成し、これにより商談がソリューション開発に移行する割合が50-60%増加しました。
+- 共同創業者兼COOのColin Knudsen氏は、Codexを使ったデモ作成により月に40〜60時間のエンジニアリング作業を削減し、自身の業務効率化により月間25〜33時間の時間を節約しています。
+- CodexはGranola、Gmail、Slack、Linear、GitHub、HubSpotなどのツールと連携し、顧客コンテキストの収集やタスク実行を一元化することで、創業者Colin Knudsenの業務の中心となっています。
+- ProactionはGPT-Live-1とGPT-6 Astraを用いて、車両の問題特定やメンテナンス調整など、フリート運用における日常業務を処理する音声エージェント「Managed Execution Layer」を構築し、開発速度も向上させています。
