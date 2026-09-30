@@ -1,7 +1,7 @@
 ---
 title: "The Lenfest Institute grows landmark program with expanded OpenAI support"
 published: "2026-09-28"
-collected_at: "2026-09-29T17:27:50.594Z"
+collected_at: "2026-09-30T11:46:14.194Z"
 url: "https://openai.com/index/lenfest-ai-collaborative-expansion"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # The Lenfest Institute grows landmark program with expanded OpenAI support
 
 ## Key Points
-- OpenAIは、Lenfest AI Collaborative and Fellowship Programに対し、500万ドルの追加資金と最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートを提供し、プログラムを拡大しました。
-- このプログラムは、フルタイムのAI技術者を地方ニュース組織に配置し、ビジネス革新を推進し、AIを責任を持って導入するための戦略を構築することを目的としています。
-- 過去2年間で、埋め込みAIエンジニアは、アーカイブ検索ツール「Dewey」やスペイン語記事の迅速な公開など、ニュースルームのニーズに基づいた実用的なAIツールを開発し、イノベーションを加速させました。
-- 次の段階では、より多くのニュース組織が参加し、最も強力なフェローシッププロジェクトを再利用可能なツールやリソースとして広く共有することで、地方ジャーナリズム全体の強化を目指します。
+- Lenfest AI Collaborative and Fellowship ProgramはOpenAIからの追加支援により拡大され、500万ドルの資金と最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートが提供されます。
+- このプログラムは、フルタイムのAI技術者を地域ニュース組織に配置し、過去2年間でイノベーション加速、ビジネス持続可能性強化、AIの責任ある導入を支援する実績あるモデルを確立しました。
+- フェローは、アーカイブ検索ツール「Dewey」や記事リード生成ツール「Scrape」の開発、スペイン語コンテンツの迅速な翻訳など、多岐にわたるAIソリューションを導入しました。
+- 試行期間を通じて、AI導入の成功は技術だけでなく、組織内の信頼、コラボレーション、明確なニーズ理解に大きく依存することが判明しました。
+- 今後、Lenfest Instituteは技術的能力を拡張し、最も優れたフェローシッププロジェクトを再利用可能なツールやリソースに転換することで、より広範なニュース業界にスケーラブルな影響をもたらすことを目指します。
