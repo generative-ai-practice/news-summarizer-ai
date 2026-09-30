@@ -1,7 +1,25 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-09-30T13:21:32.987Z",
+  "lastChecked": "2026-09-30T20:35:32.603Z",
   "articles": [
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "publishedDate": "2026-09-30",
+      "source": "news",
+      "slug": "20260930-gemini-4-argon-our-next-era-of-frontier-intelligen",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "Let skills in Gemini tackle your most repetitive tasks",
+      "url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+      "publishedDate": "2026-09-30",
+      "source": "news",
+      "slug": "20260930-let-skills-in-gemini-tackle-your-most-repetitive-t",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "See what 4 builders are making with Gemini 3.8 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
@@ -161,24 +179,6 @@
       "publishedDate": "2026-08-26",
       "source": "news",
       "slug": "20260826-7-ways-to-kick-start-back-to-school-using-gemini-i",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Turn your voice into action with new productivity features in Gemini Live",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-      "publishedDate": "2026-08-26",
-      "source": "news",
-      "slug": "20260826-turn-your-voice-into-action-with-new-productivity-",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "publishedDate": "2026-08-26",
-      "source": "news",
-      "slug": "20260826-intelligent-transcription-with-gemini-3-5-transcri",
       "language": "en",
       "summaryLanguage": "ja"
     }
