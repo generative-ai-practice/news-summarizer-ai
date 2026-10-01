@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-10-01T10:44:50.910Z",
+  "lastChecked": "2026-10-01T18:42:18.491Z",
   "articles": [
+    {
+      "title": "Guided Vision in Gemini Live: built for accessibility",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "publishedDate": "2026-10-01",
+      "source": "news",
+      "slug": "20261001-guided-vision-in-gemini-live-built-for-accessibili",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-08-27",
       "source": "news",
       "slug": "20260827-gemini-omni-1-1-flash-lets-you-build-with-more-con",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "7 ways to kick-start back to school using Gemini in Workspace",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
-      "publishedDate": "2026-08-26",
-      "source": "news",
-      "slug": "20260826-7-ways-to-kick-start-back-to-school-using-gemini-i",
       "language": "en",
       "summaryLanguage": "ja"
     }
