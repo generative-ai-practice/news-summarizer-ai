@@ -1,7 +1,16 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-01T01:43:52.794Z",
+  "lastChecked": "2026-10-01T08:06:41.419Z",
   "articles": [
+    {
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publishedDate": "2026-10-02",
+      "source": "news",
+      "slug": "20261002-barclays-scales-claude-to-upgrade-operations-and-i",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Science Claude discovers a novel enzyme system with CRISPR-like repeats",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
@@ -80,15 +89,6 @@
       "publishedDate": "2026-08-14",
       "source": "news",
       "slug": "20260814-how-claude-s-text-watermark-works",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Improving Fable 5's biology safeguards",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "publishedDate": "2026-08-07",
-      "source": "news",
-      "slug": "20260807-improving-fable-5-s-biology-safeguards",
       "language": "en",
       "summaryLanguage": "ja"
     }
