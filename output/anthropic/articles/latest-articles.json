@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-01T08:06:41.419Z",
+  "lastChecked": "2026-10-01T17:12:56.946Z",
   "articles": [
     {
       "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "url": "https://www.anthropic.com/news/barclays-scales-claude",
-      "publishedDate": "2026-10-02",
+      "publishedDate": "2026-10-01",
       "source": "news",
-      "slug": "20261002-barclays-scales-claude-to-upgrade-operations-and-i",
+      "slug": "20261001-barclays-scales-claude-to-upgrade-operations-and-i",
       "language": "en",
       "summaryLanguage": "ja"
     },
