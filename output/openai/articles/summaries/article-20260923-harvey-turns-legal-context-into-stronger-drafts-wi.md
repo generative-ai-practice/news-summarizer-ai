@@ -1,7 +1,7 @@
 ---
 title: "Harvey turns legal context into stronger drafts with GPT-6 Astra"
 published: "2026-09-23"
-collected_at: "2026-09-30T21:48:13.070Z"
+collected_at: "2026-10-01T03:38:38.383Z"
 url: "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Harvey turns legal context into stronger drafts with GPT-6 Astra
 
 ## Key Points
-- HarveyはGPT-6 Astraを活用し、訴訟から合併まで複雑な法務ワークフローにAIを安全に導入しています。
-- GPT-6 Astraを使用することで、より多くのコンテキストをドラフトプロセスに取り入れ、より構造化された出力の生成が可能になります。
-- 他のモデルと比較して、GPT-6 Astraは文書のフォーマットとコンテキスト認識において大幅な改善を示し、より完全で関連性の高い文書作成に貢献しています。
-- Harveyのメモリパネルは、弁護士の個人的な好み（例：箇条書き、EDGARの優先順位付け、問題の重要度による色分けなど）をドラフトワークフローに直接反映させることができます。
-- GPT-6 Astraがより多くのコンテキストを処理できるため、Harveyはより高品質な法的文書を生成し、顧客は戦略に時間を集中させることができます。
+- Harveyは、GPT-6 Astraを利用して、法律事務所や社内法務チームが訴訟から合併まで複雑な法律ワークフローでAIを安全に展開するのを支援します。
+- GPT-6 Astraは、より多くの文脈をドラフトプロセスに取り込み、より構造化された法的文書を生成することで、弁護士が戦略に集中できるよう解放します。
+- GPT-6 Astraの使用により、文書の書式設定と文脈認識において大幅な改善が見られ、より完全で関連性の高い文書を作成できます。
+- Harveyのメモリパネルは、箇条書きの使用や情報源の優先順位付けなど、弁護士個人の好みをドラフトワークフローに直接組み込むことができます。
+- GPT-6 Astraの強化された文脈処理能力により、Harveyは高品質な法的文書を生成し、顧客は戦略的業務により多くの時間を割くことが可能になります。
