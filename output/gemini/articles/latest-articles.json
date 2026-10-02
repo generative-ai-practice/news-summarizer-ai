@@ -1,7 +1,16 @@
 {
   "provider": "gemini",
-  "lastChecked": "2026-10-02T13:37:03.691Z",
+  "lastChecked": "2026-10-02T20:23:02.028Z",
   "articles": [
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "publishedDate": "2026-10-02",
+      "source": "news",
+      "slug": "20261002-the-latest-ai-news-we-announced-in-september-2026",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "Guided Vision in Gemini Live: built for accessibility",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
@@ -170,15 +179,6 @@
       "publishedDate": "2026-09-01",
       "source": "news",
       "slug": "20260901-introducing-agentic-video-understanding-with-gemin",
-      "language": "en",
-      "summaryLanguage": "ja"
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "publishedDate": "2026-08-27",
-      "source": "news",
-      "slug": "20260827-gemini-omni-1-1-flash-lets-you-build-with-more-con",
       "language": "en",
       "summaryLanguage": "ja"
     }
