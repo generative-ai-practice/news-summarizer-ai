@@ -1,0 +1,2 @@
+- The following models are deprecated and will be removed from the API on April 1, 2027, with six months’ notice. Migrate to the recommended replacements before the shutdown date.
+- The following text-to-speech models are deprecated and will be removed from the API on January 6, 2027, with at least three months’ notice. Migrate to`gpt-realtime-2.1-mini`before the shutdown date. See the[Realtime API guide](https://platform.openai.com/api/docs/guides/realtime)to plan your migration.
