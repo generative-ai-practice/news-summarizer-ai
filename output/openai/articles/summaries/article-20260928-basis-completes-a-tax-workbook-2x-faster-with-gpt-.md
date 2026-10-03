@@ -1,7 +1,7 @@
 ---
 title: "Basis completes a tax workbook 2x faster with GPT-6 Astra"
 published: "2026-09-28"
-collected_at: "2026-10-03T10:59:21.953Z"
+collected_at: "2026-10-03T15:35:53.818Z"
 url: "https://openai.com/index/basis-tax-workbook-with-astra"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Basis completes a tax workbook 2x faster with GPT-6 Astra
 
 ## Key Points
-- GPT-6 Astraは、50タブからなる複雑な税務ワークブックをGPT-5.6 Solと比較して2倍速く（50%の時間短縮で）完了しました。
-- GPT-6 Astraはユーザーの意図をより深く理解し、タスク開始時により良い決定を下すことで、ミスの修正時間とトークン使用を効率化しました。
-- モデルはタスクの進行に応じて推論の度合いを調整でき、これによりコストと応答時間を削減し、長時間のタタスクをより経済的に実行可能にします。
-- Basisの内部評価スコアはGPT-6 Astraにより約20%向上し、ユーザーの意図、質問のタイミング、前提の指摘、指示の順守などにおいて理解度が高まりました。
-- この進歩により、BasisはAIエージェントが内部テストで網羅されていない実世界のシナリオにも対応できるという自信を深めました。
+- Basis社はGPT-6 Astraを使用し、50タブからなる複雑な税務ワークブックをGPT-5.6 Solの半分の時間で完了させました。
+- GPT-6 Astraはタスク開始時の意思決定が向上し、ミスの修正にかかる時間を短縮し、トークンの利用効率を高めています。
+- モデルはタスクの難易度に応じて推論の計算量を調整でき、これによりコストと応答時間の削減に貢献しています。
+- GPT-6 Astraの導入により、Basisの内部評価スコアは約20%改善し、ユーザーの意図理解が強化されました。
+- 広範な文脈から期待を推測できるため、個別のルール作成が減り、エージェントが内部テスト外の状況にも対応できる信頼性が向上しました。
