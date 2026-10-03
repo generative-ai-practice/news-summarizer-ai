@@ -1,7 +1,7 @@
 ---
 title: "The Den frees up 10-15 hours a week to grow with ChatGPT Work"
 published: "2026-10-01"
-collected_at: "2026-10-03T20:28:09.159Z"
+collected_at: "2026-10-03T23:28:10.858Z"
 url: "https://openai.com/index/the-den-family-social"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # The Den frees up 10-15 hours a week to grow with ChatGPT Work
 
 ## Key Points
-- The Den Family SocialはChatGPT Workを導入し、毎週10〜15時間の業務時間を削減しました。
-- 助成金申請は3日から2時間、酒類販売免許申請は4日から3時間へと大幅に短縮され、業務プロセスが効率化されました。
-- 創設者や幹部はChatGPTを利用して複雑な問題を検討し、提案を迅速に作成することで、意思決定にかかる時間を短縮しています。
-- ChatGPTは財務分析や運用計画にも活用され、在庫予測や複数拠点間でのシステム連携の意思決定を支援しています。
-- 今後、ChatGPT VoiceやCodexの活用を通じて、会員アプリ開発や社内システム連携などのさらなる事業拡大を目指しています。
+- The Den Family Socialは、2店舗目のオープンに伴う管理業務の増加に対応するため、ChatGPT Workを導入しました。
+- 導入後、リーダーシップチームは週に10〜15時間の時間を節約できるようになりました。
+- 助成金申請の準備時間は3日から2時間へ92%短縮され、酒類販売免許の申請資料作成は4日から3時間へ91%短縮されました。
+- ChatGPTは、複雑な問題の検討や提案作成を支援し、創業者のChandler Lipe氏は週約7時間の議論時間を削減して意思決定に集中できるようになりました。
+- 今後、The DenはChatGPT Voiceを活用して移動中の作業効率を高め、Codexを使って会員アプリやPOSシステム連携などのカスタマイズされたシステムを構築する計画です。
