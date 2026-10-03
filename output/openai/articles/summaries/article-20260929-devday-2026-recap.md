@@ -1,7 +1,7 @@
 ---
 title: "DevDay 2026 Recap"
 published: "2026-09-29"
-collected_at: "2026-10-03T03:21:25.827Z"
+collected_at: "2026-10-03T10:58:19.142Z"
 url: "https://openai.com/index/devday-2026-recap"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # DevDay 2026 Recap
 
 ## Key Points
-- AIが創造性と発見を促進し、人々がより多くの時間を重要なことに使えるようにするビジョンが共有され、ChatGPTが開発者向けのオープンな共有インターフェースとして開放されました。
-- 継続的な責任を担い、ユーザーのタスクを代行することで時間と注意を解放する、常に稼働するAIエージェント「Dots」が導入されました。
-- エージェント的コーディング、コンピューター使用、専門業務で高いパフォーマンスを発揮する新モデル「GPT-6.1 Sol」が発表され、CodexとAPIで最大8倍高速なトークン生成を実現する「Ultrafast」ティアも利用可能になりました。
-- 開発者向けには、Codexのクラウド環境対応、音声操作可能なCLIの刷新、自動コードレビュー機能、セキュリティ強化のためのCodex Security Cloud、およびソフトウェア連携が可能なAgents APIなどの新ツールが提供されました。
-- チームでのAI協業を促進するため、「ChatGPT Space」や共同編集可能な「Pages」「Collaborative slides」が導入され、Slack/Microsoft Teamsとの連携や、再利用可能なサイトやプラグインを展示できる「Shareable profiles」も利用可能になりました。
+- 新しいAIエージェント「Dots」が導入され、ユーザーの代わりに継続的なタスクを処理し、AIとの新しい働き方を提案する。
+- GPT-6.1 Solモデルが発表され、エージェントコーディング、コンピューター利用、専門作業において大幅な性能向上を達成した。高速処理ティア「Ultrafast」も導入され、CodexやAPIでのトークン生成が最大8倍高速になる。
+- 開発者向けにはCodexのクラウド環境、刷新されたCLI、コードレビュー機能、セキュリティを強化するCodex Security Cloud、Decisions API、Agents APIにおけるコンピューター利用など、広範な新ツールが提供された。
+- ChatGPTプラットフォームが拡張され、プラグイン拡張、Sitesでのプラグインホスティング、MCPイベントによる自動化が可能になった。また、チームでのAI協働を促進するChatGPT Space、Pages、共同スライド、Slack/Microsoft Teams連携、Meetingsプラグインなどの新機能も発表された。
+- ChatGPTサブスクリプションの利用範囲が拡大され、「Sign in with ChatGPT」により提携ツールでの利用が可能になった。より高い使用量と速度を提供する新Pro 500ティア、およびOpenAI Marketplaceも導入された。
