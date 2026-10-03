@@ -1,13 +1,13 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-02T21:06:56.679Z",
+  "lastChecked": "2026-10-03T01:36:26.720Z",
   "articles": [
     {
       "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
       "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "publishedDate": "2026-10-03",
+      "publishedDate": "2026-10-02",
       "source": "news",
-      "slug": "20261003-anthropic-invests-100-million-to-train-10-000-engi",
+      "slug": "20261002-anthropic-invests-100-million-to-train-10-000-engi",
       "language": "en",
       "summaryLanguage": "ja"
     },
