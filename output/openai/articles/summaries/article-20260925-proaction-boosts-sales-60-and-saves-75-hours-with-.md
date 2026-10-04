@@ -1,7 +1,7 @@
 ---
 title: "Proaction boosts sales 60% and saves 75+ hours with Codex"
 published: "2026-09-25"
-collected_at: "2026-10-03T23:29:53.665Z"
+collected_at: "2026-10-04T03:50:27.405Z"
 url: "https://openai.com/index/proaction"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,7 @@ language: "ja"
 # Proaction boosts sales 60% and saves 75+ hours with Codex
 
 ## Key Points
-- ProactionはCodexを活用することで、顧客のデータに基づいたカスタマイズされたデモを非技術者である共同創業者兼COOが作成できるようになり、売上を50%から60%増加させました。
-- Codexによるカスタムデモの作成は、月間40〜60時間のエンジニアリング作業と月間33時間の創業者時間を節約しています。
-- Codexプラグインは、Colin Knudsen氏の営業、顧客サポート、製品管理といった日常業務を一元化し、通話履歴の取得、問題の作成、営業機会の更新などをCodex内で行うことで、月間25〜33時間の時間を節約しています。
-- ProactionはGPT-Live-1とGPT-6 Astraを使用して、フリート管理の日常業務を自動化するボイスエージェント（Managed Execution Layer）を構築しており、車両のメンテナンス調整などをAIが電話やチャットで処理します。
+- ProactionはCodex、GPT‑Live‑1、およびGPT‑6 Astraを活用し、現代のフリート管理ソフトウェアの構築、運用、販売を迅速化しています。
+- Codexを使用することで、非技術者である共同創業者が月に4〜6件のカスタマイズされたデモを30〜45分で作成できるようになり、エンジニアリング作業時間を月あたり40〜60時間、創業者自身の作業時間を月あたり25〜33時間節約しました。
+- パーソナライズされたデモの提供により、売上が60%増加し、初期接触からソリューション開発への移行率が50%〜60%向上しました。
+- GPT‑Live‑1とGPT‑6 Astraを用いて、車両の損傷特定やメンテナンス調整を行う音声エージェント「Marty」を構築し、フリート運用の自動化を進めています。
