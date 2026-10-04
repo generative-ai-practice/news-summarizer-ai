@@ -1,7 +1,7 @@
 ---
 title: "Chatham scales its capital markets expertise with OpenAI"
 published: "2026-10-02"
-collected_at: "2026-10-03T23:27:51.210Z"
+collected_at: "2026-10-04T03:48:17.217Z"
 url: "https://openai.com/index/chatham-financial"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Chatham scales its capital markets expertise with OpenAI
 
 ## Key Points
-- Chatham FinancialはOpenAIのCodexとGPT-5.6を用いてテクノロジーを構築し、ワークフローを再設計することで、取引検証時間を30分から4分未満に短縮しました。
-- 「Process Zero」サービスを通じて、ワークフローを成果に基づいて再構築し、人間による判断が必要な箇所とAIツールのサポート範囲を明確にしています。
-- 社員は日常的にChatGPTやCodexを活用しており、社内プラットフォーム「Chatham Vibes」ではGPT-5.6を搭載したアプリケーションが開発され、クライアント向けワークフローを支援しています。
-- 次世代の資本市場オペレーティングシステム「Chatham Onyx」の開発ライフサイクル全体でCodexおよびGPT-5.6、GPT-5.4、GPT-4.1モデルが活用され、コンセプトから製品機能までの期間を短縮しています。
-- OpenAIの導入により、専門家が情報収集に費やす時間を削減し、その分の時間をより複雑なケースの管理やクライアントへの専門的なアドバイスといった付加価値の高い業務に充てられるようになりました。
+- Chatham FinancialはOpenAIのCodexとGPT-5.6を活用し、技術構築とワークフロー再設計を行っており、取引検証の時間を30分から4分未満に短縮しました。
+- Codexは社内および顧客向けツールの構築に、GPT-5.6はAI機能の強化に利用されており、従業員はChatGPTやCodexを日常業務に広く採用しています。
+- 社員は、社内プラットフォーム「Chatham Vibes」を通じて、GPT-5.6 TerraやGPT-5.6 Solをベースにしたアプリケーションを構築し、顧客向けワークフローを支援しています。
+- 次世代の資本市場オペレーティングシステム「Chatham Onyx」の開発ライフサイクル全体でCodexが活用されており、GPT-5.6 Solなどのモデルが分析や文書関連タスクに利用されています。
+- OpenAIの導入により、専門家が情報収集に費やす時間が削減され、情報解釈、困難なケースの管理、顧客へのアドバイスといった専門業務に集中できるキャパシティが増大しました。
