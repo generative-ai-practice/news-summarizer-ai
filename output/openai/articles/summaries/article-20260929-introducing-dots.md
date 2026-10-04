@@ -1,7 +1,7 @@
 ---
 title: "Introducing dots"
 published: "2026-09-29"
-collected_at: "2026-10-04T11:40:49.638Z"
+collected_at: "2026-10-04T16:19:18.959Z"
 url: "https://openai.com/index/introducing-dots"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Introducing dots
 
 ## Key Points
-- DotsはGPT-6 Astraを搭載した、常に稼働するAIエージェントで、ユーザーの目標や好みを学習し、複雑なプロジェクトや日常業務を効率的に処理します。
-- 専用のクラウドコンピューターとブラウザを持ち、4,000以上のアプリと連携して幅広いタスクを実行できるフロンティアインテリジェンスです。
-- ChatGPT（デスクトップ、ウェブ、モバイル）、Slack、TeamsでDotsとシームレスに会話でき、すべてのチャネルで文脈を引き継ぎます。
-- ChatGPTの保護機能に加え、追加の安全性およびプライバシー保護機能を備えており、ユーザーは作業の境界設定、進捗監視、重要な決定の承認を通じて常に制御を維持できます。
-- 本日よりChatGPTのPro、Business Premium、Enterpriseプラン（対象市場）で提供が開始され、将来的には組織内の特定の責任を担う専門Dotsも展開される予定です。
+- OpenAIが2026年9月29日に発表した「dots」は、GPT-6 Astraを搭載したプロアクティブなAIエージェントで、複雑なプロジェクトや日常業務をこなし、ユーザーの目標達成をサポートします。
+- 「dots」は独自のクラウドコンピューターとブラウザを持ち、4,000以上のアプリに接続可能で、ChatGPT、Slack、Teamsを通じていつでもアクセスできます。
+- ユーザーは常に「dots」の作業を完全に制御でき、組み込みの安全性とプライバシー保護機能、アクセス許可の管理、および承認メカニズムを通じて作業を監督できます。
+- 組織向けには、特定の責任を担う「specialist dots」が用意されており、企業のシステムとの深い統合が可能です。Microsoft Agent 365との連携も予定されています。
+- 「dots」は現在、対象市場のChatGPT ProおよびBusiness Premiumユーザーに展開されており、Enterpriseユーザーはベータ版を利用できます。最初のドットは追加費用なしでプランに含まれます。
