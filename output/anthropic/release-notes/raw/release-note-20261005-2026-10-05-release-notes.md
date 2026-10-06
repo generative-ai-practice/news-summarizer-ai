@@ -1,0 +1,1 @@
+- We've added `capabilities.thinking.types.disabled` to the [Models API](https://platform.claude.com/docs/en/api/models/list). `GET /v1/models` and `GET /v1/models/{model_id}` now report whether each model accepts `thinking: {type: "disabled"}`, which turns thinking off. See [Using the Models API](https://platform.claude.com/docs/en/models/overview#using-the-models-api).
