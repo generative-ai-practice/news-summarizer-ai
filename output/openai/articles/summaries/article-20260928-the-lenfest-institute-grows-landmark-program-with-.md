@@ -1,7 +1,7 @@
 ---
 title: "The Lenfest Institute grows landmark program with expanded OpenAI support"
 published: "2026-09-28"
-collected_at: "2026-10-06T04:22:58.867Z"
+collected_at: "2026-10-06T12:37:29.043Z"
 url: "https://openai.com/index/lenfest-ai-collaborative-expansion"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # The Lenfest Institute grows landmark program with expanded OpenAI support
 
 ## Key Points
-- Lenfest Instituteは、OpenAIからの支援拡大を受けて、「Lenfest AI Collaborative and Fellowship Program」の次段階を発表しました。これはアメリカのジャーナリズムにおける最大のAIフェローシッププログラムです。
-- OpenAIは、本プログラムに対し、新たに500万ドルの資金と最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートを提供し、以前の支援を倍増させました。
-- 2024年に開始された本プログラムでは、11の主要なアメリカの報道機関にAIエンジニアを派遣し、地域ニュース組織のイノベーション加速、ビジネスの持続可能性強化、および新興技術の責任ある導入を支援してきました。
-- AIエンジニアフェローは、ニュース組織内で特定の課題に対応する実用的なAIエンジニアリングソリューションを構築し、安全で透明性のある倫理的なポリシーを策定することで、ジャーナリストの中心的役割を強化します。
-- プログラムの次段階では、より多くの報道機関が参加し、優れたフェローシッププロジェクトを再利用可能なツールやリソースに転換し、数百のニュース組織に利益をもたらすことを目指しています。
+- 2026年9月28日、Lenfest Institute for JournalismはOpenAIからの支援拡大により、Lenfest AI Collaborative and Fellowship Programの次の段階を発表しました。
+- OpenAIは、このプログラムに500万ドルの資金提供と、最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートを約束し、従来の支援を倍増させました。
+- 過去2年間で、AIエンジニアは11の主要なアメリカの報道機関に派遣され、AIを活用してイノベーションを加速し、事業の持続可能性を強化し、責任あるテクノロジー導入を支援しました。
+- このパイロットプログラムは、AI導入の成功にはテクノロジーそのものよりも信頼とコラボレーションが重要であり、問題から始めるアプローチが効果的であることを示しました。
+- 今後、Lenfest Instituteはプログラムの対象を拡大し、最も成功したプロジェクトを再利用可能なツールやフレームワークとして発展させることで、何百もの報道機関に利益をもたらすことを目指します。
