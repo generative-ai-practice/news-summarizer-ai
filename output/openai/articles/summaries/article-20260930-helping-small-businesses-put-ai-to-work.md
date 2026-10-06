@@ -1,7 +1,7 @@
 ---
 title: "Helping small businesses put AI to work"
 published: "2026-09-30"
-collected_at: "2026-10-06T12:36:21.173Z"
+collected_at: "2026-10-06T19:57:57.818Z"
 url: "https://openai.com/index/helping-small-businesses-put-ai-to-work"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # Helping small businesses put AI to work
 
 ## Key Points
-- OpenAIはAmerica’s SBDCと提携し、中小企業向けにAIの実践的なトレーニングと現地サポートを拡大します。この初期段階では、約150人のSBDCアドバイザーが訓練され、全国で少なくとも1,000社の中小企業に直接ワークショップが提供される予定です。
-- 新しいレポート「Small Businesses, Bigger Capabilities」によると、2026年9月9日から15日の1週間で、世界中の約400万人の小規模企業従業員がOpenAIのツールを利用しました。
-- 中小企業は特に財務・会計、サプライチェーン、法務・コンプライアンス、マーケティングなどの分野でAIエージェントを積極的に活用しており、これは大企業と比較してこれらの分野でのAIインタラクションが3倍以上のシェアを占めています。
-- この提携は、中小企業がAIを責任を持って活用し、日々の業務における具体的な適用方法を学び、事業の可能性を広げるためのスキルと自信を築くことを目指します。
+- OpenAIはAmerica’s SBDCと提携し、中小企業向けのAIトレーニングと地域支援を拡大することを発表しました。
+- この提携では、OpenAI AcademyのCommunity Trainer Programを通じて約150のSBDCアドバイザーを訓練し、国中のSBDCネットワークで少なくとも1,000の中小企業に実践的なワークショップを提供することを目指します。
+- 新しいレポート「Small Businesses, Bigger Capabilities」によると、2026年9月9日から15日の1週間に世界中で約400万人の小規模企業従業員がOpenAIのツールを使用し、特に10人未満の従業員の企業でAI活用が顕著に増加しています。
+- 中小企業は財務・会計、サプライチェーン、法務・コンプライアンス、マーケティングなどの分野でAIを活用しており、メニュー価格の比較や新規事業開拓のための tailored outreach など、通常は未着手の業務を可能にしています。
+- この取り組みは、OpenAIがDoorDashやSCOREと提携して実施したSmall Business AI Jamsや、2026年7月に導入されたChatGPT for small business programなどの実践的な支援を基盤としています。

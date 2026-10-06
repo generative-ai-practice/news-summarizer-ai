@@ -1,0 +1,1 @@
+- Simplified API usage tiers from five to three: Build, Launch, and Grow. Organizations automatically upgrade as total credit purchases reach tier minimums. See[usage tiers](https://platform.openai.com/api/docs/guides/rate-limits#usage-tiers)for monthly usage limits and how to view rate limits for each model.
