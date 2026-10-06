@@ -1,7 +1,7 @@
 ---
 title: "Proaction boosts sales 60% and saves 75+ hours with Codex"
 published: "2026-09-25"
-collected_at: "2026-10-06T12:37:48.090Z"
+collected_at: "2026-10-06T19:59:51.098Z"
 url: "https://openai.com/index/proaction"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Proaction boosts sales 60% and saves 75+ hours with Codex
 
 ## Key Points
-- ProactionはCodexを使用して、顧客の車両やワークフローに合わせたカスタマイズされたインタラクティブなHTMLデモを月間4～6件作成し、売上を50%～60%増加させました。
-- 非技術者であるProactionの共同創業者兼COOであるColin Knudsen氏がCodexを用いてデモを自作できるようになり、エンジニアリング作業時間を月間40～60時間削減しました。
-- Codexを活用して顧客ソリューションセンターを構築し、顧客が自身のビジネスに合わせたワークフローを探索できるようにすることで、エンジニアが開発に着手する前の要件定義を明確化しています。
-- Colin Knudsen氏は、Codexプラグインを介してGranola、Gmail、Slack、Linear、GitHub、HubSpotなどのツールを統合し、日々の作業時間を月間25～33時間削減しています。
-- GPT-Live-1とGPT-6 Astraを用いて、車両メンテナンスの調整や書類・画像レビュー、音声通話対応など、フリート運用における日常業務を自動化する音声エージェントを開発しています。
+- ProactionはCodex、GPT-Live-1、GPT-6 Astraを活用し、現代のフリート管理システムの構築、運用、販売をより迅速に行っています。
+- Codexによるパーソナライズされたインタラクティブなデモの作成により、営業案件が初期接触からソリューション開発へ移行する割合が50%から60%増加しました。
+- Codexの利用により、月間40〜60時間のエンジニアリング作業時間が節約され、共同創業者兼COOのColin Knudsen氏自身も日常業務で月間25〜33時間の時間を節約しています。
+- Codexのプラグインを通じて、Granola、Gmail、Slack、Linear、GitHub、HubSpotなどの複数のツールを統合し、顧客の状況把握から次のステップの実行までを一元化しています。
+- GPT-Live-1とGPT-6 Astraを利用して、車両メンテナンスの調整など、フリート運用における日常業務を処理するボイスエージェント（Managed Execution Layer）を構築し、顧客向けのエクスペリエンス提供を加速させています。
