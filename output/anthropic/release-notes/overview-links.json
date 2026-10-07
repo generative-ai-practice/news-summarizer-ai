@@ -1,6 +1,33 @@
 {
-  "fetchedAt": "2026-10-07T17:37:08.929Z",
+  "fetchedAt": "2026-10-07T23:57:39.911Z",
   "links": [
+    {
+      "title": "2026-10-08 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-8-2026",
+      "publishedDate": "2026-10-08",
+      "source": "release-notes",
+      "slug": "20261008-2026-10-08-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-10-07 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-7-2026",
+      "publishedDate": "2026-10-07",
+      "source": "release-notes",
+      "slug": "20261007-2026-10-07-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-10-06 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-6-2026",
+      "publishedDate": "2026-10-06",
+      "source": "release-notes",
+      "slug": "20261006-2026-10-06-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-10-05 release notes",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#october-5-2026",
