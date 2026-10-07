@@ -1,7 +1,7 @@
 ---
 title: "The Lenfest Institute grows landmark program with expanded OpenAI support"
 published: "2026-09-28"
-collected_at: "2026-10-06T19:59:17.536Z"
+collected_at: "2026-10-07T00:20:43.143Z"
 url: "https://openai.com/index/lenfest-ai-collaborative-expansion"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # The Lenfest Institute grows landmark program with expanded OpenAI support
 
 ## Key Points
-- OpenAIは、Lenfest AI Collaborative and Fellowship Programへの支援を倍増し、500万ドルの資金と最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートを提供します。
-- このプログラムは、地方のニュース組織にフルタイムのAI技術者を配置することで、イノベーションを加速し、事業の持続可能性を強化し、新興技術の責任ある導入を促進することを目指しています。
-- 過去2年間で、AI技術者が組織内に深く関与し、信頼とコラボレーションを通じて、ニュースルームおよびビジネスチームの実際のニーズに基づいた実践的なAIソリューションを開発するモデルが確立されました。
-- The Philadelphia Inquirerのアーカイブ検索ツール「Dewey」や、Chicago Public MediaのAI支援翻訳ワークフローなど、多岐にわたる機能でAIの実用的なアプリケーションが開発されました。
-- プログラムの次の段階では、フェローシップをより多くのニュース組織に拡大し、優れたプロジェクトを再利用可能なツールやリソースに転換することで、より広範な地方ジャーナリズム界に利益をもたらすことを目指します。
+- Lenfest Institute for Journalismは、米国ジャーナリズムで最大のAIフェローシッププログラムである「Lenfest AI Collaborative and Fellowship Program」の次期フェーズを発表しました。
+- OpenAIは、本プログラムに対し、500万ドルの資金と最大500万ドルのソフトウェアクレジットおよびエンジニアリングサポートを提供し、以前の支援を2倍に増やしました。
+- 2024年の開始以来、本プログラムはAIエンジニアがローカルニュース組織のイノベーション加速、ビジネス持続可能性強化、および新興テクノロジーの責任ある導入に貢献することを実証しました。
+- 参加組織では、The Philadelphia Inquirerのアーカイブ検索ツール「Dewey」や芝加哥公共メディアのAI支援翻訳など、幅広い機能でAIが活用され、ジャーナリストの生産性向上に貢献しています。
+- 今後のフェーズでは、より多くのニュース組織をコホートに招待し、優れたフェローシッププロジェクトを再利用可能なツールやリソースとして広範なニュース業界に提供するための技術的能力をLenfest Instituteが拡大します。
