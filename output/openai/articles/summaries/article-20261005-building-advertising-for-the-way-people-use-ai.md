@@ -1,7 +1,7 @@
 ---
 title: "Building advertising for the way people use AI"
 published: "2026-10-05"
-collected_at: "2026-10-06T19:56:58.117Z"
+collected_at: "2026-10-07T00:18:44.149Z"
 url: "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Building advertising for the way people use AI
 
 ## Key Points
-- OpenAIはChatGPTに新しいビジュアル広告フォーマットを導入し、ユーザーが製品やサービスを視覚的に発見できるよう支援します。これは画像生成中に表示されますが、生成される画像とは明確に分離され、ChatGPTの回答に広告が影響することはありません。
-- 広告効果を測定するためのツールとパートナーシップを拡大しており、HightouchやAppsFlyerなどの企業と連携し、コンバージョンデータ送信やクリックアトリビューションを容易にします。また、Hausなどと提携し、増分測定の探索も開始しています。
-- ユーザーの信頼を保護し、ブランドが安心して広告を掲載できるよう、広告ポリシーとガードレールを強化しています。会話が広告に適しているかを評価し、DoubleVerifyやIntegral Ad Scienceと提携してブランド適合性の評価パイロットを実施しています。
-- これらの広告機能は、ChatGPTの回答の独立性、会話のプライバシー、ユーザーの体験コントロールというOpenAIの広告原則に沿って開発されています。
-- ChatGPT Adsは、あらゆる規模の企業が顧客に有用で関連性の高い方法でリーチし、成長するための新たな機会を提供することを目指し、今後もプラットフォーム機能の進化を続けます。
+- ChatGPTに新しいビジュアル広告フォーマットを導入し、無料およびGoプランのユーザー向け画像生成中にテストを開始します。
+- 広告主がビジネスへの影響を理解できるよう、Hightouch、Tealium、LiveRampとの連携や、AppsFlyer、Triple Whaleなどの主要なアトリビューションパートナーをサポートし、測定ツールとエコシステムを拡張しています。
+- OpenAIの広告ポリシーとガードレールにより、ユーザー保護とブランドの信頼性を確保し、感情的に脆弱な、または不適切なコンテキストでの広告表示を防ぎます。DoubleVerify (DV) および Integral Ad Science (IAS) とのブランド適合性評価パイロットも進行中です。
+- 初期パートナー調査では、ChatGPT広告の費用対効果（CPAが有料検索ベンチマークより15.3%低い）や新規顧客獲得（Portland Leatherの訪問者の93%が新規）において高いパフォーマンスが示されています。
+- ChatGPTは毎週12億人に利用される世界最大のAIネイティブ消費者プラットフォームであり、広告はAIの恩恵を広げ、企業が顧客にリーチする新たな機会を提供しつつ、回答の独立性、会話のプライバシー、ユーザーの体験制御という原則を維持します。
