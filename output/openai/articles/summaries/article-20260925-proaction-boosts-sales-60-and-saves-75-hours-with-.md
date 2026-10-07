@@ -1,7 +1,7 @@
 ---
 title: "Proaction boosts sales 60% and saves 75+ hours with Codex"
 published: "2026-09-25"
-collected_at: "2026-10-07T00:21:16.648Z"
+collected_at: "2026-10-07T09:42:15.781Z"
 url: "https://openai.com/index/proaction"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # Proaction boosts sales 60% and saves 75+ hours with Codex
 
 ## Key Points
-- ProactionはCodexを活用し、非技術者でもカスタマイズされたインタラクティブなデモを迅速に作成できるようになり、売上が60%増加した。
-- Codexの導入により、月間40～60時間のエンジニアリング作業と、創業者の業務時間が月間25～33時間削減され、総計で75時間以上の節約を実現した。
-- CodexはGranola、Gmail、Slack、Linear、GitHub、HubSpotといった複数のツールと連携し、営業、顧客サポート、製品管理といった日常業務を一元化・効率化している。
-- ProactionはGPT-Live-1とGPT-6 Astraを利用して、車両の損傷特定やメンテナンス調整など、フリート運用を自動化するボイスエージェントを構築し、顧客体験を向上させている。
+- ProactionはCodexを利用し、顧客のデータに合わせたパーソナライズされたインタラクティブなデモを月に4～6件作成し、営業移行率を50%～60%向上させました。
+- このカスタマイズされたデモ作成により、月に40〜60時間のエンジニアリング作業と、Co-founderのColin Knudsen氏の業務時間を月に25〜33時間節約しています。
+- Codexプラグインは、営業、顧客サポート、製品管理といったColin氏の日常業務を一元化し、複数のツール間での情報コピー作業を削減しました。
+- ProactionはGPT-Live-1とGPT-6 Astraを活用して、車両の問題特定や整備調整など、フリート運用の日常業務を処理する音声AIエージェントを構築しています。
+- 特にGPT-6 Astraは、GPT-5.6 Solと比較してコンピューター使用の実行を簡潔にし、顧客体験の構築を迅速化するのに貢献しています。
