@@ -1,0 +1,1 @@
+- The [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api) chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key. See [Retrieve and delete chats, files, and projects](https://platform.claude.com/docs/en/manage-claude/compliance-content-data).
