@@ -5,10 +5,20 @@ URL Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
 Markdown Content:
 This page documents updates to the Gemini API.
 
+## October 13, 2026
+
+- **Gemini 4 Argon (`gemini-4-argon`) generally available (GA)** : Released
+  [Gemini 4 Argon](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon) (`gemini-4-argon`),
+  our most capable model built for complex coding, agentic, math, and science
+  tasks.
+
+  For API changes, pricing, and migration guidance, see
+  [What's new in Gemini 4 Argon](https://ai.google.dev/gemini-api/docs/latest-model).
+
 ## October 8, 2026
 
-- **Gemini 3.7 Flash deprecation** : [`gemini-3.7-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.7) is deprecated and has been replaced by [`gemini-3.8-flash`](https://ai.google.dev/gemini-api/docs/latest-model). It is no longer available to select in Google AI Studio, and API requests to `gemini-3.7-flash` are automatically routed to `gemini-3.8-flash`. Update your model string to `gemini-3.8-flash` and review the [Gemini 3.8 Flash guide](https://ai.google.dev/gemini-api/docs/latest-model).
-- **Gemini 3.5 Flash deprecation** : [`gemini-3.5-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5) is deprecated and has been replaced by [`gemini-3.6-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6). It is no longer available to select in Google AI Studio, and API requests to `gemini-3.5-flash` are automatically routed to `gemini-3.6-flash`. Update your model string to `gemini-3.6-flash` (or [`gemini-3.8-flash`](https://ai.google.dev/gemini-api/docs/latest-model)) and review the [Gemini 3.6 Flash guide](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6).
+- **Gemini 3.7 Flash deprecation** : [`gemini-3.7-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.7) is deprecated and has been replaced by [`gemini-3.8-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.8). It is no longer available to select in Google AI Studio, and API requests to `gemini-3.7-flash` are automatically routed to `gemini-3.8-flash`. Update your model string to `gemini-3.8-flash` and review the [Gemini 3.8 Flash guide](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.8).
+- **Gemini 3.5 Flash deprecation** : [`gemini-3.5-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5) is deprecated and has been replaced by [`gemini-3.6-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6). It is no longer available to select in Google AI Studio, and API requests to `gemini-3.5-flash` are automatically routed to `gemini-3.6-flash`. Update your model string to `gemini-3.6-flash` (or [`gemini-3.8-flash`](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.8)) and review the [Gemini 3.6 Flash guide](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6).
 - **Deep Research Agent `deep-research-pro-preview-12-2025` deprecation** :
   The `deep-research-pro-preview-12-2025` agent is deprecated and will be
   [shut down](https://ai.google.dev/gemini-api/docs/deprecations#managed-agents) on **October 23,
