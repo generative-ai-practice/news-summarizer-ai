@@ -4,4 +4,4 @@
 - workflows.
 - To get started, see the
 - [Gemini 3.8 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash) model page and
-- the [Latest model guide](https://ai.google.dev/gemini-api/docs/latest-model).
+- the [Gemini 3.8 Flash guide](https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.8).

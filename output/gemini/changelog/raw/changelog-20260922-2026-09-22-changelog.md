@@ -1,0 +1,12 @@
+- **Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS generally available
+- (GA)** : Released our next-generation text-to-speech (TTS) audio models and
+- the Gemini API Voices endpoint (`/v1beta/voices`):
+- **[Gemini 3.8 Flash TTS](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-tts)
+- (`gemini-3.8-flash-tts`)**: Flagship creative TTS model engineered for studio-grade voice fidelity, nuanced acting, regional dialects, and long-form multi-turn stability.
+- **[Gemini 3.8 Flash-Lite TTS](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash-lite-tts)
+- (`gemini-3.8-flash-lite-tts`)** : Fast, cost-efficient TTS model built to replace `gemini-3.1-flash-tts-preview` for high-throughput production and real-time voice agent cascades.
+- **[Voice design](https://ai.google.dev/gemini-api/docs/voice-design),
+- [Voice replication](https://ai.google.dev/gemini-api/docs/voice-replication), and the
+- [Extended Voice Library](https://ai.google.dev/gemini-api/docs/speech-generation#voice-library)**: Create persistent custom vocal personas from text prompts, replicate voices with consent verification, and query 150+ prebuilt and custom voices.
+- See the [Text-to-speech guide](https://ai.google.dev/gemini-api/docs/speech-generation) to get
+- started.
