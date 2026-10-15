@@ -1,7 +1,7 @@
 ---
 title: "2026-05-25 changelog"
 published: "2026-05-25"
-collected_at: "2026-07-18T11:04:12.753Z"
+collected_at: "2026-10-15T17:42:25.122Z"
 url: "https://ai.google.dev/gemini-api/docs/changelog.md#2026-05-25"
 source: "changelog"
 source_medium: "Google Gemini API Docs"
