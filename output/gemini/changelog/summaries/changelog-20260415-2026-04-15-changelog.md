@@ -1,7 +1,7 @@
 ---
 title: "2026-04-15 changelog"
 published: "2026-04-15"
-collected_at: "2026-07-18T11:05:20.119Z"
+collected_at: "2026-10-15T17:43:18.311Z"
 url: "https://ai.google.dev/gemini-api/docs/changelog.md#2026-04-15"
 source: "changelog"
 source_medium: "Google Gemini API Docs"
@@ -9,6 +9,6 @@ language: "ja"
 ---
 
 ## Updates (translated)
-# 2026年4月15日 変更履歴
+# 2026-04-15 変更履歴
 
-- 費用対効果が高く、表現力豊かで、制御可能なテキスト読み上げモデルである [Gemini 3.1 Flash TTS Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview) をリリースしました。詳細については、[テキスト読み上げ](https://ai.google.dev/gemini-api/docs/speech-generation) ドキュメントをご覧ください。
+- 費用効率が高く、表現力豊かで、制御可能なテキスト読み上げモデルである [Gemini 3.1 Flash TTS Preview](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview) の提供を開始しました。詳細については、[テキスト読み上げ](https://ai.google.dev/gemini-api/docs/speech-generation) ドキュメントをご覧ください。

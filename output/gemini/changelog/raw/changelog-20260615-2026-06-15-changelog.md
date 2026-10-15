@@ -1,6 +1,6 @@
 - **Deprecation announcement** : The following image generation models are
 - being deprecated and will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **August 17, 2026**:
-- **Imagen 4 and Gemini 3 Image models**:
+- **Imagen 4 and Gemini 3 Image models** :
 - `imagen-4.0-generate-001`
 - `imagen-4.0-ultra-generate-001`
 - `imagen-4.0-fast-generate-001`
@@ -8,7 +8,7 @@
 - [Gemini deprecations](https://ai.google.dev/gemini-api/docs/deprecations#imagen-models) page.
 - **Deprecation announcement** : The following video generation models are
 - being deprecated and will be [shut down](https://ai.google.dev/gemini-api/docs/deprecations) on **June 30, 2026**:
-- **Veo models**:
+- **Veo models** :
 - `veo-2.0-generate-001`
 - `veo-3.0-generate-001`
 - `veo-3.0-fast-generate-001`
