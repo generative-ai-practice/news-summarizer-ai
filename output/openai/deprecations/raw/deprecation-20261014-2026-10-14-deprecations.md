@@ -1,0 +1,2 @@
+- On October 14, 2026, we notified developers using certain GPT-4 series models of their deprecation and removal from the API on January 14, 2027.
+- Fine-tuned versions of these models follow the same shutdown schedule as their underlying base models.
