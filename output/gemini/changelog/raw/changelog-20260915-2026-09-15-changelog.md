@@ -1,0 +1,8 @@
+- **Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking generally available
+- (GA)**: Released two new audio-to-audio models for real-time voice
+- applications using the Live API:
+- **Gemini 3.8 Live** ([`gemini-3.8-live`](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live)): The default option for most low-latency voice agent experiences and real-time dialogue without reasoning delays. Features interleaved reasoning, default asynchronous function calling, and full session client content updates.
+- **Gemini 3.8 Live Extended Thinking** ([`gemini-3.8-live-extended-thinking`](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking)): High-reasoning audio-to-audio model supporting background reasoning during live audio interactions, recommended when higher background reasoning is required.
+- To get started, see the [Live API guide](https://ai.google.dev/gemini-api/docs/live-api), the
+- [Capabilities guide](https://ai.google.dev/gemini-api/docs/live-api/capabilities), and the
+- [Thinking guide](https://ai.google.dev/gemini-api/docs/live-api/thinking).

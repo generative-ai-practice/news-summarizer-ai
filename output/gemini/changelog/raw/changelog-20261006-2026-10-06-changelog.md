@@ -1,0 +1,15 @@
+- **Gemini Nano Banana 2.1 generally available (GA)** : Released
+- [Gemini Nano Banana 2.1](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1)
+- (`gemini-nano-banana-2.1`), the latest high-efficiency image generation and
+- conversational editing model. An update to Nano Banana 2
+- ([`gemini-3.1-flash-image`](https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image)),
+- it maintains Flash-level speed and cost efficiency while delivering
+- significant improvements in visual quality, prompt adherence, multi-turn
+- character consistency, text rendering, and wide and panoramic aspect ratio
+- generation (`1:4`, `4:1`, `1:8`, `8:1`) across `1K`, `2K`, and `4K`
+- resolutions.
+- See the [Image generation guide](https://ai.google.dev/gemini-api/docs/image-generation) to get
+- started.
+- **Deprecation announcement** : The `gemini-3.1-flash-image` model is
+- deprecated (no shutdown date announced). Migrate to
+- [`gemini-nano-banana-2.1`](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1).

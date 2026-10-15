@@ -1,0 +1,6 @@
+- **Gemini 4 Argon (`gemini-4-argon`) generally available (GA)** : Released
+- [Gemini 4 Argon](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon) (`gemini-4-argon`),
+- our most capable model built for complex coding, agentic, math, and science
+- tasks.
+- For API changes, pricing, and migration guidance, see
+- [What's new in Gemini 4 Argon](https://ai.google.dev/gemini-api/docs/latest-model).

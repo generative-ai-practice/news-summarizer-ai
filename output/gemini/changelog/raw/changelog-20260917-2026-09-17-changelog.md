@@ -1,0 +1,21 @@
+- **Antigravity Agent 09-2026** : Released `antigravity-preview-09-2026`,
+- which replaces and deprecates `antigravity-preview-05-2026`.
+- If you run on a remote sandbox (`environment: "remote"`) and read only
+- `output_text` or `model_output` steps, update the agent string and nothing
+- else changes.
+- If you run tools locally (`local_environment`) or parse `function_call`
+- steps, the built-in tools changed. Parameters use PascalCase instead of
+- snake_case, and file edits use line-range replacements instead of full
+- rewrites.
+- | Capability | 05-2026 | 09-2026 |
+- |---|---|---|
+- | File creation | `write_file(path, content)` | `write_to_file(TargetFile, CodeContent, Overwrite, Description)` |
+- | File editing | `write_file(path, content)`, full rewrite | `replace_file_content(TargetFile, StartLine, EndLine, TargetContent, ReplacementContent)` |
+- | File reading | `read_file(path, offset, limit)`, byte offsets | `view_file(AbsolutePath, StartLine, EndLine, ContentOffset)` |
+- | Directory listing | `list_files(path)` | `list_dir(DirectoryPath)` |
+- | File and code search | None, agents used shell commands | `find_by_name(SearchDirectory, Pattern, MaxDepth)` and `grep_search(SearchPath, Query, IsRegex)` |
+- | Shell execution | `code_execution(command, timeout_seconds)` | Unchanged |
+- | Web search | `google_search(queries)` | Unchanged |
+- See the [Antigravity Agent](https://ai.google.dev/gemini-api/docs/antigravity-agent) guide.
+- `antigravity-preview-05-2026` shuts down on October 5, 2026, tracked on the
+- [deprecations](https://ai.google.dev/gemini-api/docs/deprecations#managed-agents) page.
