@@ -1,7 +1,7 @@
 - Launched the Interactions API. This API provides a unified interface
 - for interacting with Gemini models and agents. To learn more, see the
 - [Interactions API](https://ai.google.dev/gemini-api/docs/interactions-overview) guide.
-- Launched the Gemini Deep Research Agent in preview. It can
+- Launched the Gemini Deep Research agent in preview. It can
 - autonomously plan, execute, and synthesize results for multi-step research
 - tasks. See the [Deep Research](https://ai.google.dev/gemini-api/docs/deep-research) guide for
 - details.

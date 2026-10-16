@@ -1,7 +1,7 @@
 ---
 title: "2025-11-04 changelog"
 published: "2025-11-04"
-collected_at: "2026-07-18T11:09:23.158Z"
+collected_at: "2026-10-16T00:19:48.757Z"
 url: "https://ai.google.dev/gemini-api/docs/changelog.md#2025-11-04"
 source: "changelog"
 source_medium: "Google Gemini API Docs"
@@ -9,10 +9,10 @@ language: "ja"
 ---
 
 ## Updates (translated)
-# 2025年11月4日 変更履歴
+# 2025年11月4日 変更ログ
 
-- [Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation) において、画像の入力トークン数が1290から258に削減され、画像編集のコストが低下しました。
-- 提供終了のお知らせ：以下のモデルがシャットダウンされます。
+- [Gemini 2.5 Flash Image](https://ai.google.dev/gemini-api/docs/image-generation)の場合、画像の入力トークン数が1290から258に削減され、画像編集のコストが引き下げられました。
+- 非推奨のお知らせ：以下のモデルがシャットダウンされます。
 - 11月18日：
 - `gemini-2.5-flash-lite-preview-06-17`
 - `gemini-2.5-flash-preview-05-20`
