@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-16T00:55:31.129Z",
+  "lastChecked": "2026-10-16T06:37:03.678Z",
   "articles": [
     {
       "title": "Expanding the Cyber Verification Program",
@@ -14,18 +14,18 @@
     {
       "title": "An update on independent evaluators",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "publishedDate": "2026-10-16",
+      "publishedDate": "2026-10-15",
       "source": "news",
-      "slug": "20261016-an-update-on-independent-evaluators",
+      "slug": "20261015-an-update-on-independent-evaluators",
       "language": "en",
       "summaryLanguage": "ja"
     },
     {
       "title": "Preparing for the 2026 US midterms",
       "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "publishedDate": "2026-10-15",
+      "publishedDate": "2026-10-14",
       "source": "news",
-      "slug": "20261015-preparing-for-the-2026-us-midterms",
+      "slug": "20261014-preparing-for-the-2026-us-midterms",
       "language": "en",
       "summaryLanguage": "ja"
     },
