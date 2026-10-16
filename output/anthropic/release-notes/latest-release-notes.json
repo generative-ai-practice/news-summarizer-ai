@@ -1,7 +1,34 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-09T08:15:41.117Z",
+  "lastChecked": "2026-10-16T00:55:51.684Z",
   "articles": [
+    {
+      "title": "2026-10-15 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-15-2026",
+      "publishedDate": "2026-10-15",
+      "source": "release-notes",
+      "slug": "20261015-2026-10-15-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-10-14 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-14-2026",
+      "publishedDate": "2026-10-14",
+      "source": "release-notes",
+      "slug": "20261014-2026-10-14-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
+    {
+      "title": "2026-10-09 release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#october-9-2026",
+      "publishedDate": "2026-10-09",
+      "source": "release-notes",
+      "slug": "20261009-2026-10-09-release-notes",
+      "language": "en",
+      "summaryLanguage": "ja"
+    },
     {
       "title": "2026-10-08 release notes",
       "url": "https://platform.claude.com/docs/en/release-notes/overview#october-8-2026",
