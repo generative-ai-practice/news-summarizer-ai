@@ -1,7 +1,7 @@
 ---
 title: "Introducing GPT-6.1 Sol"
 published: "2026-09-29"
-collected_at: "2026-10-08T18:21:06.554Z"
+collected_at: "2026-10-16T02:47:50.521Z"
 url: "https://openai.com/index/introducing-gpt-6-1-sol"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,9 +11,8 @@ language: "ja"
 # Introducing GPT-6.1 Sol
 
 ## Key Points
-- GPT-6.1 Solは、GPT-6 Solのアップグレード版で、エージェンティックコーディング、コンピューター使用、専門的作業においてGPT-6 Astraに匹敵するインテリジェンスを、Astraの標準APIトークン価格の5分の1という低コストで提供します。
-- キャッシュされた入力は100万トークンあたり$0.10と、標準入力価格より95%安価で、開発者がコンテキストを再利用するエージェントの構築と実行を促進します。
-- DeepSWE v1.1でのコーディング、GDP.pdfでの専門的作業、AutomationBenchでの多段階ビジネスワークフロー、OSWorld 2.0でのコンピューター使用など、多様なタスクでGPT-6 Solを大幅に上回る性能を示しています。
-- 事実の正確性においても向上し、困難なプロンプトにおける事実誤り率はGPT-6 Solから約32%減少しました。
-- GPT-6.1 Solは、GPT-6 Solと比較してアライメント評価で大幅に改善され、ユーザーの意図と安全性の制約を尊重する信頼性が高まっています。
-- 本日からChatGPT WorkおよびCodexのPlus、Pro、Business、Enterprise、Eduユーザーに提供され、OpenAI APIではgpt-6.1-solとして利用可能です。
+- GPT-6.1 Solは、GPT-6 Solのアップグレード版として発表され、エージェンティックコーディング、コンピューター使用、プロフェッショナルな作業においてGPT-6 Astraに匹敵するインテリジェンスを、Astraの標準API入出力トークン価格の5分の1で提供します。
+- キャッシュ入力の価格は100万トークンあたり$0.10で、標準入力価格より95%安く、GPT-6 Solのキャッシュ入力価格よりも50%安いため、開発者はより多くのコンテキストを再利用するエージェントを構築できます。
+- DeepSWE v1.1でのコーディング、GDP.pdfおよびAutomationBenchでのプロフェッショナルな作業、OSWorld 2.0でのコンピューター使用、Terminal-Bench Science 0.1での科学研究といった様々なタスクにおいて、GPT-6 Solを大幅に上回る性能を発揮します。
+- 特に正確性（ファクチュアリティ）では、難易度の高いプロンプトにおける誤り率を11.4%から7.7%へ約32%削減し、GPT-6 Astraの誤り率に1.9ポイント差まで迫ります。
+- GPT-6.1 Solは、本日よりChatGPT WorkおよびCodexのPlus、Pro、Business、Enterprise、Eduユーザーが利用可能であり、OpenAI APIでは`gpt-6.1-sol`としてアクセスできます。数日中には、Codexで標準速度の最大8倍速い「GPT-6.1 Sol Ultrafast」も提供される予定です。

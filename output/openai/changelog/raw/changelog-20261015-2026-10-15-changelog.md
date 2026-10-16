@@ -1,0 +1,1 @@
+- Added native[Decisions integration in GPT-Live](https://platform.openai.com/api/docs/guides/decisions-voice). Your app can act while your user is speaking or react to what Live says. Let Live call Decisions directly through native delegation, or trigger decisions as input or output transcript deltas arrive.
