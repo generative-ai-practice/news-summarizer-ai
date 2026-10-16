@@ -1,7 +1,7 @@
 ---
 title: "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
 published: "2026-10-09"
-collected_at: "2026-10-16T13:42:25.031Z"
+collected_at: "2026-10-16T18:35:11.067Z"
 url: "https://openai.com/index/sophos"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Sophos cuts threat investigation time by 96% with OpenAI Daybreak
 
 ## Key Points
-- SophosはOpenAI Daybreakを利用して、サイバー脅威の調査時間を96%削減し、MDRケースの52%をAIでエンドツーエンドに自動解決することに成功しました。
-- AIエージェントを使用した場合のケースの平均応答時間は、従来の約38分から89秒へと大幅に短縮されました。
-- Daybreakは、SophosのAIネイティブサイバー防御システム「Sophos Fusion」に統合され、500以上のサードパーティ連携からの日次数兆イベントを処理しています。
-- AIによる自動化が進む一方で、潜在的に破壊的な行動には人間の判断と監督が引き続き必要とされ、アナリストはより複雑な脅威や例外に集中できるようになりました。
-- この取り組みにより、Sophosはサイバーセキュリティの専門知識を全顧客に大規模に提供し、攻撃者の一歩先を行く機会を得ています。
+- SophosはOpenAI Daybreakを導入し、脅威調査時間を96%削減し、AIエージェント利用時の平均応答時間を約38分から89秒に短縮しました。
+- Sophosのマネージド検出および応答（MDR）ケースの52%が、人間の監視を維持しつつAIによってエンドツーエンドで解決されています。
+- OpenAIモデルとSophos独自の脅威インテリジェンス、対応プレイブック、セキュリティ専門知識を組み合わせることで、サイバー防御システムSophos Fusionを強化しています。
+- 潜在的に破壊的な行動については、AIエージェントが対処できない場合、人間の判断に委ねられるハイブリッドアプローチが採用されており、人間の監督が中心に置かれています。
+- SophosのCTOであるジョン・ピーターソン氏は、サイバー脅威の増加に対応するため、エンドポイント保護、多要素認証（MFA）、ネットワークセグメンテーション、堅牢なセキュリティ運用を含む多層的なセキュリティの基礎を重視するよう提言しています。

@@ -1,7 +1,7 @@
 ---
 title: "Sullivan & Cromwell brings legal expertise into agreement review"
 published: "2026-10-15"
-collected_at: "2026-10-16T13:41:22.390Z"
+collected_at: "2026-10-16T18:34:00.864Z"
 url: "https://openai.com/index/sullivan-cromwell"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Sullivan & Cromwell brings legal expertise into agreement review
 
 ## Key Points
-- Sullivan & CromwellはOpenAIと協力し、ドラフト契約書の問題点を特定するAIツール「Agreement Analyzer」を開発しました。
-- このツールは、弁護士が関連する判例に基づき契約条項を比較し、契約の分析および変更提案を行うワークフローを統合します。
-- AIは、反復的な事務作業だけでなく、複雑な契約の深い分析といった困難な法的タスクにおいても活用が進んでいます。
-- パートナーのJohn Savva氏は、AIツールが弁護士の置き換えではなく、より深い分析と高品質なサービス提供を支援するものだと強調しています。
-- 将来的には、GPT-6 AstraのようなAIモデルの推論能力の向上により、研究や執筆プロセスのさらなるサポートが期待されています。
+- Sullivan & CromwellはOpenAIとの協業により、ドラフト合意の問題点特定を支援するAIツール「Agreement Analyzer」を開発しました。
+- このツールは、事務所の専門知識、厳選された判例、交渉プレイブック、およびChatGPT Enterpriseを統合した単一のレビューワークフローを提供します。
+- Agreement Analyzerは、複数のレビューサイクルを実行して潜在的な問題を特定し、弁護士が確認・調整できる分析結果と変更提案を出力します。
+- Sullivan & CromwellのパートナーであるJohn Savvaは、AIは弁護士の仕事に代わるものではなく、より深い分析と高品質なサービス提供を可能にするツールであると述べています。
+- 今後、GPT-6 AstraのようなAIモデルの推論能力の向上により、より複雑な法律タスクの研究および執筆プロセスがさらにサポートされると期待されています。
