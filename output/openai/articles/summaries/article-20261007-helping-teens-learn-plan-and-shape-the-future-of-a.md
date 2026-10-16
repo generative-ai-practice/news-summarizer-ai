@@ -1,7 +1,7 @@
 ---
 title: "Helping teens learn, plan, and shape the future of AI"
 published: "2026-10-07"
-collected_at: "2026-10-16T13:43:17.736Z"
+collected_at: "2026-10-16T18:35:58.125Z"
 url: "https://openai.com/index/teens-learn-and-plan"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,7 @@ language: "ja"
 # Helping teens learn, plan, and shape the future of AI
 
 ## Key Points
-- 「ChatGPT for Teens」は、若者が学習、アイデア探求、問題解決に広く利用しており、平均利用時間は1日15分未満です。休憩を促す機能も効果を発揮し、ソーシャルメディアの平均利用時間を下回っています。
-- 大学出願の計画を支援する新機能「College Planner」がChatGPT for Teensに間もなく導入されます。これは、出願要件、締め切り、財政援助のステップを統合し、米国の高校生が大学進学の準備を進める手助けをします。
-- OpenAIは、Boston Children’s HospitalのDigital Wellness LabおよびStudent Advisory Councilを3年間支援し、AIの開発プロセスにティーンの意見を積極的に取り入れます。ティーンは安全対策やAIリテラシーに関するフィードバックを提供します。
-- 学生がノートを学習資料に変換するのを容易にするため、フラッシュカードやクイズを自動生成する機能が強化されます。iOSでは複数写真をPDFとしてまとめてアップロードできるようになり、Android版も開発中です。
+- ChatGPT for Teensは、18歳未満の若者が学習、アイデア探求、問題解決に利用しており、平均して学習関連メッセージを270万件多く送信しています。
+- 大学出願プロセスを支援するため、ChatGPT for Teensに「College Planner」が導入されます。これにより、出願要件、締切、奨学金情報などを一元的に管理できるようになります。
+- Boston Children’s HospitalのDigital Wellness Labとの提携を通じて、ティーンがAI開発に直接関わる学生諮問委員会が設立され、ティーンの安全やAIリテラシーに関するフィードバックが製品に反映されます。
+- 学習効率を高めるため、ノートを複数ページ連続でキャプチャしてPDFに変換する機能（iOS向け）や、ノートからフラッシュカードやインタラクティブなクイズを簡単に作成する機能が追加されます。
