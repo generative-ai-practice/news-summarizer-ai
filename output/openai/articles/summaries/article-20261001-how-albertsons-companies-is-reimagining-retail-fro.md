@@ -1,7 +1,7 @@
 ---
 title: "How Albertsons Companies is reimagining retail from the inside out"
 published: "2026-10-01"
-collected_at: "2026-10-16T07:51:40.827Z"
+collected_at: "2026-10-16T13:45:19.143Z"
 url: "https://openai.com/index/albertsons-reimagining-retail"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # How Albertsons Companies is reimagining retail from the inside out
 
 ## Key Points
-- Albertsons CompaniesはOpenAIとの提携を拡大し、ChatGPT EnterpriseとOpenAI APIを活用して、チームの作業効率を高め、数百万人の顧客の食料品購入体験を簡素化しています。
-- AIを組織全体の日常業務に組み込むことで、デジタルショッピング、店舗運営、商品化などの複雑さを軽減し、革新を加速させています。
-- ChatGPTにSafewayの新しいショッピング体験を導入し、レシピやリクエストに基づいて製品を提案し、カート作成からチェックアウトまでを支援することで、顧客の食料品ショッピングを容易にしています。
-- このパートナーシップは、顧客へのパーソナライズされた支援と、内部チームへのデータ駆動型推奨事項やプロモーションの洞察を提供することで、小売全体にわたる価値創出を目指しており、SafewayでのAIショッピング体験は他の食料品ブランドにも拡大される予定です。
+- Albertsons CompaniesはOpenAIと提携し、ChatGPT EnterpriseおよびOpenAI APIを活用して小売体験を再構築しています。
+- 社内ではAIを導入し、デジタルショッピング、店舗運営、商品管理などのワークフローを効率化し、イノベーションを加速させています。
+- 顧客向けには、SafewayのChatGPT体験を通じて、レシピ提案から会計までAIを活用したパーソナライズされた食料品ショッピングを提供しています。
+- このパートナーシップは、データ駆動型のレコメンデーションやプロモーションに関する洞察を提供し、顧客体験とビジネス意思決定の両方を向上させます。
+- AIの導入により、週に3,600万人以上の顧客にサービスを提供する2,200以上の店舗全体で、チームの作業効率を高め、顧客の買い物をより容易にすることを目指しています。
