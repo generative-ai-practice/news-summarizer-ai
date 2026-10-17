@@ -1,7 +1,7 @@
 ---
 title: "Building advertising for the way people use AI"
 published: "2026-10-05"
-collected_at: "2026-10-16T18:37:09.278Z"
+collected_at: "2026-10-17T02:37:26.796Z"
 url: "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,7 +11,8 @@ language: "ja"
 # Building advertising for the way people use AI
 
 ## Key Points
-- ChatGPTに新しいビジュアル広告フォーマットが導入され、ユーザーが製品やサービスをより具体的に想像できるよう支援します。この広告は画像生成中にFreeおよびGoプランのユーザー向けにテストされ、明確に表示され、ChatGPTの回答には影響しません。
-- 広告の効果測定ツールとパートナーエコシステムが拡張され、Hightouch、Tealium、LiveRampとのデータ連携や、AppsFlyer、Triple Whaleなどの主要なアトリビューションパートナーがサポートされます。
-- DoubleVerify (DV) とIntegral Ad Science (IAS) とのブランド適合性評価パイロットを通じて、広告環境の理解を深め、ブランドの信頼性を高める取り組みが進められています。
-- ChatGPT広告のこれらの機能拡張は、AIネイティブな環境における広告体験の進化を目指しており、ChatGPTの回答の独立性、会話のプライバシー、ユーザーコントロールの原則を維持します。
+- ChatGPTに新しいビジュアル広告フォーマットが導入され、米国で2026年10月末からフリーおよびGoプランのユーザー向けにテストが開始されます。
+- 広告のインパクトを測定するため、HightouchやAppsFlyerなどのパートナーとの連携を拡大し、コンバージョンデータ送信やアトリビューションをサポートします。
+- 広告ポリシーと配置ガードレールによりブランド適合性を確保し、DoubleVerify (DV) および Integral Ad Science (IAS) とのブランド適合性評価パイロットも実施されます。
+- 広告は、AIの恩恵をより多くの人々に届け、企業がChatGPTを通じて関連性の高い製品やサービスを人々に紹介する新しい機会を提供します。
+- OpenAIは、ChatGPT内で製品発見や意思決定を支援する広範な目標の一環として、広告プラットフォームの機能と能力を継続的に進化させていく方針です。
