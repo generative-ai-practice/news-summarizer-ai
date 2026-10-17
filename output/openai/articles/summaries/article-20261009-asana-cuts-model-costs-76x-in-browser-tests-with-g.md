@@ -1,7 +1,7 @@
 ---
 title: "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
 published: "2026-10-09"
-collected_at: "2026-10-16T18:35:04.046Z"
+collected_at: "2026-10-17T02:35:22.865Z"
 url: "https://openai.com/index/asana-browser-agent"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Asana cuts model costs 76x in browser tests with GPT-6.1 Sol
 
 ## Key Points
-- AsanaはCodex内のGPT-6 Astraを使用し、ブラウザエージェントのモデルコストを76倍削減し、テストで5倍高速化しました。
-- 最適化されたGPT-6.1 Solワークフローにより、1実行あたりの推定モデルコストは平均0.47ドルとなり、元のModel Bのセットアップと比較して2.6倍安価になりました。
-- StackAIのCTOであるFrank Hidalgo氏によると、GPT-6 Astraの活用により、通常1〜2ヶ月かかると推定される調査が約1週間で完了しました。
-- コスト削減は、ブラウジング履歴のキャッシュ延長やスクリーンショット処理ポリシーの最適化によって達成され、GPT-6.1 Solの応答生成成功率も向上しました。
-- Asanaは、このテスト手法を製品評価に統合し、GPT-6 Astraをリリース前の機能テストに利用することで、新しいソフトウェア開発ライフサイクルを構築することを目指しています。
+- AsanaはGPT-6 AstraをCodexで使用し、ブラウザエージェントのワークフローをGPT-6.1 Solで最適化することで、コストを76倍削減し、処理速度を5倍向上させました。
+- 最適化されたワークフローにより、1回あたりのモデル推定コストは平均0.47ドルとなり、元の本番環境のセットアップより大幅に安価で高速になりました。
+- GPT-6 Astraがエージェントのコードベースを分析し、ブラウジング履歴のキャッシュ拡張、テキスト保持量の増加、スクリーンショット削除ポリシーの最適化といった改善策を特定・テストしました。
+- この最適化プロセスは、GPT-6 Astraが実験を実行することで、手作業で1〜2ヶ月かかると推定される作業を約1週間に短縮しました。
+- Asanaはこれらの変更をStackAIのブラウザナビゲーションに展開し、今後も同様の実験を容易にするツールの開発を進め、製品テストにもGPT-6 Astraを統合する計画です。

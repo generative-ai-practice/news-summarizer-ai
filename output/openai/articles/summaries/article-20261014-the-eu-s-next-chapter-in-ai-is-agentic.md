@@ -1,7 +1,7 @@
 ---
 title: "The EU’s next chapter in AI is agentic"
 published: "2026-10-14"
-collected_at: "2026-10-16T18:34:50.061Z"
+collected_at: "2026-10-17T02:35:06.245Z"
 url: "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # The EU’s next chapter in AI is agentic
 
 ## Key Points
-- EU全域の企業や中小企業でエージェントAIツールの利用が拡大しており、人々は質問だけでなく、タスクの計画から完了までAIを活用しています。
-- ChatGPT Enterpriseの顧客の間では、エージェントAI（CodexとChatGPT Work）が生成する出力トークンが既に活動の過半数を占めています。
-- 2026年5月以降、EUの中小企業におけるCodexとChatGPT Workの週間アクティブユーザーは8倍以上に増加し、全加盟国で成長が見られました。
-- エージェントAIの導入状況はEU内で均一ではなく、ChatGPT Enterpriseアカウントの出力トークンに占めるエージェントAIの割合は、スロベニアの22%からリトアニアの85%まで国によって差があります。
-- EUの先端企業はAIを一般的なEU企業よりも集中的に利用していますが、世界の先端企業と比べると利用強度が半分以下であり、EU企業が世界の先端企業に占める割合はわずか10%です。
+- EUの企業全体でエージェント型AIツールの利用が拡大しており、ChatGPT Enterprise顧客の間ではCodexとChatGPT Workがアウトプットトークンの半分以上を占めています。
+- 2026年5月以降、EUの中小企業におけるCodexとChatGPT Workの週間アクティブユーザー数は8倍以上に増加し、すべての加盟国で成長が見られます。
+- エージェント型AIの導入はEU内で均一ではなく、ChatGPT Enterpriseアカウントでの利用率はスロベニアの22%からリトアニアの85%まで幅があります。
+- EUの先進企業は通常のEU企業よりもAIをはるかに集中的に利用していますが、世界の先進企業には遅れをとっており、世界の先進企業のうちEU拠点の企業はわずか10%です。
+- EUには、エージェント型AIの幅広い採用をより深い利用へと転換し、ビジネス強化、生産性向上、労働者への有意義な利益を実現することで、AI利用のギャップを埋める大きな機会があります。
