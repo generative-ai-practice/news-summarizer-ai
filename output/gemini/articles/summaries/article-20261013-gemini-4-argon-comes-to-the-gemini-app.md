@@ -1,7 +1,7 @@
 ---
 title: "Gemini 4 Argon comes to the Gemini app."
 published: "2026-10-13"
-collected_at: "2026-10-17T16:09:32.076Z"
+collected_at: "2026-10-18T05:28:56.387Z"
 url: "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
 source: "news"
 source_medium: "Google Gemini Blog"
@@ -11,8 +11,8 @@ language: "ja"
 # Gemini 4 Argon comes to the Gemini app.
 
 ## Key Points
-- Gemini 4 ArgonがGoogle Geminiアプリで利用可能になり、フロンティア推論と複雑なタスクにおけるパフォーマンス向上を提供する。
-- Argonは、より直接的な回答、不必要な繰り返し回避、定型句の省略を特徴とし、長いタスクでは進捗状況をより頻繁に効果的に共有する。
-- コーディング機能が大幅に改善され、Google AntigravityのエージェントコーディングインターフェースがGemini macOSアプリで直接利用可能になった。
-- メインチャットウィンドウからタスク機能への切り替えが容易になり、Instacart、OpenTable、Adobe、Shopifyなど40以上のアプリと連携して様々なタスクを処理できる。
-- Google AI ProおよびUltraの購読者はGemini 4 Argonにアクセスでき、2026年10月13日からこれらのアップデートを試すことができる。
+- Gemini 4 ArgonがGeminiアプリで利用可能になり、フロンティア推論と複雑なタスクにおけるパフォーマンス向上を提供します。
+- Argonは、質問に対してより直接的に回答し、不要な繰り返しや陳腐な表現を避け、長いタスクの進捗状況をより効果的に共有します。
+- Google Antigravityのエージェント型コーディングインターフェースがGemini macOSアプリに直接統合され、チャットとコーディングの切り替えが容易になりました。
+- Geminiアプリは、Instacart、OpenTable、Adobe、Shopifyなど40以上のアプリと連携し、メインチャットウィンドウからタスクを簡単に実行できるようになりました。
+- Gemini 4 Argonは、Google AI ProおよびUltraの購読者が利用可能です。
