@@ -1,7 +1,7 @@
 ---
 title: "Bringing GPT-Rosalind to academic research labs"
 published: "2026-10-15"
-collected_at: "2026-10-17T07:25:21.302Z"
+collected_at: "2026-10-18T02:35:30.231Z"
 url: "https://openai.com/index/introducing-the-rosalind-academic-plan"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Bringing GPT-Rosalind to academic research labs
 
 ## Key Points
-- OpenAIは、学術研究室がGPT-RosalindとRosalind Workbenchにアクセスできるよう、「Rosalind Academic Plan」を導入しました。
-- 適格な研究室は、最長12ヶ月間、最大30のBusiness Standardシートを無償で利用でき、GPT-Rosalindへのアクセスには信頼できるアクセス承認が必要です。
-- GPT-Rosalindは、フロンティア推論と専門的なツールオーケストレーション（医薬品化学、ゲノミクス、ウェットラボ支援など）を組み合わせた、ライフサイエンスに特化したモデルです。
-- このプランを通じて共有された研究データは、デフォルトでOpenAIモデルのトレーニングには使用されません。
-- 本プランは、薬物およびタンパク質設計、疾患検出、ワクチンおよび免疫応答、遺伝子およびRNA治療、農業および動物の健康、生態学および保全、抗菌薬耐性といった幅広いライフサイエンス研究の加速を目指しています。
+- OpenAIは、ライフサイエンス研究を加速するため、GPT-Rosalindと専門ツールへのアクセスを提供する「Rosalind Academic Plan」を2026年10月15日に導入しました。
+- 適格な学術研究室は、最大30のBusiness Standardシートを最長12ヶ月間無料で利用でき、信頼できるアクセス承認後、GPT-Rosalindを含むすべての商用フロンティアOpenAIモデルにアクセスできます。
+- GPT-Rosalindは、医薬品・タンパク質設計、疾患検出、ワクチン・免疫応答、遺伝子・RNA治療、農業・動物の健康、生態学・保全、抗菌薬耐性などの幅広いライフサイエンス研究分野で活用されます。
+- このプランは米国の大学の学術研究室が対象で、主任研究員または研究室の責任者が信頼できるアクセスプロセスを通じて申請し、承認された研究データはデフォルトでモデルのトレーニングには使用されません。
+- 科学研究のための責任あるアクセスとして、機関の正当性やPIの身元、研究活動の評価が行われ、利用後も悪用防止のための監視と強制措置が継続されます。
