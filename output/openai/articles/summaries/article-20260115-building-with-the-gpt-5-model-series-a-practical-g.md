@@ -1,17 +1,16 @@
 ---
 title: "Building with the GPT-5 Model Series: A Practical Guide"
 published: "2026-01-15"
-collected_at: "2026-10-17T02:42:11.216Z"
+collected_at: "2026-10-18T02:43:42.715Z"
 url: "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai"
 source: "news"
 source_medium: "OpenAI News"
 language: "ja"
 ---
 
-# A practical guide to building with GPT‑5
+# Building with the GPT-5 Model Series: A Practical Guide
 
 ## Key Points
-- Responses APIへの移行: 長期的なスケーラビリティ、速度、新しい推論機能のためにResponses APIへの移行が推奨されます。これにより、モデルは思考チェーンを維持し、パフォーマンス向上とコスト削減が期待できます。
-- プロンプトの最適化: GPT-5のポテンシャルを最大限に引き出すためには、プロンプトを洗練し、モデルの独自の挙動や特性に合わせる必要があります。適切なプロンプトは開発を加速し、エンジニアリングオーバーヘッドを削減します。
-- GPT-5の制御: `reasoning_effort` (思考量) と `verbosity` (出力の長さ) といった新しい制御機能により、モデルの推論とコミュニケーション方法をタスクの複雑さに合わせて微調整できます。
-- トラブルシューティング: 過度な思考、過度な詳細さ、ツールの過使用、不適切なツール呼び出しなどの一般的な問題は、綿密なプロンプト調整、評価、およびメタプロンプトの使用によって迅速に解決できます。
+- GPT-5は、コーディングやエージェントタスクに特化した、高速でスマート、適応性の高いモデルです。その最大の強みは指示への応答性で、特定のユースケースに合わせて挙動を形成することが容易になりました。
+- GPT-5の潜在能力を最大限に引き出すには、Responses APIへの移行が不可欠です。このAPIは、モデルの思考連鎖を永続化させ、パフォーマンス向上、キャッシュの改善、コスト削減を実現し、将来の推論機能への道を開きます。
+- プロンプトの最適化は、GPT-5を活用する上で重要です。評価を通じて既存のプロンプトの出力の乖離を特定し、モデルの推論を分析し、メタプロンプティングや新しい`reasoning_effort`、`verbosity`といったパラメータを活用して、タスクの複雑さに応じてモデルの挙動を微調整することが推奨されます。

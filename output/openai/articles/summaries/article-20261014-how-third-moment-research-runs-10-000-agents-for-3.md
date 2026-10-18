@@ -1,7 +1,7 @@
 ---
 title: "How Third Moment Research runs 10,000 agents for 36+ hours"
 published: "2026-10-14"
-collected_at: "2026-10-17T07:26:12.851Z"
+collected_at: "2026-10-18T02:36:26.519Z"
 url: "https://openai.com/index/third-moment-research"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # How Third Moment Research runs 10,000 agents for 36+ hours
 
 ## Key Points
-- Third Moment Researchは、OpenAIのGPT-6 Astra、GPT-6.1 Sol、Codex、およびDaybreakを活用し、自己改善型AIシステムを構築しています。このシステムは、エージェントの行動を理解し、弱点を特定し、自動的にシナリオを作成して改善します。
-- 同社は、10,000のエージェントを同時に36-48時間稼働させて調査を行い、金融分野での定量的な研究や計算作業をサポートしています。
-- Codexを使用することで、取引戦略のバックテストにかかる時間を約3時間から3-5分に97%削減し、トークン利用効率を大幅に向上させました。
-- GPT-6 Astra、GPT-6 Sol、GPT-6.1 Solは、エージェントが数日間にわたる計算研究で一貫性を維持し、予期せぬ研究方向を自律的に探索することを可能にします。
-- Daybreakサイバーセキュリティプラットフォームは、エージェントの研究環境のセキュリティテストを自動化し、エージェントが環境から脱出するのを防ぐのに役立っています。
+- Third Moment Researchは、OpenAIのGPT-6 Astra、GPT-6.1 Sol、Codex、Daybreakを活用し、10,000のエージェントを36～48時間連続稼働させる自己改善型AIシステムを構築しています。
+- Codexを使用することで、金融分野におけるバックテスト時間を約3時間から3～5分へと97%削減し、トークン使用量とコンテキストの無駄を大幅に削減しました。
+- GPT-6 Astra、GPT-6 Sol、GPT-6.1 Solはエージェントの推論能力を支え、Codexハーネスと連携して計画立案、サブエージェントの生成、コンテキストの圧縮を行い、タスク未完了時の再試行や人間へのエスカレーションも自動化します。
+- GPT-6.1 Solは、トークン効率が高く、長時間の計算研究においても一貫性を保ち、予期せぬ研究方向（非表示取引の影響など）を特定する能力を発揮しました。
+- Daybreakサイバーセキュリティプラットフォームを利用して、10,000のエージェントが稼働する研究環境のセキュリティテストを自動化し、エージェントがネットワークから逸脱するリスクがないか検証しています。
