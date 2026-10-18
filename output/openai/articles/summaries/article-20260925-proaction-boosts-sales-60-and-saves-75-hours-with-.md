@@ -1,7 +1,7 @@
 ---
 title: "Proaction boosts sales 60% and saves 75+ hours with Codex"
 published: "2026-09-25"
-collected_at: "2026-10-18T02:41:32.026Z"
+collected_at: "2026-10-18T07:46:36.354Z"
 url: "https://openai.com/index/proaction"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,6 @@ language: "ja"
 # Proaction boosts sales 60% and saves 75+ hours with Codex
 
 ## Key Points
-- ProactionはCodexを活用することで、共同創業者兼COOが月4～6件のカスタムデモを自力で作成できるようになり、月あたり40～60時間のエンジニアリング作業を削減しました。
-- カスタムデモの導入により、見込み客が初期接触からソリューション開発に進む割合が50%から60%増加し、売上が向上しました。
-- Codexを営業、顧客サポート、製品管理のハブとして利用し、Granola、Gmail、Slackなどのツールと連携させることで、共同創業者兼COOは月25～33時間の業務時間を節約しています。
-- ProactionはGPT-Live-1とGPT-6 Astraを使用して、フリート運営の日常業務を自動化する音声エージェント「Managed Execution Layer」を構築しています。
-- ChatGPT-5.6 Solは車両の問題報告写真からの損傷特定に役立ち、GPT-6 Astraはタスク実行の効率を向上させ、顧客体験を迅速に構築することを可能にしています。
+- ProactionはCodexを活用し、非技術者のCOOが顧客データに基づいたカスタムデモを迅速に作成できるようになりました。これにより、月間40～60時間のエンジニアリング時間を節約し、初期商談からソリューション開発への移行率を50%～60%向上させています。
+- Codexのプラグイン統合により、営業コール履歴、メール、スプレッドシートなどの情報を一元的に管理し、営業フォローアップ、課題作成、HubSpot更新といった日常業務を効率化。創業者は月間25〜33時間の業務時間を削減しています。
+- ProactionはChatGPT‑5.6 Solで車両損傷報告の画像分析を行い、GPT‑Live‑1およびGPT‑6 Astraを用いてフリート運用を自動化するボイスエージェント（Managed Execution Layer）を構築しています。GPT‑6 Astraの導入により、より簡潔な処理で開発速度が向上しています。

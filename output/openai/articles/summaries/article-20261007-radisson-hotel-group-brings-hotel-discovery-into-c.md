@@ -1,7 +1,7 @@
 ---
 title: "Radisson Hotel Group brings hotel discovery into ChatGPT"
 published: "2026-10-07"
-collected_at: "2026-10-17T02:36:28.341Z"
+collected_at: "2026-10-18T07:43:04.081Z"
 url: "https://openai.com/index/radisson"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Radisson Hotel Group brings hotel discovery into ChatGPT
 
 ## Key Points
-- Radisson Hotel GroupはAccentureと提携し、OpenAIの技術を用いてChatGPTプラグインを開発しました。これは旅行者が旅行計画中にホテルを検索、比較、予約するのを支援します。
-- 2026年7月～8月の早期結果では、このプラグインによる予約コンバージョン率はRadissonのオーガニック検索の約1.5倍に達しました。
-- このChatGPTプラグインはわずか6週間で構築・ローンチされました。
-- RadissonはChatGPTでスポンサー広告も展開しており、記録されたチェックアウトおよび予約イベントの54%が広告ビューに起因しています。
-- RadissonはAIが変革する旅行業界の最前線に立ち、旅行体験の総合アドバイザーとなることを目指しています。
+- Radisson Hotel GroupはAccentureと提携し、OpenAI技術を利用したChatGPTプラグインを開発しました。これにより、旅行者は旅行計画中にホテルを検索、比較、予約できるようになります。
+- このChatGPTプラグインは、2026年7月～8月の初期データで、従来のオーガニック検索と比較して約1.5倍の予約コンバージョン率を示しました。
+- プラグインの開発とローンチはわずか6週間で完了し、迅速な市場投入が実現しました。
+- 最近のChatGPTアップデートにより、ユーザーが明示的にプラグインを呼び出さなくても、関連するクエリに対してRadisson Hotelsが自動的に表示され、発見可能性が向上しました。
+- Radissonは、AIが旅行決定に与える影響に対応し、プラグインの採用促進やChatGPT体験内での追加機能開発を通じて、業界のリーダーとなることを目指しています。

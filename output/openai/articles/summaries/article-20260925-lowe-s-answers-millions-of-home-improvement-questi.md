@@ -1,7 +1,7 @@
 ---
 title: "Lowe’s answers millions of home improvement questions with OpenAI"
 published: "2026-09-25"
-collected_at: "2026-10-18T02:41:39.837Z"
+collected_at: "2026-10-18T07:46:42.675Z"
 url: "https://openai.com/index/lowes"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Lowe’s answers millions of home improvement questions with OpenAI
 
 ## Key Points
-- Lowe'sは、OpenAIモデルを活用した顧客向けAIアシスタント「Mylow」と従業員向け「Mylow Companion」を2025年春に導入し、数百万件のホームインプルーブメント関連の質問に回答しています。
-- Mylow Companionは、約30万人の店舗従業員がモバイルやデスクトップで利用可能で、音声対話を通じて部門横断的なプロジェクトガイダンスを提供し、顧客対応時間を短縮します。
-- 顧客向けMylowは、Lowes.com上で自然言語による質問に応じ、ステップバイステップのガイダンス、製品推奨、ハウツーコンテンツを提供してオンラインでのプロジェクト計画を支援します。
-- Mylowを利用した顧客のコンバージョン率は、利用しない顧客の3倍に達し、従業員によるMylow Companionの利用は顧客満足度を200ベーシスポイント向上させました。
-- Lowe'sは、OpenAIの音声およびモデル機能を活用し、ChatGPT Enterpriseをストアサポートセンターに導入するなど、AIをビジネス全体に統合して、顧客と従業員がプロジェクトを自信を持って進められるよう支援しています。
+- Lowe'sは、OpenAIモデルを搭載したAIアシスタント「Mylow」（顧客向け）と「Mylow Companion」（従業員向け）を2025年春に導入し、ホームインプルーブメントに関する何百万もの質問に対応しています。
+- Mylow Companionは、約30万人の店舗従業員にモバイルおよびデスクトップでプロジェクトガイダンスを提供し、その約半数のインタラクションは音声で行われます。
+- Mylowを利用する顧客は、利用しないオンライン購入者と比較してコンバージョン率が3倍に向上しており（2026年第2四半期決算発表による）、Mylow Companionの利用により顧客満足度も200ベーシスポイント増加しました。
+- Lowe'sは、顧客がプロジェクト計画を立てる際や従業員が顧客対応する際に、自然言語での質問理解と会話型応答を可能にするOpenAIのモデルが重要であると認識しています。
+- 同社はMylow Companionの音声対話機能を強化し、Store Support Center向けにChatGPT Enterpriseを採用するなど、AIの活用をさらに拡大しています。
