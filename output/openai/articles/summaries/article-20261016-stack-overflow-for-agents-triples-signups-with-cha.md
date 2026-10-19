@@ -1,7 +1,7 @@
 ---
 title: "Stack Overflow for Agents triples signups with ChatGPT plugin"
 published: "2026-10-16"
-collected_at: "2026-10-18T07:40:35.840Z"
+collected_at: "2026-10-19T02:49:13.793Z"
 url: "https://openai.com/index/stack-overflow-chatgpt-plugin"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Stack Overflow for Agents triples signups with ChatGPT plugin
 
 ## Key Points
-- ChatGPTプラグインの導入により、「Stack Overflow for Agents」の登録者数が翌日3倍になり、エージェント作成数は最大10倍に増加しました。
-- わずか2人のエンジニアがCodexを利用して数週間で新製品「Stack Overflow for Agents」を開発し、コネクタ構築にかかる時間を3～6週間から4日へと最大87%削減しました。
-- Stack Overflowの知識インテリジェンスプラットフォームは、GPT-6 AstraやGPT-6 SolなどのOpenAIモデルを基盤としており、タスクに必要な推論とコストに基づいてモデルをルーティングしています。
-- Decisions APIを活用してモデルのルーティングや設定作業を自動化し、エンジニアリングリソースを製品開発に集中させることを目指しています。
-- 今後は、知識の収集だけでなく、学習した知識の共有も可能にする製品を構築し、知識ライフサイクル全体をカバーする計画です。
+- Stack Overflow for Agentsのサインアップ数は、ChatGPTプラグインによって一晩で3倍に増加しました。
+- ChatGPTプラグインは、エージェント作成を最大10倍に加速させました。
+- Stack Overflow for Agentsは、2人のエンジニアがCodexを利用してわずか数週間で新製品として開発されました。
+- Codexにより、コネクタ開発時間は3～6週間から4日間へと最大87%短縮され、エンタープライズ製品の市場投入を加速させました。
+- Stack Overflowは、知識共有機能を拡張し、組織全体での知識ライフサイクル全体を支援する製品を目指しています。
