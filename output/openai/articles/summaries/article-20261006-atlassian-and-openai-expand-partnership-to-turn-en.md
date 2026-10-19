@@ -1,7 +1,7 @@
 ---
 title: "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
 published: "2026-10-06"
-collected_at: "2026-10-18T07:43:51.384Z"
+collected_at: "2026-10-19T02:52:28.887Z"
 url: "https://openai.com/index/atlassian-partnership"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,8 @@ language: "ja"
 # Atlassian and OpenAI expand partnership to turn enterprise knowledge into action
 
 ## Key Points
-- AtlassianとOpenAIはパートナーシップを拡大し、GPT-6ファミリーのフロンティアモデルをAtlassianのプラットフォームに導入することで、チームの作業計画、構築、提供を支援するAI体験を強化します。
-- 新しい契約により、OpenAIのフロンティアモデルはAtlassianのプラットフォームとRovoのエージェントに活用されます。RovoはAtlassianのTeamwork GraphとOpenAIの知能を組み合わせて、企業内の文脈を深く理解します。
-- この拡張された提携は2023年に始まった協業に基づくものであり、AtlassianはCodexとChatGPT Enterpriseの採用を拡大しています。3,000人以上のアトラシアン開発者がCodexをコードレビューなどのワークフローで使用しています。
-- Atlassianは、GPT-6 AstraやGPT-5.6シリーズを含む最新のOpenAIフロンティアモデルへのアクセスを拡大し、モデルの機能性、効率性、価格性能の向上を目指します。
-- この連携により、AIはJiraチケットやConfluenceドキュメントといった企業知識を活用し、製品マネージャーがプロジェクトの進捗状況を評価し、次のステップを推奨することで、情報収集の時間を減らし、作業を前進させることが可能になります。
+- AtlassianとOpenAIはパートナーシップを拡大し、GPT-6ファミリーの最新フロンティアモデルをAtlassianのプラットフォーム全体に統合し、チームの計画、構築、作業提供を支援するAI体験を強化します。
+- 新しい合意に基づき、OpenAIのフロンティアモデルはAtlassianプラットフォームとRovo全体のエージェントを強化し、RovoはOpenAIのインテリジェンスとAtlassianのTeamwork Graphを組み合わせることで企業の働き方を深く理解します。
+- このパートナーシップは2023年に始まった協力関係を基盤とし、AtlassianがCodexとChatGPT Enterpriseの導入を拡大する中で進展しており、3,000人以上のAtlassian開発者がCodexをワークフローに活用しています。
+- Atlassianは、GPT-6 AstraやGPT-5.6シリーズを含む最新のOpenAIフロンティアモデルへのアクセスを拡大し、モデルの能力、効率性、価格性能の進歩を享受します。
+- RovoはTeamwork Graphを活用してJiraチケットやConfluenceドキュメントなどの情報を接続し、ローンチ準備状況の評価や次のステップを提案でき、両社はJiraとのさらなる統合を通じてAIエージェントへの作業割り当てなどを容易にすることを目指しています。

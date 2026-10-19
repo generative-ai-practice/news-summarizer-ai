@@ -1,7 +1,7 @@
 ---
 title: "Building advertising for the way people use AI"
 published: "2026-10-05"
-collected_at: "2026-10-18T02:39:00.523Z"
+collected_at: "2026-10-19T02:53:04.612Z"
 url: "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
 source: "news"
 source_medium: "OpenAI News"
@@ -11,8 +11,7 @@ language: "ja"
 # Building advertising for the way people use AI
 
 ## Key Points
-- ChatGPTに新しい視覚広告フォーマットが導入され、ユーザーが製品やサービスをより良く発見・理解できるように支援します。この広告は画像生成中に表示され、明確にラベル付けされ、生成される画像とは分離されます。
-- 測定ツールの機能が拡張され、Hightouch、Tealium、LiveRampとの統合が容易になりました。AppsFlyer、Triple Whale、Adjustなどの主要なアトリビューションパートナーもサポートされています。
-- 広告主はChatGPT Adsがビジネスに与える影響を理解できるよう、増分測定（インクリメンタリティ測定）を強化しており、初期のパートナー調査では、WeightWatchersのCPAが15.3%低く、Doseの新規顧客からの購入が67%増加したと報告されています。
-- 広告の信頼性を高めるため、OpenAIの広告ポリシーとガードレールが設けられ、不適切なコンテンツから広告を保護します。DoubleVerify (DV) と Integral Ad Science (IAS) とのブランド適合性評価パイロットも開発中です。
-- これらの新機能は、ChatGPTの回答が独立性を保ち、会話のプライバシーが保護され、ユーザーが自身の体験をコントロールできるという広告原則に沿っています。
+- ChatGPTに新しいビジュアル広告フォーマットを導入し、ユーザーが製品やサービスを視覚的に探索できるようにします。これらの広告は画像生成中に表示され、明確に識別され、ChatGPTの回答には影響しません。
+- 広告主が広告の影響を測定できるよう、Hightouch、Tealium、LiveRampとの統合を拡大し、AppsFlyerなどの主要アトリビューションパートナーをサポートします。
+- DoubleVerify (DV) および Integral Ad Science (IAS) とのブランド適合性評価パイロットを通じて、広告表示環境の信頼性を高め、会話のプライバシーを保護しつつブランド安全基準の適用状況を評価します。
+- 初期パートナーからの測定結果は良好で、あるブランドではCPAが有料検索より15.3%低く、別のブランドでは新規顧客からの購買が67%増加したと報告されています。
