@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastChecked": "2026-10-19T00:39:33.650Z",
+  "lastChecked": "2026-10-19T07:10:15.433Z",
   "articles": [
     {
       "title": "Expanding the Cyber Verification Program",
@@ -14,9 +14,9 @@
     {
       "title": "Investing in the public benefit",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "publishedDate": "2026-10-19",
+      "publishedDate": "2026-10-18",
       "source": "news",
-      "slug": "20261019-investing-in-the-public-benefit",
+      "slug": "20261018-investing-in-the-public-benefit",
       "language": "en",
       "summaryLanguage": "ja"
     },
